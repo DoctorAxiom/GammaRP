@@ -1,0 +1,87 @@
+\documentclass[10pt, titlepage, openright]{book}
+\usepackage[
+paperwidth=17cm,
+paperheight=24cm,
+]{geometry}
+\usepackage{hyperref}
+\usepackage{afterpage}
+\usepackage{xfrac}
+\usepackage{xcolor,sectsty}
+\usepackage{gensymb}
+
+\usepackage[T1]{fontenc}
+\usepackage{kmath}
+\usepackage{kerkis}
+
+\usepackage{textgreek}
+\usepackage{svg}
+
+\usepackage{tikz}
+
+\rmfamily
+
+%Command to insert a blank page
+\newcommand{\blankpage}{%
+	\null
+	\thispagestyle{empty}%
+	\addtocounter{page}{-1}%
+	\newpage}
+
+%Steven Segletes's Faux Small Caps command for situations where bolded small caps are needed.
+\newcommand\fauxsc[1]{\fauxschelper#1 \relax\relax}
+\def\fauxschelper#1 #2\relax{%
+	\fauxschelphelp#1\relax\relax%
+	\if\relax#2\relax\else\ \fauxschelper#2\relax\fi%
+}
+\def\Hscale{.85}\def\Vscale{.72}\def\Cscale{1.10}
+\def\fauxschelphelp#1#2\relax{%
+	\ifnum`#1>``\ifnum`#1<`\{\scalebox{\Hscale}[\Vscale]{\uppercase{#1}}\else%
+	\scalebox{\Cscale}[1]{#1}\fi\else\scalebox{\Cscale}[1]{#1}\fi%
+	\ifx\relax#2\relax\else\fauxschelphelp#2\relax\fi}
+
+%QuickCommand for GammaRP with greek gamma
+\newcommand{\GammaRP}{\textGamma RP }
+
+%Dice commands
+\newcommand{\dice}[2]{%
+	\ifnum#2<0%
+		D#1d\inteval{-1*(#2)}
+	\else%
+		D#1a#2
+	\fi}
+
+%Formatting a stat
+\newcommand{\stat}[1]{ \{ \textsc{#1}  \} }
+
+
+\definecolor{grptitle}{RGB}{200,212,220}
+
+\title{%
+	\includesvg[width=3.0in]{GammaRPTitleLogo} \\
+	\color{grptitle}\textbf{Gamma RP} \\
+	1st Edition \\
+	\large A simple roleplaying system meant to be dynamic and expansible}
+
+\author{\color{grptitle}Dr. A. Cory Axiom}
+
+\begin{document}
+	\AddToHookNext{shipout/background}{
+	  \begin{tikzpicture}[remember picture,overlay]
+	  \node at (current page.center) {
+	    \includesvg[height=\pdfpageheight]{TitleBG}
+	  };
+	  \end{tikzpicture}
+	}
+	\maketitle
+	\afterpage{\blankpage}
+
+	\pagenumbering{roman}
+	\tableofcontents
+	\afterpage{\blankpage}
+	\newpage
+
+	\pagenumbering{arabic}
+	\include{Introduction}
+	\include{TheBasics}
+
+\end{document}

@@ -1,0 +1,49 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.4)  5 NOV 2025 09:36
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**.\Gamma RP 1e.tex q
+(C:\Program Files\MiKTeX\tex/latex/tools\q.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-10-09>
+File ignored
+)
+! Missing $ inserted.
+<inserted text> 
+                $
+<*> .\Gamma
+            RP 1e.tex q
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+<*> .\Gamma
+            RP 1e.tex q
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 0.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 0.
+! Emergency stop.
+<*> .\Gamma RP 1e.tex q
+                       
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 19 strings out of 468080
+ 422 string characters out of 5435839
+ 433722 words of memory out of 5000000
+ 28788 multiletter control sequences out of 15000+600000
+ 627721 words of font info for 40 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 17i,1n,18p,99b,59s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

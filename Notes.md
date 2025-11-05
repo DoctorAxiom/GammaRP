@@ -158,7 +158,7 @@ Craft - Apply an upgrade to an item, or modify an object in the world around you
 ### Augments:
 
 
-Specialization- Specializations take up 2 augment slots
+Specialization- Specializations take up 2 augment slots. Specializations have skill trees of abilities that may be invested in via XP.
 
 ### Downtime:
 
