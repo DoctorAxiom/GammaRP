@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.5)  7 NOV 2025 16:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.5)  7 NOV 2025 18:02
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1488,6 +1488,11 @@ l.170 	\newpage
 
  (Introduction.tex
 Chapter 1.
+LaTeX Font Info:    Trying to load font information for LGR+mak on input line 3
+.
+(C:\Program Files\MiKTeX\tex/latex/kerkis\lgrmak.fd)
+LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 3.
 )
 
 
@@ -1503,7 +1508,7 @@ l.172 	\include{Introduction}
                               [1
 
 
-]
+{C:/Program Files/MiKTeX/fonts/enc/dvips/kerkis/gpkerkis.enc}]
 \openout2 = `TheBasics.aux'.
 
  (TheBasics.tex
@@ -1518,11 +1523,6 @@ LaTeX Font Info:    Font shape `T1/mak/m/n' will be
 (Font)              scaled to size 12.9599pt on input line 5.
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 5.
-LaTeX Font Info:    Trying to load font information for LGR+mak on input line 7
-.
-(C:\Program Files\MiKTeX\tex/latex/kerkis\lgrmak.fd)
-LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 7.
 LaTeX Font Info:    Font shape `T1/mak/m/it' will be
 (Font)              scaled to size 8.99994pt on input line 9.
 
@@ -1533,7 +1533,7 @@ LaTeX Font Info:    Font shape `T1/mak/m/it' will be
 
 
 
-[3{C:/Program Files/MiKTeX/fonts/enc/dvips/kerkis/gpkerkis.enc}]
+[3]
 
 [4
 
@@ -1623,7 +1623,7 @@ Here is how much of TeX's memory you used:
 m Files/MiKTeX/fonts/type1/public/kerkis/Kerkis-Italic.pfb><C:/Program Files/Mi
 KTeX/fonts/type1/public/kerkis/Kerkis.pfb><C:/Program Files/MiKTeX/fonts/type1/
 public/kerkis/Kerkis.pfb>
-Output written on "Gamma RP 1e.pdf" (17 pages, 499320 bytes).
+Output written on "Gamma RP 1e.pdf" (17 pages, 499348 bytes).
 PDF statistics:
  2336 PDF objects out of 2487 (max. 8388607)
  25 named destinations out of 1000 (max. 500000)
