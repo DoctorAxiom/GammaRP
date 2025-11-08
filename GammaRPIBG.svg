@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 67.733332 67.733333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="GammaRPIBG.svg"
+   inkscape:export-filename="Gamma RP Logo.png"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.0242632"
+     inkscape:cx="88.844352"
+     inkscape:cy="142.05333"
+     inkscape:window-width="1920"
+     inkscape:window-height="1094"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="2.1166666"
+       spacingy="2.1166665"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="4"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="knot"
+       id="path-effect9"
+       is_visible="true"
+       lpeversion="1"
+       switcher_size="15"
+       interruption_width="3"
+       prop_to_stroke_width="true"
+       add_stroke_width="inkscape_1.0_and_up"
+       both="false"
+       inverse_width="false"
+       add_other_stroke_width="inkscape_1.0_and_up"
+       crossing_points_vector="" />
+    <filter
+       inkscape:label="Evanescent"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur the contents of objects, preserving the outline and adding progressive transparency at edges"
+       style="color-interpolation-filters:sRGB;"
+       id="filter34"
+       x="-0.074225379"
+       y="-0.069469147"
+       width="1.1484508"
+       height="1.1389383">
+      <feGaussianBlur
+         result="result6"
+         stdDeviation="3"
+         in="SourceGraphic"
+         id="feGaussianBlur34" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 "
+         result="result7"
+         in="SourceGraphic"
+         id="feColorMatrix34" />
+      <feComposite
+         operator="in"
+         in="result6"
+         in2="result7"
+         id="feComposite34" />
+    </filter>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Lines"
+     style="display:inline;stroke:#000000">
+    <path
+       id="path9-8"
+       style="fill:none;stroke:#4d4d4d;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="M 33.866666,8.9233084 V 2.5692338 L 52.563237,8.6368381 64.118346,24.522014 58.068009,26.485535 Z M 9.6653202,26.485535 3.6149722,24.522021 15.1701,8.6368323 33.866666,2.5692338 V 8.9233084 Z M 18.909409,54.901819 15.1701,60.042377 33.866666,66.10997 52.563237,60.042367 48.823911,54.901819 Z m 39.1586,-28.416284 6.050337,-1.963521 V 44.157192 L 52.563237,60.042367 48.992491,55.133584 Z M 18.909409,54.901819 15.1701,60.042377 3.6149782,44.157182 V 24.522021 l 6.050342,1.963514 z M 33.866666,8.9233084 58.068009,26.485535 48.823911,54.901819 h -29.9145 L 9.6653202,26.485535 Z" />
+  </g>
+</svg>

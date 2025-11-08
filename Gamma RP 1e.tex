@@ -1,22 +1,43 @@
 \documentclass[10pt, titlepage, openright]{book}
 \usepackage[
+left=1cm,
+right=1cm,
+top=1cm,
+bottom=1cm,
 paperwidth=17cm,
 paperheight=24cm,
 ]{geometry}
+
+\usepackage{lipsum}
+
+\usepackage{titlesec}
 \usepackage{hyperref}
 \usepackage{afterpage}
 \usepackage{xfrac}
 \usepackage{xcolor,sectsty}
 \usepackage{gensymb}
 
-\usepackage[T1]{fontenc}
-\usepackage{kmath}
-\usepackage{kerkis}
-
 \usepackage{textgreek}
 \usepackage{svg}
 
 \usepackage{tikz}
+\usepackage{multicol}
+
+\usepackage[T1]{fontenc}
+\usepackage{kmath}
+\usepackage{kerkis}
+
+\usetikzlibrary{shapes.geometric}
+
+\makeatletter
+\def\closeopenmulticols{%
+% test if current env is "multicols" if so close it
+   \def\@tempa{multicols}%
+   \ifx\@tempa\@currenvir
+      \end{multicols}%
+  \fi 
+}
+\makeatother
 
 \rmfamily
 
@@ -54,7 +75,61 @@ paperheight=24cm,
 \newcommand{\stat}[1]{ \{ \textsc{#1}  \} }
 
 
+%% COLOR SET UP STUFF
 \definecolor{grptitle}{RGB}{200,212,220}
+
+\definecolor{chapterbgcolor1}{HTML}{C1FF85}
+\definecolor{chapterbgcolor2}{HTML}{85FFFF}
+\definecolor{chapterbgcolor3}{HTML}{C285FF}
+\definecolor{chapterbgcolor4}{HTML}{FF8585}
+\definecolor{chapterbgcolor5}{HTML}{FFED85}
+\definecolor{chapterbgcolor6}{HTML}{85FFB0}
+\definecolor{chapterbgcolor7}{HTML}{8597FF}
+\definecolor{chapterbgcolor8}{HTML}{FF85D4}
+\definecolor{chapterbgcolor9}{HTML}{85FFDC}
+\definecolor{chapterbgcolor10}{HTML}{9F85FF}
+\definecolor{chapterbgcolor11}{HTML}{FF85A8}
+\definecolor{chapterbgcolor12}{HTML}{E5FF85}
+\definecolor{chapterbgcolordefault}{HTML}{AAAAAA}
+
+\newcommand{\ChapterBackgroundTint}{chapterbgcolordefault}
+
+\def\SetChapterTint{%
+	\ifnum\inteval{\arabic{chapter}-1}>12
+		\renewcommand{\ChapterBackgroundTint}{chapterbgcolordefault}
+	\else
+		\ifnum\inteval{\arabic{chapter}-1}<1
+			\renewcommand{\ChapterBackgroundTint}{chapterbgcolordefault}
+		\else
+			\edef\ChapterBackgroundTint{chapterbgcolor\inteval{\arabic{chapter}-1}}
+		\fi
+	\fi
+}
+
+\titleformat
+	{\chapter} % command
+	[block] % shape
+	{\bfseries\LARGE} % format
+	{} % label
+	{1em} % sep
+	{
+		\rule{\textwidth}{1pt}
+	    \centering 
+	    \thechapter :
+	} % before-code
+	[
+	\vspace{-0.5ex}%
+	\rule{\textwidth}{0.3pt}
+	] % after-code
+\titlespacing{\chapter}{0pt}{1ex}{1ex}
+
+%New chapter command for book chapters
+\newcommand{\GRPchapter}[1]{%
+
+	\closeopenmulticols
+	\begin{multicols}{2}[\chapter{#1}]}
+
+\AtEndDocument{\closeopenmulticols}
 
 \title{%
 	\includesvg[width=3.0in]{GammaRPTitleLogo} \\
@@ -62,7 +137,7 @@ paperheight=24cm,
 	1st Edition \\
 	\large A simple roleplaying system meant to be dynamic and expansible}
 
-\author{\color{grptitle}Dr. A. Cory Axiom}
+\author{Dr. A. Cory Axiom}
 
 \begin{document}
 	\AddToHookNext{shipout/background}{
@@ -72,14 +147,27 @@ paperheight=24cm,
 	  };
 	  \end{tikzpicture}
 	}
+	\color{grptitle}
 	\maketitle
 	\afterpage{\blankpage}
 
+	\color{black}
 	\pagenumbering{roman}
+	\AddToHook{shipout/background}{
+		\begin{tikzpicture}[remember picture,overlay]
+		\node[shading = axis, rectangle, left color = \ChapterBackgroundTint, right color = \ChapterBackgroundTint!0, anchor = west, minimum height=\paperheight, minimum width = 1.5cm]  at (current page.west) {};
+		\node[shading = axis, rectangle, right color = \ChapterBackgroundTint, left color = \ChapterBackgroundTint!0, anchor = east, minimum height=\paperheight, minimum width = 1.5cm]  at (current page.east) {};
+		\node[shading = axis, trapezium, trapezium stretches=true, trapezium angle=-83.8, top color = \ChapterBackgroundTint, bottom color = \ChapterBackgroundTint!0, anchor = north, minimum height=1.5cm, minimum width = \paperwidth]  at (current page.north) {};
+		\node[shading = axis, trapezium, trapezium stretches=true, trapezium angle=83.8, bottom color = \ChapterBackgroundTint, top color = \ChapterBackgroundTint!0, anchor = south, minimum height=1.5cm, minimum width = \paperwidth]  at (current page.south) {};
+		\end{tikzpicture}
+	}
+	\AddToHook{cmd/chapter/before}{
+		\SetChapterTint
+	}
 	\tableofcontents
 	\afterpage{\blankpage}
-	\newpage
 
+	\newpage
 	\pagenumbering{arabic}
 	\include{Introduction}
 	\include{TheBasics}
