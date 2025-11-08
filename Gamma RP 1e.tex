@@ -39,6 +39,13 @@ paperheight=24cm,
 }
 \makeatother
 
+\newlength{\currentfontsize}
+\makeatletter
+\newcommand{\refreshcurrentfontsize}{
+	\setlength{\currentfontsize}{\f@size pt}
+}
+\makeatother
+
 \rmfamily
 
 %Command to insert a blank page
@@ -60,23 +67,9 @@ paperheight=24cm,
 	\scalebox{\Cscale}[1]{#1}\fi\else\scalebox{\Cscale}[1]{#1}\fi%
 	\ifx\relax#2\relax\else\fauxschelphelp#2\relax\fi}
 
-%QuickCommand for GammaRP with greek gamma
-\newcommand{\GammaRP}{\textGamma RP }
-
-%Dice commands
-\newcommand{\dice}[2]{%
-	\ifnum#2<0%
-		D#1d\inteval{-1*(#2)}
-	\else%
-		D#1a#2
-	\fi}
-
-%Formatting a stat
-\newcommand{\stat}[1]{ \{ \textsc{#1}  \} }
-
-
 %% COLOR SET UP STUFF
 \definecolor{grptitle}{RGB}{200,212,220}
+\definecolor{grpbgline}{RGB}{180,180,180}
 
 \definecolor{chapterbgcolor1}{HTML}{C1FF85}
 \definecolor{chapterbgcolor2}{HTML}{85FFFF}
@@ -106,6 +99,35 @@ paperheight=24cm,
 	\fi
 }
 
+%Command shortcut for GammaRP with greek gamma
+\newcommand{\GammaRP}{\textGamma RP }
+
+%Command shortcut for tikz dodecahedron
+\newcommand{\GammaDodec}[1]{\refreshcurrentfontsize%
+\begin{tikzpicture}[remember picture, baseline=-0.3\currentfontsize, line cap=round,line width=0.08\currentfontsize,line join=round,draw=grpbgline, inner sep=-3\currentfontsize, outer sep=-3\currentfontsize]
+	\foreach \angle in
+		{18, 90, 162, 234, 306}
+	{
+		\draw[line width=0.08\currentfontsize] (\angle:0.43\currentfontsize) -- (\angle:0.59\currentfontsize);
+		\draw[line width=0.08\currentfontsize] (\angle:0.42\currentfontsize) -- (\inteval{\angle+72}:0.42\currentfontsize);
+		\draw[line width=0.08\currentfontsize] (\angle:0.6\currentfontsize) -- (\inteval{\angle+36}:0.58\currentfontsize);
+		\draw[line width=0.08\currentfontsize] (\inteval{\angle+36}:0.58\currentfontsize) -- (\inteval{\angle+72}:0.6\currentfontsize);
+	}
+	\node[rectangle] at (0,0) {#1};
+\end{tikzpicture}  
+}
+
+%Dice commands
+\newcommand{\dice}[2]{%
+	\ifnum#2<0%
+		D#1d\inteval{-1*(#2)}
+	\else%
+		D#1a#2
+	\fi}
+
+%Formatting a stat
+\newcommand{\stat}[1]{ \{ \textsc{#1}  \} }
+
 \titleformat
 	{\chapter} % command
 	[block] % shape
@@ -115,7 +137,7 @@ paperheight=24cm,
 	{
 		\rule{\textwidth}{1pt}
 	    \centering 
-	    \thechapter :
+	    \GammaDodec{\thechapter}
 	} % before-code
 	[
 	\vspace{-0.5ex}%
