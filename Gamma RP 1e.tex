@@ -2,8 +2,8 @@
 \usepackage[
 left=1cm,
 right=1cm,
-top=1cm,
-bottom=1cm,
+top=1.01cm,
+bottom=1.01cm,
 paperwidth=17cm,
 paperheight=24cm,
 ]{geometry}
@@ -28,6 +28,7 @@ paperheight=24cm,
 \usepackage{kerkis}
 
 \usetikzlibrary{shapes.geometric}
+\usetikzlibrary{decorations.pathmorphing} 
 
 \makeatletter
 \def\closeopenmulticols{%
@@ -47,13 +48,6 @@ paperheight=24cm,
 \makeatother
 
 \rmfamily
-
-%Command to insert a blank page
-\newcommand{\blankpage}{%
-	\null
-	\thispagestyle{empty}%
-	\addtocounter{page}{-1}%
-	\newpage}
 
 %Steven Segletes's Faux Small Caps command for situations where bolded small caps are needed.
 \newcommand\fauxsc[1]{\fauxschelper#1 \relax\relax}
@@ -104,7 +98,7 @@ paperheight=24cm,
 
 %Command shortcut for tikz dodecahedron
 \newcommand{\GammaDodec}[1]{\refreshcurrentfontsize%
-\begin{tikzpicture}[remember picture, baseline=-0.3\currentfontsize, line cap=round,line width=0.08\currentfontsize,line join=round,draw=grpbgline, inner sep=-3\currentfontsize, outer sep=-3\currentfontsize]
+\begin{tikzpicture}[remember picture, baseline=-0.3\currentfontsize, line cap=round,line width=0.08\currentfontsize,line join=round,draw=grpbgline, inner sep=-4\currentfontsize, outer sep=-4\currentfontsize]
 	\foreach \angle in
 		{18, 90, 162, 234, 306}
 	{
@@ -127,6 +121,44 @@ paperheight=24cm,
 
 %Formatting a stat
 \newcommand{\stat}[1]{ \{ \textsc{#1}  \} }
+
+%Page background command
+\newcommand{\GRPpageBG}{%
+	\begin{tikzpicture}[remember picture,overlay]
+		\node[shading = axis, rectangle, left color = \ChapterBackgroundTint, right color = \ChapterBackgroundTint!0, anchor = west, minimum height=\paperheight, minimum width = 1.5cm]  at (current page.west) {};
+		\node[shading = axis, rectangle, right color = \ChapterBackgroundTint, left color = \ChapterBackgroundTint!0, anchor = east, minimum height=\paperheight, minimum width = 1.5cm]  at (current page.east) {};
+		\node[shading = axis, trapezium, trapezium stretches=true, trapezium angle=-83.8, top color = \ChapterBackgroundTint, bottom color = \ChapterBackgroundTint!0, anchor = north, minimum height=1.5cm, minimum width = \paperwidth]  at (current page.north) {};
+		\node[shading = axis, trapezium, trapezium stretches=true, trapezium angle=83.8, bottom color = \ChapterBackgroundTint, top color = \ChapterBackgroundTint!0, anchor = south, minimum height=1.5cm, minimum width = \paperwidth]  at (current page.south) {};
+
+		\foreach \vertpos in 
+			{0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.5,0.55,0.6,0.65,0.7,0.75,0.8,0.85,0.9}
+		{%
+			\shade[shading=axis, left color=\ChapterBackgroundTint!50!white, middle color=white, right color=white, shift={(0,-\vertpos\paperheight)}, decorate, decoration={zigzag,segment length=0.2cm}]  (1.5cm,-0.4cm) -- (0,0) -- (1.5cm,0.4cm);
+			\shade[shading=axis, right color=\ChapterBackgroundTint!50!white, middle color=white, left color=white, shift={(\paperwidth,-\vertpos\paperheight)}, decorate, decoration={zigzag,segment length=0.2cm}]  (-1.5cm,0.4cm) -- (0,0) -- (-1.4cm,-0.4cm);
+		}
+		\foreach \horzpos in
+			{0.15,0.25,0.35,0.45,0.55,0.65,0.75,0.85}
+		{%
+			\shade[shading=axis, top color=\ChapterBackgroundTint!50!white, middle color=white, bottom color=white, shift={(\horzpos\paperwidth,0)}, decorate, decoration={zigzag,segment length=0.2cm}] (-0.4cm,-1.5cm) -- (0,0) -- (0.4cm,-1.5cm);
+			\shade[shading=axis, bottom color=\ChapterBackgroundTint!50!white, middle color=\ChapterBackgroundTint!0, top color=\ChapterBackgroundTint!0, shift={(\horzpos\paperwidth,-\paperheight)}, decorate, decoration={zigzag,segment length=0.2cm}] (0.4cm,1.5cm) -- (0,0) -- (-0.4, 1.5cm);
+		}
+
+		\draw[draw=\ChapterBackgroundTint!90!black, shift={(-1cm,-0.09cm)}, line width=0.25mm] (2cm,0) -- (\paperwidth,0);
+		\draw[draw=\ChapterBackgroundTint!90!black, shift={(-1cm,0.09cm)}, line width=0.25mm] (2cm,-\paperheight) -- (\paperwidth,-\paperheight);
+		\draw[draw=\ChapterBackgroundTint!90!black, shift={(0.15cm,1cm)}, line width=0.25mm] (0,-2cm) -- (0,-\paperheight);
+		\draw[draw=\ChapterBackgroundTint!90!black, shift={(-0.15cm,1cm)}, line width=0.25mm] (\paperwidth,-2cm) -- (\paperwidth,-\paperheight);
+
+		\draw[draw=\ChapterBackgroundTint!90!black, shift={(-1cm,-0.45cm)}, line width=1mm] (2cm-0.5cm,0.5cm) -- (2cm,0) -- (\paperwidth,0) -- (\paperwidth+0.5cm,0.5cm);
+		\draw[draw=\ChapterBackgroundTint!90!black, shift={(-1cm,0.45cm)}, line width=1mm] (2cm-0.5cm,-\paperheight-0.5cm) -- (2cm,-\paperheight) -- (\paperwidth,-\paperheight) -- (\paperwidth+0.5cm,-\paperheight-0.5cm);
+		\draw[draw=\ChapterBackgroundTint!90!black, shift={(0.3cm,1cm)}, line width=1mm] (-0.5cm,-2cm+0.5cm) -- (0,-2cm) -- (0,-\paperheight) -- (-0.5cm,-\paperheight-0.5cm);
+		\draw[draw=\ChapterBackgroundTint!90!black, shift={(-0.3cm,1cm)}, line width=1mm] (\paperwidth+0.5cm,-2cm+0.5cm) -- (\paperwidth,-2cm) -- (\paperwidth,-\paperheight) -- (\paperwidth+0.5cm,-\paperheight-0.5cm);
+
+		\foreach \currshiftx / \currshifty / \currrot in { -0.06cm/0/0, {\paperwidth+0.06cm}/0/-90, {-0.06cm}/{-\paperheight}/90, {\paperwidth+0.06cm}/{-\paperheight}/180}
+		{%
+			\draw[draw=\ChapterBackgroundTint!90!black, line width=1mm, shift={(\currshiftx,\currshifty)}, rotate=\currrot] (-0.2,0cm) -- (0.6cm,-0.8cm) -- (0.7cm,-1.0cm) -- (0.8cm,-1cm) -- (1cm,-1cm) -- (1cm,-0.8cm) -- (1.0cm,-0.7cm) -- (0.8cm, -0.6cm) -- (0, 0.2cm);
+		}
+	\end{tikzpicture}
+}
 
 \titleformat
 	{\chapter} % command
@@ -162,6 +194,7 @@ paperheight=24cm,
 \author{Dr. A. Cory Axiom}
 
 \begin{document}
+	\pagenumbering{gobble}
 	\AddToHookNext{shipout/background}{
 	  \begin{tikzpicture}[remember picture,overlay]
 	  \node at (current page.center) {
@@ -171,26 +204,19 @@ paperheight=24cm,
 	}
 	\color{grptitle}
 	\maketitle
-	\afterpage{\blankpage}
 
+	\frontmatter
 	\color{black}
 	\pagenumbering{roman}
 	\AddToHook{shipout/background}{
-		\begin{tikzpicture}[remember picture,overlay]
-		\node[shading = axis, rectangle, left color = \ChapterBackgroundTint, right color = \ChapterBackgroundTint!0, anchor = west, minimum height=\paperheight, minimum width = 1.5cm]  at (current page.west) {};
-		\node[shading = axis, rectangle, right color = \ChapterBackgroundTint, left color = \ChapterBackgroundTint!0, anchor = east, minimum height=\paperheight, minimum width = 1.5cm]  at (current page.east) {};
-		\node[shading = axis, trapezium, trapezium stretches=true, trapezium angle=-83.8, top color = \ChapterBackgroundTint, bottom color = \ChapterBackgroundTint!0, anchor = north, minimum height=1.5cm, minimum width = \paperwidth]  at (current page.north) {};
-		\node[shading = axis, trapezium, trapezium stretches=true, trapezium angle=83.8, bottom color = \ChapterBackgroundTint, top color = \ChapterBackgroundTint!0, anchor = south, minimum height=1.5cm, minimum width = \paperwidth]  at (current page.south) {};
-		\end{tikzpicture}
+		\GRPpageBG
 	}
 	\AddToHook{cmd/chapter/before}{
 		\SetChapterTint
 	}
 	\tableofcontents
-	\afterpage{\blankpage}
 
-	\newpage
-	\pagenumbering{arabic}
+	\mainmatter
 	\include{Introduction}
 	\include{TheBasics}
 
