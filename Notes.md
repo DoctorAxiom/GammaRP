@@ -334,3 +334,18 @@ Retaliate - you may take one non-movement offensive action in response to the tr
 Dodge - you may take one movement action in response to the trigger. If the trigger would incur damage to you, you may contest your Dexterity against the initiating character's roll to hit. If successful, you additionally avoid the damage in addition to taking a movement action.
 
 
+LaTeX notes
+
+top margin
+1inch + voffset + (6-4+5)
+
+1in + \voffset + \headsep - \topmargin + \headheight
+
+bottom margin
+\pageheight - (1in + \voffset + \headsep - \topmargin + \headheight) - \textheight
+
+left margin
+1in + \hoffset + \oddsidemargin
+
+right margin
+\pagewidth - (1in + \hoffset + \oddsidemargin) - \textwidth

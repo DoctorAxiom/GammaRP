@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.5)  10 NOV 2025 21:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.12)  12 NOV 2025 11:07
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**"./Gamma RP 1e.tex"
-(Gamma RP 1e.tex
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-10-09>
+**./GammaRP1e.tex
+(GammaRP1e.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-10-24>
 (C:\Program Files\MiKTeX\tex/latex/base\book.cls
 Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
 (C:\Program Files\MiKTeX\tex/latex/base\bk10.clo
@@ -51,165 +51,189 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@dimlist=\toks18
 
 (C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Program Files\MiKTeX\tex/latex/tools\layout.sty
+Package: layout 2023-08-20 v1.2e Show layout parameters
+\oneinch=\count287
+\cnt@paperwidth=\count288
+\cnt@paperheight=\count289
+\cnt@hoffset=\count290
+\cnt@voffset=\count291
+\cnt@textheight=\count292
+\cnt@textwidth=\count293
+\cnt@topmargin=\count294
+\cnt@oddsidemargin=\count295
+\cnt@evensidemargin=\count296
+\cnt@headheight=\count297
+\cnt@headsep=\count298
+\cnt@marginparsep=\count299
+\cnt@marginparwidth=\count300
+\cnt@marginparpush=\count301
+\cnt@footskip=\count302
+\fheight=\count303
+\ref@top=\count304
+\ref@hoffset=\count305
+\ref@voffset=\count306
+\ref@head=\count307
+\ref@body=\count308
+\ref@foot=\count309
+\ref@margin=\count310
+\ref@marginwidth=\count311
+\ref@marginpar=\count312
+\Interval=\count313
+\ExtraYPos=\count314
+\PositionX=\count315
+\PositionY=\count316
+\ArrowLength=\count317
+)
+(C:\Program Files\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip51
+\f@nch@offset@elh=\skip52
+\f@nch@offset@erh=\skip53
+\f@nch@offset@olh=\skip54
+\f@nch@offset@orh=\skip55
+\f@nch@offset@elf=\skip56
+\f@nch@offset@erf=\skip57
+\f@nch@offset@olf=\skip58
+\f@nch@offset@orf=\skip59
+\f@nch@height=\skip60
+\f@nch@footalignment=\skip61
+\f@nch@widthL=\skip62
+\f@nch@widthC=\skip63
+\f@nch@widthR=\skip64
+\@temptokenb=\toks19
+)
+(C:\Program Files\MiKTeX\tex/latex/imakeidx\imakeidx.sty
+Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
+nous mode
+
+(C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
+)
+\XKV@depth=\count318
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(C:\Program Files\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
+\c@tracingmulticols=\count319
+\mult@box=\box53
+\multicol@leftmargin=\dimen157
+\c@unbalance=\count320
+\c@collectmore=\count321
+\doublecol@number=\count322
+\multicoltolerance=\count323
+\multicolpretolerance=\count324
+\full@width=\dimen158
+\page@free=\dimen159
+\premulticols=\dimen160
+\postmulticols=\dimen161
+\multicolsep=\skip65
+\multicolbaselineskip=\skip66
+\partial@page=\box54
+\last@line=\box55
+\mc@boxedresult=\box56
+\maxbalancingoverflow=\dimen162
+\mult@rightbox=\box57
+\mult@grightbox=\box58
+\mult@firstbox=\box59
+\mult@gfirstbox=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\c@minrows=\count325
+\c@columnbadness=\count326
+\c@finalcolumnbadness=\count327
+\last@try=\dimen163
+\multicolovershoot=\dimen164
+\multicolundershoot=\dimen165
+\mult@nat@firstbox=\box97
+\colbreak@box=\box98
+\mc@col@check@num=\count328
+\g__mc_curr_col_int=\count329
+))
+(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count330
+)
 (C:\Program Files\MiKTeX\tex/latex/lipsum\lipsum.sty
 (C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
 (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2025-10-09 L3 programming layer (loader) 
+Package: expl3 2025-10-24 L3 programming layer (loader) 
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count287
+\l__color_backend_stack_int=\count331
 ))
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count288
-\l__lipsum_a_int=\count289
-\l__lipsum_b_int=\count290
+\g__lipsum_par_int=\count332
+\l__lipsum_a_int=\count333
+\l__lipsum_b_int=\count334
 
 (C:\Program Files\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
 (C:\Program Files\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box53
-\beforetitleunit=\skip51
-\aftertitleunit=\skip52
-\ttl@plus=\dimen157
-\ttl@minus=\dimen158
-\ttl@toksa=\toks19
-\titlewidth=\dimen159
-\titlewidthlast=\dimen160
-\titlewidthfirst=\dimen161
-)
-(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
-
-(C:\Program Files\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)
-(C:\Program Files\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(C:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-
-(C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-))
-(C:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty
-Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
-
-(C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-))
-\c@section@level=\count291
-)
-(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count292
-)
-(C:\Program Files\MiKTeX\tex/generic/stringenc\stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
-)
-\@linkdim=\dimen162
-\Hy@linkcounter=\count293
-\Hy@pagecounter=\count294
-
-(C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-)
-(C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty
-Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-)
-\Hy@SavedSpaceFactor=\count295
-
-(C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
-)
-Package hyperref Info: Hyper figures OFF on input line 4195.
-Package hyperref Info: Link nesting OFF on input line 4200.
-Package hyperref Info: Hyper index ON on input line 4203.
-Package hyperref Info: Plain pages OFF on input line 4210.
-Package hyperref Info: Backreferencing OFF on input line 4215.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count296
-
-(C:\Program Files\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen163
-
-(C:\Program Files\MiKTeX\tex/generic/bitset\bitset.sty
-Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(C:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
-))
-\Fld@menulength=\count297
-\Field@Width=\dimen164
-\Fld@charsize=\dimen165
-Package hyperref Info: Hyper figures OFF on input line 6078.
-Package hyperref Info: Link nesting OFF on input line 6083.
-Package hyperref Info: Hyper index ON on input line 6086.
-Package hyperref Info: backreferencing OFF on input line 6093.
-Package hyperref Info: Link coloring OFF on input line 6098.
-Package hyperref Info: Link coloring with OCG OFF on input line 6103.
-Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count298
-\c@Item=\count299
-\c@Hfootnote=\count300
-)
-Package hyperref Info: Driver (autodetected): hpdftex.
-
-(C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count301
-\c@bookmark@seq@number=\count302
-
-(C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
-Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
-
-(C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
-Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
-)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-84.
-)
-\Hy@SectionHShift=\skip53
+\ttl@box=\box99
+\beforetitleunit=\skip67
+\aftertitleunit=\skip68
+\ttl@plus=\dimen166
+\ttl@minus=\dimen167
+\ttl@toksa=\toks22
+\titlewidth=\dimen168
+\titlewidthlast=\dimen169
+\titlewidthfirst=\dimen170
 )
 (C:\Program Files\MiKTeX\tex/latex/tools\afterpage.sty
 Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
-\AP@output=\toks20
-\AP@partial=\box54
-\AP@footins=\box55
+\AP@output=\toks23
+\AP@partial=\box100
+\AP@footins=\box101
 )
 (C:\Program Files\MiKTeX\tex/latex/xfrac\xfrac.sty
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
@@ -217,8 +241,8 @@ Package: amstext 2024/11/17 v2.01 AMS text
 
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
-\ex@=\dimen166
+\@emptytoks=\toks24
+\ex@=\dimen171
 ))
 (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
@@ -237,19 +261,19 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen167
-\Gin@req@width=\dimen168
+\Gin@req@height=\dimen172
+\Gin@req@width=\dimen173
 )
 Package: xfrac 2024-06-04 Split-level fractions
-\l__xfrac_slash_box=\box56
-\l__xfrac_tmp_box=\box57
-\l__xfrac_denominator_bot_sep_dim=\dimen169
-\l__xfrac_numerator_bot_sep_dim=\dimen170
-\l__xfrac_numerator_top_sep_dim=\dimen171
-\l__xfrac_slash_left_sep_dim=\dimen172
-\l__xfrac_slash_right_sep_dim=\dimen173
-\l__xfrac_slash_left_muskip=\muskip18
-\l__xfrac_slash_right_muskip=\muskip19
+\l__xfrac_slash_box=\box102
+\l__xfrac_tmp_box=\box103
+\l__xfrac_denominator_bot_sep_dim=\dimen174
+\l__xfrac_numerator_bot_sep_dim=\dimen175
+\l__xfrac_numerator_top_sep_dim=\dimen176
+\l__xfrac_slash_left_sep_dim=\dimen177
+\l__xfrac_slash_right_sep_dim=\dimen178
+\l__xfrac_slash_left_muskip=\muskip17
+\l__xfrac_slash_right_muskip=\muskip18
 
 LaTeX template Info: Declaring template type 'xfrac' taking 3 argument(s) on
 (template)           line 100.
@@ -693,6 +717,20 @@ Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line
  370.
 )
+(C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
 (C:\Program Files\MiKTeX\tex/latex/trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
@@ -708,13 +746,10 @@ Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 
 (C:\Program Files\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-))
-(C:\Program Files\MiKTeX\tex/generic/iftex\ifluatex.sty
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-))
-\c@svg@param@lastpage=\count303
-\svg@box=\box58
-\c@svg@param@currpage=\count304
+)))
+\c@svg@param@lastpage=\count335
+\svg@box=\box104
+\c@svg@param@currpage=\count336
 )
 (C:\Program Files\MiKTeX\tex/latex/transparent\transparent.sty
 Package: transparent 2025-06-23 v1.6 Transparency with color stacks
@@ -729,12 +764,12 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty
 (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
 (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks22
-\pgfutil@tempdima=\dimen174
-\pgfutil@tempdimb=\dimen175
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen179
+\pgfutil@tempdimb=\dimen180
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box59
+\pgfutil@abb=\box105
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex
 (C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
@@ -744,33 +779,33 @@ Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 
 (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks23
-\pgfkeys@temptoks=\toks24
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
 
 (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.
 tex
-\pgfkeys@tmptoks=\toks25
+\pgfkeys@tmptoks=\toks28
 ))
-\pgf@x=\dimen176
-\pgf@y=\dimen177
-\pgf@xa=\dimen178
-\pgf@ya=\dimen179
-\pgf@xb=\dimen180
-\pgf@yb=\dimen181
-\pgf@xc=\dimen182
-\pgf@yc=\dimen183
-\pgf@xd=\dimen184
-\pgf@yd=\dimen185
+\pgf@x=\dimen181
+\pgf@y=\dimen182
+\pgf@xa=\dimen183
+\pgf@ya=\dimen184
+\pgf@xb=\dimen185
+\pgf@yb=\dimen186
+\pgf@xc=\dimen187
+\pgf@yc=\dimen188
+\pgf@xd=\dimen189
+\pgf@yd=\dimen190
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count305
-\c@pgf@countb=\count306
-\c@pgf@countc=\count307
-\c@pgf@countd=\count308
-\t@pgf@toka=\toks26
-\t@pgf@tokb=\toks27
-\t@pgf@tokc=\toks28
-\pgf@sys@id@count=\count309
+\c@pgf@counta=\count337
+\c@pgf@countb=\count338
+\c@pgf@countc=\count339
+\c@pgf@countd=\count340
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count341
  (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
@@ -784,8 +819,8 @@ File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 )))
 (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count310
-\pgfsyssoftpath@bigbuffer@items=\count311
+\pgfsyssoftpath@smallbuffer@items=\count342
+\pgfsyssoftpath@bigbuffer@items=\count343
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
@@ -801,12 +836,12 @@ Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex)
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen186
-\pgfmath@count=\count312
-\pgfmath@box=\box60
-\pgfmath@toks=\toks29
-\pgfmath@stack@operand=\toks30
-\pgfmath@stack@operation=\toks31
+\pgfmath@dimen=\dimen191
+\pgfmath@count=\count344
+\pgfmath@box=\box106
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex)
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
@@ -822,55 +857,55 @@ tex)
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmeti
 cs.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count313
+\c@pgfmathroundto@lastzeros=\count345
 ))
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen187
-\pgf@picmaxx=\dimen188
-\pgf@picminy=\dimen189
-\pgf@picmaxy=\dimen190
-\pgf@pathminx=\dimen191
-\pgf@pathmaxx=\dimen192
-\pgf@pathminy=\dimen193
-\pgf@pathmaxy=\dimen194
-\pgf@xx=\dimen195
-\pgf@xy=\dimen196
-\pgf@yx=\dimen197
-\pgf@yy=\dimen198
-\pgf@zx=\dimen199
-\pgf@zy=\dimen256
+\pgf@picminx=\dimen192
+\pgf@picmaxx=\dimen193
+\pgf@picminy=\dimen194
+\pgf@picmaxy=\dimen195
+\pgf@pathminx=\dimen196
+\pgf@pathmaxx=\dimen197
+\pgf@pathminy=\dimen198
+\pgf@pathmaxy=\dimen199
+\pgf@xx=\dimen256
+\pgf@xy=\dimen257
+\pgf@yx=\dimen258
+\pgf@yy=\dimen259
+\pgf@zx=\dimen260
+\pgf@zy=\dimen261
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.t
 ex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen257
-\pgf@path@lasty=\dimen258
+\pgf@path@lastx=\dimen262
+\pgf@path@lasty=\dimen263
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen259
-\pgf@shorten@start@additional=\dimen260
+\pgf@shorten@end@additional=\dimen264
+\pgf@shorten@start@additional=\dimen265
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfpic=\box61
-\pgf@hbox=\box62
-\pgf@layerbox@main=\box63
-\pgf@picture@serial@count=\count314
+\pgfpic=\box107
+\pgf@hbox=\box108
+\pgf@layerbox@main=\box109
+\pgf@picture@serial@count=\count346
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.te
 x
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen261
+\pgflinewidth=\dimen266
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code
 .tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen262
-\pgf@pt@y=\dimen263
-\pgf@pt@temp=\dimen264
+\pgf@pt@x=\dimen267
+\pgf@pt@y=\dimen268
+\pgf@pt@temp=\dimen269
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
@@ -881,19 +916,19 @@ tex
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen265
+\pgfarrowsep=\dimen270
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen266
-\pgf@sys@shading@range@num=\count315
-\pgf@shadingcount=\count316
+\pgf@max=\dimen271
+\pgf@sys@shading@range@num=\count347
+\pgf@shadingcount=\count348
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfexternal@startupbox=\box64
+\pgfexternal@startupbox=\box110
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
@@ -908,15 +943,15 @@ File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
 (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfnodeparttextbox=\box65
+\pgfnodeparttextbox=\box111
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
 (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen267
-\pgf@nodesepend=\dimen268
+\pgf@nodesepstart=\dimen272
+\pgf@nodesepend=\dimen273
 )
 (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
@@ -927,10 +962,10 @@ Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex))
 (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen269
-\pgffor@skip=\dimen270
-\pgffor@stack=\toks32
-\pgffor@toks=\toks33
+\pgffor@iter=\dimen274
+\pgffor@skip=\dimen275
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
 ))
 (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
@@ -938,109 +973,38 @@ Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.
 tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count317
-\pgfplotmarksize=\dimen271
+\pgf@plot@mark@count=\count349
+\pgfplotmarksize=\dimen276
 )
-\tikz@lastx=\dimen272
-\tikz@lasty=\dimen273
-\tikz@lastxsaved=\dimen274
-\tikz@lastysaved=\dimen275
-\tikz@lastmovetox=\dimen276
-\tikz@lastmovetoy=\dimen277
-\tikzleveldistance=\dimen278
-\tikzsiblingdistance=\dimen279
-\tikz@figbox=\box66
-\tikz@figbox@bg=\box67
-\tikz@tempbox=\box68
-\tikz@tempbox@bg=\box69
-\tikztreelevel=\count318
-\tikznumberofchildren=\count319
-\tikznumberofcurrentchild=\count320
-\tikz@fig@count=\count321
+\tikz@lastx=\dimen277
+\tikz@lasty=\dimen278
+\tikz@lastxsaved=\dimen279
+\tikz@lastysaved=\dimen280
+\tikz@lastmovetox=\dimen281
+\tikz@lastmovetoy=\dimen282
+\tikzleveldistance=\dimen283
+\tikzsiblingdistance=\dimen284
+\tikz@figbox=\box112
+\tikz@figbox@bg=\box113
+\tikz@tempbox=\box114
+\tikz@tempbox@bg=\box115
+\tikztreelevel=\count350
+\tikznumberofchildren=\count351
+\tikznumberofcurrentchild=\count352
+\tikz@fig@count=\count353
  (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count322
-\pgfmatrixcurrentcolumn=\count323
-\pgf@matrix@numberofcolumns=\count324
+\pgfmatrixcurrentrow=\count354
+\pgfmatrixcurrentcolumn=\count355
+\pgf@matrix@numberofcolumns=\count356
 )
-\tikz@expandcount=\count325
+\tikz@expandcount=\count357
 
 (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
 rytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (C:\Program Files\MiKTeX\tex/latex/tools\multicol.sty
-Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
-\c@tracingmulticols=\count326
-\mult@box=\box70
-\multicol@leftmargin=\dimen280
-\c@unbalance=\count327
-\c@collectmore=\count328
-\doublecol@number=\count329
-\multicoltolerance=\count330
-\multicolpretolerance=\count331
-\full@width=\dimen281
-\page@free=\dimen282
-\premulticols=\dimen283
-\postmulticols=\dimen284
-\multicolsep=\skip54
-\multicolbaselineskip=\skip55
-\partial@page=\box71
-\last@line=\box72
-\mc@boxedresult=\box73
-\maxbalancingoverflow=\dimen285
-\mult@rightbox=\box74
-\mult@grightbox=\box75
-\mult@firstbox=\box76
-\mult@gfirstbox=\box77
-\@tempa=\box78
-\@tempa=\box79
-\@tempa=\box80
-\@tempa=\box81
-\@tempa=\box82
-\@tempa=\box83
-\@tempa=\box84
-\@tempa=\box85
-\@tempa=\box86
-\@tempa=\box87
-\@tempa=\box88
-\@tempa=\box89
-\@tempa=\box90
-\@tempa=\box91
-\@tempa=\box92
-\@tempa=\box93
-\@tempa=\box94
-\@tempa=\box95
-\@tempa=\box96
-\@tempa=\box97
-\@tempa=\box98
-\@tempa=\box99
-\@tempa=\box100
-\@tempa=\box101
-\@tempa=\box102
-\@tempa=\box103
-\@tempa=\box104
-\@tempa=\box105
-\@tempa=\box106
-\@tempa=\box107
-\@tempa=\box108
-\@tempa=\box109
-\@tempa=\box110
-\@tempa=\box111
-\@tempa=\box112
-\@tempa=\box113
-\c@minrows=\count332
-\c@columnbadness=\count333
-\c@finalcolumnbadness=\count334
-\last@try=\dimen286
-\multicolovershoot=\dimen287
-\multicolundershoot=\dimen288
-\mult@nat@firstbox=\box114
-\colbreak@box=\box115
-\mc@col@check@num=\count335
-\g__mc_curr_col_int=\count336
-)
-(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+))) (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 )
 (C:\Program Files\MiKTeX\tex/latex/kerkis\kmath.sty
 (C:\Program Files\MiKTeX\tex/latex/txfonts\txfonts.sty
@@ -1225,6 +1189,125 @@ n input line 101.
 LaTeX Info: Redefining \LaTeX on input line 156.
 LaTeX Info: Redefining \LaTeXe on input line 166.
 )
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+
+(C:\Program Files\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Program Files\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(C:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+
+(C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count358
+)
+(C:\Program Files\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen285
+\Hy@linkcounter=\count359
+\Hy@pagecounter=\count360
+
+(C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count361
+
+(C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+
+(C:\Program Files\MiKTeX\tex/latex/greek-fontenc\puenc-greek.def
+File: puenc-greek.def 2023-09-12 2.5 Greek LICRs for PDF strings
+
+(C:\Program Files\MiKTeX\tex/latex/greek-fontenc\greek-fontenc.def
+File: greek-fontenc.def 2023-09-12 2.5 Common Greek font encoding definitions
+)
+LaTeX Encoding Info:    Redeclaring text command \textmu (encoding PU) on input
+ line 179.
+)
+LaTeX Encoding Info:    Redeclaring text command \textohm (encoding PU) on inpu
+t line 1176.
+)
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count362
+
+(C:\Program Files\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip19
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen286
+
+(C:\Program Files\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count363
+\Field@Width=\dimen287
+\Fld@charsize=\dimen288
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count364
+\c@Item=\count365
+\c@Hfootnote=\count366
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+\Fld@listcount=\count367
+\c@bookmark@seq@number=\count368
+
+(C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip69
+)
 (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
 ryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
@@ -1243,7 +1326,7 @@ rydecorations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen291
 \pgfdecoratedinputsegmentremainingdistance=\dimen292
 \pgf@decorate@distancetomove=\dimen293
-\pgf@decorate@repeatstate=\count337
+\pgf@decorate@repeatstate=\count369
 \pgfdecorationsegmentamplitude=\dimen294
 \pgfdecorationsegmentlength=\dimen295
 )
@@ -1251,67 +1334,79 @@ rydecorations.code.tex
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecora
 tions.pathmorphing.code.tex))
-\currentfontsize=\skip56
-LaTeX Font Info:    Trying to load font information for T1+mak on input line 50
+\currentfontsize=\skip70
+LaTeX Font Info:    Trying to load font information for T1+mak on input line 55
 .
 
 (C:\Program Files\MiKTeX\tex/latex/kerkis\t1mak.fd)
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 50.
- (Gamma RP 1e.aux
-(Introduction.aux) (TheBasics.aux))
-\openout1 = `"Gamma RP 1e.aux"'.
+(Font)              scaled to size 8.99994pt on input line 55.
+\currenttop=\skip71
+\currentleft=\skip72
+\currentright=\skip73
+\currentbottom=\skip74
+\currenthtop=\skip75
+\currenthbase=\skip76
+\extragradlength=\skip77
+\currentengr=\skip78
+\GammaRP1e@idxfile=\write4
+\openout4 = `GammaRP1e.idx'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 203.
+
+Writing index file GammaRP1e.idx
+(GammaRP1e.aux (Introduction.aux) (TheBasics.aux))
+\openout1 = `GammaRP1e.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 230.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-203.
+230.
 
 (C:\Program Files\MiKTeX\tex/latex/txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 230.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-203.
+230.
 
 (C:\Program Files\MiKTeX\tex/latex/txfonts\omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 230.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-203.
+230.
 
 (C:\Program Files\MiKTeX\tex/latex/txfonts\omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 230.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 2
-03.
+30.
 
 (C:\Program Files\MiKTeX\tex/latex/txfonts\utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 230.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 2
-03.
+30.
 
 (C:\Program Files\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1321,15 +1416,15 @@ LaTeX Font Info:    ... okay on input line 203.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(28.45274pt, 426.79135pt, 28.45274pt)
-* v-part:(T,H,B)=(28.73712pt, 625.39189pt, 28.73712pt)
+* h-part:(L,W,R)=(42.67912pt, 412.56497pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 625.96065pt, 28.45274pt)
 * \paperwidth=483.69684pt
 * \paperheight=682.86613pt
-* \textwidth=426.79135pt
-* \textheight=625.39189pt
-* \oddsidemargin=-43.81725pt
+* \textwidth=412.56497pt
+* \textheight=625.96065pt
+* \oddsidemargin=-29.59087pt
 * \evensidemargin=-43.81725pt
-* \topmargin=-73.60036pt
+* \topmargin=-73.88474pt
 * \headheight=12.0pt
 * \headsep=18.06749pt
 * \topskip=10.0pt
@@ -1347,25 +1442,19 @@ LaTeX Font Info:    ... okay on input line 203.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 203.
-(Gamma RP 1e.out) (Gamma RP 1e.out)
-\@outlinefile=\write4
-\openout4 = `"Gamma RP 1e.out"'.
-
-
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count338
+\scratchcounter=\count370
 \scratchdimen=\dimen296
 \scratchbox=\box117
-\nofMPsegments=\count339
-\nofMParguments=\count340
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count341
+\nofMPsegments=\count371
+\nofMParguments=\count372
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count373
 \MPscratchDim=\dimen297
-\MPnumerator=\count342
-\makeMPintoPDFobject=\count343
-\everyMPtoPDFconversion=\toks35
+\MPnumerator=\count374
+\makeMPintoPDFobject=\count375
+\everyMPtoPDFconversion=\toks38
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1374,28 +1463,33 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \celsius on input line 203.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 203
+LaTeX Info: Redefining \celsius on input line 230.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 230
 .
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 203.
-Package gensymb Info: Using \Omega for \ohm on input line 203.
+LaTeX Info: Redefining \ohm on input line 230.
+Package gensymb Info: Using \Omega for \ohm on input line 230.
 
 Package gensymb Warning: Not defining \micro.
 
 LaTeX Encoding Info:    Redeclaring text command \k (encoding T1) on input line
- 203.
+ 230.
 LaTeX Encoding Info:    Redeclaring text command \" (encoding OT1) on input lin
-e 203.
+e 230.
+Package hyperref Info: Link coloring OFF on input line 230.
+(GammaRP1e.out) (GammaRP1e.out)
+\@outlinefile=\write5
+\openout5 = `GammaRP1e.out'.
+
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 15.55188pt on input line 214.
+(Font)              scaled to size 15.55188pt on input line 242.
 Package svg Info: Last page of `./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf' is
- 1 on input line 214.
-(svg-inkscape/GammaRPTitleLogo_svg-tex.pdf_tex
-<./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf, id=39, page=1, 192.85394pt x 201.
+ 1 on input line 242.
+ (svg-inkscape/GammaRPTitleLogo_svg-tex.pdf_tex
+<./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf, id=23, page=1, 192.85394pt x 201.
 496pt>
 File: ./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf, page 1>
@@ -1404,59 +1498,57 @@ ed on input line 56.
 (pdftex.def)             Requested size: 216.81pt x 226.53485pt.
 )
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 214.
+(Font)              scaled to size 15.55188pt on input line 242.
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 214.
+(Font)              scaled to size 10.79993pt on input line 242.
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 2
-14.
-
+42.
 (C:\Program Files\MiKTeX\tex/latex/txfonts\ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for OML+mak on input line 2
-14.
+42.
 
 (C:\Program Files\MiKTeX\tex/latex/kerkis\omlmak.fd)
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 10.79993pt on input line 214.
+(Font)              scaled to size 10.79993pt on input line 242.
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 7.19995pt on input line 214.
+(Font)              scaled to size 7.19995pt on input line 242.
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 5.39996pt on input line 214.
+(Font)              scaled to size 5.39996pt on input line 242.
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
-14.
+42.
 
 (C:\Program Files\MiKTeX\tex/latex/txfonts\utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
-14.
+42.
 
 (C:\Program Files\MiKTeX\tex/latex/txfonts\utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
-14.
+42.
 
 (C:\Program Files\MiKTeX\tex/latex/txfonts\utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
-14.
+42.
 
 (C:\Program Files\MiKTeX\tex/latex/txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 214.
+(Font)              scaled to size 7.19995pt on input line 242.
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 5.39996pt on input line 214.
-
-
+(Font)              scaled to size 5.39996pt on input line 242.
 Package svg Info: Last page of `./svg-inkscape/TitleBG_svg-tex.pdf' is 1 on inp
-ut line 214.
+ut line 242.
+
 (svg-inkscape/TitleBG_svg-tex.pdf_tex
-<./svg-inkscape/TitleBG_svg-tex.pdf, id=41, page=1, 752.81262pt x 752.81262pt>
+<./svg-inkscape/TitleBG_svg-tex.pdf, id=25, page=1, 752.81262pt x 752.81262pt>
 File: ./svg-inkscape/TitleBG_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/TitleBG_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/TitleBG_svg-tex.pdf , page1 used on inp
@@ -1472,21 +1564,17 @@ les/MiKTeX/fonts/enc/dvips/kerkis/kerkisec.enc} <./svg-inkscape/TitleBG_svg-tex
 pdfTeX warning: pdflatex.exe (file ./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
 >]
-
-LaTeX Font Info:    Font shape `T1/mak/m/sl' will be
-(Font)              scaled to size 8.99994pt on input line 215.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.215 	\frontmatter
+l.242 	\frontmatter
                     [2
 
 ]
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 224.
- (Gamma RP 1e.toc
+(Font)              scaled to size 8.99994pt on input line 246.
+ (GammaRP1e.toc
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
 (Font)              scaled to size 8.99994pt on input line 3.
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
@@ -1498,16 +1586,12 @@ LaTeX Font Info:    Font shape `T1/mak/m/n' will be
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
 (Font)              scaled to size 4.49997pt on input line 3.
 )
-\tf@toc=\write5
-\openout5 = `"Gamma RP 1e.toc"'.
+\tf@toc=\write6
+\openout6 = `GammaRP1e.toc'.
 
+ [1
 
-
-[1
-
-]
-
-[2
+] [2
 
 ]
 \openout2 = `Introduction.aux'.
@@ -1519,147 +1603,54 @@ LaTeX Font Info:    Trying to load font information for LGR+mak on input line 3
 (C:\Program Files\MiKTeX\tex/latex/kerkis\lgrmak.fd)
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 3.
-)
-
-
-
-
-
-[1
+) [1
 
 
 {C:/Program Files/MiKTeX/fonts/enc/dvips/kerkis/gpkerkis.enc}]
 \openout2 = `TheBasics.aux'.
 
- (TheBasics.tex
-
-[2
+ (TheBasics.tex [2
 
 ]
 Chapter 2.
-LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 5.
-LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 5.
 LaTeX Font Info:    Font shape `T1/mak/m/it' will be
-(Font)              scaled to size 8.99994pt on input line 9.
-
-
-
-
-
-
-[3]
-
-
-
-
-
-[4]
-
-
-
-
-
-[5]
-
-
-
-
-
-
-
-[6]
-Chapter 3.
-
-
-
-
-
-
-
-
-[7
-
-]
-
-[8
-
-]
-Chapter 4.
-
-
-
-
-
-
-
-
-[9]
-
-[10
-
-]
-Chapter 5.
-
-
-
-
-
-
-
-
-[11]
-
-[12
-
-]
-Chapter 6.
-
-
-
-
-
-
-
-
-[13]
-
-[14
-
-]
-Chapter 7.
-)
-
-
-
-
-
-[15]
-\gdef \@abspage@last{19}
-(Gamma RP 1e.aux (Introduction.aux) (TheBasics.aux))
+(Font)              scaled to size 8.99994pt on input line 3.
+LaTeX Font Info:    Font shape `T1/mak/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 9.
+LaTeX Font Info:    Font shape `T1/mak/b/n' will be
+(Font)              scaled to size 12.9599pt on input line 9.
+) [3] [4]
+runsystem(makeindex GammaRP1e.idx)...executed safely (allowed).
+
+ (GammaRP1e.ind
+LaTeX Font Info:    Font shape `T1/mak/m/n' will be
+(Font)              scaled to size 18.66588pt on input line 1.
+LaTeX Font Info:    Font shape `T1/mak/b/n' will be
+(Font)              scaled to size 18.66588pt on input line 1.
+) [5]
+\gdef \@abspage@last{9}
+(GammaRP1e.aux (Introduction.aux) (TheBasics.aux))
  ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-10-09>
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-10-24>
  ***********
-Package rerunfilecheck Info: File `"Gamma RP 1e".out' has not changed.
-(rerunfilecheck)             Checksum: C8802D484C10C6F54F0E248E10CC3B28;1188.
+Package rerunfilecheck Info: File `GammaRP1e.out' has not changed.
+(rerunfilecheck)             Checksum: C487F0669C5F9223989807EE95C6B79A;476.
  ) 
 Here is how much of TeX's memory you used:
- 26053 strings out of 468080
- 493011 string characters out of 5435839
- 1052443 words of memory out of 5000000
- 54191 multiletter control sequences out of 15000+600000
- 657890 words of font info for 124 fonts, out of 8000000 for 9000
+ 27293 strings out of 467871
+ 515082 string characters out of 5428442
+ 1097618 words of memory out of 5000000
+ 55621 multiletter control sequences out of 15000+600000
+ 658177 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,15n,93p,470b,987s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,15n,96p,466b,1493s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/kerkis/Kerkis-Bold.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/kerkis/Kerkis-Italic.pfb><C:/Program Files/Mi
-KTeX/fonts/type1/public/kerkis/Kerkis.pfb><C:/Program Files/MiKTeX/fonts/type1/
-public/kerkis/Kerkis.pfb>
-Output written on "Gamma RP 1e.pdf" (19 pages, 751681 bytes).
+KTeX/fonts/type1/public/kerkis/Kerkis.pfb>
+Output written on GammaRP1e.pdf (9 pages, 608495 bytes).
 PDF statistics:
- 2370 PDF objects out of 2487 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 241 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2280 PDF objects out of 2487 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
