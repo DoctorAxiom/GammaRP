@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.12)  12 NOV 2025 11:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.12)  12 NOV 2025 11:19
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1620,13 +1620,18 @@ LaTeX Font Info:    Font shape `T1/mak/m/n' will be
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 9.
 ) [3] [4]
-runsystem(makeindex GammaRP1e.idx)...executed safely (allowed).
+runsystem(makeindex -s GRPindexstyle.ist GammaRP1e.idx)...executed safely (allo
+wed).
 
  (GammaRP1e.ind
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
 (Font)              scaled to size 18.66588pt on input line 1.
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
 (Font)              scaled to size 18.66588pt on input line 1.
+LaTeX Font Info:    Font shape `T1/mak/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 3.
+LaTeX Font Info:    Font shape `T1/mak/b/n' will be
+(Font)              scaled to size 8.09995pt on input line 6.
 ) [5]
 \gdef \@abspage@last{9}
 (GammaRP1e.aux (Introduction.aux) (TheBasics.aux))
@@ -1634,21 +1639,25 @@ LaTeX Font Info:    Font shape `T1/mak/b/n' will be
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `GammaRP1e.out' has not changed.
-(rerunfilecheck)             Checksum: C487F0669C5F9223989807EE95C6B79A;476.
+(rerunfilecheck)             Checksum: 8CDA3D5B6901D42017EE68B5CA3DA8C0;544.
  ) 
 Here is how much of TeX's memory you used:
- 27293 strings out of 467871
- 515082 string characters out of 5428442
- 1097618 words of memory out of 5000000
- 55621 multiletter control sequences out of 15000+600000
- 658177 words of font info for 125 fonts, out of 8000000 for 9000
+ 27298 strings out of 467871
+ 515127 string characters out of 5428442
+ 1097713 words of memory out of 5000000
+ 55624 multiletter control sequences out of 15000+600000
+ 659647 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,15n,96p,466b,1493s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,15n,96p,466b,1479s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/kerkis/Kerkis-Bold.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/kerkis/Kerkis-Italic.pfb><C:/Program Files/Mi
 KTeX/fonts/type1/public/kerkis/Kerkis.pfb>
-Output written on GammaRP1e.pdf (9 pages, 608495 bytes).
+Output written on GammaRP1e.pdf (9 pages, 609307 bytes).
 PDF statistics:
  2280 PDF objects out of 2487 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)

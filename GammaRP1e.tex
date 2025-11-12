@@ -225,7 +225,7 @@ paperheight=24cm,
 \fancyfoot[LE]{\thepage}
 \fancyfoot[RO]{\thepage}
 
-\makeindex[intoc]
+\makeindex[intoc, title=Alphabetical Index, options= -s GRPindexstyle.ist]
 
 \begin{document}
 	\pagenumbering{gobble}
@@ -249,8 +249,11 @@ paperheight=24cm,
 	\include{Introduction}
 	\include{TheBasics}
 
-	\titleformat{\chapter}{\normalfont\huge\bfseries}{\thesection}{1em}{}
 	\backmatter
+	\titleformat{\chapter}{\normalfont\huge\bfseries}{\thesection}{1em}{}
+	\renewcommand{\SetChapterTint}{}
+	\renewcommand{\ChapterBackgroundTint}{chapterbgcolordefault}
+	
 	\printindex
 %
 \end{document}
