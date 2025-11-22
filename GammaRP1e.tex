@@ -35,6 +35,17 @@ paperheight=24cm,
 \usetikzlibrary{shapes.geometric}
 \usetikzlibrary{decorations.pathmorphing} 
 
+\def\IsInteger#1{%
+  TT\fi
+  \begingroup \lccode`\-=`\0 \lccode`+=`\0
+    \lccode`\1=`\0 \lccode`\2=`\0 \lccode`\3=`\0
+    \lccode`\4=`\0 \lccode`\5=`\0 \lccode`\6=`\0
+    \lccode`\7=`\0 \lccode`\8=`\0 \lccode`\9=`\0
+  \lowercase{\endgroup
+    \expandafter\ifx\expandafter\delimiter
+    \romannumeral0\string#1}\delimiter
+}
+
 \makeatletter
 \def\closeopenmulticols{%
 % test if current env is "multicols" if so close it
@@ -117,12 +128,34 @@ paperheight=24cm,
 }
 
 %Dice commands
-\newcommand{\dice}[2]{%
-	\ifnum#2<0%
-		D#1d\inteval{-1*(#2)}
+\newcommand{\GRPitalNonInt}[1]{%
+ \if\IsInteger{#1}%
+ 	#1%
+ \else%
+ 	\textit{#1}%
+ \fi%
+}
+
+\newcommand{\GRProll}[2]{\mbox{%
+	\if\IsInteger{#2}%
+		\ifnum#2<0%
+			D\GRPitalNonInt{#1}d\inteval{-1*(#2)}
+		\else%
+			D\GRPitalNonInt{#1}a#2
+		\fi%
 	\else%
-		D#1a#2
-	\fi}
+		D\textit{#1}a\textit{#2}
+	\fi%
+}}
+
+\newcommand{\GRProlla}[2]{\mbox{%
+	D\GRPitalNonInt{#1}a\GRPitalNonInt{#2}
+}}
+
+\newcommand{\GRProlld}[2]{\mbox{%
+	D\GRPitalNonInt{#1}d\GRPitalNonInt{#2}
+}}
+
 
 %Formatting a stat
 \newcommand{\stat}[1]{ \{ \textsc{#1}  \} }

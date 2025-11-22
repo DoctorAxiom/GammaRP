@@ -10,11 +10,23 @@ Since the game is collaborative in this way, it is more fun and fair if the Game
 
 The fundamental dice mechanic in \GammaRP{} is based on 12 sided dice. If you intend to play the game on a real physical tabletop, you may want to obtain a few dozen 12 sided dice.
 
-Typically, the notation for a roll is written as D\textit{X}a\textit{Y}.
+Typically, the notation for a roll is written as \GRProlla{X}{Y}
 
 This means that you roll \textit{X} 12 sided dice. If you recieve a 12 on any dice, the roll is a success.
 
-\textit{Y} represents the \emph{advantage} you receive on the roll. Higher numbers mean the roll is successful even at lower thresholds. An advantage of 1 means that the roll as normal is only successful on a 12. However an advantage of 2 means the roll is successful on any instance of a 12 or an 11. 
+\textit{Y} represents the \emph{advantage} you receive on the roll. Higher numbers mean the roll is successful even at lower thresholds. An advantage of 1 is the default when advantage is not specified. This means that the roll as normal is only successful on a 12. However an advantage of 2 means the roll is successful on any instance of a 12 or an 11 (there are two numbers now on which the roll is successful). In general an advantage of \textit{Y} means the top \textit{Y} numbers on the dice will count as a success. An advantage of 0 is the exception, which still is successful if any dice rolls a 12.
+
+An advantage of 12 means that the roll automatically succeeds.
+
+\emph{Advantage} can also be negative. For convenience this is written as \emph{disadvantage} which is the negative of the advantage. A roll of \GRProlla{X}{(-Z)} is written equivalently as \GRProlld{X}{Z}.
+
+A roll with at \emph{disadvantage} of \textit{Z} means that \textit{Z} dice within the roll need to land on 12 for the roll to be successful. For example, with a roll of \GRProll{4}{-2}, 2 of the 4 dice need to land on 12 in order for the roll to be successful. Note that the rolls \GRProll{X}{1}, \GRProll{X}{0}, \GRProll{X}{-1} are all identical, requiring a single dice of the set to result 12 in order to result a success.
+
+Note that when the disadvantage is greater than the number of dice being rolled, the roll is an automatic failure.
+
+With more than 2 disadvantage on any roll, the probability of a successful roll rapidly diminishes. A disadvantage of 12 or greater is considered an automatic failure for the roll (even though there is theoretically a chance of 12 twelve-sided dice all rolling 12).
+
+
 
 Then you pad the whole chapter with lorem ipsum text
 

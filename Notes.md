@@ -314,9 +314,9 @@ When you are defending, each character in the defending party must choose one re
 
 Your possible reactions are:
 
-Defend
-Parry
+Protect
 Retaliate
+Obstruct
 Dodge
 Use other ability or item that is labeled "as a defensive reaction"
 
@@ -329,17 +329,20 @@ a character exiting a zone
 
 Defend - may target any character or object within the same zone as you. Once triggered, for the rest of this turn any time an action is taken against the character or object you are protecting, you may contest your Athletics against the initiating character's roll to hit. If successful, the action is made to target you instead of its initial target.
 
-Retaliate - you may take one non-movement offensive action in response to the trigger.
+Retaliate - you may take one non-movement offensive action (as in the offense phase) in response to the trigger.
 
 Dodge - you may take one movement action in response to the trigger. If the trigger would incur damage to you, you may contest your Dexterity against the initiating character's roll to hit. If successful, you additionally avoid the damage in addition to taking a movement action.
 
+
+
+On a tabletop- you have the choice of sharing your defensive action with the GM or of writing it on a card and turning it face down
 
 LaTeX notes
 
 top margin
 1inch + voffset + (6-4+5)
 
-1in + \voffset + \headsep - \topmargin + \headheight
+1in + \voffset -\headsep + \topmargin - \headheight
 
 bottom margin
 \pageheight - (1in + \voffset + \headsep - \topmargin + \headheight) - \textheight
@@ -349,3 +352,7 @@ left margin
 
 right margin
 \pagewidth - (1in + \hoffset + \oddsidemargin) - \textwidth
+
+
+latex command:
+pdflatex -synctex=1 --shell-escape .\GammaRP1e.tex
