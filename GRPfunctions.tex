@@ -1,0 +1,194 @@
+\def\IsInteger#1{%
+  TT\fi
+  \begingroup \lccode`\-=`\0 \lccode`+=`\0
+    \lccode`\1=`\0 \lccode`\2=`\0 \lccode`\3=`\0
+    \lccode`\4=`\0 \lccode`\5=`\0 \lccode`\6=`\0
+    \lccode`\7=`\0 \lccode`\8=`\0 \lccode`\9=`\0
+  \lowercase{\endgroup
+    \expandafter\ifx\expandafter\delimiter
+    \romannumeral0\string#1}\delimiter
+}
+
+\makeatletter
+\def\closeopenmulticols{%
+% test if current env is "multicols*" if so close it
+   \def\@tempa{multicols}%
+   \ifx\@tempa\@currenvir
+      \end{multicols*}%
+  \fi 
+}
+\makeatother
+
+\newlength{\currentfontsize}
+\makeatletter
+\newcommand{\refreshcurrentfontsize}{
+	\setlength{\currentfontsize}{\f@size pt}
+}
+\makeatother
+
+\rmfamily
+
+%Steven Segletes's Faux Small Caps command for situations where bolded small caps are needed.
+\newcommand\fauxsc[1]{\fauxschelper#1 \relax\relax}
+\def\fauxschelper#1 #2\relax{%
+	\fauxschelphelp#1\relax\relax%
+	\if\relax#2\relax\else\ \fauxschelper#2\relax\fi%
+}
+\def\Hscale{.85}\def\Vscale{.72}\def\Cscale{1.10}
+\def\fauxschelphelp#1#2\relax{%
+	\ifnum`#1>``\ifnum`#1<`\{\scalebox{\Hscale}[\Vscale]{\uppercase{#1}}\else%
+	\scalebox{\Cscale}[1]{#1}\fi\else\scalebox{\Cscale}[1]{#1}\fi%
+	\ifx\relax#2\relax\else\fauxschelphelp#2\relax\fi}
+
+%% COLOR SET UP STUFF
+\definecolor{grptitle}{RGB}{200,212,220}
+\definecolor{grpbgline}{RGB}{180,180,180}
+
+\definecolor{chapterbgcolor1}{HTML}{C1FF85}
+\definecolor{chapterbgcolor2}{HTML}{85FFFF}
+\definecolor{chapterbgcolor3}{HTML}{C285FF}
+\definecolor{chapterbgcolor4}{HTML}{FF8585}
+\definecolor{chapterbgcolor5}{HTML}{FFED85}
+\definecolor{chapterbgcolor6}{HTML}{85FFB0}
+\definecolor{chapterbgcolor7}{HTML}{8597FF}
+\definecolor{chapterbgcolor8}{HTML}{FF85D4}
+\definecolor{chapterbgcolor9}{HTML}{85FFDC}
+\definecolor{chapterbgcolor10}{HTML}{9F85FF}
+\definecolor{chapterbgcolor11}{HTML}{FF85A8}
+\definecolor{chapterbgcolor12}{HTML}{E5FF85}
+\definecolor{chapterbgcolordefault}{HTML}{AAAAAA}
+
+\newcommand{\ChapterBackgroundTint}{chapterbgcolordefault}
+
+\def\SetChapterTint{%
+	\ifnum\arabic{chapter}>12%
+		\renewcommand{\ChapterBackgroundTint}{chapterbgcolordefault}
+	\else%
+		\ifnum\arabic{chapter}<1%
+			\renewcommand{\ChapterBackgroundTint}{chapterbgcolordefault}
+		\else%
+			\edef\ChapterBackgroundTint{chapterbgcolor\arabic{chapter}}
+		\fi%
+	\fi%
+}
+
+%Command shortcut for GammaRP with greek gamma
+\newcommand{\GammaRP}{\textGamma RP}
+
+%Command shortcut for tikz dodecahedron
+\newcommand{\GammaDodec}[1]{\refreshcurrentfontsize%
+\begin{tikzpicture}[remember picture, baseline=-0.3\currentfontsize, line cap=round,line width=0.08\currentfontsize,line join=round,draw=grpbgline, inner sep=-4\currentfontsize, outer sep=-4\currentfontsize]
+	\foreach \angle in
+		{18, 90, 162, 234, 306}
+	{
+		\draw[line width=0.08\currentfontsize] (\angle:0.43\currentfontsize) -- (\angle:0.59\currentfontsize);
+		\draw[line width=0.08\currentfontsize] (\angle:0.42\currentfontsize) -- (\inteval{\angle+72}:0.42\currentfontsize);
+		\draw[line width=0.08\currentfontsize] (\angle:0.6\currentfontsize) -- (\inteval{\angle+36}:0.58\currentfontsize);
+		\draw[line width=0.08\currentfontsize] (\inteval{\angle+36}:0.58\currentfontsize) -- (\inteval{\angle+72}:0.6\currentfontsize);
+	}
+	\node[rectangle] at (0,0) {#1};
+\end{tikzpicture}%
+{}}
+
+%Dice commands
+\newcommand{\GRPitalNonInt}[1]{%
+ \if\IsInteger{#1}%
+ 	#1%
+ \else%
+ 	\textit{#1}%
+ \fi%
+}
+
+\newcommand{\GRProll}[2]{\mbox{%
+	\if\IsInteger{#2}%
+		\ifnum#2<0%
+			D\GRPitalNonInt{#1}d\inteval{-1*(#2)}
+		\else%
+			D\GRPitalNonInt{#1}a#2
+		\fi%
+	\else%
+		D\textit{#1}a\textit{#2}
+	\fi%
+}}
+
+\newcommand{\GRProlla}[2]{\mbox{%
+	D\GRPitalNonInt{#1}a\GRPitalNonInt{#2}
+}}
+
+\newcommand{\GRProlld}[2]{\mbox{%
+	D\GRPitalNonInt{#1}d\GRPitalNonInt{#2}
+}}
+
+
+%Formatting a stat
+\newcommand{\stat}[1]{ \{ \textsc{#1}  \} }
+
+%Page background command
+\newlength{\currenttop}%to calc page margins for reduced complexity
+\newlength{\currentleft}%
+\newlength{\currentright}%
+\newlength{\currentbottom}%
+\newlength{\currenthtop}%header top
+\newlength{\currenthbase}%header base
+\newlength{\extragradlength}% how much the gradient should run into the text area
+\newlength{\currentengr}%angled line border extent
+
+\newcommand{\GRPpageBG}{%
+	\setlength{\currenttop}{\dimeval{1in + \voffset +\headsep + \topmargin + \headheight} }
+	\setlength{\currentbottom}{\dimeval{\paperheight - \currenttop - \textheight} }
+	\ifodd\value{page}
+		\setlength{\currentleft}{\dimeval{1in + \hoffset + \oddsidemargin} }
+	\else
+		\setlength{\currentleft}{\dimeval{1in + \hoffset + \evensidemargin} }
+	\fi
+	\setlength{\currentright}{\dimeval{\paperwidth - \currentleft - \textwidth} }
+	\setlength{\extragradlength}{1.0cm}
+	\setlength{\currentengr}{\headheight+3mm}
+	\begin{tikzpicture}[remember picture,overlay]
+	\node[anchor = north west, shift={(-3.7mm,4mm)}] at (current page.north west) {%
+	\begin{tikzpicture}
+		\shade[shading = axis, left color = \ChapterBackgroundTint, right color = \ChapterBackgroundTint!0] (-2mm,0) rectangle (\currentleft+\extragradlength, -\paperheight);
+		\shade[shading = axis, right color = \ChapterBackgroundTint, left color = \ChapterBackgroundTint!0] (\paperwidth-\currentright-\extragradlength, 0) rectangle (\paperwidth+2mm,-\paperheight);
+		\shade[shading = axis, top color = \ChapterBackgroundTint, bottom color = \ChapterBackgroundTint!0] (-2mm,2mm) -- (\currentleft+\extragradlength, -\currenttop-\extragradlength) -- (\paperwidth-\currentright-\extragradlength, -\currenttop-\extragradlength) -- (\paperwidth+2mm,2mm) -- cycle;
+		\shade[shading = axis, bottom color = \ChapterBackgroundTint, top color = \ChapterBackgroundTint!0] (-2mm,-\paperheight-2mm) -- (\currentleft+\extragradlength, \currenttop+\extragradlength-\paperheight) -- (\paperwidth-\currentright-\extragradlength, \currenttop+\extragradlength-\paperheight) -- (\paperwidth+2mm,-\paperheight-2mm) -- cycle;	
+
+		\foreach \vertpos in 
+			{0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.5,0.55,0.6,0.65,0.7,0.75,0.8,0.85,0.9}
+		{%
+			\shade[shading=axis, left color=\ChapterBackgroundTint!50!white, middle color=white, right color=white, shift={(0,-\vertpos\paperheight)}, decorate, decoration={zigzag,segment length=0.2cm}]  (\currentleft+\extragradlength+1mm,-0.4cm) -- (0,0) -- (\currentleft+\extragradlength+1mm,0.4cm);
+			\shade[shading=axis, right color=\ChapterBackgroundTint!50!white, middle color=white, left color=white, shift={(\paperwidth,-\vertpos\paperheight)}, decorate, decoration={zigzag,segment length=0.2cm}]  (-\currentright-\extragradlength-1mm,0.4cm) -- (0,0) -- (-\currentright-\extragradlength-1mm,-0.4cm);
+		}
+		\foreach \horzpos in
+			{0.15,0.25,0.35,0.45,0.55,0.65,0.75,0.85}
+		{%
+			\shade[shading=axis, top color=\ChapterBackgroundTint!50!white, middle color=white, bottom color=white, shift={(\horzpos\paperwidth,0)}, decorate, decoration={zigzag,segment length=0.2cm}] (-0.4cm,-\currenttop-\extragradlength-1mm) -- (0,0) -- (0.4cm,-\currenttop-\extragradlength-1mm);
+			\shade[shading=axis, bottom color=\ChapterBackgroundTint!50!white, middle color=\ChapterBackgroundTint!0, top color=\ChapterBackgroundTint!0, shift={(\horzpos\paperwidth,-\paperheight)}, decorate, decoration={zigzag,segment length=0.2cm}] (0.4cm,\currentbottom+\extragradlength+1mm) -- (0,0) -- (-0.4, \currentbottom+\extragradlength+1mm);
+		}
+
+		\draw[draw=\ChapterBackgroundTint!90!black, line width=1mm] (\currentengr-1mm,1mm) -- (\currentengr*2,-\currentengr) -- (\paperwidth-\currentengr*2,-\currentengr) -- (\paperwidth-\currentengr+1mm,1mm);
+		\draw[draw=\ChapterBackgroundTint!90!black, line width=1mm] (\currentengr-1mm,-\paperheight-1mm) -- (\currentengr*2,\currentengr-\paperheight) -- (\paperwidth-\currentengr*2,\currentengr-\paperheight) -- (\paperwidth-\currentengr+1mm,-\paperheight-1mm);
+		\draw[draw=\ChapterBackgroundTint!90!black, line width=1mm] (-1mm,1mm-\currentengr) -- (\currentengr,-\currentengr*2) -- (\currentengr,-\paperheight+\currentengr*2) -- (-1mm,-\paperheight+\currentengr-1mm);
+		\draw[draw=\ChapterBackgroundTint!90!black, line width=1mm] (\paperwidth+1mm,1mm-\currentengr) -- (\paperwidth-\currentengr,-\currentengr*2) -- (\paperwidth-\currentengr,-\paperheight+\currentengr*2) -- (\paperwidth+1mm,-\paperheight+\currentengr-1mm);
+
+		\foreach \currshiftx / \currshifty / \currrot in { 0/0/0, {\paperwidth}/0/-90, 0/{-\paperheight}/90, {\paperwidth}/{-\paperheight}/180}
+		{%
+			\draw[draw=\ChapterBackgroundTint!90!black, line width=1mm, shift={(\currshiftx,\currshifty)}, rotate=\currrot] (-0.2,0cm) -- (0.6cm,-0.8cm) -- (0.7cm,-1.0cm) -- (0.8cm,-1cm) -- (1cm,-1cm) -- (1cm,-0.8cm) -- (1.0cm,-0.7cm) -- (0.8cm, -0.6cm) -- (0, 0.2cm);
+		}
+	\end{tikzpicture}
+	};
+	\end{tikzpicture}
+}
+
+%New chapter command for book chapters
+\newcommand{\GRPchapter}[1]{%
+
+	\closeopenmulticols
+	\begin{multicols*}{2}[\chapter{#1}]\SetChapterTint}
+
+%quick note formatting
+\newenvironment{GRPquicknote}{}{}
+
+\tcolorboxenvironment{GRPquicknote}{breakable,
+enhanced jigsaw,colback=\ChapterBackgroundTint!10!white,colframe=\ChapterBackgroundTint!75!black,
+}
+
