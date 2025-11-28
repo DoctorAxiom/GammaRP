@@ -1,3 +1,34 @@
+\usepackage{pgf}
+\usepackage{layout}
+\usepackage{fancyhdr}
+\usepackage{imakeidx}
+\usepackage{etoolbox}
+
+\usepackage{lipsum}
+
+\usepackage{titlesec}
+\usepackage{afterpage}
+\usepackage{xfrac}
+\usepackage{xcolor,sectsty}
+\usepackage{gensymb}
+\usepackage[most]{tcolorbox}
+
+\usepackage{textgreek}
+\usepackage{svg}
+
+\usepackage{tikz}
+\usepackage{multicol}
+
+\usepackage[T1]{fontenc}
+\usepackage{kmath}
+\usepackage{kerkis}
+
+\usepackage{hyperref}
+
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{calc}
+
 \def\IsInteger#1{%
   TT\fi
   \begingroup \lccode`\-=`\0 \lccode`+=`\0
@@ -41,6 +72,11 @@
 	\ifx\relax#2\relax\else\fauxschelphelp#2\relax\fi}
 
 %% COLOR SET UP STUFF
+%
+\newcounter{partpagedetector}
+\AddToHook{cmd/part/before}{\setcounter{partpagedetector}{1}}
+\AddToHook{cmd/chapter/before}{\setcounter{partpagedetector}{0}}
+
 \definecolor{grptitle}{RGB}{200,212,220}
 \definecolor{grpbgline}{RGB}{180,180,180}
 
@@ -70,23 +106,35 @@
 			\edef\ChapterBackgroundTint{chapterbgcolor\arabic{chapter}}
 		\fi%
 	\fi%
+	\ifnum\value{partpagedetector}=1
+		\renewcommand{\ChapterBackgroundTint}{chapterbgcolordefault}
+	\fi
 }
 
 %Command shortcut for GammaRP with greek gamma
 \newcommand{\GammaRP}{\textGamma RP}
 
 %Command shortcut for tikz dodecahedron
-\newcommand{\GammaDodec}[1]{\refreshcurrentfontsize%
-\begin{tikzpicture}[remember picture, baseline=-0.3\currentfontsize, line cap=round,line width=0.08\currentfontsize,line join=round,draw=grpbgline, inner sep=-4\currentfontsize, outer sep=-4\currentfontsize]
+\pgfkeys{
+	/GammaDodec Options/.cd,
+	color/.initial={grpbgline},
+	size/.initial={\currentfontsize},
+}
+\newlength{\gammadodecsize}
+\newcommand{\GammaDodec}[2][]{%
+\pgfkeys{/GammaDodec Options/.cd,#1}%
+\refreshcurrentfontsize%
+\setlength{\gammadodecsize}{\pgfkeysvalueof{/GammaDodec Options/size}}
+\begin{tikzpicture}[remember picture, baseline=-0.3\gammadodecsize, line cap=round,line width=0.08\gammadodecsize,line join=round,draw=\pgfkeysvalueof{/GammaDodec Options/color}, inner sep=-4\gammadodecsize, outer sep=-4\gammadodecsize]
 	\foreach \angle in
 		{18, 90, 162, 234, 306}
 	{
-		\draw[line width=0.08\currentfontsize] (\angle:0.43\currentfontsize) -- (\angle:0.59\currentfontsize);
-		\draw[line width=0.08\currentfontsize] (\angle:0.42\currentfontsize) -- (\inteval{\angle+72}:0.42\currentfontsize);
-		\draw[line width=0.08\currentfontsize] (\angle:0.6\currentfontsize) -- (\inteval{\angle+36}:0.58\currentfontsize);
-		\draw[line width=0.08\currentfontsize] (\inteval{\angle+36}:0.58\currentfontsize) -- (\inteval{\angle+72}:0.6\currentfontsize);
+		\draw[line width=0.08\gammadodecsize] (\angle:0.43\gammadodecsize) -- (\angle:0.59\gammadodecsize);
+		\draw[line width=0.08\gammadodecsize] (\angle:0.42\gammadodecsize) -- (\inteval{\angle+72}:0.42\gammadodecsize);
+		\draw[line width=0.08\gammadodecsize] (\angle:0.6\gammadodecsize) -- (\inteval{\angle+36}:0.58\gammadodecsize);
+		\draw[line width=0.08\gammadodecsize] (\inteval{\angle+36}:0.58\gammadodecsize) -- (\inteval{\angle+72}:0.6\gammadodecsize);
 	}
-	\node[rectangle] at (0,0) {#1};
+	\node[rectangle] at (0,0) {#2};
 \end{tikzpicture}%
 {}}
 
@@ -123,7 +171,7 @@
 %Formatting a stat
 \newcommand{\stat}[1]{ \{ \textsc{#1}  \} }
 
-%Page background command
+%Page background commands
 \newlength{\currenttop}%to calc page margins for reduced complexity
 \newlength{\currentleft}%
 \newlength{\currentright}%
@@ -189,6 +237,24 @@
 \newenvironment{GRPquicknote}{}{}
 
 \tcolorboxenvironment{GRPquicknote}{breakable,
-enhanced jigsaw,colback=\ChapterBackgroundTint!10!white,colframe=\ChapterBackgroundTint!75!black,
+halign=flush center,
+leftrule=1.8mm,
+rightrule=1.8mm,
+toprule=0.5mm,
+bottomrule=0.4mm,
+enhanced jigsaw,
+colback=\ChapterBackgroundTint!10!white,
+opacityback=0.4,
+colframe=\ChapterBackgroundTint!75!black,
+overlay first and middle={%
+\draw[draw=\ChapterBackgroundTint!75!black,line width=0.5mm,line cap=round,decorate,decoration={zigzag,segment length=2mm,amplitude=0.5mm}] ($(frame.south west)+(0.25mm,0)$) -- ($(frame.south east)-(0.25mm,0)$);
+\fill[\ChapterBackgroundTint!75!black] (frame.south west) -- ($(frame.south west)+(0.9mm,-0.9mm)$) -- ($(frame.south west)+(1.8mm,0)$) -- cycle;
+\fill[\ChapterBackgroundTint!75!black] (frame.south east) -- ($(frame.south east)+(-0.9mm,-0.9mm)$) -- ($(frame.south east)+(-1.8mm,0)$) -- cycle;
+},
+overlay middle and last={%
+\draw[draw=\ChapterBackgroundTint!75!black,line width=0.5mm,line cap=round,decorate,decoration={zigzag,segment length=2mm,amplitude=0.5mm}] ($(frame.north west)+(1.55mm,0)$) -- ($(frame.north east)-(1.55mm,0)$);
+\fill[\ChapterBackgroundTint!75!black] (frame.north west) -- ($(frame.north west)+(0.9mm,0.9mm)$) -- ($(frame.north west)+(1.8mm,0)$) -- cycle;
+\fill[\ChapterBackgroundTint!75!black] (frame.north east) -- ($(frame.north east)+(-0.9mm,0.9mm)$) -- ($(frame.north east)+(-1.8mm,0)$) -- cycle;
+},
 }
 

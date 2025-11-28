@@ -6,41 +6,13 @@
 \usepackage[
 inner=1.5cm,
 outer=1cm,
-top=1.0cm,
-bottom=1.0cm,
+top=1.1cm,
+bottom=1.1cm,
 paperwidth=17cm,
 paperheight=24cm,
 ]{geometry}
-\usepackage{layout}
-\usepackage{fancyhdr}
-\usepackage{imakeidx}
-\usepackage{etoolbox}
 
-\usepackage{lipsum}
-
-\usepackage{titlesec}
-\usepackage{afterpage}
-\usepackage{xfrac}
-\usepackage{xcolor,sectsty}
-\usepackage{gensymb}
-\usepackage[most]{tcolorbox}
-
-\usepackage{textgreek}
-\usepackage{svg}
-
-\usepackage{tikz}
-\usepackage{multicol}
-
-\usepackage[T1]{fontenc}
-\usepackage{kmath}
-\usepackage{kerkis}
-
-\usepackage{hyperref}
-
-\usetikzlibrary{shapes.geometric}
-\usetikzlibrary{decorations.pathmorphing} 
-
-\include{GRPfunctions}
+\input{GRPfunctions}
 
 \titleformat
 	{\chapter} % command
@@ -100,9 +72,13 @@ paperheight=24cm,
 %
 	\mainmatter
 	\include{Introduction}
+	\part{The System}
 	\include{TheBasics}
+	\part{The Setting}
+
 
 	\backmatter
+	\part{Appendices}
 	\titleformat{\chapter}{\normalfont\huge\bfseries}{\thesection}{1em}{}
 	\def\SetChapterTint{\renewcommand{\ChapterBackgroundTint}{chapterbgcolordefault}}
 	\printindex
