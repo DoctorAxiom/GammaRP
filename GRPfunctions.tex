@@ -18,6 +18,8 @@
 
 \usepackage{tikz}
 \usepackage{multicol}
+\usepackage{wrapfig}
+\usepackage{caption}
 
 \usepackage[T1]{fontenc}
 \usepackage{kmath}
@@ -42,10 +44,10 @@
 
 \makeatletter
 \def\closeopenmulticols{%
-% test if current env is "multicols*" if so close it
+% test if current env is "multicols" if so close it
    \def\@tempa{multicols}%
    \ifx\@tempa\@currenvir
-      \end{multicols*}%
+      \end{multicols}%
   \fi 
 }
 \makeatother
@@ -231,7 +233,7 @@
 \newcommand{\GRPchapter}[1]{%
 
 	\closeopenmulticols
-	\begin{multicols*}{2}[\chapter{#1}]\SetChapterTint}
+	\begin{multicols}{2}[\chapter{#1}]\SetChapterTint}
 
 %quick note formatting
 \newenvironment{GRPquicknote}{}{}
@@ -257,4 +259,45 @@ overlay middle and last={%
 \fill[\ChapterBackgroundTint!75!black] (frame.north east) -- ($(frame.north east)+(-0.9mm,0.9mm)$) -- ($(frame.north east)+(-1.8mm,0)$) -- cycle;
 },
 }
+
+\makeatletter
+\newenvironment{GRPwidefig}
+{%
+	\SetChapterTint{}
+	\par\medskip\noindent\begin{tcolorbox}[%
+halign=flush center,
+leftrule=1.8mm,
+rightrule=1.8mm,
+toprule=0.5mm,
+bottomrule=0.4mm,
+enhanced jigsaw,
+colback=\ChapterBackgroundTint!10!white,
+opacityback=0.4,
+colframe=\ChapterBackgroundTint!75!black,]%
+	\begin{minipage}{\textwidth}
+	\captionsetup{font={bf,singlespacing,color=\ChapterBackgroundTint!10!white}}%
+	\begingroup%
+	\let\oldcaption\caption%
+	\renewcommand{\caption}[2][]{%
+		\def\@captype{figure}%
+		\begin{tcolorbox}[colback=\ChapterBackgroundTint!75!black,colframe=\ChapterBackgroundTint!75!black,coltext=\ChapterBackgroundTint!10!white,size=title]%
+		\caption@caption[##1]{##2}%
+		\end{tcolorbox}%
+	}%
+}%
+{%
+	\let\caption\oldcaption%
+	\endgroup%
+	\end{minipage}%
+	\end{tcolorbox}%
+	\par\medskip%
+}
+\makeatother
+
+\AddToHook{env/GRPwidefig/after}{\begin{multicols}{2}}
+\AddToHook{env/GRPwidefig/before}{\end{multicols}}
+
+\renewcommand{\thefigure}{\thesection-\alph{figure}}
+
+
 

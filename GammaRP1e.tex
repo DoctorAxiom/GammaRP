@@ -21,9 +21,10 @@ paperheight=24cm,
 	{} % label
 	{1em} % sep
 	{
+		\SetChapterTint{}%
 		\rule{\textwidth}{1pt}
 	    \centering 
-	    \GammaDodec{\thechapter}
+	    \GammaDodec[color={\ChapterBackgroundTint!75!black}]{\thechapter}
 	} % before-code
 	[
 	\vspace{-0.5ex}%
