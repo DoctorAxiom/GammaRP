@@ -14,26 +14,6 @@ paperheight=24cm,
 
 \input{GRPfunctions}
 
-\titleformat
-	{\chapter} % command
-	[block] % shape
-	{\bfseries\LARGE} % format
-	{} % label
-	{1em} % sep
-	{
-		\SetChapterTint{}%
-		\rule{\textwidth}{1pt}
-	    \centering 
-	    \GammaDodec[color={\ChapterBackgroundTint!75!black}]{\thechapter}
-	} % before-code
-	[
-	\vspace{-0.5ex}%
-	\rule{\textwidth}{0.3pt}
-	] % after-code
-\titlespacing{\chapter}{0pt}{1ex}{1ex}
-
-\AtEndDocument{\closeopenmulticols}
-
 \title{%
 	\includesvg[width=3.0in]{GammaRPTitleLogo} \\
 	\color{grptitle}\textbf{Gamma RP} \\
@@ -41,17 +21,6 @@ paperheight=24cm,
 	\large A simple roleplaying system meant to be dynamic and expansible}
 
 \author{Dr. A. Cory Axiom}
-
-\pagestyle{fancy}
-
-\fancyhead{}
-\fancyfoot{}
-\fancyhead[RO]{\rightmark}
-\fancyhead[LE]{\leftmark}
-\fancyfoot[LE]{\thepage}
-\fancyfoot[RO]{\thepage}
-
-\makeindex[intoc, title=Alphabetical Index, options= -s GRPindexstyle.ist]
 
 \begin{document}
 	\pagenumbering{gobble}
@@ -66,9 +35,6 @@ paperheight=24cm,
 	\maketitle
 %
 	\frontmatter
-	\color{black}
-	\pagenumbering{roman}
-	\AddToHook{shipout/background}{\SetChapterTint\GRPpageBG}
 	\tableofcontents
 %
 	\mainmatter
@@ -80,8 +46,8 @@ paperheight=24cm,
 
 	\backmatter
 	\part{Appendices}
-	\titleformat{\chapter}{\normalfont\huge\bfseries}{\thesection}{1em}{}
-	\def\SetChapterTint{\renewcommand{\ChapterBackgroundTint}{chapterbgcolordefault}}
+	\listoffigures
+	\listoftables
 	\printindex
 %
 \end{document}

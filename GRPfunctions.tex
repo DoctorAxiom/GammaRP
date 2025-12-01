@@ -31,6 +31,26 @@
 \usetikzlibrary{decorations.pathmorphing}
 \usetikzlibrary{calc}
 
+\ExplSyntaxOn
+\cs_new:Npn \firstof #1
+ {
+  \tl_range:nnn { #1 } { 1 } { 1 } % tokens from 1 to 1
+ }
+\cs_new:Npn \secondof #1
+ {
+  \tl_range:nnn { #1 } { 2 } { 2 } % tokens from 2 to 2
+ }
+\cs_new:Npn \restof #1
+ {
+  \tl_range:nnn { #1 } { 3 } { -1 } % tokens from 3 to the end
+ }
+\NewDocumentCommand{\purgespaces}{m}{
+    \tl_set:Nn \l_tmpa_tl {#1}
+    \tl_replace_all:Nnn \l_tmpa_tl { ~ } { }
+    \backend{\tl_use:N\l_tmpa_tl}
+}
+\ExplSyntaxOff
+
 \def\IsInteger#1{%
   TT\fi
   \begingroup \lccode`\-=`\0 \lccode`+=`\0
@@ -82,6 +102,9 @@
 \definecolor{grptitle}{RGB}{200,212,220}
 \definecolor{grpbgline}{RGB}{180,180,180}
 
+\definecolor{grpneg}{RGB}{150,20,20}
+\definecolor{grppos}{RGB}{15,145,20}
+
 \definecolor{chapterbgcolor1}{HTML}{C1FF85}
 \definecolor{chapterbgcolor2}{HTML}{85FFFF}
 \definecolor{chapterbgcolor3}{HTML}{C285FF}
@@ -123,11 +146,11 @@
 	size/.initial={\currentfontsize},
 }
 \newlength{\gammadodecsize}
-\newcommand{\GammaDodec}[2][]{%
+\newcommand{\GammaDodec}[2][]{\mbox{\hspace{-5pt}%
 \pgfkeys{/GammaDodec Options/.cd,#1}%
 \refreshcurrentfontsize%
-\setlength{\gammadodecsize}{\pgfkeysvalueof{/GammaDodec Options/size}}
-\begin{tikzpicture}[remember picture, baseline=-0.3\gammadodecsize, line cap=round,line width=0.08\gammadodecsize,line join=round,draw=\pgfkeysvalueof{/GammaDodec Options/color}, inner sep=-4\gammadodecsize, outer sep=-4\gammadodecsize]
+\setlength{\gammadodecsize}{\pgfkeysvalueof{/GammaDodec Options/size}}%
+\begin{tikzpicture}[remember picture, baseline=-0.3\gammadodecsize, line cap=round,line width=0.08\gammadodecsize,line join=round,draw=\pgfkeysvalueof{/GammaDodec Options/color},inner sep=0pt,outer sep=0pt,]
 	\foreach \angle in
 		{18, 90, 162, 234, 306}
 	{
@@ -136,8 +159,8 @@
 		\draw[line width=0.08\gammadodecsize] (\angle:0.6\gammadodecsize) -- (\inteval{\angle+36}:0.58\gammadodecsize);
 		\draw[line width=0.08\gammadodecsize] (\inteval{\angle+36}:0.58\gammadodecsize) -- (\inteval{\angle+72}:0.6\gammadodecsize);
 	}
-	\node[rectangle] at (0,0) {#2};
-\end{tikzpicture}%
+	\node[rectangle,inner sep=0pt,outer sep=0pt] at (0,0) {#2};
+\end{tikzpicture}}%
 {}}
 
 %Dice commands
@@ -152,7 +175,7 @@
 \newcommand{\GRProll}[2]{\mbox{%
 	\if\IsInteger{#2}%
 		\ifnum#2<0%
-			D\GRPitalNonInt{#1}d\inteval{-1*(#2)}
+			D\GRPitalNonInt{#1}{\color{grpneg}\underline{d}\inteval{-1*(#2)}}
 		\else%
 			D\GRPitalNonInt{#1}a#2
 		\fi%
@@ -166,8 +189,39 @@
 }}
 
 \newcommand{\GRProlld}[2]{\mbox{%
-	D\GRPitalNonInt{#1}d\GRPitalNonInt{#2}
+	D\GRPitalNonInt{#1}{\color{grpneg}\underline{d}\GRPitalNonInt{#2}}
 }}
+
+\newcommand{\GRPdie}[2][0]{%
+ 	\ifnum#1>0% advantage case
+ 		\ifnum#2>\inteval{12-#1}%
+			\GammaDodec[color=grppos!30!white]{\textbf{\color{grppos}#2}}%
+		\else%
+			\GammaDodec{#2}%
+		\fi%
+	\else% disadvantage case and 0 case (when just the 12s should be hilighted)
+		\ifnum#2=12%
+			\GammaDodec[color=grppos!30!white]{\textbf{\color{grppos}#2}}%
+		\else%
+			\GammaDodec{#2}%
+		\fi
+ 	\fi%
+}
+
+\newcounter{GRPdicelistdummy}
+\newcommand{\GRPdicelist}[2][0]{
+	\setcounter{GRPdicelistdummy}{0}
+  \foreach \dummyval in {#2}{%
+  	\stepcounter{GRPdicelistdummy}
+  }%
+	\foreach \dieval [count=\dieind] in {#2}{%
+		\ifnum\dieind=\value{GRPdicelistdummy}%
+			\GRPdie[#1]{\dieval}%
+		\else%
+			\GRPdie[#1]{\dieval},%
+		\fi%
+	}%
+}
 
 
 %Formatting a stat
@@ -261,6 +315,27 @@ overlay middle and last={%
 }
 
 \makeatletter
+\newenvironment{GRPpseudofloat}[1]
+{%
+\captionsetup{font={bf,singlespacing,color=\ChapterBackgroundTint!10!white}}%
+	\begingroup%
+	\let\oldcaption\caption%
+	\renewcommand{\caption}[2][]{%
+		\def\@captype{#1}%
+		\begin{tcolorbox}[colback=\ChapterBackgroundTint!75!black,colframe=\ChapterBackgroundTint!75!black,coltext=\ChapterBackgroundTint!10!white,size=title]%
+		\caption@caption[##1]{##2}\vspace{-0.9\baselineskip}%
+		\end{tcolorbox}%
+		\addcontentsline{lo\firstof{#1}}{#1}{\protect\numberline{\thefigure} ##2}%
+	}%
+}
+{%
+	\let\caption\oldcaption%
+	\endgroup%
+}
+\makeatother
+
+
+
 \newenvironment{GRPwidefig}
 {%
 	\SetChapterTint{}
@@ -274,25 +349,15 @@ enhanced jigsaw,
 colback=\ChapterBackgroundTint!10!white,
 opacityback=0.4,
 colframe=\ChapterBackgroundTint!75!black,]%
-	\begin{minipage}{\textwidth}
-	\captionsetup{font={bf,singlespacing,color=\ChapterBackgroundTint!10!white}}%
-	\begingroup%
-	\let\oldcaption\caption%
-	\renewcommand{\caption}[2][]{%
-		\def\@captype{figure}%
-		\begin{tcolorbox}[colback=\ChapterBackgroundTint!75!black,colframe=\ChapterBackgroundTint!75!black,coltext=\ChapterBackgroundTint!10!white,size=title]%
-		\caption@caption[##1]{##2}%
-		\end{tcolorbox}%
-	}%
+	\begin{minipage}{\textwidth}%
+	\begin{GRPpseudofloat}{figure}%
 }%
 {%
-	\let\caption\oldcaption%
-	\endgroup%
+	\end{GRPpseudofloat}%
 	\end{minipage}%
 	\end{tcolorbox}%
 	\par\medskip%
 }
-\makeatother
 
 \AddToHook{env/GRPwidefig/after}{\begin{multicols}{2}}
 \AddToHook{env/GRPwidefig/before}{\end{multicols}}
@@ -301,3 +366,66 @@ colframe=\ChapterBackgroundTint!75!black,]%
 
 
 
+\titleformat
+	{\chapter} % command
+	[block] % shape
+	{\bfseries\LARGE} % format
+	{} % label
+	{1em} % sep
+	{
+		\SetChapterTint{}%
+		\rule{\textwidth}{1pt}
+	    \centering 
+	    \GammaDodec[color={\ChapterBackgroundTint!75!black}]{\thechapter}
+	} % before-code
+	[
+	\vspace{-0.5ex}%
+	\rule{\textwidth}{0.3pt}
+	] % after-code
+\titlespacing{\chapter}{0pt}{1ex}{1ex}
+
+\AtEndDocument{\closeopenmulticols}
+
+\pagestyle{fancy}
+
+\renewcommand{\headrulewidth}{0pt}
+
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[RO]{\rightmark}
+\fancyhead[LE]{\leftmark}
+\fancyfoot[LE]{\thepage}
+\fancyfoot[RO]{\thepage}
+
+\makeindex[intoc, title=Alphabetical Index, options= -s GRPindexstyle.ist]
+
+%FORMATTING HOOKS
+%These are simply made to change formatting a little bit
+\AddToHook{cmd/frontmatter/after}
+{%
+	\color{black}
+	\pagenumbering{roman}
+	\AddToHook{shipout/background}{\SetChapterTint\GRPpageBG}
+}
+
+%These two are meant to ensure the listoffigures and listoftables both appear properly
+% In the table of contents, and also have hyperref working.
+\AddToHook{cmd/listoffigures/before}
+{%
+	\cleardoublepage
+	\addcontentsline{toc}{section}{List of Figures}
+	\phantomsection
+}
+\AddToHook{cmd/listoftables/before}
+{%
+	\cleardoublepage
+	\addcontentsline{toc}{section}{List of Tables}
+	\phantomsection
+}
+
+%Change chapter title format for backmatter
+\AddToHook{cmd/backmatter/after}
+{%
+	\titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter}{1em}{}
+	\def\SetChapterTint{\renewcommand{\ChapterBackgroundTint}{chapterbgcolordefault}}
+}

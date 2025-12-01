@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.12)  29 NOV 2025 22:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.12)  30 NOV 2025 21:59
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1685,13 +1685,14 @@ rycalc.code.tex
 File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
 \currentfontsize=\skip73
-LaTeX Font Info:    Trying to load font information for T1+mak on input line 62
+LaTeX Font Info:    Trying to load font information for T1+mak on input line 82
 .
  (C:\Program Files\MiKTeX\tex/latex/kerkis\t1mak.fd)
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 62.
+(Font)              scaled to size 8.99994pt on input line 82.
 \c@partpagedetector=\count402
 \gammadodecsize=\skip74
+\c@GRPdicelistdummy=\count403
 \currenttop=\skip75
 \currentleft=\skip76
 \currentright=\skip77
@@ -1700,65 +1701,64 @@ LaTeX Font Info:    Font shape `T1/mak/m/n' will be
 \currenthbase=\skip80
 \extragradlength=\skip81
 \currentengr=\skip82
-)
 \GammaRP1e@idxfile=\write4
 \openout4 = `GammaRP1e.idx'.
 
 
 Writing index file GammaRP1e.idx
-(GammaRP1e.aux (Introduction.aux) (TheBasics.aux))
+) (GammaRP1e.aux (Introduction.aux) (TheBasics.aux))
 \openout1 = `GammaRP1e.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 56.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 25.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-56.
+25.
 
 (C:\Program Files\MiKTeX\tex/latex/txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 25.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-56.
+25.
 
 (C:\Program Files\MiKTeX\tex/latex/txfonts\omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 25.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-56.
+25.
 
 (C:\Program Files\MiKTeX\tex/latex/txfonts\omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 56.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 5
-6.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 25.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 2
+5.
 
 (C:\Program Files\MiKTeX\tex/latex/txfonts\utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 56.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 5
-6.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 25.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 2
+5.
 
 (C:\Program Files\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1796,16 +1796,16 @@ LaTeX Font Info:    ... okay on input line 56.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count403
+\scratchcounter=\count404
 \scratchdimen=\dimen322
 \scratchbox=\box135
-\nofMPsegments=\count404
-\nofMParguments=\count405
+\nofMPsegments=\count405
+\nofMParguments=\count406
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count406
+\MPscratchCnt=\count407
 \MPscratchDim=\dimen323
-\MPnumerator=\count407
-\makeMPintoPDFobject=\count408
+\MPnumerator=\count408
+\makeMPintoPDFobject=\count409
 \everyMPtoPDFconversion=\toks47
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1815,19 +1815,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \celsius on input line 56.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 56.
+LaTeX Info: Redefining \celsius on input line 25.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 25.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 56.
-Package gensymb Info: Using \Omega for \ohm on input line 56.
+LaTeX Info: Redefining \ohm on input line 25.
+Package gensymb Info: Using \Omega for \ohm on input line 25.
 
 Package gensymb Warning: Not defining \micro.
 
-\c@lstlisting=\count409
+\c@lstlisting=\count410
 (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks48
@@ -1837,21 +1837,21 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Encoding Info:    Redeclaring text command \k (encoding T1) on input line
- 56.
+ 25.
 LaTeX Encoding Info:    Redeclaring text command \" (encoding OT1) on input lin
-e 56.
-Package hyperref Info: Link coloring OFF on input line 56.
+e 25.
+Package hyperref Info: Link coloring OFF on input line 25.
  (GammaRP1e.out)
 (GammaRP1e.out)
 \@outlinefile=\write5
 \openout5 = `GammaRP1e.out'.
 
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 15.55188pt on input line 68.
+(Font)              scaled to size 15.55188pt on input line 37.
 Package svg Info: Last page of `./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf' is
- 1 on input line 68.
+ 1 on input line 37.
  (svg-inkscape/GammaRPTitleLogo_svg-tex.pdf_tex
-<./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf, id=71, page=1, 192.85394pt x 201.
+<./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf, id=79, page=1, 192.85394pt x 201.
 496pt>
 File: ./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf, page 1>
@@ -1860,58 +1860,58 @@ ed on input line 56.
 (pdftex.def)             Requested size: 216.81pt x 226.53485pt.
 )
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 68.
+(Font)              scaled to size 15.55188pt on input line 37.
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 68.
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 6
-8.
+(Font)              scaled to size 10.79993pt on input line 37.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 3
+7.
 
 (C:\Program Files\MiKTeX\tex/latex/txfonts\ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for OML+mak on input line 6
-8.
+LaTeX Font Info:    Trying to load font information for OML+mak on input line 3
+7.
 
 (C:\Program Files\MiKTeX\tex/latex/kerkis\omlmak.fd)
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 10.79993pt on input line 68.
+(Font)              scaled to size 10.79993pt on input line 37.
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 7.19995pt on input line 68.
+(Font)              scaled to size 7.19995pt on input line 37.
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 5.39996pt on input line 68.
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
-8.
+(Font)              scaled to size 5.39996pt on input line 37.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 3
+7.
 
 (C:\Program Files\MiKTeX\tex/latex/txfonts\utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 6
-8.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 3
+7.
 
 (C:\Program Files\MiKTeX\tex/latex/txfonts\utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 6
-8.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 3
+7.
 
 (C:\Program Files\MiKTeX\tex/latex/txfonts\utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 6
-8.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 3
+7.
 
 (C:\Program Files\MiKTeX\tex/latex/txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 68.
+(Font)              scaled to size 7.19995pt on input line 37.
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 5.39996pt on input line 68.
+(Font)              scaled to size 5.39996pt on input line 37.
 Package svg Info: Last page of `./svg-inkscape/TitleBG_svg-tex.pdf' is 1 on inp
-ut line 68.
+ut line 37.
 
 (svg-inkscape/TitleBG_svg-tex.pdf_tex
-<./svg-inkscape/TitleBG_svg-tex.pdf, id=73, page=1, 752.81262pt x 752.81262pt>
+<./svg-inkscape/TitleBG_svg-tex.pdf, id=81, page=1, 752.81262pt x 752.81262pt>
 File: ./svg-inkscape/TitleBG_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/TitleBG_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/TitleBG_svg-tex.pdf , page1 used on inp
@@ -1931,12 +1931,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.68 	\frontmatter
+l.37 	\frontmatter
                    [2
 
 ]
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 72.
+(Font)              scaled to size 8.99994pt on input line 38.
  (GammaRP1e.toc
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
 (Font)              scaled to size 10.79993pt on input line 2.
@@ -1973,13 +1973,13 @@ LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
 
 {C:/Program Files/MiKTeX/fonts/enc/dvips/kerkis/gpkerkis.enc}] [2]
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 18.66588pt on input line 76.
+(Font)              scaled to size 18.66588pt on input line 42.
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 18.66588pt on input line 76.
+(Font)              scaled to size 18.66588pt on input line 42.
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 22.39185pt on input line 76.
+(Font)              scaled to size 22.39185pt on input line 42.
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 76.
+(Font)              scaled to size 22.39185pt on input line 42.
  [3] [4]
 \openout2 = `TheBasics.aux'.
 
@@ -1995,9 +1995,9 @@ LaTeX Font Info:    Font shape `T1/mak/b/n' will be
 
 ]
 Package svg Info: Last page of `./svg-inkscape/Core Skill Map_svg-tex.pdf' is 1
- on input line 40.
+ on input line 62.
  (svg-inkscape/Core Skill Map_svg-tex.pdf_tex
-<./svg-inkscape/Core Skill Map_svg-tex.pdf, id=2305, page=1, 639.89063pt x 639.
+<./svg-inkscape/Core Skill Map_svg-tex.pdf, id=2315, page=1, 639.89063pt x 639.
 89063pt>
 File: ./svg-inkscape/Core Skill Map_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Core Skill Map_svg-tex.pdf, page 1>
@@ -2007,12 +2007,15 @@ Package pdftex.def Info: ./svg-inkscape/Core Skill Map_svg-tex.pdf , page1 used
 )
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 41.
+(caption)                particular \caption on input line 63.
 See the caption package documentation for explanation.
 
-[6 <./svg-inkscape/Core Skill Map_svg-tex.pdf>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
 Package svg Info: Last page of `./svg-inkscape/Core Skill Map_svg-tex.pdf' is 1
- on input line 45.
+ on input line 67.
 
 (svg-inkscape/Core Skill Map_svg-tex.pdf_tex
 File: ./svg-inkscape/Core Skill Map_svg-tex.pdf Graphic file (type pdf)
@@ -2023,40 +2026,74 @@ Package pdftex.def Info: ./svg-inkscape/Core Skill Map_svg-tex.pdf , page1 used
 )
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 46.
+(caption)                particular \caption on input line 68.
 See the caption package documentation for explanation.
 
-) [7] [8] [9] [10] [11] [12]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./svg-inkscape/Core Skill Map_svg-tex.pdf>]) [8] [9] [10] [11] [12]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 49.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 49.
+
+(GammaRP1e.lof
+Overfull \hbox (2.15993pt too wide) detected at line 3
+\T1/mak/m/n/10 2.1-a 
+ []
+
+
+Overfull \hbox (2.51993pt too wide) detected at line 4
+\T1/mak/m/n/10 2.1-b 
+ []
+
+)
+\tf@lof=\write7
+\openout7 = `GammaRP1e.lof'.
+
+ [13] [14] (GammaRP1e.lot)
+\tf@lot=\write8
+\openout8 = `GammaRP1e.lot'.
+
+ [15] [16]
 runsystem(makeindex -s GRPindexstyle.ist GammaRP1e.idx)...executed safely (allo
 wed).
 
  (GammaRP1e.ind
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
 (Font)              scaled to size 8.09995pt on input line 6.
-) [13]
-\gdef \@abspage@last{17}
+) [17]
+\gdef \@abspage@last{21}
 (GammaRP1e.aux (Introduction.aux) (TheBasics.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `GammaRP1e.out' has not changed.
-(rerunfilecheck)             Checksum: AB3CBBE975EAE325119E068150C5A087;894.
+(rerunfilecheck)             Checksum: F8C2C1E6CBD1473C9F75EF0DD1B09FD7;1151.
  ) 
 Here is how much of TeX's memory you used:
- 36020 strings out of 467871
- 721604 string characters out of 5428442
- 1338864 words of memory out of 5000000
- 64207 multiletter control sequences out of 15000+600000
+ 36272 strings out of 467871
+ 727127 string characters out of 5428442
+ 1482790 words of memory out of 5000000
+ 64440 multiletter control sequences out of 15000+600000
  660867 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,15n,120p,666b,1477s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,15n,120p,466b,1495s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/kerkis/Kerkis-Bold.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/kerkis/Kerkis-Italic.pfb><C:/Program Files/Mi
 KTeX/fonts/type1/public/kerkis/Kerkis.pfb>
-Output written on GammaRP1e.pdf (17 pages, 794936 bytes).
+Output written on GammaRP1e.pdf (21 pages, 883298 bytes).
 PDF statistics:
- 2373 PDF objects out of 2487 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 320 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2410 PDF objects out of 2487 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 336 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -12,9 +12,31 @@ The fundamental dice mechanic in \GammaRP{} is based on 12 sided dice. If you in
 
 Typically, the notation for a roll is written as \GRProlla{X}{Y}
 
-This means that you roll \textit{X} 12 sided dice. If you recieve a 12 on any dice, the roll is a success.
+\textit{X} is the number of dice you roll.
 
-\textit{Y} represents the \emph{advantage} you receive on the roll. Higher numbers mean the roll is successful even at lower thresholds. An advantage of 1 is the default when advantage is not specified. This means that the roll as normal is only successful on a 12. However an advantage of 2 means the roll is successful on any instance of a 12 or an 11 (there are two numbers now on which the roll is successful). In general an advantage of \textit{Y} means the top \textit{Y} numbers on the dice will count as a success. An advantage of 0 is the exception, which still is successful if any dice rolls a 12.
+\textit{Y} is the \emph{advantage} on the roll, which indicates how many sides of a dice count as a success.
+
+If any of the dice you roll pass the success threshold, then your roll is a success.
+
+This means that both larger \textit{X} and larger \textit{Y} indicate a higher probability of success.
+
+Higher \textit{Y} mean the roll is successful even at lower thresholds. An advantage of 1 is the default when advantage is not specified. This means that is only successful on a 12. However an advantage of 2 means the roll is successful on any instance of a 12 or an 11 (there are two numbers now on which the roll is successful).
+
+Let's look at a few example rolls.
+
+\GRPdicelist{1,12,3,12}
+
+\GRPdicelist[2]{4,5,12,7,8,9,10,11,3,1,12}
+
+\GRPdicelist[5]{4,5,12,7,8,9,10,11,3,1,12}
+
+\GRPdicelist[12]{4,5,12,7,8,9,10,11,3,1,12}
+
+\GRPdicelist[-3]{4,5,12,7,8,9,10,11,3,1,12}
+
+%% TODO figure here
+
+In general an advantage of \textit{Y} means the top \textit{Y} numbers on the dice will count as a success. An advantage of 0 is the exception, which still is successful if any dice rolls a 12.
 
 An advantage of 12 means that the roll automatically succeeds.
 
@@ -38,12 +60,12 @@ Then you pad the whole chapter with lorem ipsum text
 
 \begin{GRPwidefig}
 \includesvg[width=\textwidth]{Core Skill Map}
-\caption{This is a test of the GRPfigure environment}
+\caption{Test of the GRPfigure environment}
 \end{GRPwidefig}
 
 \begin{GRPwidefig}
 \includesvg[width=\textwidth]{Core Skill Map}
-\caption{This is another test of the GRPfigure environment}
+\caption{Another test of the GRPfigure environment}
 \end{GRPwidefig}
 
 \lipsum[2]
