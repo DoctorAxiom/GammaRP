@@ -1,4 +1,5 @@
 \usepackage{pgf}
+\usepackage{xstring}
 \usepackage{layout}
 \usepackage{fancyhdr}
 \usepackage{imakeidx}
@@ -9,7 +10,8 @@
 \usepackage{titlesec}
 \usepackage{afterpage}
 \usepackage{xfrac}
-\usepackage{xcolor,sectsty}
+\usepackage[table]{xcolor}
+\usepackage{sectsty}
 \usepackage{gensymb}
 \usepackage[most]{tcolorbox}
 
@@ -18,18 +20,20 @@
 
 \usepackage{tikz}
 \usepackage{multicol}
-\usepackage{wrapfig}
 \usepackage{caption}
+\usepackage{array}
 
 \usepackage[T1]{fontenc}
 \usepackage{kmath}
 \usepackage{kerkis}
 
+%%Always load hyperref last
 \usepackage{hyperref}
 
 \usetikzlibrary{shapes.geometric}
 \usetikzlibrary{decorations.pathmorphing}
 \usetikzlibrary{calc}
+\usetikzlibrary{tikzmark}
 
 \ExplSyntaxOn
 \cs_new:Npn \firstof #1
@@ -155,14 +159,14 @@
 	\foreach \angle in
 		{18, 90, 162, 234, 306}
 	{
-		\draw[line width=0.08\gammadodecsize] (\angle:0.43\gammadodecsize) -- (\angle:0.59\gammadodecsize);
+		\draw[line width=0.08\gammadodecsize] (\angle:0.43\gammadodecsize) -- (\angle:0.58\gammadodecsize);
 		\draw[line width=0.08\gammadodecsize] (\angle:0.42\gammadodecsize) -- (\inteval{\angle+72}:0.42\gammadodecsize);
 		\draw[line width=0.08\gammadodecsize] (\angle:0.6\gammadodecsize) -- (\inteval{\angle+36}:0.58\gammadodecsize);
 		\draw[line width=0.08\gammadodecsize] (\inteval{\angle+36}:0.58\gammadodecsize) -- (\inteval{\angle+72}:0.6\gammadodecsize);
 	}
 	\node[rectangle,inner sep=0pt,outer sep=0pt] at (0,0) {#2};
 \end{tikzpicture}}%
-{}}
+}
 
 %Dice commands
 \newcommand{\GRPitalNonInt}[1]{%
@@ -333,44 +337,61 @@ overlay middle and last={%
 },
 }
 
+% PICTURE AND FIGURE commands
+%
+%
 \makeatletter
 \newenvironment{GRPpseudofloat}[2]
 {%
 	\SetChapterTint{}%
-	\par\medskip\noindent\begin{tcolorbox}[%
-	halign=flush center,
-	leftrule=1.8mm,
-	rightrule=1.8mm,
-	toprule=0.5mm,
-	bottomrule=0.4mm,
-	enhanced jigsaw,
-	colback=\ChapterBackgroundTint!10!white,
-	opacityback=0.4,
-	colframe=\ChapterBackgroundTint!75!black,]%
+	\par\smallskip\noindent\begin{tcolorbox}[%
+		ignore nobreak,
+		halign=flush center,
+		leftrule=1.8mm,
+		rightrule=1.8mm,
+		toprule=0.5mm,
+		bottomrule=0.4mm,
+		enhanced jigsaw,
+		colback=\ChapterBackgroundTint!10!white,
+		opacityback=0.4,
+		colframe=\ChapterBackgroundTint!75!black,]%
 	\begin{minipage}{#2}%
 	\captionsetup{font={bf,singlespacing,color=\ChapterBackgroundTint!10!white}}%
 	\begingroup%
 	\let\oldcaption\caption%
 	\renewcommand{\caption}[2][]{%
 		\def\@captype{#1}%
-		\begin{tcolorbox}[ignore nobreak,colback=\ChapterBackgroundTint!75!black,colframe=\ChapterBackgroundTint!75!black,coltext=\ChapterBackgroundTint!10!white,size=title,show bounding box]%
+		\begin{tcolorbox}[colback=\ChapterBackgroundTint!75!black,colframe=\ChapterBackgroundTint!75!black,coltext=\ChapterBackgroundTint!10!white,size=title,leftright skip=-10pt,left=1pt,right=1pt]%
 		\caption@caption[##1]{##2}\vspace{-0.9\baselineskip}%
 		\end{tcolorbox}%
 		\addcontentsline{lo\firstof{#1}}{#1}{\protect\numberline{\thefigure} ##2}%
 	}%
 }
 {%
-	\vspace{-\baselineskip}%
 	\let\caption\oldcaption%
 	\endgroup%
 	\end{minipage}%
 	\end{tcolorbox}%
-	\par\medskip%
-	\enlargethispage{\baselineskip}%
+	\par%
 }
 \makeatother
 
+\newenvironment{GRPfig}
+{%
+	\begin{GRPpseudofloat}{figure}{\linewidth}%
+}%
+{%
+	\end{GRPpseudofloat}%
+}
 
+\newenvironment{GRPtable}
+{%
+	\begin{GRPpseudofloat}{table}{\linewidth}%
+	\rowcolors{2}{\ChapterBackgroundTint!20!white}{\ChapterBackgroundTint!10!white}
+}%
+{%
+	\end{GRPpseudofloat}%
+}
 
 \newenvironment{GRPfig-wide}
 {%
@@ -379,14 +400,83 @@ overlay middle and last={%
 {%
 	\end{GRPpseudofloat}%
 }
-\AddToHook{env/GRPfig-wide/after}{\begin{multicols}{2}}
-\AddToHook{env/GRPfig-wide/before}{\end{multicols}}
+\AddToHook{env/GRPfig-wide/after}{\nopagebreak\begin{multicols}{2}\nopagebreak}
+\AddToHook{env/GRPfig-wide/before}{\nopagebreak\end{multicols}\nopagebreak}
 
+\newenvironment{GRPtable-wide}
+{%
+	\begin{GRPpseudofloat}{table}{\textwidth}%
+}%
+{%
+	\end{GRPpseudofloat}%
+}
+\AddToHook{env/GRPtable-wide/after}{\nopagebreak\begin{multicols}{2}\nopagebreak}
+\AddToHook{env/GRPtable-wide/before}{\nopagebreak\end{multicols}\nopagebreak}
 
 \renewcommand{\thefigure}{\thesection-\alph{figure}}
+\renewcommand{\thetable}{\thesection-\alph{table}}
+\renewcommand{\arraystretch}{1.5}%this gives table rows 1.5 line spacing by default.
+	
+%%table format shortcuts
+\newcommand{\GRPtitlecellcolor}{\ChapterBackgroundTint!30!white}
+\newcommand{\GRPtitlecellformat}{\bfseries}
 
 
+%changes the next page background
+\newcommand{\GRPincludebgsvg}[1]{%
+	\AddToHookNext{shipout/background}{%
+	  \begin{tikzpicture}[remember picture,overlay]
+	  \node at (current page.center) {
+	    \includesvg[height=\pdfpageheight]{#1}
+	  };
+	  \end{tikzpicture}%
+	}
+}
 
+%Places a little illustration at the current paragraph
+\pgfkeys{%
+	/GRPpicoptions/.cd,
+	height/.initial={1cm},
+	side/.initial={},
+	shift/.initial={(0,0)},
+}
+
+\newcounter{GRPpicID}
+\setcounter{GRPpicID}{0}
+\newcommand{\GRPpicsmall}[2][]{%
+	\stepcounter{GRPpicID}%
+	\pgfkeys{/GRPpicoptions/.cd,#1}%
+	\edef\GRPpicmark{%
+		\noexpand\tikzmark{GRPpicmark\arabic{GRPpicID}}\ignorespaces}
+	\AddToHookNext{para/before}\expandafter{\GRPpicmark}%
+	\edef\GRPpichelper{%
+		\noexpand\begin{tikzpicture}[remember picture, overlay]
+			\noexpand\node[anchor=north east,shift={\pgfkeysvalueof{/GRPpicoptions/shift}}] at (pic cs:GRPpicmark\arabic{GRPpicID}){%
+				\noexpand\includesvg[height=\pgfkeysvalueof{/GRPpicoptions/height}]{#2}
+			};
+		\noexpand\end{tikzpicture}
+	}%
+	\AddToHookNext{shipout/background}\expandafter{\GRPpichelper}\ignorespaces
+}
+
+\newcounter{GRPbitecounter}
+\makeatletter
+\newcommand{\GRPbitepar}[2][l]{%
+	\setcounter{GRPbitecounter}{0}%
+	\foreach \bitelen in {#2} {\stepcounter{GRPbitecounter}}%
+	\stepcounter{GRPbitecounter}% after this GRPbitecounter will have one more than the amount of arguments in the list
+	\edef\bitehelper{\noexpand\parshape=\arabic{GRPbitecounter}\space}%
+	\foreach \bitelen in {#2,0pt}{% have to append a 0pt so that paragraph returns to normal shape when parshape is done
+		\edef\currbite{%
+			\bitelen\space\dimeval{\linewidth-(\bitelen)}\space}
+		\expandafter\g@addto@macro\expandafter\bitehelper\expandafter{\currbite}%
+		}%
+	\bitehelper\ignorespaces%
+}
+\makeatother
+
+
+%Formatting stuff
 \titleformat
 	{\chapter} % command
 	[block] % shape
@@ -419,8 +509,6 @@ overlay middle and last={%
 \fancyfoot[RO]{\thepage}
 
 \makeindex[intoc, title=Alphabetical Index, options= -s GRPindexstyle.ist]
-
-
 
 %FORMATTING HOOKS
 %These are simply made to change formatting a little bit

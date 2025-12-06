@@ -4,11 +4,12 @@
 
 The \index{Game Master}Game Master is responsible for constructing the world around the Players, and giving the players a setting to interact with. The \index{Player}Players are responsible for maintaining a Player Character-- a character who interacts with and influences the setting defined by the Game Master. 
 
-Since the game is collaborative in this way, it is more fun and fair if the Game Master does not know the outcome of all actions in the setting. In order to fairly decide events where the outcome is unsure-- \GammaRP{} uses the roll of a set of dice to decide whether a course of action is successful.
+Since the game is collaborative in this way, it is more fun and fair if the Game Master does not know the outcome of all actions in the setting. In order to fairly decide events where the outcome is unsure, \GammaRP{} uses the roll of a set of dice to decide whether a course of action is successful.
+
+\GRPbitepar{0mm,4mm,12mm,13mm,13mm,10mm}\GRPpicsmall[height=2cm,shift={(8mm,0)}]{art/twodice}
+The fundamental dice mechanic in \GammaRP{} is based on 12 sided dice, and frequently rolls several of them at a time. If you intend to play the game on a real physical tabletop (rather than one of the increasingly popular virtual ones), you may want to obtain a few dozen 12 sided dice.
 
 \section{The Fundamental Dice Mechanic}
-
-The fundamental dice mechanic in \GammaRP{} is based on 12 sided dice. If you intend to play the game on a real physical tabletop, you may want to obtain a few dozen 12 sided dice.
 
 Typically, the notation for a roll is written as \GRProlla{X}{Y}
 
@@ -24,21 +25,30 @@ Higher \textit{Y} mean the roll is successful even at lower thresholds. An advan
 
 Let's look at a few example rolls.
 
-\GRPdicelist{1,12,3,12}
-
-\GRPdicelist[-2]{4,12,11,12,8,3,12,1,12}
-
-\GRPdicelist[-5]{4,12,11,12,8,3,12,1,12}
-
-\GRPdicelist[-12]{4,12,11,12,8,3,12,1,12}
-
-\GRPdicelist[-3]{4,12,11,12,8,3,12,1,12}
-
-%% TODO figure here
+\begin{GRPtable}
+\caption{Advantage Examples}
+\begin{tabular}{c c c}
+	\rowcolor{\GRPtitlecellcolor}
+	{\GRPtitlecellformat Roll}&{\GRPtitlecellformat Dice}&{\GRPtitlecellformat Result} \\ [0.5ex]
+	\hline \hline 
+	\GRProll{5}{1} & \GRPdicelist{1,11,8,4,10} & Failure \\
+	\GRProll{5}{1} & \GRPdicelist{1,1,2,12,2} & Success \\ [0.5ex]
+	\hline
+	\GRProll{4}{1} & \GRPdicelist{1,11,8,10} & Failure \\
+	\GRProll{4}{2} & \GRPdicelist[2]{1,11,8,10} & Success \\
+	\GRProll{4}{3} & \GRPdicelist[3]{1,11,8,10} & Success \\ [0.5ex]
+	\hline
+	\GRProll{3}{3} & \GRPdicelist[3]{1,9,8} & Failure \\ 
+	\GRProll{3}{4} & \GRPdicelist[4]{1,9,8} & Success \\
+	\GRProll{3}{8} & \GRPdicelist[8]{2,4,3} & Failure \\ 
+	\GRProll{3}{9} & \GRPdicelist[9]{2,4,3} & Success \\
+\end{tabular}
+\end{GRPtable}
 
 In general an advantage of \textit{Y} means the top \textit{Y} numbers on the dice will count as a success. An advantage of 0 is the exception, which still is successful if any dice rolls a 12.
 
 An advantage of 12 means that the roll automatically succeeds.
+\medskip
 
 \emph{Advantage} can also be negative. For convenience this is written as \emph{disadvantage} which is the negative of the advantage. A roll of \GRProlla{X}{(-Z)} is written equivalently as \GRProlld{X}{Z}.
 
@@ -56,16 +66,18 @@ In general, when a character has more than 2 disadvantage on a roll they will no
 
 Then you pad the whole chapter with lorem ipsum text
 
-\lipsum[1]
+\lipsum[2]
 
 \begin{GRPfig-wide}
 \includesvg[width=\textwidth]{Core Skill Map}
 \caption{Test of the GRPfigure environment}
 \end{GRPfig-wide}
 
+\lipsum[3]
+
 \begin{GRPfig-wide}
 \includesvg[width=\textwidth]{Core Skill Map}
 \caption{Another test of the GRPfigure environment}
 \end{GRPfig-wide}
 
-\lipsum[2]
+\lipsum[4]

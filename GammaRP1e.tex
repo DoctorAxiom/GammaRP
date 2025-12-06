@@ -15,7 +15,7 @@ paperheight=24cm,
 \input{GRPfunctions}
 
 \title{%
-	\includesvg[width=3.0in]{GammaRPTitleLogo} \\
+	\includesvg[width=3.0in]{art/GammaRPTitleLogo} \\
 	\color{grptitle}\textbf{Gamma RP} \\
 	1st Edition \\
 	\large A simple roleplaying system meant to be dynamic and expansible}
@@ -24,13 +24,7 @@ paperheight=24cm,
 
 \begin{document}
 	\pagenumbering{gobble}
-	\AddToHookNext{shipout/background}{
-	  \begin{tikzpicture}[remember picture,overlay]
-	  \node at (current page.center) {
-	    \includesvg[height=\pdfpageheight]{TitleBG}
-	  };
-	  \end{tikzpicture}
-	}
+	\GRPincludebgsvg{art/TitleBG}
 	\color{grptitle}
 	\maketitle
 %
