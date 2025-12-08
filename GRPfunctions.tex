@@ -180,21 +180,21 @@
 \newcommand{\GRProll}[2]{\mbox{%
 	\if\IsInteger{#2}%
 		\ifnum#2<0%
-			D\GRPitalNonInt{#1}{\color{grpneg}\underline{d}\inteval{-1*(#2)}}
+			R\GRPitalNonInt{#1}{\color{grpneg}\underline{d}\inteval{-1*(#2)}}
 		\else%
-			D\GRPitalNonInt{#1}a#2
+			R\GRPitalNonInt{#1}a#2
 		\fi%
 	\else%
-		D\textit{#1}a\textit{#2}
+		R\textit{#1}a\textit{#2}
 	\fi%
 }}
 
 \newcommand{\GRProlla}[2]{\mbox{%
-	D\GRPitalNonInt{#1}a\GRPitalNonInt{#2}
+	R\GRPitalNonInt{#1}a\GRPitalNonInt{#2}
 }}
 
 \newcommand{\GRProlld}[2]{\mbox{%
-	D\GRPitalNonInt{#1}{\color{grpneg}\underline{d}\GRPitalNonInt{#2}}
+	R\GRPitalNonInt{#1}{\color{grpneg}\underline{d}\GRPitalNonInt{#2}}
 }}
 
 \newcommand{\GRPdie}[2][0]{%
@@ -423,58 +423,111 @@ overlay middle and last={%
 
 
 %changes the next page background
-\newcommand{\GRPincludebgsvg}[1]{%
+\newcommand{\GRPfullpagebgsvg}[1]{%
 	\AddToHookNext{shipout/background}{%
 	  \begin{tikzpicture}[remember picture,overlay]
-	  \node at (current page.center) {
-	    \includesvg[height=\pdfpageheight]{#1}
+	  \node at (current page.center) {%
+	    \centering\includesvg[height=\pdfpageheight]{#1}%
 	  };
 	  \end{tikzpicture}%
 	}
 }
 
+%Adds an svg to the background.
+%honestly just works like fullpagebgsvg, except lets you set a height and shift it from the center.
+\pgfkeys{%
+	/GRPpicoptions/.cd,
+	height/.initial={1cm},
+	shift/.initial={(0,0)},
+}
+\newcommand{\GRPpagebgsvg}[2][]{%
+	\pgfkeys{/GRPpicoptions/.cd,#1}%
+	\AddToHookNext{shipout/background}{%
+	  \begin{tikzpicture}[remember picture,overlay]
+	  \node[shape=rectangle,anchor=center,shift={\pgfkeysvalueof{/GRPpicoptions/shift}}] at (current page.center) {%
+	    \centering\includesvg[height=\pgfkeysvalueof{/GRPpicoptions/height}]{#2}%
+	  };
+	  \end{tikzpicture}%
+	}
+}
+
+
 %Places a little illustration at the current paragraph
 \pgfkeys{%
 	/GRPpicoptions/.cd,
 	height/.initial={1cm},
-	side/.initial={},
+	side/.initial={left}, %Can be right, left, center, defaults to left
 	shift/.initial={(0,0)},
 }
-
-\newcounter{GRPpicID}
-\setcounter{GRPpicID}{0}
-\newcommand{\GRPpicsmall}[2][]{%
-	\stepcounter{GRPpicID}%
+\newcounter{GRPbgsvgID}
+\setcounter{GRPbgsvgID}{0}
+\newcommand{\GRPparabgsvg}[2][]{%
+	\stepcounter{GRPbgsvgID}%
 	\pgfkeys{/GRPpicoptions/.cd,#1}%
 	\edef\GRPpicmark{%
-		\noexpand\tikzmark{GRPpicmark\arabic{GRPpicID}}\ignorespaces}
+		\noexpand\tikzmark{GRPpicmark\arabic{GRPbgsvgID}}\ignorespaces}
 	\AddToHookNext{para/before}\expandafter{\GRPpicmark}%
-	\edef\GRPpichelper{%
-		\noexpand\begin{tikzpicture}[remember picture, overlay]
-			\noexpand\node[anchor=north east,shift={\pgfkeysvalueof{/GRPpicoptions/shift}}] at (pic cs:GRPpicmark\arabic{GRPpicID}){%
-				\noexpand\includesvg[height=\pgfkeysvalueof{/GRPpicoptions/height}]{#2}
-			};
-		\noexpand\end{tikzpicture}
-	}%
+	\IfStrEqCase{\pgfkeysvalueof{/GRPpicoptions/side}}{%
+		{right}{%
+			\edef\GRPpichelper{%
+			\noexpand\begin{tikzpicture}[remember picture, overlay]
+				\noexpand\node[shape=rectangle,anchor=north west,shift={($\pgfkeysvalueof{/GRPpicoptions/shift}+(\linewidth,0)$)}] at (pic cs:GRPpicmark\arabic{GRPbgsvgID}){%
+					\noexpand\includesvg[height=\pgfkeysvalueof{/GRPpicoptions/height}]{#2}
+				};
+			\noexpand\end{tikzpicture}
+			}}%
+		{center}{%
+			\edef\GRPpichelper{%
+			\noexpand\begin{tikzpicture}[remember picture, overlay]
+				\noexpand\node[shape=rectangle,anchor=north,shift={($\pgfkeysvalueof{/GRPpicoptions/shift}+(0.5\linewidth,0)$)}] at (pic cs:GRPpicmark\arabic{GRPbgsvgID}){%
+					\noexpand\includesvg[height=\pgfkeysvalueof{/GRPpicoptions/height}]{#2}%
+				};
+			\noexpand\end{tikzpicture}
+			}}%
+		}[{%
+			\edef\GRPpichelper{% default case is left
+			\noexpand\begin{tikzpicture}[remember picture, overlay]
+				\noexpand\node[shape=rectangle,anchor=north east,shift={\pgfkeysvalueof{/GRPpicoptions/shift}}] at (pic cs:GRPpicmark\arabic{GRPbgsvgID}){%
+					\noexpand\includesvg[height=\pgfkeysvalueof{/GRPpicoptions/height}]{#2}
+				};
+			\noexpand\end{tikzpicture}
+			}}]%
 	\AddToHookNext{shipout/background}\expandafter{\GRPpichelper}\ignorespaces
 }
 
 \newcounter{GRPbitecounter}
 \makeatletter
-\newcommand{\GRPbitepar}[2][l]{%
+\newcommand{\GRPbitepar}[2][left]{%
 	\setcounter{GRPbitecounter}{0}%
 	\foreach \bitelen in {#2} {\stepcounter{GRPbitecounter}}%
 	\stepcounter{GRPbitecounter}% after this GRPbitecounter will have one more than the amount of arguments in the list
 	\edef\bitehelper{\noexpand\parshape=\arabic{GRPbitecounter}\space}%
-	\foreach \bitelen in {#2,0pt}{% have to append a 0pt so that paragraph returns to normal shape when parshape is done
-		\edef\currbite{%
-			\bitelen\space\dimeval{\linewidth-(\bitelen)}\space}
-		\expandafter\g@addto@macro\expandafter\bitehelper\expandafter{\currbite}%
+	\IfStrEqCase{#1}{%
+		{right}{%
+			\foreach \bitelen in {#2,0pt}{% have to append a 0pt so that paragraph returns to normal shape when parshape is done
+				\edef\currbite{%
+					0pt\space\dimeval{\linewidth-(\bitelen)}\space}
+				\expandafter\g@addto@macro\expandafter\bitehelper\expandafter{\currbite}%
+				}%
 		}%
+		{both}{% both bite actually needs to take left/right as two arguments
+			\foreach \biteleft/\biteright in {#2,0pt/0pt}{% have to append a 0pt/0pt so that paragraph returns to normal shape when parshape is done
+				\edef\currbite{%
+					\biteleft\space\dimeval{\linewidth-(\biteleft)-(\biteright)}\space}
+				\expandafter\g@addto@macro\expandafter\bitehelper\expandafter{\currbite}%
+				}%
+		}%
+		}[{% default case is left bite
+			\foreach \bitelen in {#2,0pt}{% have to append a 0pt so that paragraph returns to normal shape when parshape is done
+				\edef\currbite{%
+					\bitelen\space\dimeval{\linewidth-(\bitelen)}\space}
+				\expandafter\g@addto@macro\expandafter\bitehelper\expandafter{\currbite}%
+				}%
+		}]
+
 	\bitehelper\ignorespaces%
 }
 \makeatother
-
 
 %Formatting stuff
 \titleformat

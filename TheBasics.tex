@@ -6,12 +6,12 @@ The \index{Game Master}Game Master is responsible for constructing the world aro
 
 Since the game is collaborative in this way, it is more fun and fair if the Game Master does not know the outcome of all actions in the setting. In order to fairly decide events where the outcome is unsure, \GammaRP{} uses the roll of a set of dice to decide whether a course of action is successful.
 
-\GRPbitepar{0mm,4mm,12mm,13mm,13mm,10mm}\GRPpicsmall[height=2cm,shift={(8mm,0)}]{art/twodice}
+\GRPbitepar{0mm,1mm,12mm,13mm,13mm,10mm}\GRPparabgsvg[height=2cm,shift={(8mm,0)},side=left]{art/twodice}
 The fundamental dice mechanic in \GammaRP{} is based on 12 sided dice, and frequently rolls several of them at a time. If you intend to play the game on a real physical tabletop (rather than one of the increasingly popular virtual ones), you may want to obtain a few dozen 12 sided dice.
 
 \section{The Fundamental Dice Mechanic}
 
-Typically, the notation for a roll is written as \GRProlla{X}{Y}
+The notation for a roll in \GammaRP{} is written as \GRProlla{X}{Y}, which verbally is pronounced as ``Roll \textit{X} a \textit{Y}''
 
 \textit{X} is the number of dice you roll.
 
@@ -47,18 +47,17 @@ Let's look at a few example rolls.
 
 In general an advantage of \textit{Y} means the top \textit{Y} numbers on the dice will count as a success. An advantage of 0 is the exception, which still is successful if any dice rolls a 12.
 
-An advantage of 12 means that the roll automatically succeeds.
-\medskip
+An advantage of 12 means that any roll with at least 1 die automatically succeeds, as the threshold for success is 1. You can simply declare a success if you are asked to make a roll with an advantage of 12, but you may still make the roll if you have any abilities that benefit from actually rolling the dice.
+
+\begin{GRPquicknote}
+Note that the rolls \GRProll{X}{1} and \GRProll{X}{0} are actually identical, with both requiring a single dice of the set to result 12 in order to result a success.
+\end{GRPquicknote}
 
 \emph{Advantage} can also be negative. For convenience this is written as \emph{disadvantage} which is the negative of the advantage. A roll of \GRProlla{X}{(-Z)} is written equivalently as \GRProlld{X}{Z}.
 
-A roll with at \emph{disadvantage} of \textit{Z} means that \textit{Z} dice within the roll need to land on 12 for the roll to be successful. For example, with a roll of \GRProll{4}{-2}, 2 of the 4 dice need to land on 12 in order for the roll to be successful.
+A roll with at \emph{disadvantage} of \textit{Z} means that in addition to having at least one die in the roll land on 12, There must be at least \textit{Z} other dice within the roll displaying a number above 1. For example, with a roll of \GRProll{4}{-2}, 1 die must land on 12, and at least 2 of the other dice must show values above 1, meaning that at most 1 of the 4 dice can display a value of 1.
 
-\begin{GRPquicknote}
-Note that the rolls \GRProll{X}{1}, \GRProll{X}{0}, \GRProll{X}{-1} are all identical, requiring a single dice of the set to result 12 in order to result a success.
-\end{GRPquicknote}
-
-When the disadvantage is greater than the number of dice being rolled, the roll is an automatic failure, since there is no way to obtain a number of successful rolls higher than the number of dice being rolled.
+When the disadvantage is greater than or equal to the number of dice being rolled, the roll is an automatic failure even if you have at least one dice showing a 12. This is because you cannot obtain a sufficient number of dice showing values above 1. If you are asked to make a roll with a disadvantage equal to or greater than the number of dice,
 
 With more than 2 disadvantage on any roll, the probability of a successful roll rapidly diminishes. A disadvantage of 12 or greater is considered an automatic failure for the roll (even though there is theoretically a chance of 12 twelve-sided dice all rolling 12). This is meant to simply be symmetric with the advantage mechanic where an advantage of 12 guarantees success. 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.12)  6 DEC 2025 13:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.12)  7 DEC 2025 22:02
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1729,7 +1729,7 @@ LaTeX Font Info:    Font shape `T1/mak/m/n' will be
 \currenthbase=\skip83
 \extragradlength=\skip84
 \currentengr=\skip85
-\c@GRPpicID=\count406
+\c@GRPbgsvgID=\count406
 \c@GRPbitecounter=\count407
 \GammaRP1e@idxfile=\write4
 \openout4 = `GammaRP1e.idx'.
@@ -2039,7 +2039,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (3.07687pt too wide) in paragraph at lines 30--46
+Overfull \hbox (2.35687pt too wide) in paragraph at lines 30--46
 [][] 
  []
 
@@ -2047,7 +2047,7 @@ Overfull \hbox (3.07687pt too wide) in paragraph at lines 30--46
 
  <./svg-inkscape/twodice_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/Core Skill Map_svg-tex.pdf' is 1
- on input line 72.
+ on input line 71.
 
 (svg-inkscape/Core Skill Map_svg-tex.pdf_tex
 <./svg-inkscape/Core Skill Map_svg-tex.pdf, id=2320, page=1, 639.89063pt x 639.
@@ -2060,7 +2060,7 @@ Package pdftex.def Info: ./svg-inkscape/Core Skill Map_svg-tex.pdf , page1 used
 )
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 73.
+(caption)                particular \caption on input line 72.
 See the caption package documentation for explanation.
 
 
@@ -2068,7 +2068,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
 Package svg Info: Last page of `./svg-inkscape/Core Skill Map_svg-tex.pdf' is 1
- on input line 79.
+ on input line 78.
 
 (svg-inkscape/Core Skill Map_svg-tex.pdf_tex
 File: ./svg-inkscape/Core Skill Map_svg-tex.pdf Graphic file (type pdf)
@@ -2079,7 +2079,7 @@ Package pdftex.def Info: ./svg-inkscape/Core Skill Map_svg-tex.pdf , page1 used
 )
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 80.
+(caption)                particular \caption on input line 79.
 See the caption package documentation for explanation.
 
 
@@ -2134,17 +2134,17 @@ Package rerunfilecheck Info: File `GammaRP1e.out' has not changed.
 (rerunfilecheck)             Checksum: F8C2C1E6CBD1473C9F75EF0DD1B09FD7;1151.
  ) 
 Here is how much of TeX's memory you used:
- 36994 strings out of 467871
- 740820 string characters out of 5428442
- 1471509 words of memory out of 5000000
- 65141 multiletter control sequences out of 15000+600000
+ 36999 strings out of 467871
+ 740894 string characters out of 5428442
+ 1475237 words of memory out of 5000000
+ 65146 multiletter control sequences out of 15000+600000
  660867 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,20n,120p,466b,1536s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,20n,120p,466b,1560s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/kerkis/Kerkis-Bold.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/kerkis/Kerkis-Italic.pfb><C:/Program Files/Mi
 KTeX/fonts/type1/public/kerkis/Kerkis.pfb>
-Output written on GammaRP1e.pdf (21 pages, 985627 bytes).
+Output written on GammaRP1e.pdf (21 pages, 986907 bytes).
 PDF statistics:
  2416 PDF objects out of 2487 (max. 8388607)
  38 named destinations out of 1000 (max. 500000)
