@@ -1,5 +1,6 @@
 \usepackage{pgf}
 \usepackage{xstring}
+\usepackage{environ}
 \usepackage{layout}
 \usepackage{fancyhdr}
 \usepackage{imakeidx}
@@ -22,6 +23,7 @@
 \usepackage{multicol}
 \usepackage{caption}
 \usepackage{array}
+\usepackage{makecell}
 
 \usepackage[T1]{fontenc}
 \usepackage{kmath}
@@ -48,11 +50,7 @@
  {
   \tl_range:nnn { #1 } { 3 } { -1 } % tokens from 3 to the end
  }
-\NewDocumentCommand{\purgespaces}{m}{
-    \tl_set:Nn \l_tmpa_tl {#1}
-    \tl_replace_all:Nnn \l_tmpa_tl { ~ } { }
-    \backend{\tl_use:N\l_tmpa_tl}
-}
+
 \ExplSyntaxOff
 
 \def\IsInteger#1{%
@@ -67,11 +65,11 @@
 }
 
 \makeatletter
-\def\closeopenmulticols{%
+\def\closeopenenv#1{%
 % test if current env is "multicols" if so close it
-   \def\@tempa{multicols}%
+   \def\@tempa{#1}%
    \ifx\@tempa\@currenvir
-      \end{multicols}%
+      \end{#1}%
   \fi 
 }
 \makeatother
@@ -109,6 +107,7 @@
 \definecolor{grpneg}{RGB}{150,20,20}
 \definecolor{grppos}{RGB}{15,145,20}
 \definecolor{grpmid}{RGB}{145,135,8}
+\definecolor{grpalt}{RGB}{15,20,180}
 
 \definecolor{chapterbgcolor1}{HTML}{C1FF85}
 \definecolor{chapterbgcolor2}{HTML}{85FFFF}
@@ -180,70 +179,106 @@
 \newcommand{\GRProll}[2]{\mbox{%
 	\if\IsInteger{#2}%
 		\ifnum#2<0%
-			R\GRPitalNonInt{#1}{\color{grpneg}\underline{d}\inteval{-1*(#2)}}
+			R\GRPitalNonInt{#1}{\color{grpneg}\underline{d}\inteval{-1*(#2)}}%
 		\else%
-			R\GRPitalNonInt{#1}a#2
+			R\GRPitalNonInt{#1}a#2%
 		\fi%
 	\else%
-		R\textit{#1}a\textit{#2}
+		R\textit{#1}a\textit{#2}%
 	\fi%
 }}
 
 \newcommand{\GRProlla}[2]{\mbox{%
-	R\GRPitalNonInt{#1}a\GRPitalNonInt{#2}
+	R\GRPitalNonInt{#1}a\GRPitalNonInt{#2}%
 }}
 
 \newcommand{\GRProlld}[2]{\mbox{%
-	R\GRPitalNonInt{#1}{\color{grpneg}\underline{d}\GRPitalNonInt{#2}}
+	R\GRPitalNonInt{#1}{\color{grpneg}\underline{d}\GRPitalNonInt{#2}}%
 }}
 
 \newcommand{\GRPdie}[2][0]{%
-	\ifnum #1=0%0 case
- 		\ifnum#2=12%
-			\GammaDodec[color=grppos!30!white]{\textbf{\color{grppos}#2}}%
-		\else%
-			\GammaDodec{#2}%
+	\IfStrEq{#1}{alt}{%
+		\GammaDodec[color=grpalt!30!white]{\color{grpalt}#2}%
+	}{%
+		\ifnum #1=0%0 case
+	 		\ifnum#2=12%
+				\GammaDodec[color=grppos!30!white]{\textbf{\color{grppos}#2}}%
+			\else%
+				\GammaDodec{#2}%
+			\fi%
 		\fi%
-	\fi%
- 	\ifnum#1>0% advantage case
- 		\ifnum#2>\inteval{12-#1}%
-			\GammaDodec[color=grppos!30!white]{\textbf{\color{grppos}#2}}%
-		\else%
-			\GammaDodec{#2}%
+	 	\ifnum#1>0% advantage case
+	 		\ifnum#2>\inteval{12-#1}%
+				\GammaDodec[color=grppos!30!white]{\textbf{\color{grppos}#2}}%
+			\else%
+				\GammaDodec{#2}%
+			\fi%
 		\fi%
-	\fi
-	\ifnum#1<0% disadvantage case (when just the 12s should be hilighted)
-		\ifnum#2=12%
-			\GammaDodec[color=grpmid!30!white]{\color{grpmid}#2}%
-		\else%
-			\GammaDodec{#2}%
-		\fi
- 	\fi%
+		\ifnum#1<0% disadvantage case (when just the 12s should be hilighted yellow)
+			\ifnum#2=12%
+				\GammaDodec[color=grpmid!30!white]{\color{grpmid}#2}%
+			\else%
+				\ifnum#2=1%
+					\GammaDodec[color=grpneg!30!white]{\color{grpneg}#2}%
+				\else%
+					\GammaDodec{#2}%
+				\fi%
+			\fi%
+		\fi%
+	}%
 }
 
 \newcounter{GRPdisadvdummy}
+\newcounter{GRPdisadvsuccdum}
+\newcounter{GRPtwelves}
 \newcommand{\GRPdicelist}[2][0]{
-	\ifnum #1<0%disadv case
-		\setcounter{GRPdisadvdummy}{0}
+	\setcounter{GRPdisadvdummy}{0}%
+	\setcounter{GRPdisadvsuccdum}{0}%
+	\setcounter{GRPtwelves}{0}%
+	\ifnum#1<0%disadv case
 		\foreach \dieval in {#2}{%
-			\ifnum \dieval=12%
-				\ifnum #1>-12% this ensures that if disadv is >=12 then there are no fully green dice (guarranteed fail)
-			  	\stepcounter{GRPdisadvdummy}%
-			  \fi%
-				\ifnum \value{GRPdisadvdummy}>\inteval{-1-(#1)}%
+			\ifnum\dieval>1%
+				\stepcounter{GRPdisadvsuccdum}%
+				\ifnum\dieval=12%
+					\stepcounter{GRPtwelves}%
+				\fi%
+			\fi%
+		}% at this point GRPdisadvsuccdum holds the number of dice>1
+		\foreach \dieval in {#2}{%
+			\ifnum\dieval=12%
+				\stepcounter{GRPdisadvdummy}%
+				\ifnum\inteval{#1+\arabic{GRPdisadvsuccdum}+1}>0%
+					\GRPdie{12}%
+				\else%
+					\GRPdie[#1]{12}%
+				\fi%
+			\else%
+				\ifnum\dieval>1%
+					\stepcounter{GRPdisadvdummy}%
 					\GRPdie{\dieval}%
 				\else%
 					\GRPdie[#1]{\dieval}%
 				\fi%
-			\else%
-				\GRPdie[#1]{\dieval}%
 			\fi%
-		}%
-	\else
+			\ifnum\arabic{GRPtwelves}>0%
+			\ifnum\dieval>1%
+				\ifnum\inteval{#1+\arabic{GRPdisadvdummy}+1}>0%
+					\nolinebreak\hspace{-1.4pt}\textsubscript{\raisebox{-1.4pt}{\textbf{\color{grppos}\arabic{GRPdisadvdummy}}}}\hspace{-0.8pt}%
+				\else%
+					\ifnum\arabic{GRPdisadvdummy}>\inteval{\arabic{GRPdisadvsuccdum}-1}%
+						\nolinebreak\hspace{-1.4pt}\textsubscript{\raisebox{-1.4pt}{\textbf{\textit{\color{grpneg}\arabic{GRPdisadvdummy}}}}}\hspace{-0.8pt}%
+					\else%
+						\nolinebreak\hspace{-1.4pt}\textsubscript{\raisebox{-1.4pt}{\color{grpalt}\arabic{GRPdisadvdummy}}}\hspace{-0.8pt}%
+					\fi%
+				\fi%
+			\fi%
+			\fi%
+		\allowbreak}%
+	\else%advantage case which is way easier to format
 		\foreach \dieval in {#2}{%
 			\GRPdie[#1]{\dieval}%
-		}%
-	\fi
+		\allowbreak}%
+	\fi%
 }
 
 
@@ -309,59 +344,65 @@
 %New chapter command for book chapters
 \newcommand{\GRPchapter}[1]{%
 
-	\closeopenmulticols
+	\closeopenenv{multicols}
 	\begin{multicols}{2}[\chapter{#1}]\SetChapterTint}
 
 %quick note formatting
-\newenvironment{GRPquicknote}{}{}
+\newlength{\localnotewidth}
+\newenvironment{GRPquicknote}{%
+\setlength{\localnotewidth}{\dimeval{0.945\linewidth-1.8mm-1.8mm-3mm-3mm}}
+}{}
 
-\tcolorboxenvironment{GRPquicknote}{breakable,
-halign=flush center,
-leftrule=1.8mm,
-rightrule=1.8mm,
-toprule=0.5mm,
-bottomrule=0.4mm,
-enhanced jigsaw,
-colback=\ChapterBackgroundTint!10!white,
-opacityback=0.4,
-colframe=\ChapterBackgroundTint!75!black,
-overlay first and middle={%
-\draw[draw=\ChapterBackgroundTint!75!black,line width=0.5mm,line cap=round,decorate,decoration={zigzag,segment length=2mm,amplitude=0.5mm}] ($(frame.south west)+(0.25mm,0)$) -- ($(frame.south east)-(0.25mm,0)$);
-\fill[\ChapterBackgroundTint!75!black] (frame.south west) -- ($(frame.south west)+(0.9mm,-0.9mm)$) -- ($(frame.south west)+(1.8mm,0)$) -- cycle;
-\fill[\ChapterBackgroundTint!75!black] (frame.south east) -- ($(frame.south east)+(-0.9mm,-0.9mm)$) -- ($(frame.south east)+(-1.8mm,0)$) -- cycle;
-},
-overlay middle and last={%
-\draw[draw=\ChapterBackgroundTint!75!black,line width=0.5mm,line cap=round,decorate,decoration={zigzag,segment length=2mm,amplitude=0.5mm}] ($(frame.north west)+(1.55mm,0)$) -- ($(frame.north east)-(1.55mm,0)$);
-\fill[\ChapterBackgroundTint!75!black] (frame.north west) -- ($(frame.north west)+(0.9mm,0.9mm)$) -- ($(frame.north west)+(1.8mm,0)$) -- cycle;
-\fill[\ChapterBackgroundTint!75!black] (frame.north east) -- ($(frame.north east)+(-0.9mm,0.9mm)$) -- ($(frame.north east)+(-1.8mm,0)$) -- cycle;
-},
-}
+\tcolorboxenvironment{GRPquicknote}{%
+	breakable,
+	halign=flush center,
+	leftrule=1.8mm,
+	rightrule=1.8mm,
+	left=3mm,
+	right=3mm,
+	top=2mm,
+	bottom=2mm,
+	toprule=0.5mm,
+	bottomrule=0.4mm,
+	enhanced jigsaw,
+	colback=\ChapterBackgroundTint!10!white,
+	opacityback=0.4,
+	colframe=\ChapterBackgroundTint!75!black,
+	overlay first={%
+	\draw[draw=\ChapterBackgroundTint!75!black,line width=0.5mm,line cap=round,decorate,decoration={zigzag,segment length=2mm,amplitude=0.5mm}] ($(frame.south west)+(0.25mm,0)$) -- ($(frame.south east)-(0.25mm,0)$);
+	\fill[\ChapterBackgroundTint!75!black] (frame.south west) -- ($(frame.south west)+(0.9mm,-0.9mm)$) -- ($(frame.south west)+(1.8mm,0)$) -- cycle;
+	\fill[\ChapterBackgroundTint!75!black] (frame.south east) -- ($(frame.south east)+(-0.9mm,-0.9mm)$) -- ($(frame.south east)+(-1.8mm,0)$) -- cycle;
+	},
+	overlay middle={%
+	\draw[draw=\ChapterBackgroundTint!75!black,line width=0.5mm,line cap=round,decorate,decoration={zigzag,segment length=2mm,amplitude=0.5mm}] ($(frame.south west)+(0.25mm,0)$) -- ($(frame.south east)-(0.25mm,0)$);%lowerzigzag
+	\fill[\ChapterBackgroundTint!75!black] (frame.south west) -- ($(frame.south west)+(0.9mm,-0.9mm)$) -- ($(frame.south west)+(1.8mm,0)$) -- cycle;
+	\fill[\ChapterBackgroundTint!75!black] (frame.south east) -- ($(frame.south east)+(-0.9mm,-0.9mm)$) -- ($(frame.south east)+(-1.8mm,0)$) -- cycle;
+	\draw[draw=\ChapterBackgroundTint!75!black,line width=0.5mm,line cap=round,decorate,decoration={zigzag,segment length=2mm,amplitude=0.5mm}] ($(frame.north west)+(1.55mm,0)$) -- ($(frame.north east)-(1.55mm,0)$);%%upperzigzag
+	\fill[\ChapterBackgroundTint!75!black] (frame.north west) -- ($(frame.north west)+(0.9mm,0.9mm)$) -- ($(frame.north west)+(1.8mm,0)$) -- cycle;
+	\fill[\ChapterBackgroundTint!75!black] (frame.north east) -- ($(frame.north east)+(-0.9mm,0.9mm)$) -- ($(frame.north east)+(-1.8mm,0)$) -- cycle;
+	},
+	overlay last={%
+	\draw[draw=\ChapterBackgroundTint!75!black,line width=0.5mm,line cap=round,decorate,decoration={zigzag,segment length=2mm,amplitude=0.5mm}] ($(frame.north west)+(1.55mm,0)$) -- ($(frame.north east)-(1.55mm,0)$);
+	\fill[\ChapterBackgroundTint!75!black] (frame.north west) -- ($(frame.north west)+(0.9mm,0.9mm)$) -- ($(frame.north west)+(1.8mm,0)$) -- cycle;
+	\fill[\ChapterBackgroundTint!75!black] (frame.north east) -- ($(frame.north east)+(-0.9mm,0.9mm)$) -- ($(frame.north east)+(-1.8mm,0)$) -- cycle;
+	},
+	}
 
 % PICTURE AND FIGURE commands
 %
 %
 \makeatletter
-\newenvironment{GRPpseudofloat}[2]
+\newenvironment{GRPpseudofloat}[3]
 {%
 	\SetChapterTint{}%
-	\par\smallskip\noindent\begin{tcolorbox}[%
-		ignore nobreak,
-		halign=flush center,
-		leftrule=1.8mm,
-		rightrule=1.8mm,
-		toprule=0.5mm,
-		bottomrule=0.4mm,
-		enhanced jigsaw,
-		colback=\ChapterBackgroundTint!10!white,
-		opacityback=0.4,
-		colframe=\ChapterBackgroundTint!75!black,]%
-	\begin{minipage}{#2}%
+	\par\smallskip\noindent\begin{GRPquicknote}%
+	\IfStrEq{#3}{minipage}{\begin{minipage}{#2}}{}%
 	\captionsetup{font={bf,singlespacing,color=\ChapterBackgroundTint!10!white}}%
 	\begingroup%
 	\let\oldcaption\caption%
 	\renewcommand{\caption}[2][]{%
 		\def\@captype{#1}%
-		\begin{tcolorbox}[colback=\ChapterBackgroundTint!75!black,colframe=\ChapterBackgroundTint!75!black,coltext=\ChapterBackgroundTint!10!white,size=title,leftright skip=-10pt,left=1pt,right=1pt]%
+		\begin{tcolorbox}[colback=\ChapterBackgroundTint!75!black,colframe=\ChapterBackgroundTint!75!black,coltext=\ChapterBackgroundTint!10!white,size=title,leftright skip=-6pt,left=1pt,right=1pt]%
 		\caption@caption[##1]{##2}\vspace{-0.9\baselineskip}%
 		\end{tcolorbox}%
 		\addcontentsline{lo\firstof{#1}}{#1}{\protect\numberline{\thefigure} ##2}%
@@ -370,15 +411,15 @@ overlay middle and last={%
 {%
 	\let\caption\oldcaption%
 	\endgroup%
-	\end{minipage}%
-	\end{tcolorbox}%
+	\closeopenenv{minipage}%
+	\end{GRPquicknote}%
 	\par%
 }
 \makeatother
 
 \newenvironment{GRPfig}
 {%
-	\begin{GRPpseudofloat}{figure}{\linewidth}%
+	\begin{GRPpseudofloat}{figure}{\linewidth}{minipage}%
 }%
 {%
 	\end{GRPpseudofloat}%
@@ -386,7 +427,7 @@ overlay middle and last={%
 
 \newenvironment{GRPtable}
 {%
-	\begin{GRPpseudofloat}{table}{\linewidth}%
+	\begin{GRPpseudofloat}{table}{\linewidth}{minipage}%
 	\rowcolors{2}{\ChapterBackgroundTint!20!white}{\ChapterBackgroundTint!10!white}
 }%
 {%
@@ -395,7 +436,7 @@ overlay middle and last={%
 
 \newenvironment{GRPfig-wide}
 {%
-	\begin{GRPpseudofloat}{figure}{\textwidth}%
+	\begin{GRPpseudofloat}{figure}{\textwidth}{minipage}%
 }%
 {%
 	\end{GRPpseudofloat}%
@@ -405,7 +446,7 @@ overlay middle and last={%
 
 \newenvironment{GRPtable-wide}
 {%
-	\begin{GRPpseudofloat}{table}{\textwidth}%
+	\begin{GRPpseudofloat}{table}{\textwidth}{minipage}%
 }%
 {%
 	\end{GRPpseudofloat}%
@@ -422,11 +463,32 @@ overlay middle and last={%
 \newcommand{\GRPtitlecellformat}{\bfseries}
 
 
+%Custom table environment
+\newcounter{grprow}
+
+\NewEnviron{GRPtabular}[1]{% #1 = column spec
+  \setcounter{grprow}{0}
+  \newcommand{\>}[1][0pt]{%
+    \ifnum\value{grprow}>0
+      \end{tabular}\par\vspace{##1}%
+    \fi
+    \stepcounter{grprow}%
+    \begin{tabular}{#1}%
+  }%
+  % Initialize: no previous tabular yet
+  \>
+  % Process the body
+  \BODY
+  % End last tabular safely
+  \end{tabular}%
+}
+
+
 %changes the next page background
 \newcommand{\GRPfullpagebgsvg}[1]{%
 	\AddToHookNext{shipout/background}{%
 	  \begin{tikzpicture}[remember picture,overlay]
-	  \node at (current page.center) {%
+	  \node[shape=rectangle,anchor=center] at (current page.center) {%
 	    \centering\includesvg[height=\pdfpageheight]{#1}%
 	  };
 	  \end{tikzpicture}%
@@ -548,7 +610,7 @@ overlay middle and last={%
 	] % after-code
 \titlespacing{\chapter}{0pt}{1ex}{1ex}
 
-\AtEndDocument{\closeopenmulticols}
+\AtEndDocument{\closeopenenv{multicols}}
 
 \pagestyle{fancy}
 

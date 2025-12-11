@@ -21,8 +21,10 @@ If any of the dice you roll pass the success threshold, then your roll is a succ
 
 This means that both larger \textit{X} and larger \textit{Y} indicate a higher probability of success.
 
+\GRPbitepar[right]{0pt,0pt,0pt,0pt,8.9mm,10.5mm,9.5mm}\GRPparabgsvg[height=1.4cm,side=right,shift={(-1.6cm,-1.2cm)}]{art/onedice}
 Higher \textit{Y} mean the roll is successful even at lower thresholds. An advantage of 1 is the default when advantage is not specified. This means that is only successful on a 12. However an advantage of 2 means the roll is successful on any instance of a 12 or an 11 (there are two numbers now on which the roll is successful).
 
+\GRPparabgsvg[height=1.6cm,side=right,shift={(-1cm,-4mm)}]{art/onedice_b}
 Let's look at a few example rolls.
 
 \begin{GRPtable}
@@ -49,19 +51,36 @@ In general an advantage of \textit{Y} means the top \textit{Y} numbers on the di
 
 An advantage of 12 means that any roll with at least 1 die automatically succeeds, as the threshold for success is 1. You can simply declare a success if you are asked to make a roll with an advantage of 12, but you may still make the roll if you have any abilities that benefit from actually rolling the dice.
 
-\begin{GRPquicknote}
-Note that the rolls \GRProll{X}{1} and \GRProll{X}{0} are actually identical, with both requiring a single dice of the set to result 12 in order to result a success.
-\end{GRPquicknote}
-
 \emph{Advantage} can also be negative. For convenience this is written as \emph{disadvantage} which is the negative of the advantage. A roll of \GRProlla{X}{(-Z)} is written equivalently as \GRProlld{X}{Z}.
 
-A roll with at \emph{disadvantage} of \textit{Z} means that in addition to having at least one die in the roll land on 12, There must be at least \textit{Z} other dice within the roll displaying a number above 1. For example, with a roll of \GRProll{4}{-2}, 1 die must land on 12, and at least 2 of the other dice must show values above 1, meaning that at most 1 of the 4 dice can display a value of 1.
+A roll with at \emph{disadvantage} of \textit{Z} means that in addition to having at least one die in the roll land on 12, there must also be at least \textit{Z} dice within the roll displaying a number above 1. For example, with a roll of \GRProll{4}{-2}, 1 die must land on 12, and one of the other dice must show a value above 1, so that a total of 2 dice including the one showing "12" are displaying values above 1.
 
-When the disadvantage is greater than or equal to the number of dice being rolled, the roll is an automatic failure even if you have at least one dice showing a 12. This is because you cannot obtain a sufficient number of dice showing values above 1. If you are asked to make a roll with a disadvantage equal to or greater than the number of dice,
+\begin{GRPquicknote}
+Note that the rolls \GRProll{X}{1}, \GRProll{X}{0}, and \GRProll{X}{-1} are all actually identical, with all three requiring a single dice of the set to result 12 in order to result a success.
+\end{GRPquicknote}
 
-With more than 2 disadvantage on any roll, the probability of a successful roll rapidly diminishes. A disadvantage of 12 or greater is considered an automatic failure for the roll (even though there is theoretically a chance of 12 twelve-sided dice all rolling 12). This is meant to simply be symmetric with the advantage mechanic where an advantage of 12 guarantees success. 
+When the disadvantage is greater than or equal to the number of dice being rolled, the roll is an automatic failure even if you have at least one dice showing a 12. This is because you cannot obtain a sufficient number of dice showing values above 1. Additionally, any roll with a disadvantage 12 or greater automatically fails, for symmetry with the advantage rolls (where any roll with an advantage 12 or greater automatically succeeds) If you are asked to make a roll with a disadvantage equal to or greater than the number of dice, you may simply declare a failure. However you may still make the roll if you have abilities that benefit from actually rolling the dice.
 
-In general, when a character has more than 2 disadvantage on a roll they will not succeed unless they use a dice modifying ability.
+Lets look at a few example disadvantage rolls.
+
+\begin{GRPtable}
+\caption{Disadvantage Examples}
+\begin{tabular}{>{\raggedright\arraybackslash}m{0.2\localnotewidth} >{\centering\arraybackslash}m{0.55\localnotewidth} >{\raggedleft\arraybackslash}m{0.25\localnotewidth}}
+	\rowcolor{\GRPtitlecellcolor}
+	{\GRPtitlecellformat Roll}&{\GRPtitlecellformat Dice}&{\GRPtitlecellformat Result} \\ [0.5ex]
+	\hline \hline 
+	\GRProll{2}{-1} & \GRPdicelist[-1]{12,2} & Success \\
+	\GRProll{2}{-1} & \GRPdicelist[-1]{12,1} & Success \\
+	\GRProll{2}{-2} & \GRPdicelist[-2]{12,1} & Failure \\ [0.5ex]
+	\hline
+	\GRProll{4}{-1} & \GRPdicelist[-1]{11,8,1,10} & Failure \\
+	\GRProll{4}{-2} & \GRPdicelist[-2]{12,8,1,10} & Success \\
+	\GRProll{4}{-3} & \GRPdicelist[-3]{12,8,1,10} & Success \\ 
+	\GRProll{4}{-4} & \GRPdicelist[-4]{12,8,1,10} & Failure\\ [0.5ex]
+	\hline
+	\GRProll{8}{-7} & \GRPdicelist[-7]{12,12,1,12,12,12,12,1} & Failure\\
+\end{tabular}
+\end{GRPtable}
 
 Then you pad the whole chapter with lorem ipsum text
 
