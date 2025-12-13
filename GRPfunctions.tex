@@ -51,6 +51,21 @@
   \tl_range:nnn { #1 } { 3 } { -1 } % tokens from 3 to the end
  }
 
+% Create a counter variable
+\int_new:N \l_count_macro_int
+
+% Count macro occurrences with one optional argument
+% #1 = body, #2 = macro name
+\cs_new:Npn \macrocount #1#2{
+    \seq_new:N \l_tmp_seq
+    \tl_set:Nx \l_tmpa_tl { #1 }
+    \tl_map_inline:Nn \l_tmpa_tl {
+        \if_meaning:cn { #2 } { 
+            \seq_put_right:Nn \l_tmp_seq { ##1 }
+        }
+    }
+    \seq_count:N \l_tmp_seq
+}
 \ExplSyntaxOff
 
 \def\IsInteger#1{%
@@ -427,7 +442,7 @@
 
 \newenvironment{GRPtable}
 {%
-	\begin{GRPpseudofloat}{table}{\linewidth}{minipage}%
+	\begin{GRPpseudofloat}{table}{\linewidth}{}%
 	\rowcolors{2}{\ChapterBackgroundTint!20!white}{\ChapterBackgroundTint!10!white}
 }%
 {%
@@ -464,24 +479,42 @@
 
 
 %Custom table environment
-\newcounter{grprow}
-
-\NewEnviron{GRPtabular}[1]{% #1 = column spec
-  \setcounter{grprow}{0}
-  \newcommand{\>}[1][0pt]{%
-    \ifnum\value{grprow}>0
-      \end{tabular}\par\vspace{##1}%
-    \fi
-    \stepcounter{grprow}%
-    \begin{tabular}{#1}%
+\newcounter{grpcurrentrow}
+\makeatletter
+\NewEnviron{GRPtabular}[1]{% #1 = customcolumnspec
+	\def\GRPtablespec{}%
+	\foreach \grpalign/\grpwidth in {#1}{%
+		\IfStrEqCase{\grpalign}{%
+		{l}{\g@addto@macro\GRPtablespec{>{\raggedright\arraybackslash}}}%
+		{c}{\g@addto@macro\GRPtablespec{>{\centering\arraybackslash}}}%
+		{r}{\g@addto@macro\GRPtablespec{>{\raggedleft\arraybackslash}}}%
+		}%
+		\edef\currspecwidth{m\noexpand{\grpwidth\noexpand\localnotewidth\noexpand}\space }%
+		\expandafter\g@addto@macro\expandafter\GRPtablespec\expandafter{\currspecwidth}%
+	}%
+	\newcommand{\begintabhelper}[1]{\begin{tabular}{##1}}
+  \newcommand{\XX}[1][0pt]{%
+    \ifnum\value{grpcurrentrow}>0%
+      \end{tabular}\linebreak\vspace{##1}%
+    \fi%
+    \stepcounter{grpcurrentrow}%
+    \expandafter\begintabhelper\expandafter{\GRPtablespec}
+    \ifodd\value{grpcurrentrow}%
+    	\rowcolor{\ChapterBackgroundTint!20!white}
+    \else%
+    	\rowcolor{\ChapterBackgroundTint!10!white}
+    \fi%
   }%
   % Initialize: no previous tabular yet
-  \>
+  \XX%
   % Process the body
   \BODY
   % End last tabular safely
   \end{tabular}%
+  %Reset counter back to 0 so that it serves as a detector
+  \setcounter{grpcurrentrow}{0}
 }
+\makeatother
 
 
 %changes the next page background
