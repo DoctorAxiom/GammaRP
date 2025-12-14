@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.12)  12 DEC 2025 19:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.12)  13 DEC 2025 21:20
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1717,19 +1717,18 @@ Package: xparse 2025-10-09 L3 Experimental document command parser
 \l__sn_xa_dim=\dimen325
 \l__sn_ya_dim=\dimen326
 )
-\l_count_macro_int=\count405
 \currentfontsize=\skip76
-LaTeX Font Info:    Trying to load font information for T1+mak on input line 99
+LaTeX Font Info:    Trying to load font information for T1+mak on input line 80
 .
 
 (C:\Program Files\MiKTeX\tex/latex/kerkis\t1mak.fd)
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 99.
-\c@partpagedetector=\count406
+(Font)              scaled to size 8.99994pt on input line 80.
+\c@partpagedetector=\count405
 \gammadodecsize=\skip77
-\c@GRPdisadvdummy=\count407
-\c@GRPdisadvsuccdum=\count408
-\c@GRPtwelves=\count409
+\c@GRPdisadvdummy=\count406
+\c@GRPdisadvsuccdum=\count407
+\c@GRPtwelves=\count408
 \currenttop=\skip78
 \currentleft=\skip79
 \currentright=\skip80
@@ -1739,9 +1738,9 @@ LaTeX Font Info:    Font shape `T1/mak/m/n' will be
 \extragradlength=\skip84
 \currentengr=\skip85
 \localnotewidth=\skip86
-\c@grpcurrentrow=\count410
-\c@GRPbgsvgID=\count411
-\c@GRPbitecounter=\count412
+\c@grpcurrentrow=\count409
+\c@GRPbgsvgID=\count410
+\c@GRPbitecounter=\count411
 \GammaRP1e@idxfile=\write4
 \openout4 = `GammaRP1e.idx'.
 
@@ -1837,16 +1836,16 @@ LaTeX Font Info:    ... okay on input line 25.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count413
+\scratchcounter=\count412
 \scratchdimen=\dimen327
 \scratchbox=\box136
-\nofMPsegments=\count414
-\nofMParguments=\count415
+\nofMPsegments=\count413
+\nofMParguments=\count414
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count416
+\MPscratchCnt=\count415
 \MPscratchDim=\dimen328
-\MPnumerator=\count417
-\makeMPintoPDFobject=\count418
+\MPnumerator=\count416
+\makeMPintoPDFobject=\count417
 \everyMPtoPDFconversion=\toks49
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1868,7 +1867,7 @@ Package gensymb Info: Using \Omega for \ohm on input line 25.
 
 Package gensymb Warning: Not defining \micro.
 
-\c@lstlisting=\count419
+\c@lstlisting=\count418
 (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks50
@@ -2166,18 +2165,14 @@ LaTeX Font Info:    Font shape `T1/mak/b/n' will be
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `GammaRP1e.out' has not changed.
 (rerunfilecheck)             Checksum: F8C2C1E6CBD1473C9F75EF0DD1B09FD7;1151.
  ) 
 Here is how much of TeX's memory you used:
- 37440 strings out of 467871
- 748956 string characters out of 5428442
- 1659505 words of memory out of 5000000
- 65572 multiletter control sequences out of 15000+600000
+ 37438 strings out of 467871
+ 748931 string characters out of 5428442
+ 1660431 words of memory out of 5000000
+ 65570 multiletter control sequences out of 15000+600000
  662807 words of font info for 137 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,120p,730b,1566s stack positions out of 10000i,1000n,20000p,200000b,200000s
