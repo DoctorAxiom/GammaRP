@@ -15,7 +15,7 @@ The notation for a roll in \GammaRP{} is written as \GRProlla{X}{Y}, which verba
 
 \textit{X} is the number of dice you roll.
 
-\textit{Y} is the \emph{advantage} on the roll, which indicates how many sides of a dice count as a success.
+\textit{Y} is the \emph{advantage} on the roll, which indicates that the top \textit{Y} numbers of a die pass the success threshold.
 
 If any of the dice you roll pass the success threshold, then your roll is a success.
 
@@ -29,25 +29,25 @@ Let's look at a few example rolls.
 
 \begin{GRPtable}
 \caption{Advantage Examples}
-\begin{tabular}{c c c}
+\begin{GRPtabular}{l/0.16,c/0.53,r\scshape/0.31}
 	\rowcolor{\GRPtitlecellcolor}
-	{\GRPtitlecellformat Roll}&{\GRPtitlecellformat Dice}&{\GRPtitlecellformat Result} \\ [0.5ex]
+	{\GRPtitlecellformat Roll}&{\GRPtitlecellformat Dice}&{\GRPtitlecellformat Result} \XX [0.5ex]
 	\hline \hline 
-	\GRProll{5}{1} & \GRPdicelist{1,11,8,4,10} & Failure \\
-	\GRProll{5}{1} & \GRPdicelist{1,1,2,12,2} & Success \\ [0.5ex]
+	\GRProll{5}{1} & \GRPdicelist{1,11,8,4,10} & Failure \XX
+	\GRProll{5}{1} & \GRPdicelist{1,1,2,12,2} & Success \XX [0.5ex]
 	\hline
-	\GRProll{4}{1} & \GRPdicelist{1,11,8,10} & Failure \\
-	\GRProll{4}{2} & \GRPdicelist[2]{1,11,8,10} & Success \\
-	\GRProll{4}{3} & \GRPdicelist[3]{1,11,8,10} & Success \\ [0.5ex]
+	\GRProll{4}{1} & \GRPdicelist{1,11,8,10} & Failure \XX
+	\GRProll{4}{2} & \GRPdicelist[2]{1,11,8,10} & Success \XX
+	\GRProll{4}{3} & \GRPdicelist[3]{1,11,8,10} & Success \XX [0.5ex]
 	\hline
-	\GRProll{3}{3} & \GRPdicelist[3]{1,9,8} & Failure \\ 
-	\GRProll{3}{4} & \GRPdicelist[4]{1,9,8} & Success \\
-	\GRProll{3}{8} & \GRPdicelist[8]{2,4,3} & Failure \\ 
-	\GRProll{3}{9} & \GRPdicelist[9]{2,4,3} & Success \\
-\end{tabular}
-\end{GRPtable}
+	\GRProll{3}{3} & \GRPdicelist[3]{1,9,8} & Failure \XX 
+	\GRProll{3}{4} & \GRPdicelist[4]{1,9,8} & Success \XX
+	\GRProll{3}{8} & \GRPdicelist[8]{2,4,3} & Failure \XX 
+	\GRProll{3}{9} & \GRPdicelist[9]{2,4,3} & Success \XX
+\end{GRPtabular}
+\end{GRPtable}	
 
-In general an advantage of \textit{Y} means the top \textit{Y} numbers on the dice will count as a success. An advantage of 0 is the exception, which still is successful if any dice rolls a 12.
+Another way to look at this is-- if you can sum the advantage with the value of any die in your roll and get a number greater than 12, your roll is successful. An advantage of 0 is the exception, which still is successful if any dice rolls a 12.
 
 An advantage of 12 means that any roll with at least 1 die automatically succeeds, as the threshold for success is 1. You can simply declare a success if you are asked to make a roll with an advantage of 12, but you may still make the roll if you have any abilities that benefit from actually rolling the dice.
 
@@ -65,7 +65,7 @@ Lets look at a few example disadvantage rolls.
 
 \begin{GRPtable}
 \caption{Disadvantage Examples}
-\begin{GRPtabular}{l/0.23,c/0.48,r/0.29}
+\begin{GRPtabular}{l/0.16,c/0.53,r\scshape/0.31}
 	\rowcolor{\GRPtitlecellcolor}
 	\rowformat{\GRPtitlecellformat} Roll & Dice & Result \XX [0.5ex]
 	\hline \hline 

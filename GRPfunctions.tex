@@ -25,9 +25,10 @@
 \usepackage{array}
 \usepackage{makecell}
 
+\usepackage{tgbonum}
 \usepackage[T1]{fontenc}
-\usepackage{kmath}
-\usepackage{kerkis}
+% \usepackage{kmath}
+% \usepackage{kerkis}
 
 %%Always load hyperref last
 \usepackage{hyperref}
@@ -44,7 +45,7 @@
  }
 \cs_new:Npn \restof #1
  {
-  \tl_range:nnn { #1 } { 2 } { -1 } % tokens from 2 to the end
+  \tl_tail:n { #1 }
  }
 
 \ExplSyntaxOff
@@ -366,21 +367,21 @@
 	colframe=\ChapterBackgroundTint!75!black,
 	overlay first={%
 	\draw[draw=\ChapterBackgroundTint!75!black,line width=0.5mm,line cap=round,decorate,decoration={zigzag,segment length=2mm,amplitude=0.5mm}] ($(frame.south west)+(0.25mm,0)$) -- ($(frame.south east)-(0.25mm,0)$);
-	\fill[\ChapterBackgroundTint!75!black] (frame.south west) -- ($(frame.south west)+(0.9mm,-0.9mm)$) -- ($(frame.south west)+(1.8mm,0)$) -- cycle;
-	\fill[\ChapterBackgroundTint!75!black] (frame.south east) -- ($(frame.south east)+(-0.9mm,-0.9mm)$) -- ($(frame.south east)+(-1.8mm,0)$) -- cycle;
+	\fill[\ChapterBackgroundTint!75!black] ($(frame.south west)+(0,1.8mm)$) -- (frame.south west) -- ($(frame.south west)+(0.9mm,-0.9mm)$) -- ($(frame.south west)+(1.8mm,0)$) -- ($(frame.south west)+(1.8mm,1.8mm)$) -- cycle;
+	\fill[\ChapterBackgroundTint!75!black] ($(frame.south east)+(0,1.8mm)$) -- (frame.south east) -- ($(frame.south east)+(-0.9mm,-0.9mm)$) -- ($(frame.south east)+(-1.8mm,0)$) -- ($(frame.south east)+(-1.8mm,1.8mm)$) -- cycle;
 	},
 	overlay middle={%
 	\draw[draw=\ChapterBackgroundTint!75!black,line width=0.5mm,line cap=round,decorate,decoration={zigzag,segment length=2mm,amplitude=0.5mm}] ($(frame.south west)+(0.25mm,0)$) -- ($(frame.south east)-(0.25mm,0)$);%lowerzigzag
-	\fill[\ChapterBackgroundTint!75!black] (frame.south west) -- ($(frame.south west)+(0.9mm,-0.9mm)$) -- ($(frame.south west)+(1.8mm,0)$) -- cycle;
-	\fill[\ChapterBackgroundTint!75!black] (frame.south east) -- ($(frame.south east)+(-0.9mm,-0.9mm)$) -- ($(frame.south east)+(-1.8mm,0)$) -- cycle;
+	\fill[\ChapterBackgroundTint!75!black] ($(frame.south west)+(0,1.8mm)$) -- (frame.south west) -- ($(frame.south west)+(0.9mm,-0.9mm)$) -- ($(frame.south west)+(1.8mm,0)$) -- ($(frame.south west)+(1.8mm,1.8mm)$) -- cycle;
+	\fill[\ChapterBackgroundTint!75!black] ($(frame.south east)+(0,1.8mm)$) -- (frame.south east) -- ($(frame.south east)+(-0.9mm,-0.9mm)$) -- ($(frame.south east)+(-1.8mm,0)$) -- ($(frame.south east)+(-1.8mm,1.8mm)$) -- cycle;
 	\draw[draw=\ChapterBackgroundTint!75!black,line width=0.5mm,line cap=round,decorate,decoration={zigzag,segment length=2mm,amplitude=0.5mm}] ($(frame.north west)+(1.55mm,0)$) -- ($(frame.north east)-(1.55mm,0)$);%%upperzigzag
-	\fill[\ChapterBackgroundTint!75!black] (frame.north west) -- ($(frame.north west)+(0.9mm,0.9mm)$) -- ($(frame.north west)+(1.8mm,0)$) -- cycle;
-	\fill[\ChapterBackgroundTint!75!black] (frame.north east) -- ($(frame.north east)+(-0.9mm,0.9mm)$) -- ($(frame.north east)+(-1.8mm,0)$) -- cycle;
+	\fill[\ChapterBackgroundTint!75!black] ($(frame.north west)+(0,-1.8mm)$) -- (frame.north west) -- ($(frame.north west)+(0.9mm,0.9mm)$) -- ($(frame.north west)+(1.8mm,0)$) -- ($(frame.north west)+(1.8mm,-1.8mm)$) -- cycle;
+	\fill[\ChapterBackgroundTint!75!black] ($(frame.north east)+(0,-1.8mm)$) -- (frame.north east) -- ($(frame.north east)+(-0.9mm,0.9mm)$) -- ($(frame.north east)+(-1.8mm,0)$) -- ($(frame.north east)+(-1.8mm,-1.8mm)$) -- cycle;
 	},
 	overlay last={%
 	\draw[draw=\ChapterBackgroundTint!75!black,line width=0.5mm,line cap=round,decorate,decoration={zigzag,segment length=2mm,amplitude=0.5mm}] ($(frame.north west)+(1.55mm,0)$) -- ($(frame.north east)-(1.55mm,0)$);
-	\fill[\ChapterBackgroundTint!75!black] (frame.north west) -- ($(frame.north west)+(0.9mm,0.9mm)$) -- ($(frame.north west)+(1.8mm,0)$) -- cycle;
-	\fill[\ChapterBackgroundTint!75!black] (frame.north east) -- ($(frame.north east)+(-0.9mm,0.9mm)$) -- ($(frame.north east)+(-1.8mm,0)$) -- cycle;
+	\fill[\ChapterBackgroundTint!75!black] ($(frame.north west)+(0,-1.8mm)$) -- (frame.north west) -- ($(frame.north west)+(0.9mm,0.9mm)$) -- ($(frame.north west)+(1.8mm,0)$) -- ($(frame.north west)+(1.8mm,-1.8mm)$) -- cycle;
+	\fill[\ChapterBackgroundTint!75!black] ($(frame.north east)+(0,-1.8mm)$) -- (frame.north east) -- ($(frame.north east)+(-0.9mm,0.9mm)$) -- ($(frame.north east)+(-1.8mm,0)$) -- ($(frame.north east)+(-1.8mm,-1.8mm)$) -- cycle;
 	},
 	}
 
@@ -399,7 +400,7 @@
 	\renewcommand{\caption}[2][]{%
 		\def\@captype{#1}%
 		\begin{tcolorbox}[colback=\ChapterBackgroundTint!75!black,colframe=\ChapterBackgroundTint!75!black,coltext=\ChapterBackgroundTint!10!white,size=title,leftright skip=-6pt,left=1pt,right=1pt]%
-		\caption@caption[##1]{##2}\vspace{-0.9\baselineskip}%
+		\small\caption@caption[##1]{##2}\vspace{-0.9\baselineskip}%
 		\end{tcolorbox}%
 		\addcontentsline{lo\firstof{#1}}{#1}{\protect\numberline{\thefigure} ##2}%
 	}%
@@ -452,11 +453,11 @@
 
 \renewcommand{\thefigure}{\thesection-\alph{figure}}
 \renewcommand{\thetable}{\thesection-\alph{table}}
-\renewcommand{\arraystretch}{1.5}%this gives table rows 1.5 line spacing by default.
+\renewcommand{\arraystretch}{1.25}%this gives table rows 1.25 line spacing by default.
 	
 %%table format shortcuts
 \newcommand{\GRPtitlecellcolor}{\ChapterBackgroundTint!30!white}
-\newcommand{\GRPtitlecellformat}{\bfseries}
+\newcommand{\GRPtitlecellformat}{\bfseries\scshape}
 
 
 %Custom table environment
@@ -468,16 +469,28 @@
 	\newcommand\rowformat[1]{\gdef\GRProwstyler{##1}##1\ignorespaces}%
 	\def\GRProwclear{\gdef\GRProwstyler{}}%
 	\foreach \grpalign/\grpwidth in {#1}{%
+		%\FAKEDEBUGCOMMAND%
 		\def\currspecformat{}%
-		\IfStrEqCase{\expandafter\firstof\expandafter\grpalign}{%
-		{l}{\g@addto@macro\GRPtablespec{>{\raggedright\arraybackslash\GRProwstyler}}}%
-		{c}{\g@addto@macro\GRPtablespec{>{\centering\arraybackslash\GRProwstyler}}}%
-		{r}{\g@addto@macro\GRPtablespec{>{\raggedleft\arraybackslash\GRProwstyler}}}%
+		\IfStrEqCase{\expandafter\firstof\expandafter{\grpalign}}{%
+			{l}{%
+			\g@addto@macro\currspecformat{\raggedright}%
+			}%
+			{c}{%
+			\g@addto@macro\currspecformat{\centering}%
+			}%
+			{r}{%
+			\g@addto@macro\currspecformat{\raggedleft}%
+			}%
 		}%
+		\edef\GRPalignextra{\expandafter\restof\expandafter{\grpalign}}
+		\expandafter\g@addto@macro\expandafter\currspecformat\expandafter{\GRPalignextra}%
+		\g@addto@macro\currspecformat{\GRProwstyler\arraybackslash}%
+		%And then we actually build the tablespec,
+		\expandafter\g@addto@macro\expandafter\GRPtablespec\expandafter{\expandafter>\expandafter{\currspecformat}}%
 		\edef\currspecwidth{m\noexpand{\grpwidth\noexpand\localnotewidth\noexpand}\space }%
 		\expandafter\g@addto@macro\expandafter\GRPtablespec\expandafter{\currspecwidth}%
 	}%
-	\newcommand{\begintabhelper}[1]{\begin{tabular}{##1}}
+	\newcommand{\begintabhelper}[1]{\begin{tabular}{##1}}%
   \newcommand{\XX}[1][0pt]{%
   	\GRProwclear%makesure you reset any previous row formatting.
     \ifnum\value{grpcurrentrow}>0%
@@ -641,6 +654,8 @@
 \fancyhead[LE]{\leftmark}
 \fancyfoot[LE]{\thepage}
 \fancyfoot[RO]{\thepage}
+
+\renewcommand{\baselinestretch}{1.0625} 
 
 \makeindex[intoc, title=Alphabetical Index, options= -s GRPindexstyle.ist]
 
