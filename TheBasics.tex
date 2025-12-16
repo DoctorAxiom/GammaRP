@@ -21,6 +21,7 @@ If any of the dice you roll pass the success threshold, then your roll is a succ
 
 This means that both larger \textit{X} and larger \textit{Y} indicate a higher probability of success.
 
+\typeout{Point C table counter = \arabic{table}}
 \GRPbitepar[right]{0pt,0pt,0pt,0pt,8.9mm,10.5mm,9.5mm}\GRPparabgsvg[height=1.4cm,side=right,shift={(-1.6cm,-1.3cm)}]{art/onedice}
 Higher \textit{Y} mean the roll is successful even at lower thresholds. An advantage of 1 is the default when advantage is not specified. This means that is only successful on a 12. However an advantage of 2 means the roll is successful on any instance of a 12 or an 11 (there are two numbers now on which the roll is successful).
 
@@ -45,9 +46,9 @@ Let's look at a few example rolls.
 	\GRProll{3}{8} & \GRPdicelist[8]{2,4,3} & Failure \XX 
 	\GRProll{3}{9} & \GRPdicelist[9]{2,4,3} & Success \XX
 \end{GRPtabular}
-Table number is \thetable
 \end{GRPtable}	
 
+\typeout{Point F table counter = \arabic{table}}
 Another way to look at this is-- if you can sum the advantage with the value of any die in your roll and get a number greater than 12, your roll is successful. An advantage of 0 is the exception, which still is successful if any dice rolls a 12.
 
 An advantage of 12 means that any roll with at least 1 die automatically succeeds, as the threshold for success is 1. You can simply declare a success if you are asked to make a roll with an advantage of 12, but you may still make the roll if you have any abilities that benefit from actually rolling the dice.

@@ -388,6 +388,14 @@
 % PICTURE AND FIGURE commands
 %
 %
+\renewcommand\thefigure{\thesection\alph{figure}}
+\renewcommand\thetable{\thesection\alph{table}}
+\renewcommand{\arraystretch}{1.25}%this gives table rows 1.25 line spacing by default.
+	
+%%table format shortcuts
+\newcommand{\GRPtitlecellcolor}{\ChapterBackgroundTint!30!white}
+\newcommand{\GRPtitlecellformat}{\bfseries\scshape}
+
 \makeatletter
 \newenvironment{GRPpseudofloat}[3]
 {%
@@ -397,8 +405,12 @@
 	\captionsetup{font={bf,singlespacing,color=\ChapterBackgroundTint!10!white}}%
 	\begingroup%
 	\let\oldcaption\caption%
+	\newcommand\GRP@addcontentshelper[2]{}
 	\renewcommand{\caption}[2][]{%
+		\setlength{\abovecaptionskip}{0pt}%
+		\setlength{\belowcaptionskip}{0pt}%
 		\def\@captype{#1}%
+		\refstepcounter{#1}%
 		\begin{tcolorbox}[%
 		colback=\ChapterBackgroundTint!75!black,
 		colframe=\ChapterBackgroundTint!75!black,
@@ -413,13 +425,16 @@
 		fit height from=12pt to 22pt,
 		fit algorithm=areasize*,
 		]%
-		\small\caption@caption[##1]{##2}\vspace{-0.9\baselineskip}%
+		\caption@makecaption{\csname fnum#1\endcsname}{Table {\csname the#1\endcsname}: ##2}%
 		\end{tcolorbox}%
-		\ifx\relax##1\relax%
-			{}%
-		\else%
-			\addcontentsline{lo\firstof{#1}}{#1}{\protect\numberline{\csname the##1 \endcsname} ##2}%
-		\fi%
+		\GRP@addcontentshelper{##1}{##2}%
+	}%
+	\IfStrEq{#1}{}{}%true case is empty
+	{\renewcommand\GRP@addcontentshelper[2]{%
+			\addcontentsline%
+			{lo\firstof{#1}}{#1}%
+			{\protect\numberline{\protect\csname the#1\endcsname}:\space{\if\relax\detokenize{##1}\relax##2\else##1\fi}}%
+		}%
 	}%
 }
 {%
@@ -467,15 +482,6 @@
 }
 \AddToHook{env/GRPtable-wide/after}{\nopagebreak\begin{multicols}{2}\nopagebreak}
 \AddToHook{env/GRPtable-wide/before}{\nopagebreak\end{multicols}\nopagebreak}
-
-\renewcommand{\thefigure}{\thesection-\alph{figure}}
-\renewcommand{\thetable}{\thesection-\alph{table}}
-\renewcommand{\arraystretch}{1.25}%this gives table rows 1.25 line spacing by default.
-	
-%%table format shortcuts
-\newcommand{\GRPtitlecellcolor}{\ChapterBackgroundTint!30!white}
-\newcommand{\GRPtitlecellformat}{\bfseries\scshape}
-
 
 %Custom table environment
 \newcounter{grpcurrentrow}
@@ -692,14 +698,14 @@
 \AddToHook{cmd/listoffigures/before}
 {%
 	\cleardoublepage
-	\addcontentsline{toc}{section}{List of Figures}
 	\phantomsection
+	\addcontentsline{toc}{chapter}{List of Figures}
 }
 \AddToHook{cmd/listoftables/before}
 {%
 	\cleardoublepage
-	\addcontentsline{toc}{section}{List of Tables}
 	\phantomsection
+	\addcontentsline{toc}{chapter}{List of Tables}
 }
 
 %Change chapter title format for backmatter

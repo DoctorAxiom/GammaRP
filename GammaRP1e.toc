@@ -4,6 +4,6 @@
 \contentsline {section}{\numberline {2.1}The Fundamental Dice Mechanic}{5}{section.2.1}%
 \contentsline {part}{II\hspace {1em}The Setting}{11}{part.2}%
 \contentsline {part}{III\hspace {1em}Appendices}{13}{part.3}%
-\contentsline {section}{List of Figures}{15}{section*.2}%
-\contentsline {section}{List of Tables}{17}{chapter*.4}%
-\contentsline {chapter}{Alphabetical Index}{19}{section*.7}%
+\contentsline {chapter}{List of Figures}{15}{section*.2}%
+\contentsline {chapter}{List of Tables}{17}{section*.4}%
+\contentsline {chapter}{Alphabetical Index}{19}{section*.6}%

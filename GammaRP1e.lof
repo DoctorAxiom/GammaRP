@@ -1,2 +1,4 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {\csname thefigure\endcsname }: {Test of the GRPfigure environment}}{7}{figure.2.1}%
+\contentsline {figure}{\numberline {\csname thefigure\endcsname }: {Another test of the GRPfigure environment}}{8}{figure.2.2}%
