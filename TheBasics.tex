@@ -4,10 +4,10 @@
 
 The \index{Game Master}Game Master is responsible for constructing the world around the Players, and giving the players a setting to interact with. The \index{Player}Players are responsible for maintaining a Player Character-- a character who interacts with and influences the setting defined by the Game Master. 
 
-Since the game is collaborative in this way, it is more fun and fair if the Game Master does not know the outcome of all actions in the setting. In order to fairly decide events where the outcome is unsure, \GammaRP{} uses the roll of a set of dice to decide whether a course of action is successful.
+Since the game is collaborative in this way, it is more fun and fair if there is an element of chance in deciding how a scene unfolds. \GammaRP{} uses the roll of a set of dice to decide whether an unsure course of action is successful.
 
-\GRPbitepar{0mm,1mm,12mm,13mm,13mm,10mm}\GRPparabgsvg[height=2cm,shift={(8mm,0)},side=left]{art/twodice}
-The fundamental dice mechanic in \GammaRP{} is based on 12 sided dice, and frequently rolls several of them at a time. If you intend to play the game on a real physical tabletop (rather than one of the increasingly popular virtual ones), you may want to obtain a few dozen 12 sided dice.
+\GRPbitepar{0mm,1mm,12mm,13mm,13mm,8mm}\GRPparabgsvg[height=2cm,shift={(8mm,0)},side=left]{art/twodice}
+The fundamental dice mechanic in \GammaRP{} is based on 12 sided dice, and rolls several at a time. If you intend to play the game on a real physical tabletop (rather than one of the increasingly popular virtual ones), you may want to obtain a few dozen 12 sided dice.
 
 \section{The Fundamental Dice Mechanic}
 
@@ -21,10 +21,10 @@ If any of the dice you roll pass the success threshold, then your roll is a succ
 
 This means that both larger \textit{X} and larger \textit{Y} indicate a higher probability of success.
 
-\GRPbitepar[right]{0pt,0pt,0pt,0pt,8.9mm,10.5mm,9.5mm}\GRPparabgsvg[height=1.4cm,side=right,shift={(-1.6cm,-1.2cm)}]{art/onedice}
+\GRPbitepar[right]{0pt,0pt,0pt,0pt,8.9mm,10.5mm,9.5mm}\GRPparabgsvg[height=1.4cm,side=right,shift={(-1.6cm,-1.3cm)}]{art/onedice}
 Higher \textit{Y} mean the roll is successful even at lower thresholds. An advantage of 1 is the default when advantage is not specified. This means that is only successful on a 12. However an advantage of 2 means the roll is successful on any instance of a 12 or an 11 (there are two numbers now on which the roll is successful).
 
-\GRPparabgsvg[height=1.6cm,side=right,shift={(-1cm,-4mm)}]{art/onedice_b}
+\GRPparabgsvg[height=1.6cm,side=right,shift={(-1.1cm,-4mm)}]{art/onedice_b}
 Let's look at a few example rolls.
 
 \begin{GRPtable}
@@ -45,21 +45,18 @@ Let's look at a few example rolls.
 	\GRProll{3}{8} & \GRPdicelist[8]{2,4,3} & Failure \XX 
 	\GRProll{3}{9} & \GRPdicelist[9]{2,4,3} & Success \XX
 \end{GRPtabular}
+Table number is \thetable
 \end{GRPtable}	
 
 Another way to look at this is-- if you can sum the advantage with the value of any die in your roll and get a number greater than 12, your roll is successful. An advantage of 0 is the exception, which still is successful if any dice rolls a 12.
 
 An advantage of 12 means that any roll with at least 1 die automatically succeeds, as the threshold for success is 1. You can simply declare a success if you are asked to make a roll with an advantage of 12, but you may still make the roll if you have any abilities that benefit from actually rolling the dice.
 
+Some rolls will ask you to count the number of successes in your roll. In any roll with advantage, you simply count the number of dice that pass the success threshold.
+
 \emph{Advantage} can also be negative. For convenience this is written as \emph{disadvantage} which is the negative of the advantage. A roll of \GRProlla{X}{(-Z)} is written equivalently as \GRProlld{X}{Z}.
 
 A roll with at \emph{disadvantage} of \textit{Z} means that in addition to having at least one die in the roll land on 12, there must also be at least \textit{Z} dice within the roll displaying a number above 1. For example, with a roll of \GRProll{4}{-2}, 1 die must land on 12, and one of the other dice must show a value above 1, so that a total of 2 dice including the one showing "12" are displaying values above 1.
-
-\begin{GRPquicknote}
-Note that the rolls \GRProll{X}{1}, \GRProll{X}{0}, and \GRProll{X}{-1} are all actually identical, with all three requiring a single dice of the set to result 12 in order to result a success.
-\end{GRPquicknote}
-
-When the disadvantage is greater than or equal to the number of dice being rolled, the roll is an automatic failure even if you have at least one dice showing a 12. This is because you cannot obtain a sufficient number of dice showing values above 1. Additionally, any roll with a disadvantage 12 or greater automatically fails, for symmetry with the advantage rolls (where any roll with an advantage 12 or greater automatically succeeds) If you are asked to make a roll with a disadvantage equal to or greater than the number of dice, you may simply declare a failure. However you may still make the roll if you have abilities that benefit from actually rolling the dice.
 
 Lets look at a few example disadvantage rolls.
 
@@ -92,6 +89,17 @@ Lets look at a few example disadvantage rolls.
 	\GRProll{8}{-7} & \GRPdicelist[-7]{12,12,1,12,12,12,12,1} & Failure 
 \end{GRPtabular}
 \end{GRPtable}
+
+Another way to think about disadvantage rolls is-- if you've rolled at least one 12, and if you can count a number of dice showing a value above 1 equal to or greater than the disadvantage, your roll is a success.
+
+When the disadvantage is greater than or equal to the number of dice being rolled, the roll is an automatic failure even if you have at least one dice showing a 12. This is because you cannot obtain a sufficient number of dice showing values above 1. Additionally, any roll with a disadvantage 12 or greater automatically fails, for symmetry with the advantage rolls (where any roll with an advantage 12 or greater automatically succeeds) If you are asked to make a roll with a disadvantage equal to or greater than the number of dice, you may simply declare a failure. However you may still make the roll if you have abilities that benefit from actually rolling the dice.
+
+For rolls that require you to count the number of successes, any successful disadvantaged roll provides 1 success. Any failed disadvantaged roll provides no successes.
+
+\begin{GRPquicknote}
+Note that the rolls \GRProll{X}{1}, \GRProll{X}{0}, and \GRProll{X}{-1} are all actually identical, with all three requiring a single dice of the set to result 12 in order to result a success.
+\end{GRPquicknote}
+
 
 Then you pad the whole chapter with lorem ipsum text
 

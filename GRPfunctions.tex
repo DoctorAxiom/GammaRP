@@ -1,6 +1,5 @@
 \usepackage{pgf}
 \usepackage{xstring}
-\usepackage{environ}
 \usepackage{layout}
 \usepackage{fancyhdr}
 \usepackage{imakeidx}
@@ -15,6 +14,7 @@
 \usepackage{sectsty}
 \usepackage{gensymb}
 \usepackage[most]{tcolorbox}
+\tcbuselibrary{fitting}
 
 \usepackage{textgreek}
 \usepackage{svg}
@@ -399,10 +399,27 @@
 	\let\oldcaption\caption%
 	\renewcommand{\caption}[2][]{%
 		\def\@captype{#1}%
-		\begin{tcolorbox}[colback=\ChapterBackgroundTint!75!black,colframe=\ChapterBackgroundTint!75!black,coltext=\ChapterBackgroundTint!10!white,size=title,leftright skip=-6pt,left=1pt,right=1pt]%
+		\begin{tcolorbox}[%
+		colback=\ChapterBackgroundTint!75!black,
+		colframe=\ChapterBackgroundTint!75!black,
+		coltext=\ChapterBackgroundTint!10!white,
+		leftright skip=-6pt,
+		left=1pt,
+		right=1pt,
+		top=1pt,
+		bottom=1pt,
+		halign=flush center,
+		fit,
+		fit height from=12pt to 22pt,
+		fit algorithm=areasize*,
+		]%
 		\small\caption@caption[##1]{##2}\vspace{-0.9\baselineskip}%
 		\end{tcolorbox}%
-		\addcontentsline{lo\firstof{#1}}{#1}{\protect\numberline{\thefigure} ##2}%
+		\ifx\relax##1\relax%
+			{}%
+		\else%
+			\addcontentsline{lo\firstof{#1}}{#1}{\protect\numberline{\csname the##1 \endcsname} ##2}%
+		\fi%
 	}%
 }
 {%
@@ -463,7 +480,7 @@
 %Custom table environment
 \newcounter{grpcurrentrow}
 \makeatletter
-\NewEnviron{GRPtabular}[1]{% #1 = customcolumnspec
+\newenvironment{GRPtabular}[1]{% #1 = customcolumnspec
 	\def\GRPtablespec{}%
 	\gdef\GRProwstyler{}%
 	\newcommand\rowformat[1]{\gdef\GRProwstyler{##1}##1\ignorespaces}%
@@ -506,13 +523,13 @@
   }%
   % Initialize: no previous tabular yet
   \XX%
-  % Process the body
-  \BODY
+ }%
+ {%
   % End last tabular safely
   \end{tabular}%
   %Reset counter back to 0 so that it serves as a detector
-  \setcounter{grpcurrentrow}{0}
-}
+  \setcounter{grpcurrentrow}{0}%
+}%
 \makeatother
 
 

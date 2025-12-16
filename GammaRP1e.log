@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.14)  15 DEC 2025 00:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.14)  15 DEC 2025 19:11
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -290,14 +290,6 @@ Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 )
-(C:\Program Files\MiKTeX\tex/latex/environ\environ.sty
-Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(C:\Program Files\MiKTeX\tex/latex/trimspaces\trimspaces.sty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-)
-\@envbody=\toks29
-)
 (C:\Program Files\MiKTeX\tex/latex/tools\layout.sty
 Package: layout 2023-08-20 v1.2e Show layout parameters
 \oneinch=\count301
@@ -349,7 +341,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip62
 \f@nch@widthC=\skip63
 \f@nch@widthR=\skip64
-\@temptokenb=\toks30
+\@temptokenb=\toks29
 )
 (C:\Program Files\MiKTeX\tex/latex/imakeidx\imakeidx.sty
 Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
@@ -360,8 +352,8 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex
 (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks31
-\XKV@tempa@toks=\toks32
+\XKV@toks=\toks30
+\XKV@tempa@toks=\toks31
 )
 \XKV@depth=\count332
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -471,14 +463,14 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \aftertitleunit=\skip68
 \ttl@plus=\dimen263
 \ttl@minus=\dimen264
-\ttl@toksa=\toks33
+\ttl@toksa=\toks32
 \titlewidth=\dimen265
 \titlewidthlast=\dimen266
 \titlewidthfirst=\dimen267
 )
 (C:\Program Files\MiKTeX\tex/latex/tools\afterpage.sty
 Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
-\AP@output=\toks34
+\AP@output=\toks33
 \AP@partial=\box107
 \AP@footins=\box108
 )
@@ -488,7 +480,7 @@ Package: amstext 2024/11/17 v2.01 AMS text
 
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks35
+\@emptytoks=\toks34
 \ex@=\dimen268
 ))
 Package: xfrac 2024-06-04 Split-level fractions
@@ -523,12 +515,12 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen274
 \ar@mcellbox=\box111
 \extrarowheight=\dimen275
-\NC@list=\toks36
+\NC@list=\toks35
 \extratabsurround=\skip69
 \backup@length=\skip70
 \ar@cellbox=\box112
 )
-\everycr=\toks37
+\everycr=\toks36
 \minrowclearance=\skip71
 \rownum=\count349
 )
@@ -560,8 +552,8 @@ Package: tcolorbox 2025/09/09 version 6.8.0 text color boxes
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@iter=\dimen276
 \pgffor@skip=\dimen277
-\pgffor@stack=\toks38
-\pgffor@toks=\toks39
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
 ))
 (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
@@ -601,9 +593,17 @@ rytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (C:\Program Files\MiKTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks40
-\verbatim@line=\toks41
+\every@verbatim=\toks39
+\verbatim@line=\toks40
 \verbatim@in@stream=\read3
+)
+(C:\Program Files\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Program Files\MiKTeX\tex/latex/trimspaces\trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks41
 )
 \tcb@titlebox=\box117
 \tcb@upperbox=\box118
@@ -1439,7 +1439,7 @@ Writing index file GammaRP1e.idx
 )
 
 LaTeX Warning: Unused global option(s):
-    [8pt].
+    [9pt].
 
 (GammaRP1e.aux (Introduction.aux) (TheBasics.aux))
 \openout1 = `GammaRP1e.aux'.
@@ -1662,77 +1662,82 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (3.98615pt too wide) in paragraph at lines 47--47
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 31.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (3.98615pt too wide) in paragraph at lines 34--34
 []|\T1/qbk/b/sc/10 Roll|  
  []
 
 
-Overfull \hbox (4.3261pt too wide) in paragraph at lines 47--47
+Overfull \hbox (4.3261pt too wide) in paragraph at lines 36--36
 []|[]|  
  []
 
 
-Overfull \hbox (4.3261pt too wide) in paragraph at lines 47--47
+Overfull \hbox (4.3261pt too wide) in paragraph at lines 37--37
 []|[]|  
  []
 
 
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 47--47
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 37--37
  []|\T1/qbk/m/sc/10 Success|
  []
 
 
-Overfull \hbox (4.3261pt too wide) in paragraph at lines 47--47
+Overfull \hbox (4.3261pt too wide) in paragraph at lines 39--39
 []|[]|  
  []
 
 
-Overfull \hbox (4.3261pt too wide) in paragraph at lines 47--47
+Overfull \hbox (4.3261pt too wide) in paragraph at lines 40--40
 []|[]|  
  []
 
 
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 47--47
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 40--41
  []|\T1/qbk/m/sc/10 Success|
  []
 
 
-Overfull \hbox (4.3261pt too wide) in paragraph at lines 47--47
+Overfull \hbox (4.3261pt too wide) in paragraph at lines 41--41
 []|[]|  
  []
 
 
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 47--47
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 41--41
  []|\T1/qbk/m/sc/10 Success|
  []
 
 
-Overfull \hbox (4.3261pt too wide) in paragraph at lines 47--47
+Overfull \hbox (4.3261pt too wide) in paragraph at lines 43--43
 []|[]|  
  []
 
 
-Overfull \hbox (4.3261pt too wide) in paragraph at lines 47--47
+Overfull \hbox (4.3261pt too wide) in paragraph at lines 44--44
 []|[]|  
  []
 
 
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 47--47
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 44--45
  []|\T1/qbk/m/sc/10 Success|
  []
 
 
-Overfull \hbox (4.3261pt too wide) in paragraph at lines 47--47
+Overfull \hbox (4.3261pt too wide) in paragraph at lines 45--45
 []|[]|  
  []
 
 
-Overfull \hbox (4.3261pt too wide) in paragraph at lines 47--47
+Overfull \hbox (4.3261pt too wide) in paragraph at lines 46--46
 []|[]|  
  []
 
 
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 47--47
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 46--47
  []|\T1/qbk/m/sc/10 Success|
  []
 
@@ -1750,137 +1755,147 @@ nclusion: multiple pdfs with page group included in a single page
 >]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 67.
+(caption)                particular \caption on input line 64.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (3.98615pt too wide) in paragraph at lines 93--93
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 64.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 64.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (3.98615pt too wide) in paragraph at lines 67--67
 []|\T1/qbk/b/sc/10 Roll|  
  []
 
 
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 93--93
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 69--69
 []|[]|  
  []
 
 
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 93--93
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 69--70
  []|\T1/qbk/m/sc/10 Success|
  []
 
 
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 93--93
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 70--70
 []|[]|  
  []
 
 
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 93--93
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 70--71
  []|\T1/qbk/m/sc/10 Success|
  []
 
 
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 93--93
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 71--71
 []|[]|  
  []
 
 
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 93--93
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 73--73
 []|[]|  
  []
 
 
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 93--93
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 74--74
 []|[]|  
  []
 
 
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 93--93
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 74--75
  []|\T1/qbk/m/sc/10 Success|
  []
 
 
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 93--93
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 75--75
 []|[]|  
  []
 
 
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 93--93
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 75--76
  []|\T1/qbk/m/sc/10 Success|
  []
 
 
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 93--93
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 76--76
 []|[]|  
  []
 
 
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 93--93
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 78--78
 []|[]|  
  []
 
 
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 93--93
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 80--80
 []|[]|  
  []
 
 
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 93--93
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 80--81
  []|\T1/qbk/m/sc/10 Success|
  []
 
 
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 93--93
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 81--81
 []|[]|  
  []
 
 
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 93--93
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 81--82
  []|\T1/qbk/m/sc/10 Success|
  []
 
 
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 93--93
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 82--82
 []|[]|  
  []
 
 
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 93--93
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 84--84
 []|[]|  
  []
 
 
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 93--93
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 85--85
 []|[]|  
  []
 
 
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 93--93
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 85--86
  []|\T1/qbk/m/sc/10 Success|
  []
 
 
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 93--93
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 86--86
 []|[]|  
  []
 
 
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 93--93
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 86--87
  []|\T1/qbk/m/sc/10 Success|
  []
 
 
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 93--93
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 87--87
 []|[]|  
  []
 
 
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 93--93
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 89--89
 []|[]|  
  []
 
 [6]
 Package svg Info: Last page of `./svg-inkscape/Core Skill Map_svg-tex.pdf' is 1
- on input line 101.
+ on input line 109.
  (svg-inkscape/Core Skill Map_svg-tex.pdf_tex
 <./svg-inkscape/Core Skill Map_svg-tex.pdf, id=2334, page=1, 639.89063pt x 639.
 89063pt>
@@ -1892,16 +1907,17 @@ Package pdftex.def Info: ./svg-inkscape/Core Skill Map_svg-tex.pdf , page1 used
 )
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 102.
+(caption)                particular \caption on input line 110.
 See the caption package documentation for explanation.
 
 
-Overfull \vbox (9.66805pt too high) has occurred while \output is active []
-
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 110.
+See the caption package documentation for explanation.
 
 [7 <./svg-inkscape/Core Skill Map_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/Core Skill Map_svg-tex.pdf' is 1
- on input line 108.
+ on input line 116.
 
 (svg-inkscape/Core Skill Map_svg-tex.pdf_tex
 File: ./svg-inkscape/Core Skill Map_svg-tex.pdf Graphic file (type pdf)
@@ -1912,10 +1928,15 @@ Package pdftex.def Info: ./svg-inkscape/Core Skill Map_svg-tex.pdf , page1 used
 )
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 109.
+(caption)                particular \caption on input line 117.
 See the caption package documentation for explanation.
 
-) [8] [9] [10] [11] [12]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 117.
+See the caption package documentation for explanation.
+
+[8]) [9] [10] [11] [12] [13] [14]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 43.
@@ -1924,30 +1945,20 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 43.
 
-(GammaRP1e.lof
-Overfull \hbox (2.39993pt too wide) detected at line 3
-\T1/qbk/m/n/10 2.1-a 
- []
-
-
-Overfull \hbox (2.79994pt too wide) detected at line 4
-\T1/qbk/m/n/10 2.1-b 
- []
-
-)
+(GammaRP1e.lof)
 \tf@lof=\write7
 \openout7 = `GammaRP1e.lof'.
 
- [13] [14] (GammaRP1e.lot)
+ [15] [16] (GammaRP1e.lot)
 \tf@lot=\write8
 \openout8 = `GammaRP1e.lot'.
 
- [15] [16]
+ [17] [18]
 runsystem(makeindex -s GRPindexstyle.ist GammaRP1e.idx)...executed safely (allo
 wed).
 
- (GammaRP1e.ind) [17]
-\gdef \@abspage@last{21}
+ (GammaRP1e.ind) [19]
+\gdef \@abspage@last{23}
 (GammaRP1e.aux (Introduction.aux) (TheBasics.aux))
  ***********
 LaTeX2e <2025-11-01>
@@ -1957,25 +1968,28 @@ L3 programming layer <2025-11-06>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `GammaRP1e.out' has not changed.
 (rerunfilecheck)             Checksum: F8C2C1E6CBD1473C9F75EF0DD1B09FD7;1151.
  ) 
 Here is how much of TeX's memory you used:
- 36092 strings out of 467871
- 733212 string characters out of 5428442
- 1587986 words of memory out of 5000000
- 64278 multiletter control sequences out of 15000+600000
+ 36103 strings out of 467871
+ 733399 string characters out of 5428442
+ 1592004 words of memory out of 5000000
+ 64287 multiletter control sequences out of 15000+600000
  695029 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,19n,120p,730b,1565s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,19n,120p,730b,1602s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/cbgreek/grmn1000.pfb><C:/Program 
 Files/MiKTeX/fonts/type1/public/tex-gyre/qbkb.pfb><C:/Program Files/MiKTeX/font
 s/type1/public/tex-gyre/qbkbi.pfb><C:/Program Files/MiKTeX/fonts/type1/public/t
 ex-gyre/qbkr.pfb><C:/Program Files/MiKTeX/fonts/type1/public/tex-gyre/qbkri.pfb
 >
-Output written on GammaRP1e.pdf (21 pages, 1174132 bytes).
+Output written on GammaRP1e.pdf (23 pages, 1215723 bytes).
 PDF statistics:
- 2438 PDF objects out of 2487 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
+ 2440 PDF objects out of 2487 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
  366 words of extra memory for PDF output out of 10000 (max. 10000000)
 
