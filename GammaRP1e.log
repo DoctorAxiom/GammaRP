@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.14)  15 DEC 2025 23:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.14)  17 DEC 2025 09:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1634,9 +1634,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--12
 []\T1/qbk/b/n/14.4 The Fun-da-men-tal
  []
 
-Point C table counter = 0
 Package svg Info: Last page of `./svg-inkscape/onedice_svg-tex.pdf' is 1 on inp
-ut line 25.
+ut line 24.
 (svg-inkscape/onedice_svg-tex.pdf_tex
 <./svg-inkscape/onedice_svg-tex.pdf, id=2304, page=1, 1086.36443pt x 1019.55269
 pt>
@@ -1647,7 +1646,7 @@ ut line 56.
 (pdftex.def)             Requested size: 42.44484pt x 39.82617pt.
 )
 Package svg Info: Last page of `./svg-inkscape/onedice_b_svg-tex.pdf' is 1 on i
-nput line 28.
+nput line 27.
  (svg-inkscape/onedice_b_svg-tex.pdf_tex
 <./svg-inkscape/onedice_b_svg-tex.pdf, id=2306, page=1, 1034.91122pt x 1037.043
 33pt>
@@ -1657,8 +1656,13 @@ Package pdftex.def Info: ./svg-inkscape/onedice_b_svg-tex.pdf , page1 used on i
 nput line 56.
 (pdftex.def)             Requested size: 45.43565pt x 45.5256pt.
 )
-Overfull \hbox (3.98615pt too wide) in paragraph at lines 35--35
+Overfull \hbox (3.98615pt too wide) in paragraph at lines 34--34
 []|\T1/qbk/b/sc/10 Roll|  
+ []
+
+
+Overfull \hbox (4.3261pt too wide) in paragraph at lines 36--36
+[]|[]|  
  []
 
 
@@ -1667,13 +1671,13 @@ Overfull \hbox (4.3261pt too wide) in paragraph at lines 37--37
  []
 
 
-Overfull \hbox (4.3261pt too wide) in paragraph at lines 38--38
-[]|[]|  
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 37--37
+ []|\T1/qbk/m/sc/10 Success|
  []
 
 
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 38--38
- []|\T1/qbk/m/sc/10 Success|
+Overfull \hbox (4.3261pt too wide) in paragraph at lines 39--39
+[]|[]|  
  []
 
 
@@ -1682,23 +1686,23 @@ Overfull \hbox (4.3261pt too wide) in paragraph at lines 40--40
  []
 
 
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 40--41
+ []|\T1/qbk/m/sc/10 Success|
+ []
+
+
 Overfull \hbox (4.3261pt too wide) in paragraph at lines 41--41
 []|[]|  
  []
 
 
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 41--42
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 41--41
  []|\T1/qbk/m/sc/10 Success|
  []
 
 
-Overfull \hbox (4.3261pt too wide) in paragraph at lines 42--42
+Overfull \hbox (4.3261pt too wide) in paragraph at lines 43--43
 []|[]|  
- []
-
-
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 42--42
- []|\T1/qbk/m/sc/10 Success|
  []
 
 
@@ -1707,13 +1711,13 @@ Overfull \hbox (4.3261pt too wide) in paragraph at lines 44--44
  []
 
 
-Overfull \hbox (4.3261pt too wide) in paragraph at lines 45--45
-[]|[]|  
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 44--45
+ []|\T1/qbk/m/sc/10 Success|
  []
 
 
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 45--46
- []|\T1/qbk/m/sc/10 Success|
+Overfull \hbox (4.3261pt too wide) in paragraph at lines 45--45
+[]|[]|  
  []
 
 
@@ -1722,16 +1726,10 @@ Overfull \hbox (4.3261pt too wide) in paragraph at lines 46--46
  []
 
 
-Overfull \hbox (4.3261pt too wide) in paragraph at lines 47--47
-[]|[]|  
- []
-
-
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 47--48
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 46--47
  []|\T1/qbk/m/sc/10 Success|
  []
 
-Point F table counter = 1
 [5
 
 {C:/Program Files/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec-sc.enc} <./svg-inkscape/
@@ -1744,8 +1742,33 @@ lusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./svg-inkscape/onedice_b_svg-tex.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (3.98615pt too wide) in paragraph at lines 68--68
+Overfull \hbox (3.98615pt too wide) in paragraph at lines 66--66
 []|\T1/qbk/b/sc/10 Roll|  
+ []
+
+
+Overfull \hbox (3.98615pt too wide) in paragraph at lines 66--66
+[]|\T1/qbk/b/sc/10 Roll|  
+ []
+
+
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 68--68
+[]|[]|  
+ []
+
+
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 68--69
+ []|\T1/qbk/m/sc/10 Success|
+ []
+
+
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 69--69
+[]|[]|  
+ []
+
+
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 69--70
+ []|\T1/qbk/m/sc/10 Success|
  []
 
 
@@ -1754,23 +1777,18 @@ Overfull \hbox (4.7261pt too wide) in paragraph at lines 70--70
  []
 
 
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 70--71
- []|\T1/qbk/m/sc/10 Success|
- []
-
-
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 71--71
-[]|[]|  
- []
-
-
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 71--72
- []|\T1/qbk/m/sc/10 Success|
- []
-
-
 Overfull \hbox (4.7261pt too wide) in paragraph at lines 72--72
 []|[]|  
+ []
+
+
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 73--73
+[]|[]|  
+ []
+
+
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 73--74
+ []|\T1/qbk/m/sc/10 Success|
  []
 
 
@@ -1779,23 +1797,13 @@ Overfull \hbox (4.7261pt too wide) in paragraph at lines 74--74
  []
 
 
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 74--75
+ []|\T1/qbk/m/sc/10 Success|
+ []
+
+
 Overfull \hbox (4.7261pt too wide) in paragraph at lines 75--75
 []|[]|  
- []
-
-
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 75--76
- []|\T1/qbk/m/sc/10 Success|
- []
-
-
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 76--76
-[]|[]|  
- []
-
-
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 76--77
- []|\T1/qbk/m/sc/10 Success|
  []
 
 
@@ -1809,23 +1817,23 @@ Overfull \hbox (4.7261pt too wide) in paragraph at lines 79--79
  []
 
 
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 79--80
+ []|\T1/qbk/m/sc/10 Success|
+ []
+
+
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 80--80
+[]|[]|  
+ []
+
+
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 80--81
+ []|\T1/qbk/m/sc/10 Success|
+ []
+
+
 Overfull \hbox (4.7261pt too wide) in paragraph at lines 81--81
 []|[]|  
- []
-
-
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 81--82
- []|\T1/qbk/m/sc/10 Success|
- []
-
-
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 82--82
-[]|[]|  
- []
-
-
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 82--83
- []|\T1/qbk/m/sc/10 Success|
  []
 
 
@@ -1834,8 +1842,23 @@ Overfull \hbox (4.7261pt too wide) in paragraph at lines 83--83
  []
 
 
+Overfull \hbox (4.7261pt too wide) in paragraph at lines 84--84
+[]|[]|  
+ []
+
+
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 84--85
+ []|\T1/qbk/m/sc/10 Success|
+ []
+
+
 Overfull \hbox (4.7261pt too wide) in paragraph at lines 85--85
 []|[]|  
+ []
+
+
+Overfull \hbox (0.5606pt too wide) in paragraph at lines 85--86
+ []|\T1/qbk/m/sc/10 Success|
  []
 
 
@@ -1844,61 +1867,51 @@ Overfull \hbox (4.7261pt too wide) in paragraph at lines 86--86
  []
 
 
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 86--87
- []|\T1/qbk/m/sc/10 Success|
- []
-
-
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 87--87
-[]|[]|  
- []
-
-
-Overfull \hbox (0.5606pt too wide) in paragraph at lines 87--88
- []|\T1/qbk/m/sc/10 Success|
- []
-
-
 Overfull \hbox (4.7261pt too wide) in paragraph at lines 88--88
 []|[]|  
  []
 
 
-Overfull \hbox (4.7261pt too wide) in paragraph at lines 90--90
-[]|[]|  
+Overfull \hbox (3.66562pt too wide) in paragraph at lines 91--91
+[]|\T1/qbk/b/sc/10 Roll|  
  []
 
 [6]
+Overfull \vbox (9.09343pt too high) has occurred while \output is active []
+
+
+[7]
 Package svg Info: Last page of `./svg-inkscape/Core Skill Map_svg-tex.pdf' is 1
- on input line 110.
+ on input line 115.
  (svg-inkscape/Core Skill Map_svg-tex.pdf_tex
-<./svg-inkscape/Core Skill Map_svg-tex.pdf, id=2334, page=1, 639.89063pt x 639.
+<./svg-inkscape/Core Skill Map_svg-tex.pdf, id=2338, page=1, 639.89063pt x 639.
 89063pt>
 File: ./svg-inkscape/Core Skill Map_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Core Skill Map_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Core Skill Map_svg-tex.pdf , page1 used
  on input line 56.
 (pdftex.def)             Requested size: 379.55984pt x 379.5631pt.
-) [7 <./svg-inkscape/Core Skill Map_svg-tex.pdf>]
+)
 Package svg Info: Last page of `./svg-inkscape/Core Skill Map_svg-tex.pdf' is 1
- on input line 117.
- (svg-inkscape/Core Skill Map_svg-tex.pdf_tex
+ on input line 122.
+
+(svg-inkscape/Core Skill Map_svg-tex.pdf_tex
 File: ./svg-inkscape/Core Skill Map_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Core Skill Map_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Core Skill Map_svg-tex.pdf , page1 used
  on input line 56.
 (pdftex.def)             Requested size: 379.55984pt x 379.5631pt.
-) [8]) [9]
-[10] [11] [12] [13] [14] (GammaRP1e.lof)
+) [8 <./svg-inkscape/Core Skill Map_svg-tex.pdf>]) [9] [10] [11] [12] [13] [14]
+ (GammaRP1e.lof)
 \tf@lof=\write7
 \openout7 = `GammaRP1e.lof'.
 
- [15] [16] (GammaRP1e.lot)
+ [15] [16]
+(GammaRP1e.lot)
 \tf@lot=\write8
 \openout8 = `GammaRP1e.lot'.
 
- [17]
-[18]
+ [17] [18]
 runsystem(makeindex -s GRPindexstyle.ist GammaRP1e.idx)...executed safely (allo
 wed).
 
@@ -1917,19 +1930,19 @@ Package rerunfilecheck Info: File `GammaRP1e.out' has not changed.
 (rerunfilecheck)             Checksum: B5E0BAA59120ADB015D9C5C578182C9F;1151.
  ) 
 Here is how much of TeX's memory you used:
- 36100 strings out of 467871
- 733343 string characters out of 5428442
- 1592124 words of memory out of 5000000
- 64285 multiletter control sequences out of 15000+600000
- 691882 words of font info for 74 fonts, out of 8000000 for 9000
+ 36096 strings out of 467871
+ 732969 string characters out of 5428442
+ 1637391 words of memory out of 5000000
+ 64281 multiletter control sequences out of 15000+600000
+ 695029 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,19n,120p,730b,1633s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,19n,120p,730b,1947s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/cbgreek/grmn1000.pfb><C:/Program 
 Files/MiKTeX/fonts/type1/public/tex-gyre/qbkb.pfb><C:/Program Files/MiKTeX/font
 s/type1/public/tex-gyre/qbkbi.pfb><C:/Program Files/MiKTeX/fonts/type1/public/t
 ex-gyre/qbkr.pfb><C:/Program Files/MiKTeX/fonts/type1/public/tex-gyre/qbkri.pfb
 >
-Output written on GammaRP1e.pdf (23 pages, 1216915 bytes).
+Output written on GammaRP1e.pdf (23 pages, 1220124 bytes).
 PDF statistics:
  2445 PDF objects out of 2487 (max. 8388607)
  40 named destinations out of 1000 (max. 500000)

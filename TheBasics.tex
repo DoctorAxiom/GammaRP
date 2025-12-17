@@ -21,7 +21,6 @@ If any of the dice you roll pass the success threshold, then your roll is a succ
 
 This means that both larger \textit{X} and larger \textit{Y} indicate a higher probability of success.
 
-\typeout{Point C table counter = \arabic{table}}
 \GRPbitepar[right]{0pt,0pt,0pt,0pt,8.9mm,10.5mm,9.5mm}\GRPparabgsvg[height=1.4cm,side=right,shift={(-1.6cm,-1.3cm)}]{art/onedice}
 Higher \textit{Y} mean the roll is successful even at lower thresholds. An advantage of 1 is the default when advantage is not specified. This means that is only successful on a 12. However an advantage of 2 means the roll is successful on any instance of a 12 or an 11 (there are two numbers now on which the roll is successful).
 
@@ -31,8 +30,8 @@ Let's look at a few example rolls.
 \begin{GRPtable}
 \caption{Advantage Examples}
 \begin{GRPtabular}{l/0.16,c/0.53,r\scshape/0.31}
-	\rowcolor{\GRPtitlecellcolor}
-	{\GRPtitlecellformat Roll}&{\GRPtitlecellformat Dice}&{\GRPtitlecellformat Result} \XX [0.5ex]
+	% \rowcolor{\GRPtitlecellcolor}
+	\rowformat{\GRPtitlecellformat} Roll & Dice & Result \XX [0.5ex]
 	\hline \hline 
 	\GRProll{5}{1} & \GRPdicelist{1,11,8,4,10} & Failure \XX
 	\GRProll{5}{1} & \GRPdicelist{1,1,2,12,2} & Success \XX [0.5ex]
@@ -48,7 +47,6 @@ Let's look at a few example rolls.
 \end{GRPtabular}
 \end{GRPtable}	
 
-\typeout{Point F table counter = \arabic{table}}
 Another way to look at this is-- if you can sum the advantage with the value of any die in your roll and get a number greater than 12, your roll is successful. An advantage of 0 is the exception, which still is successful if any dice rolls a 12.
 
 An advantage of 12 means that any roll with at least 1 die automatically succeeds, as the threshold for success is 1. You can simply declare a success if you are asked to make a roll with an advantage of 12, but you may still make the roll if you have any abilities that benefit from actually rolling the dice.
@@ -63,8 +61,8 @@ Lets look at a few example disadvantage rolls.
 
 \begin{GRPtable}
 \caption{Disadvantage Examples}
-\begin{GRPtabular}{l/0.16,c/0.53,r\scshape/0.31}
-	\rowcolor{\GRPtitlecellcolor}
+\begin{GRPtabular}[Roll & Dice & Result]{l/0.16,c/0.53,r\scshape/0.31}
+	% \rowcolor{\GRPtitlecellcolor}
 	\rowformat{\GRPtitlecellformat} Roll & Dice & Result \XX [0.5ex]
 	\hline \hline 
 	\GRProll{2}{-1} & \GRPdicelist[-1]{12,2} & Success \XX
@@ -87,7 +85,8 @@ Lets look at a few example disadvantage rolls.
 	\GRProll{4}{-3} & \GRPdicelist[-3]{12,8,1,10} & Success \XX 
 	\GRProll{4}{-4} & \GRPdicelist[-4]{12,8,1,10} & Failure \XX [0.5ex]
 	\hline
-	\GRProll{8}{-7} & \GRPdicelist[-7]{12,12,1,12,12,12,12,1} & Failure 
+	\GRProll{8}{-7} & \GRPdicelist[-7]{12,12,1,12,12,12,12,1} & Failure \\
+	\hline \hline
 \end{GRPtabular}
 \end{GRPtable}
 
@@ -99,6 +98,12 @@ For rolls that require you to count the number of successes, any successful disa
 
 \begin{GRPquicknote}
 Note that the rolls \GRProll{X}{1}, \GRProll{X}{0}, and \GRProll{X}{-1} are all actually identical, with all three requiring a single dice of the set to result 12 in order to result a success.
+
+\lipsum[2]
+
+\lipsum[3]
+
+\lipsum[4]
 \end{GRPquicknote}
 
 

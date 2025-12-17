@@ -346,11 +346,13 @@
 
 %quick note formatting
 \newlength{\localnotewidth}
-\newenvironment{GRPquicknote}{%
-\setlength{\localnotewidth}{\dimeval{0.945\linewidth-1.8mm-1.8mm-3mm-3mm}}
-}{}
 
-\tcolorboxenvironment{GRPquicknote}{%
+\newcommand{\GRPbeforebreakdefault}{\small(continued...)}
+\newcommand{\GRPafterbreakdefault}{\small(...continued)}
+\newcommand{\GRPbeforenotebreak}{\GRPbeforebreakdefault}
+\newcommand{\GRPaftertnotebreak}{\GRPafterbreakdefault}
+
+\newtcolorbox{GRPquicknote}{% #1 = beforebreak node contents, #2 afterbreak node contents
 	breakable,
 	halign=flush center,
 	leftrule=1.8mm,
@@ -365,25 +367,45 @@
 	colback=\ChapterBackgroundTint!10!white,
 	opacityback=0.4,
 	colframe=\ChapterBackgroundTint!75!black,
+	before upper={\setlength{\localnotewidth}{\dimeval{0.945\linewidth-1.8mm-1.8mm-3mm-3mm}}},
 	overlay first={%
+	\begin{scope}
+		\path[clip] ($(frame.south west)+(0.25mm,8mm)$) -- ($(frame.south west)+(0.25mm,0)$) decorate [decoration={zigzag,segment length=2mm,amplitude=0.5mm}] {-- ($(frame.south east)-(0.25mm,0)$)} -- ($(frame.south east)+(-0.25mm,8mm)$) -- cycle;
+		\node[shape=rectangle,anchor=north,inner sep=0pt] at ($(frame.south)+(0,6mm)$) {\GRPbeforenotebreak};
+	\end{scope}
 	\draw[draw=\ChapterBackgroundTint!75!black,line width=0.5mm,line cap=round,decorate,decoration={zigzag,segment length=2mm,amplitude=0.5mm}] ($(frame.south west)+(0.25mm,0)$) -- ($(frame.south east)-(0.25mm,0)$);
 	\fill[\ChapterBackgroundTint!75!black] ($(frame.south west)+(0,1.8mm)$) -- (frame.south west) -- ($(frame.south west)+(0.9mm,-0.9mm)$) -- ($(frame.south west)+(1.8mm,0)$) -- ($(frame.south west)+(1.8mm,1.8mm)$) -- cycle;
 	\fill[\ChapterBackgroundTint!75!black] ($(frame.south east)+(0,1.8mm)$) -- (frame.south east) -- ($(frame.south east)+(-0.9mm,-0.9mm)$) -- ($(frame.south east)+(-1.8mm,0)$) -- ($(frame.south east)+(-1.8mm,1.8mm)$) -- cycle;
 	},
+	extras first={bottom=5mm,},
 	overlay middle={%
+	\begin{scope}
+		\path[clip] ($(frame.south west)+(0.25mm,8mm)$) -- ($(frame.south west)+(0.25mm,0)$) decorate [decoration={zigzag,segment length=2mm,amplitude=0.5mm}] {-- ($(frame.south east)-(0.25mm,0)$)} -- ($(frame.south east)+(-0.25mm,8mm)$) -- cycle;
+		\node[shape=rectangle,anchor=north,inner sep=0pt] at ($(frame.south)+(0,6mm)$) {\GRPbeforenotebreak};
+	\end{scope}
+	\begin{scope}
+		\path[clip] ($(frame.north east)+(-1.55mm,-8mm)$) -- ($(frame.north east)+(-1.55mm,0)$) decorate [decoration={zigzag,segment length=2mm,amplitude=0.5mm}] {-- ($(frame.north west)+(1.55mm,0)$)} -- ($(frame.north west)+(1.55mm,-8mm)$) -- cycle;
+		\node[shape=rectangle,anchor=south,inner sep=0pt] at ($(frame.north)+(0,-6mm)$) {\GRPafternotebreak};
+	\end{scope}
 	\draw[draw=\ChapterBackgroundTint!75!black,line width=0.5mm,line cap=round,decorate,decoration={zigzag,segment length=2mm,amplitude=0.5mm}] ($(frame.south west)+(0.25mm,0)$) -- ($(frame.south east)-(0.25mm,0)$);%lowerzigzag
 	\fill[\ChapterBackgroundTint!75!black] ($(frame.south west)+(0,1.8mm)$) -- (frame.south west) -- ($(frame.south west)+(0.9mm,-0.9mm)$) -- ($(frame.south west)+(1.8mm,0)$) -- ($(frame.south west)+(1.8mm,1.8mm)$) -- cycle;
 	\fill[\ChapterBackgroundTint!75!black] ($(frame.south east)+(0,1.8mm)$) -- (frame.south east) -- ($(frame.south east)+(-0.9mm,-0.9mm)$) -- ($(frame.south east)+(-1.8mm,0)$) -- ($(frame.south east)+(-1.8mm,1.8mm)$) -- cycle;
-	\draw[draw=\ChapterBackgroundTint!75!black,line width=0.5mm,line cap=round,decorate,decoration={zigzag,segment length=2mm,amplitude=0.5mm}] ($(frame.north west)+(1.55mm,0)$) -- ($(frame.north east)-(1.55mm,0)$);%%upperzigzag
+	\draw[draw=\ChapterBackgroundTint!75!black,line width=0.5mm,line cap=round,decorate,decoration={zigzag,segment length=2mm,amplitude=0.5mm}] ($(frame.north east)+(-1.55mm,0)$) -- ($(frame.north west)+(1.55mm,0)$);%%upperzigzag
 	\fill[\ChapterBackgroundTint!75!black] ($(frame.north west)+(0,-1.8mm)$) -- (frame.north west) -- ($(frame.north west)+(0.9mm,0.9mm)$) -- ($(frame.north west)+(1.8mm,0)$) -- ($(frame.north west)+(1.8mm,-1.8mm)$) -- cycle;
 	\fill[\ChapterBackgroundTint!75!black] ($(frame.north east)+(0,-1.8mm)$) -- (frame.north east) -- ($(frame.north east)+(-0.9mm,0.9mm)$) -- ($(frame.north east)+(-1.8mm,0)$) -- ($(frame.north east)+(-1.8mm,-1.8mm)$) -- cycle;
 	},
+	extras middle={top=5mm,bottom=5mm,},
 	overlay last={%
-	\draw[draw=\ChapterBackgroundTint!75!black,line width=0.5mm,line cap=round,decorate,decoration={zigzag,segment length=2mm,amplitude=0.5mm}] ($(frame.north west)+(1.55mm,0)$) -- ($(frame.north east)-(1.55mm,0)$);
+	\begin{scope}
+		\path[clip] ($(frame.north east)+(-1.55mm,-8mm)$) -- ($(frame.north east)+(-1.55mm,0)$) decorate [decoration={zigzag,segment length=2mm,amplitude=0.5mm}] {-- ($(frame.north west)+(1.55mm,0)$)} -- ($(frame.north west)+(1.55mm,-8mm)$) -- cycle;
+		\node[shape=rectangle,anchor=south,inner sep=0pt] at ($(frame.north)+(0,-6mm)$) {\GRPafternotebreak};
+	\end{scope}
+	\draw[draw=\ChapterBackgroundTint!75!black,line width=0.5mm,line cap=round,decorate,decoration={zigzag,segment length=2mm,amplitude=0.5mm}] ($(frame.north east)+(-1.55mm,0)$) -- ($(frame.north west)+(1.55mm,0)$);
 	\fill[\ChapterBackgroundTint!75!black] ($(frame.north west)+(0,-1.8mm)$) -- (frame.north west) -- ($(frame.north west)+(0.9mm,0.9mm)$) -- ($(frame.north west)+(1.8mm,0)$) -- ($(frame.north west)+(1.8mm,-1.8mm)$) -- cycle;
 	\fill[\ChapterBackgroundTint!75!black] ($(frame.north east)+(0,-1.8mm)$) -- (frame.north east) -- ($(frame.north east)+(-0.9mm,0.9mm)$) -- ($(frame.north east)+(-1.8mm,0)$) -- ($(frame.north east)+(-1.8mm,-1.8mm)$) -- cycle;
 	},
-	}
+	extras last={top=5mm,},
+}
 
 % PICTURE AND FIGURE commands
 %
@@ -399,6 +421,7 @@
 \makeatletter
 \newenvironment{GRPpseudofloat}[3]
 {%
+	\setlength{\localnotewidth}{\dimeval{0.915\linewidth-1.8mm-1.8mm-3mm-3mm}}%
 	\SetChapterTint{}%
 	\par\smallskip\noindent\begin{GRPquicknote}%
 	\IfStrEq{#3}{minipage}{\begin{minipage}{#2}}{}%
@@ -442,6 +465,8 @@
 	\endgroup%
 	\closeopenenv{minipage}%
 	\end{GRPquicknote}%
+	\gdef\GRPbeforenotebreak{\GRPbeforebreakdefault}%
+	\gdef\GRPafternotebreak{\GRPafterbreakdefault}%
 	\par%
 }
 \makeatother
@@ -457,7 +482,6 @@
 \newenvironment{GRPtable}
 {%
 	\begin{GRPpseudofloat}{table}{\linewidth}{}%
-	\rowcolors{2}{\ChapterBackgroundTint!20!white}{\ChapterBackgroundTint!10!white}
 }%
 {%
 	\end{GRPpseudofloat}%
@@ -484,14 +508,20 @@
 \AddToHook{env/GRPtable-wide/before}{\nopagebreak\end{multicols}\nopagebreak}
 
 %Custom table environment
+\newcommand\rowformat[1]{\gdef\GRProwstyler{#1}#1\ignorespaces}%
 \newcounter{grpcurrentrow}
 \makeatletter
-\newenvironment{GRPtabular}[1]{% #1 = customcolumnspec
+\newenvironment{GRPtabular}[2][]{% #1=title row, #2 = customcolumnspec
 	\def\GRPtablespec{}%
 	\gdef\GRProwstyler{}%
-	\newcommand\rowformat[1]{\gdef\GRProwstyler{##1}##1\ignorespaces}%
 	\def\GRProwclear{\gdef\GRProwstyler{}}%
-	\foreach \grpalign/\grpwidth in {#1}{%
+	\gdef\GRPbeforenotebreak{%
+		\begin{tabular}{>{\raggedleft\arraybackslash}m{\localnotewidth}}
+			\rowcolor{\GRPtitlecellcolor}
+			\small (table continues...) \\
+		\end{tabular}
+	}%
+	\foreach \grpalign/\grpwidth in {#2}{%
 		%\FAKEDEBUGCOMMAND%
 		\def\currspecformat{}%
 		\IfStrEqCase{\expandafter\firstof\expandafter{\grpalign}}{%
@@ -514,17 +544,47 @@
 		\expandafter\g@addto@macro\expandafter\GRPtablespec\expandafter{\currspecwidth}%
 	}%
 	\newcommand{\begintabhelper}[1]{\begin{tabular}{##1}}%
+	\IfStrEq{#1}{}%This segment changes the afternote break
+	{%
+		\gdef\GRPafternotebreak{%
+			\begin{tabular}{>{\raggedleft\arraybackslash}m{\localnotewidth}}
+				\rowcolor{\GRPtitlecellcolor}
+				\small (...table continued) \\
+			\end{tabular}
+		}%
+	}%
+	{%
+		\newcommand{\GRPafternotehelper}[1]{%
+			\gdef\GRPafternotebreak{%
+				\setlength{\localnotewidth}{\dimeval{0.8\linewidth-1.8mm-1.8mm-3mm-3mm}}
+				\begin{tabular}{##1}
+					\rowcolor{\GRPtitlecellcolor}
+					\rowformat{\GRPtitlecellformat} #1 \\ [0.5ex]
+					\hline \hline
+				\end{tabular}
+			}%
+		}%
+		\expandafter\GRPafternotehelper\expandafter{\GRPtablespec}%
+	}%
   \newcommand{\XX}[1][0pt]{%
   	\GRProwclear%makesure you reset any previous row formatting.
     \ifnum\value{grpcurrentrow}>0%
       \end{tabular}\linebreak\vspace{##1}%
     \fi%
     \stepcounter{grpcurrentrow}%
-    \expandafter\begintabhelper\expandafter{\GRPtablespec}
-    \ifodd\value{grpcurrentrow}%
-    	\rowcolor{\ChapterBackgroundTint!20!white}
+    \expandafter\begintabhelper\expandafter{\GRPtablespec}%
+    \ifnum\value{grpcurrentrow}=1%
+    \IfStrEq{#1}{}{\ignorespaces}%if not empty, we want to insert the title row at the first row
+    {%
+			\rowformat{\GRPtitlecellformat} #1 \\ [0.5ex]
+			\hline \hline
+    }\ignorespaces%
     \else%
-    	\rowcolor{\ChapterBackgroundTint!10!white}
+	    \ifodd\value{grpcurrentrow}%
+	    	\rowcolor{\ChapterBackgroundTint!20!white}
+	    \else%
+	    	\rowcolor{\ChapterBackgroundTint!10!white}
+	    \fi%
     \fi%
   }%
   % Initialize: no previous tabular yet
