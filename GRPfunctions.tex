@@ -568,23 +568,28 @@
 	}%
   \newcommand{\XX}[1][0pt]{%
   	\GRProwclear%makesure you reset any previous row formatting.
+  	\IfStrEq{#1}{}%
+  	{%
+  		\def\GRP@headerhelper{\space}
+  	}%
+  	{%
+			\def\GRP@headerhelper{%
+				\rowcolor{\GRPtitlecellcolor}\rowformat{\GRPtitlecellformat} #1 \GRProwclear\\ [0.5ex]
+				\hline \hline
+			}%
+		}%
     \ifnum\value{grpcurrentrow}>0%
       \end{tabular}\linebreak\vspace{##1}%
     \fi%
     \stepcounter{grpcurrentrow}%
     \expandafter\begintabhelper\expandafter{\GRPtablespec}%
     \ifnum\value{grpcurrentrow}=1%
-    \IfStrEq{#1}{}{\ignorespaces}%if not empty, we want to insert the title row at the first row
-    {%
-			\rowformat{\GRPtitlecellformat} #1 \\ [0.5ex]
-			\hline \hline
-    }\ignorespaces%
+    	\GRP@headerhelper%
+    \fi%
+    \ifodd\value{grpcurrentrow}%
+    	\rowcolor{\ChapterBackgroundTint!10!white}
     \else%
-	    \ifodd\value{grpcurrentrow}%
-	    	\rowcolor{\ChapterBackgroundTint!20!white}
-	    \else%
-	    	\rowcolor{\ChapterBackgroundTint!10!white}
-	    \fi%
+    	\rowcolor{\ChapterBackgroundTint!20!white}
     \fi%
   }%
   % Initialize: no previous tabular yet

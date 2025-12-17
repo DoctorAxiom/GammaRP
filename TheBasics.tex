@@ -27,12 +27,10 @@ Higher \textit{Y} mean the roll is successful even at lower thresholds. An advan
 \GRPparabgsvg[height=1.6cm,side=right,shift={(-1.1cm,-4mm)}]{art/onedice_b}
 Let's look at a few example rolls.
 
+\typeout{BASICS: FIRST TABLE REACHED}
 \begin{GRPtable}
 \caption{Advantage Examples}
-\begin{GRPtabular}{l/0.16,c/0.53,r\scshape/0.31}
-	% \rowcolor{\GRPtitlecellcolor}
-	\rowformat{\GRPtitlecellformat} Roll & Dice & Result \XX [0.5ex]
-	\hline \hline 
+\begin{GRPtabular}[Roll & Dice & Result]{l/0.16,c/0.53,r\scshape/0.31}
 	\GRProll{5}{1} & \GRPdicelist{1,11,8,4,10} & Failure \XX
 	\GRProll{5}{1} & \GRPdicelist{1,1,2,12,2} & Success \XX [0.5ex]
 	\hline
@@ -59,12 +57,10 @@ A roll with at \emph{disadvantage} of \textit{Z} means that in addition to havin
 
 Lets look at a few example disadvantage rolls.
 
+\typeout{BASICS: GOT HERE TO SECOND TABLE!}
 \begin{GRPtable}
 \caption{Disadvantage Examples}
 \begin{GRPtabular}[Roll & Dice & Result]{l/0.16,c/0.53,r\scshape/0.31}
-	% \rowcolor{\GRPtitlecellcolor}
-	\rowformat{\GRPtitlecellformat} Roll & Dice & Result \XX [0.5ex]
-	\hline \hline 
 	\GRProll{2}{-1} & \GRPdicelist[-1]{12,2} & Success \XX
 	\GRProll{2}{-1} & \GRPdicelist[-1]{12,1} & Success \XX
 	\GRProll{2}{-2} & \GRPdicelist[-2]{12,1} & Failure \XX [0.5ex]
@@ -74,38 +70,19 @@ Lets look at a few example disadvantage rolls.
 	\GRProll{4}{-3} & \GRPdicelist[-3]{12,8,1,10} & Success \XX 
 	\GRProll{4}{-4} & \GRPdicelist[-4]{12,8,1,10} & Failure \XX [0.5ex]
 	\hline
-	\GRProll{8}{-7} & \GRPdicelist[-7]{12,12,1,12,12,12,12,1} & Failure \XX [0.5ex]
-	\hline
-	\GRProll{2}{-1} & \GRPdicelist[-1]{12,2} & Success \XX
-	\GRProll{2}{-1} & \GRPdicelist[-1]{12,1} & Success \XX
-	\GRProll{2}{-2} & \GRPdicelist[-2]{12,1} & Failure \XX [0.5ex]
-	\hline
-	\GRProll{4}{-1} & \GRPdicelist[-1]{11,8,1,10} & Failure \XX
-	\GRProll{4}{-2} & \GRPdicelist[-2]{12,8,1,10} & Success \XX
-	\GRProll{4}{-3} & \GRPdicelist[-3]{12,8,1,10} & Success \XX 
-	\GRProll{4}{-4} & \GRPdicelist[-4]{12,8,1,10} & Failure \XX [0.5ex]
-	\hline
-	\GRProll{8}{-7} & \GRPdicelist[-7]{12,12,1,12,12,12,12,1} & Failure \\
-	\hline \hline
+	\GRProll{8}{-7} & \GRPdicelist[-7]{12,12,1,12,12,12,12,1} & Failure
 \end{GRPtabular}
 \end{GRPtable}
 
 Another way to think about disadvantage rolls is-- if you've rolled at least one 12, and if you can count a number of dice showing a value above 1 equal to or greater than the disadvantage, your roll is a success.
 
-When the disadvantage is greater than or equal to the number of dice being rolled, the roll is an automatic failure even if you have at least one dice showing a 12. This is because you cannot obtain a sufficient number of dice showing values above 1. Additionally, any roll with a disadvantage 12 or greater automatically fails, for symmetry with the advantage rolls (where any roll with an advantage 12 or greater automatically succeeds) If you are asked to make a roll with a disadvantage equal to or greater than the number of dice, you may simply declare a failure. However you may still make the roll if you have abilities that benefit from actually rolling the dice.
-
-For rolls that require you to count the number of successes, any successful disadvantaged roll provides 1 success. Any failed disadvantaged roll provides no successes.
-
 \begin{GRPquicknote}
 Note that the rolls \GRProll{X}{1}, \GRProll{X}{0}, and \GRProll{X}{-1} are all actually identical, with all three requiring a single dice of the set to result 12 in order to result a success.
-
-\lipsum[2]
-
-\lipsum[3]
-
-\lipsum[4]
 \end{GRPquicknote}
 
+When the disadvantage is greater than or equal to the number of dice being rolled, the roll is an automatic failure even if you have at least one dice showing a 12. This is because you do not have sufficient number of dice to show . Additionally, any roll with a disadvantage 12 or greater automatically fails, for symmetry with the advantage rolls (where any roll with an advantage 12 or greater automatically succeeds) If you are asked to make a roll with a disadvantage equal to or greater than the number of dice, you may simply declare a failure. However you may still make the roll if you have abilities that benefit from actually rolling the dice.
+
+For rolls that require you to count the number of successes, any successful disadvantaged roll provides 1 success. Any failed disadvantaged roll provides no successes.
 
 Then you pad the whole chapter with lorem ipsum text
 
