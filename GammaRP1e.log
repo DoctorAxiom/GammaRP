@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.14)  17 DEC 2025 12:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.14)  17 DEC 2025 18:10
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -439,6 +439,10 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count344
 )
+(C:\Program Files\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count345
+)
 (C:\Program Files\MiKTeX\tex/latex/lipsum\lipsum.sty
 (C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
 (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
@@ -446,14 +450,14 @@ Package: expl3 2025-11-06 L3 programming layer (loader)
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count345
+\l__color_backend_stack_int=\count346
 ))
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count346
-\l__lipsum_a_int=\count347
-\l__lipsum_b_int=\count348
+\g__lipsum_par_int=\count347
+\l__lipsum_a_int=\count348
+\l__lipsum_b_int=\count349
 
 (C:\Program Files\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
 (C:\Program Files\MiKTeX\tex/latex/titlesec\titlesec.sty
@@ -522,7 +526,7 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 )
 \everycr=\toks36
 \minrowclearance=\skip71
-\rownum=\count349
+\rownum=\count350
 )
 (C:\Program Files\MiKTeX\tex/latex/sectsty\sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
@@ -561,7 +565,7 @@ Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.
 tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count350
+\pgf@plot@mark@count=\count351
 \pgfplotmarksize=\dimen278
 )
 \tikz@lastx=\dimen279
@@ -576,17 +580,17 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikz@figbox@bg=\box114
 \tikz@tempbox=\box115
 \tikz@tempbox@bg=\box116
-\tikztreelevel=\count351
-\tikznumberofchildren=\count352
-\tikznumberofcurrentchild=\count353
-\tikz@fig@count=\count354
+\tikztreelevel=\count352
+\tikznumberofchildren=\count353
+\tikznumberofcurrentchild=\count354
+\tikz@fig@count=\count355
  (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count355
-\pgfmatrixcurrentcolumn=\count356
-\pgf@matrix@numberofcolumns=\count357
+\pgfmatrixcurrentrow=\count356
+\pgfmatrixcurrentcolumn=\count357
+\pgf@matrix@numberofcolumns=\count358
 )
-\tikz@expandcount=\count358
+\tikz@expandcount=\count359
 
 (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
 rytopaths.code.tex
@@ -609,9 +613,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box118
 \tcb@lowerbox=\box119
 \tcb@phantombox=\box120
-\c@tcbbreakpart=\count359
-\c@tcblayer=\count360
-\c@tcolorbox@number=\count361
+\c@tcbbreakpart=\count360
+\c@tcblayer=\count361
+\c@tcolorbox@number=\count362
 \l__tcobox_tmpa_box=\box121
 \l__tcobox_tmpa_dim=\dimen287
 \tcb@temp=\box122
@@ -621,10 +625,10 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 
 (C:\Program Files\MiKTeX\tex/latex/tcolorbox\tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.8.0'
-\c@tcbrastercolumn=\count362
-\c@tcbrasterrow=\count363
-\c@tcbrasternum=\count364
-\c@tcbraster=\count365
+\c@tcbrastercolumn=\count363
+\c@tcbrasterrow=\count364
+\c@tcbrasternum=\count365
+\c@tcbraster=\count366
 ) (C:\Program Files\MiKTeX\tex/latex/tcolorbox\tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.8.0'
 (C:\Program Files\MiKTeX\tex/latex/tikzfill\tikzfill.image.sty
@@ -671,14 +675,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count366
+\inf@bad=\count367
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count367
-\leftroot@=\count368
+\uproot@=\count368
+\leftroot@=\count369
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count369
-\DOTSCASE@=\count370
+\classnum@=\count370
+\DOTSCASE@=\count371
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -691,20 +695,20 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen289
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count371
+\macc@depth=\count372
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count372
+\c@MaxMatrixCols=\count373
 \dotsspace@=\muskip19
-\c@parentequation=\count373
-\dspbrk@lvl=\count374
+\c@parentequation=\count374
+\dspbrk@lvl=\count375
 \tag@help=\toks42
-\row@=\count375
-\column@=\count376
-\maxfields@=\count377
+\row@=\count376
+\column@=\count377
+\maxfields@=\count378
 \andhelp@=\toks43
 \eqnshift@=\dimen290
 \alignsep@=\dimen291
@@ -724,23 +728,23 @@ Library (tcolorbox): 'tcbfitting.code.tex' version '6.8.0'
 \tcbfitdim=\dimen296
 \tcb@lowerfitdim=\dimen297
 \tcb@upperfitdim=\dimen298
-\tcb@cur@hbadness=\count378
+\tcb@cur@hbadness=\count379
 ) (C:\Program Files\MiKTeX\tex/latex/tcolorbox\tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.8.0'
 (C:\Program Files\MiKTeX\tex/latex/tcolorbox\tcblistings.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '6.8.0'
 (C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count379
+\lst@mode=\count380
 \lst@gtempboxa=\box132
 \lst@token=\toks46
-\lst@length=\count380
+\lst@length=\count381
 \lst@currlwidth=\dimen299
-\lst@column=\count381
-\lst@pos=\count382
+\lst@column=\count382
+\lst@pos=\count383
 \lst@lostspace=\dimen300
 \lst@width=\dimen301
-\lst@newlines=\count383
-\lst@lineno=\count384
+\lst@newlines=\count384
+\lst@lineno=\count385
 \lst@maxwidth=\dimen302
 
 (C:\Program Files\MiKTeX\tex/latex/listings\lstpatch.sty
@@ -748,8 +752,8 @@ File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 )
 (C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-\c@lstnumber=\count385
-\lst@skipnumbers=\count386
+\c@lstnumber=\count386
+\lst@skipnumbers=\count387
 \lst@framebox=\box133
 )
 (C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg
@@ -768,7 +772,7 @@ Library (tcolorbox): 'tcblistingscore.code.tex' version '6.8.0'
 (C:\Program Files\MiKTeX\tex/latex/tcolorbox\tcbprocessing.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '6.8.0'
 )
-\c@tcblisting=\count387
+\c@tcblisting=\count388
 )) (C:\Program Files\MiKTeX\tex/latex/listingsutf8\listingsutf8.sty
 Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
 
@@ -1209,9 +1213,9 @@ Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 (C:\Program Files\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )))
-\c@svg@param@lastpage=\count388
+\c@svg@param@lastpage=\count389
 \svg@box=\box134
-\c@svg@param@currpage=\count389
+\c@svg@param@currpage=\count390
 )
 (C:\Program Files\MiKTeX\tex/latex/transparent\transparent.sty
 Package: transparent 2025-06-23 v1.6 Transparency with color stacks
@@ -1238,14 +1242,14 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen310
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count390
-\c@continuedfloat=\count391
+\c@caption@flags=\count391
+\c@continuedfloat=\count392
 Package caption Info: listings package is loaded.
 )
 (C:\Program Files\MiKTeX\tex/latex/makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen311
-\c@nlinenum=\count392
+\c@nlinenum=\count393
 \TeXr@lab=\toks47
 )
 (C:\Program Files\MiKTeX\tex/latex/tex-gyre\tgbonum.sty
@@ -1283,11 +1287,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count393
+\c@section@level=\count394
 )
 \@linkdim=\dimen312
-\Hy@linkcounter=\count394
-\Hy@pagecounter=\count395
+\Hy@linkcounter=\count395
+\Hy@pagecounter=\count396
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
@@ -1297,7 +1301,7 @@ Now handling font encoding PD1 ...
 (C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count396
+\Hy@SavedSpaceFactor=\count397
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
@@ -1323,7 +1327,7 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count397
+\c@Hy@tempcnt=\count398
 
 (C:\Program Files\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip20
@@ -1339,7 +1343,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count398
+\Fld@menulength=\count399
 \Field@Width=\dimen314
 \Fld@charsize=\dimen315
 Package hyperref Info: Hyper figures OFF on input line 6078.
@@ -1349,16 +1353,16 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count399
-\c@Item=\count400
-\c@Hfootnote=\count401
+\Hy@abspage=\count400
+\c@Item=\count401
+\c@Hfootnote=\count402
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count402
-\c@bookmark@seq@number=\count403
+\Fld@listcount=\count403
+\c@bookmark@seq@number=\count404
 
 (C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
@@ -1389,7 +1393,7 @@ rydecorations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen318
 \pgfdecoratedinputsegmentremainingdistance=\dimen319
 \pgf@decorate@distancetomove=\dimen320
-\pgf@decorate@repeatstate=\count404
+\pgf@decorate@repeatstate=\count405
 \pgfdecorationsegmentamplitude=\dimen321
 \pgfdecorationsegmentlength=\dimen322
 )
@@ -1414,11 +1418,11 @@ Package: xparse 2025-10-09 L3 Experimental document command parser
 \l__sn_ya_dim=\dimen326
 )
 \currentfontsize=\skip76
-\c@partpagedetector=\count405
+\c@partpagedetector=\count406
 \gammadodecsize=\skip77
-\c@GRPdisadvdummy=\count406
-\c@GRPdisadvsuccdum=\count407
-\c@GRPtwelves=\count408
+\c@GRPdisadvdummy=\count407
+\c@GRPdisadvsuccdum=\count408
+\c@GRPtwelves=\count409
 \currenttop=\skip78
 \currentleft=\skip79
 \currentright=\skip80
@@ -1428,9 +1432,9 @@ Package: xparse 2025-10-09 L3 Experimental document command parser
 \extragradlength=\skip84
 \currentengr=\skip85
 \localnotewidth=\skip86
-\c@grpcurrentrow=\count409
-\c@GRPbgsvgID=\count410
-\c@GRPbitecounter=\count411
+\c@grpcurrentrow=\count410
+\c@GRPbgsvgID=\count411
+\c@GRPbitecounter=\count412
 \GammaRP1e@idxfile=\write4
 \openout4 = `GammaRP1e.idx'.
 
@@ -1507,16 +1511,16 @@ LaTeX Font Info:    ... okay on input line 25.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count412
+\scratchcounter=\count413
 \scratchdimen=\dimen327
 \scratchbox=\box136
-\nofMPsegments=\count413
-\nofMParguments=\count414
+\nofMPsegments=\count414
+\nofMParguments=\count415
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count415
+\MPscratchCnt=\count416
 \MPscratchDim=\dimen328
-\MPnumerator=\count416
-\makeMPintoPDFobject=\count417
+\MPnumerator=\count417
+\makeMPintoPDFobject=\count418
 \everyMPtoPDFconversion=\toks49
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1538,7 +1542,7 @@ Package gensymb Info: Using \Omega for \ohm on input line 25.
 
 Package gensymb Warning: Not defining \micro.
 
-\c@lstlisting=\count418
+\c@lstlisting=\count419
 (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks50
@@ -1849,7 +1853,9 @@ runsystem(makeindex -s GRPindexstyle.ist GammaRP1e.idx)...executed safely (allo
 wed).
 
 
-(GammaRP1e.ind) [17]
+(GammaRP1e.ind) [17
+\oddpage@label{19}{17}
+]
 \gdef \@abspage@last{21}
 (GammaRP1e.aux (Introduction.aux) (TheBasics.aux))
  ***********
@@ -1864,10 +1870,10 @@ Package rerunfilecheck Info: File `GammaRP1e.out' has not changed.
 (rerunfilecheck)             Checksum: B5E0BAA59120ADB015D9C5C578182C9F;1151.
  ) 
 Here is how much of TeX's memory you used:
- 35993 strings out of 467871
- 730915 string characters out of 5428442
- 1506479 words of memory out of 5000000
- 64180 multiletter control sequences out of 15000+600000
+ 35982 strings out of 467871
+ 730661 string characters out of 5428442
+ 1474562 words of memory out of 5000000
+ 64165 multiletter control sequences out of 15000+600000
  695029 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,120p,712b,1627s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1876,7 +1882,7 @@ Files/MiKTeX/fonts/type1/public/tex-gyre/qbkb.pfb><C:/Program Files/MiKTeX/font
 s/type1/public/tex-gyre/qbkbi.pfb><C:/Program Files/MiKTeX/fonts/type1/public/t
 ex-gyre/qbkr.pfb><C:/Program Files/MiKTeX/fonts/type1/public/tex-gyre/qbkri.pfb
 >
-Output written on GammaRP1e.pdf (21 pages, 1174375 bytes).
+Output written on GammaRP1e.pdf (21 pages, 1047716 bytes).
 PDF statistics:
  2437 PDF objects out of 2487 (max. 8388607)
  38 named destinations out of 1000 (max. 500000)
