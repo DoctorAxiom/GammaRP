@@ -5,6 +5,7 @@
 \usepackage{imakeidx}
 \usepackage{etoolbox}
 \usepackage{ifoddpage}
+\usepackage{enumitem}
 
 \usepackage{lipsum}
 
@@ -51,15 +52,23 @@
 
 \ExplSyntaxOff
 
-\def\IsInteger#1{%
-  TT\fi
-  \begingroup \lccode`\-=`\0 \lccode`+=`\0
-    \lccode`\1=`\0 \lccode`\2=`\0 \lccode`\3=`\0
-    \lccode`\4=`\0 \lccode`\5=`\0 \lccode`\6=`\0
-    \lccode`\7=`\0 \lccode`\8=`\0 \lccode`\9=`\0
-  \lowercase{\endgroup
-    \expandafter\ifx\expandafter\delimiter
-    \romannumeral0\string#1}\delimiter
+% \def\IsInteger#1{%
+%   TT\fi
+%   \begingroup \lccode`\-=`\0 \lccode`+=`\0
+%     \lccode`\1=`\0 \lccode`\2=`\0 \lccode`\3=`\0
+%     \lccode`\4=`\0 \lccode`\5=`\0 \lccode`\6=`\0
+%     \lccode`\7=`\0 \lccode`\8=`\0 \lccode`\9=`\0
+%   \lowercase{\endgroup
+%     \expandafter\ifx\expandafter\delimiter
+%     \romannumeral0\string#1}\delimiter
+% }
+
+\newcommand*{\IsInteger}[3]{%
+    \IfStrEq{#1}{ }{%
+        #3% is a blank string
+    }{%
+        \IfInteger{#1}{#2}{#3}%
+    }%
 }
 
 \makeatletter
@@ -80,18 +89,6 @@
 \makeatother
 
 \rmfamily
-
-%Steven Segletes's Faux Small Caps command for situations where bolded small caps are needed.
-\newcommand\fauxsc[1]{\fauxschelper#1 \relax\relax}
-\def\fauxschelper#1 #2\relax{%
-	\fauxschelphelp#1\relax\relax%
-	\if\relax#2\relax\else\ \fauxschelper#2\relax\fi%
-}
-\def\Hscale{.85}\def\Vscale{.72}\def\Cscale{1.10}
-\def\fauxschelphelp#1#2\relax{%
-	\ifnum`#1>``\ifnum`#1<`\{\scalebox{\Hscale}[\Vscale]{\uppercase{#1}}\else%
-	\scalebox{\Cscale}[1]{#1}\fi\else\scalebox{\Cscale}[1]{#1}\fi%
-	\ifx\relax#2\relax\else\fauxschelphelp#2\relax\fi}
 
 %% COLOR SET UP STUFF
 %
@@ -125,16 +122,16 @@
 
 \def\SetChapterTint{%
 	\ifnum\arabic{chapter}>12%
-		\renewcommand{\ChapterBackgroundTint}{chapterbgcolordefault}
+		\gdef\ChapterBackgroundTint{chapterbgcolordefault}
 	\else%
 		\ifnum\arabic{chapter}<1%
-			\renewcommand{\ChapterBackgroundTint}{chapterbgcolordefault}
+			\gdef\ChapterBackgroundTint{chapterbgcolordefault}
 		\else%
-			\edef\ChapterBackgroundTint{chapterbgcolor\arabic{chapter}}
+			\global\edef\ChapterBackgroundTint{chapterbgcolor\arabic{chapter}}
 		\fi%
 	\fi%
 	\ifnum\value{partpagedetector}=1
-		\renewcommand{\ChapterBackgroundTint}{chapterbgcolordefault}
+		\gdef\ChapterBackgroundTint{chapterbgcolordefault}
 	\fi
 }
 
@@ -167,23 +164,24 @@
 
 %Dice commands
 \newcommand{\GRPitalNonInt}[1]{%
- \if\IsInteger{#1}%
- 	#1%
- \else%
- 	\textit{#1}%
- \fi%
+	\IsInteger{#1}{%
+ 		#1%
+ 	}%
+ 	{%
+ 		\textit{#1}%
+ 	}%
 }
 
 \newcommand{\GRProll}[2]{\mbox{%
-	\if\IsInteger{#2}%
+	\IsInteger{#2}{%
 		\ifnum#2<0%
 			R\GRPitalNonInt{#1}{\color{grpneg}\underline{d}\inteval{-1*(#2)}}%
 		\else%
 			R\GRPitalNonInt{#1}a#2%
 		\fi%
-	\else%
+	}{%
 		R\textit{#1}a\textit{#2}%
-	\fi%
+	}%
 }}
 
 \newcommand{\GRProlla}[2]{\mbox{%
@@ -281,7 +279,13 @@
 
 
 %Formatting a stat
-\newcommand{\stat}[1]{ \{ \fauxsc{#1}  \} }
+\newcommand{\GRPstat}[1]{%
+\ifmmode%
+	[ \mathrm{\textsc{#1}} ]%
+\else%
+	[ {\textsc{#1}} ]%
+\fi%
+}%
 
 %Page background commands
 \newlength{\currenttop}%to calc page margins for reduced complexity
@@ -443,15 +447,22 @@
 	\closeopenenv{multicols}
 	\begin{multicols}{2}[\chapter{#1}]\SetChapterTint}
 
-%quick note formatting
-\newlength{\localnotewidth}
 
+%quick note formatting
 \newcommand{\GRPbeforebreakdefault}{\small(continued...)}
 \newcommand{\GRPafterbreakdefault}{\small(...continued)}
 \newcommand{\GRPbeforenotebreak}{\GRPbeforebreakdefault}
 \newcommand{\GRPaftertnotebreak}{\GRPafterbreakdefault}
 
-\newtcolorbox{GRPquicknote}{% #1 = beforebreak node contents, #2 afterbreak node contents
+\newlength{\GRPspaceremaining}
+
+\newcommand{\GRPcolbreakifclose}{
+	\setlength{\GRPspaceremaining}{\dimeval{\pagegoal-\pagetotal}}%
+	\the\GRPspaceremaining
+	}
+
+\newtcolorbox{GRPquicknote}{%
+	enhanced jigsaw,
 	breakable,
 	halign=flush center,
 	leftrule=1.8mm,
@@ -462,11 +473,12 @@
 	bottom=2mm,
 	toprule=0.5mm,
 	bottomrule=0.4mm,
-	enhanced jigsaw,
+	before={\SetChapterTint},
+	lines before break=3,
+	enlargepage=2\baselineskip,
 	colback=\ChapterBackgroundTint!10!white,
 	opacityback=0.4,
 	colframe=\ChapterBackgroundTint!75!black,
-	before upper={\setlength{\localnotewidth}{\dimeval{0.945\linewidth-1.8mm-1.8mm-3mm-3mm}}},
 	overlay first={%
 	\begin{scope}
 		\path[clip] ($(frame.south west)+(0.25mm,8mm)$) -- ($(frame.south west)+(0.25mm,0)$) decorate [decoration={zigzag,segment length=2mm,amplitude=0.5mm}] {-- ($(frame.south east)-(0.25mm,0)$)} -- ($(frame.south east)+(-0.25mm,8mm)$) -- cycle;
@@ -512,6 +524,8 @@
 \renewcommand\thefigure{\thesection\alph{figure}}
 \renewcommand\thetable{\thesection\alph{table}}
 \renewcommand{\arraystretch}{1.25}%this gives table rows 1.25 line spacing by default.
+\setlength{\tabcolsep}{3pt}%this is half the default tabular column separation of 6pt.
+
 	
 %%table format shortcuts
 \newcommand{\GRPtitlecellcolor}{\ChapterBackgroundTint!30!white}
@@ -520,7 +534,6 @@
 \makeatletter
 \newenvironment{GRPpseudofloat}[3]
 {%
-	\setlength{\localnotewidth}{\dimeval{0.915\linewidth-1.8mm-1.8mm-3mm-3mm}}%
 	\SetChapterTint{}%
 	\par\smallskip\noindent\begin{GRPquicknote}%
 	\IfStrEq{#3}{minipage}{\begin{minipage}{#2}}{}%
@@ -586,36 +599,38 @@
 	\end{GRPpseudofloat}%
 }
 
-\newenvironment{GRPfig-wide}
+\newenvironment{GRPfigwide}
 {%
 	\begin{GRPpseudofloat}{figure}{\textwidth}{minipage}%
 }%
 {%
 	\end{GRPpseudofloat}%
 }
-\AddToHook{env/GRPfig-wide/after}{\nopagebreak\begin{multicols}{2}\nopagebreak}
-\AddToHook{env/GRPfig-wide/before}{\nopagebreak\end{multicols}\nopagebreak}
+\AddToHook{env/GRPfigwide/after}{\nopagebreak\begin{multicols}{2}\nopagebreak}
+\AddToHook{env/GRPfigwide/before}{\nopagebreak\end{multicols}\nopagebreak}
 
-\newenvironment{GRPtable-wide}
+\newenvironment{GRPtablewide}
 {%
 	\begin{GRPpseudofloat}{table}{\textwidth}{minipage}%
 }%
 {%
 	\end{GRPpseudofloat}%
 }
-\AddToHook{env/GRPtable-wide/after}{\nopagebreak\begin{multicols}{2}\nopagebreak}
-\AddToHook{env/GRPtable-wide/before}{\nopagebreak\end{multicols}\nopagebreak}
+\AddToHook{env/GRPtablewide/after}{\nopagebreak\begin{multicols}{2}\nopagebreak}
+\AddToHook{env/GRPtablewide/before}{\nopagebreak\end{multicols}\nopagebreak}
 
 %Custom table environment
+\newlength{\GRPcurrenttablewidth}
 \newcommand\rowformat[1]{\gdef\GRProwstyler{#1}#1\ignorespaces}%
 \newcounter{grpcurrentrow}
 \makeatletter
 \newenvironment{GRPtabular}[2][]{% #1=title row, #2 = customcolumnspec
+	\global\setlength{\GRPcurrenttablewidth}{\linewidth}%
 	\def\GRPtablespec{}%
 	\gdef\GRProwstyler{}%
 	\def\GRProwclear{\gdef\GRProwstyler{}}%
 	\gdef\GRPbeforenotebreak{%
-		\begin{tabular}{>{\raggedleft\arraybackslash}m{\localnotewidth}}
+		\begin{tabular}{>{\raggedleft\arraybackslash}m{\dimeval{\GRPcurrenttablewidth-2\tabcolsep}}}
 			\rowcolor{\GRPtitlecellcolor}
 			\small (table continues...) \\
 		\end{tabular}
@@ -639,14 +654,14 @@
 		\g@addto@macro\currspecformat{\GRProwstyler\arraybackslash}%
 		%And then we actually build the tablespec,
 		\expandafter\g@addto@macro\expandafter\GRPtablespec\expandafter{\expandafter>\expandafter{\currspecformat}}%
-		\edef\currspecwidth{m\noexpand{\grpwidth\noexpand\localnotewidth\noexpand}\space }%
+		\edef\currspecwidth{m\noexpand{\dimeval{\grpwidth\GRPcurrenttablewidth-2\tabcolsep}\noexpand}\space }%
 		\expandafter\g@addto@macro\expandafter\GRPtablespec\expandafter{\currspecwidth}%
 	}%
 	\newcommand{\begintabhelper}[1]{\begin{tabular}{##1}}%
 	\IfStrEq{#1}{}%This segment changes the afternote break
 	{%
 		\gdef\GRPafternotebreak{%
-			\begin{tabular}{>{\raggedleft\arraybackslash}m{\localnotewidth}}
+			\begin{tabular}{>{\raggedleft\arraybackslash}m{\GRPcurrenttablewidth}}
 				\rowcolor{\GRPtitlecellcolor}
 				\small (...table continued) \\
 			\end{tabular}
@@ -655,7 +670,6 @@
 	{%
 		\newcommand{\GRPafternotehelper}[1]{%
 			\gdef\GRPafternotebreak{%
-				\setlength{\localnotewidth}{\dimeval{0.8\linewidth-1.8mm-1.8mm-3mm-3mm}}
 				\begin{tabular}{##1}
 					\rowcolor{\GRPtitlecellcolor}
 					\rowformat{\GRPtitlecellformat} #1 \\ [0.5ex]
@@ -810,7 +824,35 @@
 }
 \makeatother
 
-%Formatting stuff
+% Dialog formatting stuff
+\newcommand{\GRPsay}[2]{%
+	\noindent\hspace{-0.1\linewidth}%
+	\begin{minipage}[t]{0.25\linewidth}
+		\raggedleft\bfseries #1
+	\end{minipage}\textbf{:}\hspace{0.01\linewidth}
+	\begin{minipage}[t]{0.78\linewidth}
+			#2
+	\end{minipage}\par\medskip
+}
+
+\newcommand{\GRPrheader}[1]{%
+	\begin{minipage}{\linewidth}
+		\centering\scshape\small #1
+		\vspace{0.5ex}
+		\hrule
+		\vspace{1ex}
+	\end{minipage}\par\unskip\nopagebreak
+}
+
+\newcommand{\GRPrfooter}{%
+	\nopagebreak%
+	\vspace{-0.5ex}
+	\hrule
+	\vspace{1ex}%
+}
+
+
+% StaticFormatting stuff
 \titleformat
 	{\chapter} % command
 	[block] % shape
@@ -844,7 +886,7 @@
 
 \renewcommand{\baselinestretch}{1.0625} 
 
-\makeindex[intoc, title=Alphabetical Index, options= -s GRPindexstyle.ist]
+\makeindex[intoc, title=Alphabetical Index, options= -s GRPindexstyle.ist, columns=1]
 
 %FORMATTING HOOKS
 %These are simply made to change formatting a little bit
@@ -876,5 +918,5 @@
 \AddToHook{cmd/backmatter/after}
 {%
 	\titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter}{1em}{}
-	\def\SetChapterTint{\renewcommand{\ChapterBackgroundTint}{chapterbgcolordefault}}
+	\gdef\SetChapterTint{\gdef\ChapterBackgroundTint{chapterbgcolordefault}}
 }

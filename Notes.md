@@ -47,9 +47,9 @@ In general rolling a talent will be R[Foundation]a[Characteristic + talent Ranks
 
 A fundamental talent that your character is poor at may be rolled for instead with talents on the opposite side of the talent map, at a disadvantage. Doing this is known as proxying a talent. 
 
-Proxying a talent on the opposite side of the talent map may be done for -3 advantage.
+Proxying a talent on the opposite side of the talent map may be done for -2 advantage.
 
-In other words, if the game master requests a Charisma roll, you may instead proxy a Memory roll -3 advantage. An athletics roll may be proxied by a dexterity roll at -3 advantage instead. You must choose to proxy a talent prior to making the roll or seeing its results.
+In other words, if the game master requests a Charisma roll, you may instead proxy a Memory roll -2 advantage. An athletics roll may be proxied by a dexterity roll at -2 advantage instead. You must choose to proxy a talent prior to making the roll or seeing its results.
 
 
 The first rank in a talent requires 1 XP to take

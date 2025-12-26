@@ -1,0 +1,192 @@
+\GRPchapter{The Basics}
+
+\GammaRP{} is a tabletop role-playing game. This is a specific class of improvisational acting game in which the participants are divided into \emph{Game Masters} (often referred to as GM's) and \emph{Players}. Most games will require at least one game master in order to play the game, and the game master and players work together to tell a story.
+
+The \index{Game Master}Game Master is responsible for constructing the world around the Players, and giving the players a setting to interact with. The \index{Player}Players are responsible for maintaining a Player Character-- a character who interacts with and influences the setting defined by the Game Master. 
+
+Since the game is collaborative in this way, it is more fun and fair if there is an element of chance in deciding how a scene unfolds. \GammaRP{} uses the roll of a set of dice to decide whether an unsure course of action is successful.
+
+\GRPbitepar{0mm,1mm,12mm,13mm,13mm,8mm}\GRPparabgsvg[height=2cm,shift={(8mm,0)},side=left]{art/twodice}
+The fundamental dice mechanic in \GammaRP{} is based on 12 sided dice, and rolls several at a time. If you intend to play the game on a real physical tabletop (rather than one of the increasingly popular virtual ones), you may want to obtain at least a dozen 12 sided dice for convenience. It is possible to play with fewer dice by rolling one die at a time.
+
+\section{Dice Rolling Basics}
+
+The \index{Roll notation}notation for a roll in \GammaRP{} is written as \GRProlla{X}{Y}, which verbally is pronounced as ``Roll \textit{X} a \textit{Y}''
+
+\textit{X} is the number of dice you roll.
+
+\textit{Y} is the \emph{advantage}\index{Advantage} on the roll, which indicates that the top \textit{Y} numbers of a die pass the success threshold.
+
+\GRPbitepar[right]{0pt,8.9mm,10.5mm,9.5mm}\GRPparabgsvg[height=1.4cm,side=right,shift={(-1.6cm,0pt)}]{art/onedice}
+If any of the dice you roll pass the success threshold, then your roll is a success. This means that both larger \textit{X} and larger \textit{Y} indicate a higher probability of success.
+
+\GRPparabgsvg[height=1.6cm,side=right,shift={(-1.1cm,-4mm)}]{art/onedice_b}
+Let's look at a few example rolls.
+
+\begin{GRPtable}
+\caption{Advantage Examples}
+\begin{GRPtabular}[Roll & Dice & Result]{l/0.2,c/0.5,r\scshape/0.3}
+	\GRProll{5}{1} & \GRPdicelist{1,11,8,4,10} & Failure \XX
+	\GRProll{5}{1} & \GRPdicelist{1,1,2,12,2} & Success \XX [0.5ex]
+	\hline
+	\GRProll{4}{1} & \GRPdicelist{1,11,8,10} & Failure \XX
+	\GRProll{4}{2} & \GRPdicelist[2]{1,11,8,10} & Success \XX
+	\GRProll{4}{3} & \GRPdicelist[3]{1,11,8,10} & Success \XX [0.5ex]
+	\hline
+	\GRProll{3}{3} & \GRPdicelist[3]{1,9,8} & Failure \XX 
+	\GRProll{3}{4} & \GRPdicelist[4]{1,9,8} & Success \XX
+	\GRProll{3}{8} & \GRPdicelist[8]{2,4,3} & Failure \XX 
+	\GRProll{3}{9} & \GRPdicelist[9]{2,4,3} & Success \XX
+\end{GRPtabular}
+\end{GRPtable}	
+
+The quickest way to judge if your advantaged roll is a success is:
+\begin{enumerate}
+\item Add the advantage to the value of each die in your roll
+\item If $\GRPstat{Advantage} + \GRPstat{Die Value} > 12$ for any die in your roll, your roll is a success.
+\end{enumerate}
+An advantage of 0 is the exception to this method: \GRProll{X}{0} is still successful if any of the dice roll a 12.
+
+\emph{Advantage} can also be negative. For convenience this is written as \emph{disadvantage} which is the negative of the advantage. A roll of \GRProlla{X}{(-Z)} is written equivalently as \GRProlld{X}{Z}.
+
+For a roll at \emph{disadvantage}\index{Disadvantage} of \textit{Z} to be successful, in addition to having at least one die in the roll land on 12, there must also be at least \textit{Z} dice within the roll displaying a number above 1.
+
+Lets look at a few example disadvantage rolls.
+
+\begin{GRPtable}
+\caption{Disadvantage Examples}
+\begin{GRPtabular}[Roll & Dice & Result]{l/0.2,c/0.5,r\scshape/0.3}
+	\GRProll{2}{-1} & \GRPdicelist[-1]{12,2} & Success \XX
+	\GRProll{2}{-1} & \GRPdicelist[-1]{12,1} & Success \XX
+	\GRProll{2}{-2} & \GRPdicelist[-2]{12,1} & Failure \XX [0.5ex]
+	\hline
+	\GRProll{4}{-1} & \GRPdicelist[-1]{11,8,1,10} & Failure \XX
+	\GRProll{4}{-2} & \GRPdicelist[-2]{12,8,1,10} & Success \XX
+	\GRProll{4}{-3} & \GRPdicelist[-3]{12,8,1,10} & Success \XX 
+	\GRProll{4}{-4} & \GRPdicelist[-4]{12,8,1,10} & Failure \XX [0.5ex]
+	\hline
+	\GRProll{8}{-7} & \GRPdicelist[-7]{12,12,1,12,12,12,12,1} & Failure
+\end{GRPtabular}
+\end{GRPtable}
+
+The quickest way to judge if your disadvantaged roll is a success is:
+\begin{enumerate}
+	\item Check if there are any dice showing 12 in your roll
+	\item Count the number of dice that show a value above 1
+	\item If $\GRPstat{Number of Dice above 1} > \GRPstat{Disadvantage}$ for \emph{any} die in your roll, and there is at least one die showing 12, your roll is a success.
+\end{enumerate}
+
+When the disadvantage is greater than or equal to the number of dice being rolled, the roll is an automatic failure even if you have at least one dice showing a 12. This is because you do not have sufficient number of dice to show . Additionally, any roll with a disadvantage 12 or greater automatically fails, for symmetry with the advantage rolls (where any roll with an advantage 12 or greater automatically succeeds) If you are asked to make a roll with a disadvantage equal to or greater than the number of dice (or make a roll with a disadvantage greater than 12), you may simply declare a failure. However you may still make the roll if you have abilities that benefit from actually rolling the dice.
+
+\begin{GRPquicknote}
+Note that the rolls \GRProll{X}{1}, \GRProll{X}{0}, and \GRProll{X}{-1} are all actually identical, with all three requiring a single dice of the set to result 12 in order to result a success.
+\end{GRPquicknote}
+
+Some rolls will ask you to count the number of successes in your roll. In any roll with advantage, you simply count the number of dice that pass the success threshold to get the number of successes. You may use abilities that alter dice to alter this number of successes.
+
+In any roll with disadvantage, if you succeed it counts as 1 success, and if you do not succeed it counts as 0 successes. Altering dice to succeed at the roll unfortunately will still at most give you 1 success.
+
+\begin{GRPtablewide}
+\caption[Roll Success Probability]{Probability of success for various rolls}
+\begin{GRPtabular}[%
+\GRProlla{X}{Y}&\GRProlld{X}{-5}&\GRProlld{X}{-4}&\GRProlld{X}{-3}&\GRProlld{X}{-2}&\GRProlld{X}{-1}&\GRProlla{X}{0}&\GRProlla{X}{1}&\GRProlla{X}{2}&\GRProlla{X}{3}&\GRProlla{X}{4}%
+]{c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
+	\GRProlla{1}{Y} & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 8.33\% & 8.33\% & 16.67\% & 25.00\% & 33.33\% \XX                                    
+	\GRProlla{2}{Y} & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 15.97\% & 15.97\% & 30.56\% & 43.75\% & 55.56\% \XX                                  
+	\GRProlla{3}{Y} & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 22.97\% & 22.97\% & 42.13\% & 57.81\% & 70.37\% \XX                                  
+	\GRProlla{4}{Y} & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 29.39\% & 29.39\% & 51.77\% & 68.36\% & 80.25\% \XX                                  
+	\GRProlla{5}{Y} & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 35.28\% & 35.28\% & 59.81\% & 76.27\% & 86.83\% \XX                                  
+	\GRProlla{6}{Y} & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 40.67\% & 40.67\% & 66.51\% & 82.20\% & 91.22\% \XX                                  
+	\GRProlla{7}{Y} & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 45.61\% & 45.61\% & 72.09\% & 86.65\% & 94.15\% \XX                                  
+	\GRProlla{8}{Y} & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 50.15\% & 50.15\% & 76.74\% & 89.99\% & 96.10\% \XX                                  
+	\GRProlla{9}{Y} & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 54.30\% & 54.30\% & 80.62\% & 92.49\% & 97.40\% \XX                                  
+	\GRProlla{10}{Y} & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 58.11\% & 58.11\% & 83.85\% & 94.37\% & 98.27\%
+\end{GRPtabular}
+\end{GRPtablewide}
+
+\section{Group Rolls}
+
+\index{Group Roll}Sometimes you may want multiple characters all contribute effort to determine if they succeed at a task. You can do this with a group roll.
+
+The process of a group roll is as follows:
+
+\begin{enumerate}
+	\item Each character making a group roll makes the corresponding roll for the task
+	\item Count the total number of successes among the group
+	\item If $\GRPstat{Total Successes} \geq \GRPstat{Group Size}$ then the group succeeds at the roll.
+\end{enumerate}
+
+If you need to count the number of successes for a group roll, it is $\GRPstat{Total Successes} / \GRPstat{Group Size}$ rounded \textbf{down} to the nearest whole number.
+
+This may be most easily illustrated with an example.
+
+\begin{GRPquicknote}
+\index{Group Roll!Example}
+\GRPsay{GM}{As you enter the swamp, the mud grows deeper and harder to trudge through. You'll all have to use your athletics talent to pass without hurting yourselves.}
+\GRPsay{Alice}{Can we make this a group roll? I think we could help each other cross.}
+\GRPsay{GM}{Absolutely. Make a group roll for athletics.}
+\GRPrheader{Athletics Group Roll}
+\GRPsay{Bob}{\GRProll{3}{3} - \GRPdicelist[3]{8,8,3}}
+\GRPsay{Alice}{\GRProll{5}{5} - \GRPdicelist[5]{3,8,2,3,10}}
+\GRPsay{Eve}{\GRProll{6}{4} - \GRPdicelist[2]{3,8,12,3,1,2}}
+\GRPrfooter{}
+\GRPsay{GM}{Great. Between all of you you have 3 successes. Alice's extra success makes up for Bob's lack of success.
+
+Bob- you stumble in the thick mud and almost land face first, but Alice catches you. You all struggle through and make it through the swamp without injury.}
+\end{GRPquicknote}
+
+\section{Roll Contests}
+
+\index{Roll Contest}Sometimes, one character may be asked to dynamically struggle against the abilities of another character or entity within the game. When this happens, the game enters a roll contest-- where both characters roll against each other and apply penalties to the other's roll depending on how well they do.
+
+The process of a roll contest is as follows:
+\begin{enumerate}
+	\item\label{contest:first} Both characters make their roll simultaneously.
+	\item If one character is successful and the other is not, the successful character wins.
+	\item If both characters are unsuccessful, return to step \ref{contest:first}.
+	\item If both characters are successful, the first character will be penalized dice equal to the number of successes of the second character, and vice versa. Return to step \ref{contest:first}.
+	\item If you have repeated this process to the point where one character has no dice remaining, the character who has dice remaining wins the contest.
+	\item\label{contest:last} If both characters reach 0 dice simultaneously, both characters lose the contest (taking any penalties involved with losing the contest).
+\end{enumerate}
+
+If there are no penalties for losing the contest, a simultaneous fail just ends the contest with no effect. Step \ref{contest:last} is only important when one of the characters has an ability that imposes a penalty for failing a roll.
+
+Roll Contests are probably best illustrated with an example as follows.
+
+\begin{GRPquicknote}
+\index{Roll Contest!Example}
+\GRPsay{Eve}{Can I initiate a grapple on the guard?}
+\GRPsay{GM}{Sure! Go ahead and initiate a Roll Contest with Dexterity.}
+\GRPsay{Eve}{I'll roll with Athletics since I'm better at that.}
+\GRPsay{GM}{Sure, you can \emph{talent proxy}. Use Athletics at 2 additional disadvantage.}
+\GRPrheader{Roll Contest Attempt 1}
+\GRPsay{Eve}{\GRProll{6}{2} - \GRPdicelist[2]{3,5,9,1,4,5}}
+\GRPsay{Guard}{\GRProll{4}{4} - \GRPdicelist[4]{2,8,3,2}}
+\GRPrfooter{}
+\GRPsay{Eve}{Shoot.}
+\GRPsay{GM}{Don't worry, neither of you have any successes, so you'll roll again. }
+\GRPrheader{Roll Contest Attempt 2}
+\GRPsay{Eve}{\GRProll{6}{2} - \GRPdicelist[2]{9,11,7,2,6,3}}
+\GRPsay{Guard}{\GRProll{4}{4} - \GRPdicelist[4]{9,1,3,10}}
+\GRPrfooter{}
+\GRPsay{GM}{You grab the guard but he's wriggling out of your grasp. You'll roll with 2 fewer dice since he got 2 successes, and he'll roll with 1 fewer dice because you got 1 success. Go again.}
+\GRPrheader{Roll Contest Attempt 3}
+\GRPsay{Eve}{\GRProll{4}{2} - \GRPdicelist[2]{12,4,1,2}}
+\GRPsay{Guard}{\GRProll{3}{4} - \GRPdicelist[4]{4,7,3}}
+\GRPrfooter{}
+\GRPsay{Eve}{Yes! I succeeded and the guard did not.}
+\GRPsay{GM}{Great! You deftly bend the guard's arm and twist him into your awaiting chokehold. You've grappled the guard.}.
+\end{GRPquicknote}
+
+It is highly disrecommended to perform a \emph{group roll contest}\index{Group Roll Contest}. For tasks of that complexity it is usually better to let the game enter phased mode- which will be described in detail later.
+
+If you do find yourself in a situation in which a group roll contest is called for, the process is as follows.
+
+\begin{enumerate}
+	\item\label{groupcontest:first} Both groups make their group rolls simultaneously..
+	\item If one group is successful and the other is not, the successful group wins.
+	\item If both groups are unsuccessful, return to step \ref{groupcontest:first}.
+	\item If both groups are successful, the first group must be penalized a number of dice equal to the second group's number of successes, and vice versa. Every character in the group takes this penalty. Then return to Step \ref{groupcontest:first}.
+	\item If you have repeated this process to the point where one group has no dice remaining, the group who has dice remaining wins the contest.
+	\item\label{groupcontest:last} If both groups reach 0 dice simultaneously, both groups lose the contest (taking any penalties involved with losing the contest).
+\end{enumerate}
