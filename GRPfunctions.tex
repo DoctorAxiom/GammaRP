@@ -559,7 +559,7 @@
 		fit height from=12pt to 22pt,
 		fit algorithm=areasize*,
 		]%
-		\caption@makecaption{\csname fnum#1\endcsname}{Table {\csname the#1\endcsname}: ##2}%
+		\caption@makecaption{\csname fnum#1\endcsname}{\uppercase{\firstof{#1}}\restof{#1} {\csname the#1\endcsname}: ##2}%
 		\end{tcolorbox}%
 		\GRP@addcontentshelper{##1}{##2}%
 	}%
@@ -567,7 +567,7 @@
 	{\renewcommand\GRP@addcontentshelper[2]{%
 			\addcontentsline%
 			{lo\firstof{#1}}{#1}%
-			{\protect\numberline{\protect\csname the#1\endcsname}:\space{\if\relax\detokenize{##1}\relax##2\else##1\fi}}%
+			{\protect\numberline{\csname the#1\endcsname}:\space{\if\relax\detokenize{##1}\relax##2\else##1\fi}}%
 		}%
 	}%
 }
