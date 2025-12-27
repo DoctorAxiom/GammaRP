@@ -475,7 +475,6 @@
 	bottomrule=0.4mm,
 	before={\SetChapterTint},
 	lines before break=3,
-	enlargepage=2\baselineskip,
 	colback=\ChapterBackgroundTint!10!white,
 	opacityback=0.4,
 	colframe=\ChapterBackgroundTint!75!black,
@@ -658,7 +657,7 @@
 		\expandafter\g@addto@macro\expandafter\GRPtablespec\expandafter{\currspecwidth}%
 	}%
 	\newcommand{\begintabhelper}[1]{\begin{tabular}{##1}}%
-	\IfStrEq{#1}{}%This segment changes the afternote break
+	\normalexpandarg\IfStrEq{#1}{}%This segment changes the afternote break
 	{%
 		\gdef\GRPafternotebreak{%
 			\begin{tabular}{>{\raggedleft\arraybackslash}m{\GRPcurrenttablewidth}}

@@ -6,15 +6,25 @@ def rollprobability(num, adv):
 	elif adv>0:
 		return 1-( ((12.0-adv)/12.0)**num )
 	else:
-		return 0
+		if num+adv<0:
+			return 0
+		else:
+			return ( 1-((11.0/12.0)**num) )
 
 def percentstr(inputnum):
 	retval = inputnum*100
 
-	return "{0:.2f}".format(retval)
+	return "{0:.1f}".format(retval)
 
 advrange = range(-5,5)
 numrange = range(1,11)
+
+titleline = "\\GRProll{X}{Y}"
+for curradv in advrange:
+	titleline+="& \\GRProll{X}{"+str(curradv)+"}"
+titleline+="\\XX [0.5ex]"
+print(titleline)
+print("\\hline \\hline")
 
 for numvar in numrange:
 	currline="\\GRProll{"+str(numvar)+"}{Y} "

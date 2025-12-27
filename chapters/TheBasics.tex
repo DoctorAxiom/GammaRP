@@ -82,27 +82,25 @@ When the disadvantage is greater than or equal to the number of dice being rolle
 Note that the rolls \GRProll{X}{1}, \GRProll{X}{0}, and \GRProll{X}{-1} are all actually identical, with all three requiring a single dice of the set to result 12 in order to result a success.
 \end{GRPquicknote}
 
-Some rolls will ask you to count the number of successes in your roll. In any roll with advantage, you simply count the number of dice that pass the success threshold to get the number of successes. You may use abilities that alter dice to alter this number of successes.
-
-In any roll with disadvantage, if you succeed it counts as 1 success, and if you do not succeed it counts as 0 successes. Altering dice to succeed at the roll unfortunately will still at most give you 1 success.
-
 \begin{GRPtablewide}
 \caption[Roll Success Probability]{Probability of success for various rolls}
 \begin{GRPtabular}[%
-\GRProlla{X}{Y}&\GRProlld{X}{-5}&\GRProlld{X}{-4}&\GRProlld{X}{-3}&\GRProlld{X}{-2}&\GRProlld{X}{-1}&\GRProlla{X}{0}&\GRProlla{X}{1}&\GRProlla{X}{2}&\GRProlla{X}{3}&\GRProlla{X}{4}%
-]{c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-	\GRProlla{1}{Y} & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 8.33\% & 8.33\% & 16.67\% & 25.00\% & 33.33\% \XX                                    
-	\GRProlla{2}{Y} & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 15.97\% & 15.97\% & 30.56\% & 43.75\% & 55.56\% \XX                                  
-	\GRProlla{3}{Y} & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 22.97\% & 22.97\% & 42.13\% & 57.81\% & 70.37\% \XX                                  
-	\GRProlla{4}{Y} & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 29.39\% & 29.39\% & 51.77\% & 68.36\% & 80.25\% \XX                                  
-	\GRProlla{5}{Y} & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 35.28\% & 35.28\% & 59.81\% & 76.27\% & 86.83\% \XX                                  
-	\GRProlla{6}{Y} & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 40.67\% & 40.67\% & 66.51\% & 82.20\% & 91.22\% \XX                                  
-	\GRProlla{7}{Y} & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 45.61\% & 45.61\% & 72.09\% & 86.65\% & 94.15\% \XX                                  
-	\GRProlla{8}{Y} & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 50.15\% & 50.15\% & 76.74\% & 89.99\% & 96.10\% \XX                                  
-	\GRProlla{9}{Y} & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 54.30\% & 54.30\% & 80.62\% & 92.49\% & 97.40\% \XX                                  
-	\GRProlla{10}{Y} & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 0.00\% & 58.11\% & 58.11\% & 83.85\% & 94.37\% & 98.27\%
+\GRProll{X}{Y}& \GRProll{X}{-5}& \GRProll{X}{-4}& \GRProll{X}{-3}& \GRProll{X}{-2}& \GRProll{X}{-1}& \GRProll{X}{0}& \GRProll{X}{1}& \GRProll{X}{2}& \GRProll{X}{3}& \GRProll{X}{4}%
+]{c\GRPtitlecellformat/0.1,c/0.09,c/0.09,c/0.09,c/0.09,c/0.09,c/0.09,c/0.09,c/0.09,c/0.09,c/0.09}
+	\GRProll{1}{Y} & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 8.3\% & 8.3\% & 16.7\% & 25.0\% & 33.3\% \XX
+	\GRProll{2}{Y} & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 16.0\% & 16.0\% & 30.6\% & 43.8\% & 55.6\% \XX
+	\GRProll{3}{Y} & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 23.0\% & 23.0\% & 42.1\% & 57.8\% & 70.4\% \XX
+	\GRProll{4}{Y} & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 29.4\% & 29.4\% & 51.8\% & 68.4\% & 80.2\% \XX
+	\GRProll{5}{Y} & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 35.3\% & 35.3\% & 59.8\% & 76.3\% & 86.8\% \XX
+	\GRProll{6}{Y} & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 40.7\% & 40.7\% & 66.5\% & 82.2\% & 91.2\% \XX
+	\GRProll{7}{Y} & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 45.6\% & 45.6\% & 72.1\% & 86.7\% & 94.1\% \XX
+	\GRProll{8}{Y} & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 50.1\% & 50.1\% & 76.7\% & 90.0\% & 96.1\% \XX
+	\GRProll{9}{Y} & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 54.3\% & 54.3\% & 80.6\% & 92.5\% & 97.4\% \XX
+	\GRProll{10}{Y} & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 58.1\% & 58.1\% & 83.8\% & 94.4\% & 98.3\%
 \end{GRPtabular}
 \end{GRPtablewide}
+
+
 
 \section{Group Rolls}
 

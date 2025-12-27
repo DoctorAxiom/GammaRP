@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.14)  25 DEC 2025 21:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.14)  26 DEC 2025 21:32
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1455,7 +1455,8 @@ Writing index file GammaRP1e.idx
 LaTeX Warning: Unused global option(s):
     [9pt].
 
-(GammaRP1e.aux (chapters/Introduction.aux) (chapters/TheBasics.aux))
+(GammaRP1e.aux (chapters/Introduction.aux) (chapters/TheBasics.aux)
+(chapters/GammaNebulaOverview.aux))
 \openout1 = `GammaRP1e.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -1557,7 +1558,7 @@ Package gensymb Warning: Not defining \micro.
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks51
 \inpenc@posthook=\toks52
-) ()
+)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1570,7 +1571,7 @@ Package hyperref Info: Link coloring OFF on input line 25.
 Package svg Info: Last page of `./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf' is
  1 on input line 31.
  (svg-inkscape/GammaRPTitleLogo_svg-tex.pdf_tex
-<./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf, id=59, page=1, 192.85394pt x 201.
+<./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf, id=95, page=1, 192.85394pt x 201.
 496pt>
 File: ./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf, page 1>
@@ -1582,7 +1583,7 @@ Package svg Info: Last page of `./svg-inkscape/TitleBG_svg-tex.pdf' is 1 on inp
 ut line 31.
 
 (svg-inkscape/TitleBG_svg-tex.pdf_tex
-<./svg-inkscape/TitleBG_svg-tex.pdf, id=61, page=1, 752.81262pt x 752.81262pt>
+<./svg-inkscape/TitleBG_svg-tex.pdf, id=97, page=1, 752.81262pt x 752.81262pt>
 File: ./svg-inkscape/TitleBG_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/TitleBG_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/TitleBG_svg-tex.pdf , page1 used on inp
@@ -1636,7 +1637,7 @@ Chapter 2.
 Package svg Info: Last page of `./svg-inkscape/twodice_svg-tex.pdf' is 1 on inp
 ut line 9.
 (svg-inkscape/twodice_svg-tex.pdf_tex
-<./svg-inkscape/twodice_svg-tex.pdf, id=2274, page=1, 1111.38797pt x 904.86887p
+<./svg-inkscape/twodice_svg-tex.pdf, id=2323, page=1, 1111.38797pt x 904.86887p
 t>
 File: ./svg-inkscape/twodice_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/twodice_svg-tex.pdf, page 1>
@@ -1647,7 +1648,7 @@ ut line 56.
 Package svg Info: Last page of `./svg-inkscape/onedice_svg-tex.pdf' is 1 on inp
 ut line 20.
  (svg-inkscape/onedice_svg-tex.pdf_tex
-<./svg-inkscape/onedice_svg-tex.pdf, id=2276, page=1, 1086.36443pt x 1019.55269
+<./svg-inkscape/onedice_svg-tex.pdf, id=2325, page=1, 1086.36443pt x 1019.55269
 pt>
 File: ./svg-inkscape/onedice_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/onedice_svg-tex.pdf, page 1>
@@ -1659,7 +1660,7 @@ Package svg Info: Last page of `./svg-inkscape/onedice_b_svg-tex.pdf' is 1 on i
 nput line 23.
 
 (svg-inkscape/onedice_b_svg-tex.pdf_tex
-<./svg-inkscape/onedice_b_svg-tex.pdf, id=2278, page=1, 1034.91122pt x 1037.043
+<./svg-inkscape/onedice_b_svg-tex.pdf, id=2327, page=1, 1034.91122pt x 1037.043
 33pt>
 File: ./svg-inkscape/onedice_b_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/onedice_b_svg-tex.pdf, page 1>
@@ -1682,1458 +1683,424 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
 []\T1/qbk/m/n/10 If $\OT1/cmr/m/n/10 [[]] \OML/cmm/m/it/10 >
  []
 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {Y}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {Y}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\@undeclaredcolor }\def \reserved@b {\@declaredcolor }\futurelet \@let@token \
-ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\@undeclaredcolor }\def \reserved@b {\@declaredcolor }\futurelet \@let@token \
-ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\@undeclaredcolor }\def \reserved@b {\@declaredcolor }\futurelet \@let@token \
-ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\@undeclaredcolor }\def \reserved@b {\@declaredcolor }\futurelet \@let@token \
-ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\@undeclaredcolor }\def \reserved@b {\@declaredcolor }\futurelet \@let@token \
-ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {0}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {0}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-\nocorr \@nil \fi \fi \itshape \check@icl 1\check@icr \expandafter \egroup \ETC
-.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-\nocorr \@nil \fi \fi \itshape \check@icl 1\check@icr \expandafter \egroup \ETC
-.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {2}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {2}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {3}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {3}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {X}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_IfStrEq__ has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_IfStrEq__ was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \xs_expand_and_assign has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-! Paragraph ended before \xs_expand_and_assign was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {4}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-Runaway argument?
-{\unexpanded {4}}\ifx \reserved@a \@empty \let \check@icl \@empty \let \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-? 
-! TeX capacity exceeded, sorry [input stack size=10000].
-\xs_reserved_A #1#2->#2
-                       
-l.93 ...c/0.08,c/0.08,c/0.08,c/0.08,c/0.08,c/0.08}
-                                                  
-If you really absolutely need more capacity,
-you can ask a wizard to enlarge me.
 
- 
+Overfull \hbox (1.431pt too wide) in paragraph at lines 90--90
+ []|[]| 
+ []
+
+
+Overfull \hbox (1.431pt too wide) in paragraph at lines 90--90
+ []|[]| 
+ []
+
+
+Overfull \hbox (1.431pt too wide) in paragraph at lines 90--90
+ []|[]| 
+ []
+
+
+Overfull \hbox (1.431pt too wide) in paragraph at lines 90--90
+ []|[]| 
+ []
+
+
+Overfull \hbox (1.431pt too wide) in paragraph at lines 90--90
+ []|[]| 
+ []
+
+
+Overfull \hbox (0.95099pt too wide) in paragraph at lines 90--90
+ []|[]| 
+ []
+
+
+Overfull \hbox (0.95099pt too wide) in paragraph at lines 90--90
+ []|[]| 
+ []
+
+
+Overfull \hbox (0.95099pt too wide) in paragraph at lines 90--90
+ []|[]| 
+ []
+
+
+Overfull \hbox (0.95099pt too wide) in paragraph at lines 90--90
+ []|[]| 
+ []
+
+
+Overfull \hbox (0.95099pt too wide) in paragraph at lines 90--90
+ []|[]| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 90--90
+ []|\T1/qbk/m/n/10 16.7%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 90--90
+ []|\T1/qbk/m/n/10 25.0%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 90--91
+ []|\T1/qbk/m/n/10 33.3%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 91--91
+ []|\T1/qbk/m/n/10 16.0%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 91--91
+ []|\T1/qbk/m/n/10 16.0%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 91--91
+ []|\T1/qbk/m/n/10 30.6%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 91--91
+ []|\T1/qbk/m/n/10 43.8%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 91--92
+ []|\T1/qbk/m/n/10 55.6%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 92--92
+ []|\T1/qbk/m/n/10 23.0%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 92--92
+ []|\T1/qbk/m/n/10 23.0%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 92--92
+ []|\T1/qbk/m/n/10 42.1%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 92--92
+ []|\T1/qbk/m/n/10 57.8%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 92--93
+ []|\T1/qbk/m/n/10 70.4%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 93--93
+ []|\T1/qbk/m/n/10 29.4%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 93--93
+ []|\T1/qbk/m/n/10 29.4%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 93--93
+ []|\T1/qbk/m/n/10 51.8%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 93--93
+ []|\T1/qbk/m/n/10 68.4%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 93--94
+ []|\T1/qbk/m/n/10 80.2%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 94--94
+ []|\T1/qbk/m/n/10 35.3%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 94--94
+ []|\T1/qbk/m/n/10 35.3%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 94--94
+ []|\T1/qbk/m/n/10 59.8%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 94--94
+ []|\T1/qbk/m/n/10 76.3%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 94--95
+ []|\T1/qbk/m/n/10 86.8%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 95--95
+ []|\T1/qbk/m/n/10 40.7%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 95--95
+ []|\T1/qbk/m/n/10 40.7%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 95--95
+ []|\T1/qbk/m/n/10 66.5%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 95--95
+ []|\T1/qbk/m/n/10 82.2%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 95--96
+ []|\T1/qbk/m/n/10 91.2%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 96--96
+ []|\T1/qbk/m/n/10 45.6%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 96--96
+ []|\T1/qbk/m/n/10 45.6%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 96--96
+ []|\T1/qbk/m/n/10 72.1%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 96--96
+ []|\T1/qbk/m/n/10 86.7%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 96--97
+ []|\T1/qbk/m/n/10 94.1%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 97--97
+ []|\T1/qbk/m/n/10 50.1%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 97--97
+ []|\T1/qbk/m/n/10 50.1%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 97--97
+ []|\T1/qbk/m/n/10 76.7%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 97--97
+ []|\T1/qbk/m/n/10 90.0%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 97--98
+ []|\T1/qbk/m/n/10 96.1%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 98--98
+ []|\T1/qbk/m/n/10 54.3%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 98--98
+ []|\T1/qbk/m/n/10 54.3%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 98--98
+ []|\T1/qbk/m/n/10 80.6%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 98--98
+ []|\T1/qbk/m/n/10 92.5%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 98--99
+ []|\T1/qbk/m/n/10 97.4%| 
+ []
+
+
+Overfull \hbox (4.31168pt too wide) in paragraph at lines 99--99
+ []|[]| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 99--99
+ []|\T1/qbk/m/n/10 58.1%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 99--99
+ []|\T1/qbk/m/n/10 58.1%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 99--99
+ []|\T1/qbk/m/n/10 83.8%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 99--99
+ []|\T1/qbk/m/n/10 94.4%| 
+ []
+
+
+Overfull \hbox (2.64099pt too wide) in paragraph at lines 99--100
+ []|\T1/qbk/m/n/10 98.3%| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--101
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--101
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--101
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--101
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--101
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--101
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--101
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--101
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--101
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+Underfull \hbox (badness 7273) in paragraph at lines 123--123
+\T1/qbk/m/n/10 ath-let-ics tal-ent to pass
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+\T1/qbk/m/n/10 with-out hurt-ing your-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\T1/qbk/m/n/10 thick mud and al-most
+ []
+
+[7]
+Underfull \hbox (badness 5147) in paragraph at lines 165--165
+\T1/qbk/m/n/10 have any suc-cesses, so
+ []
+
+[8]) [9] [10] [11] [12]
+\openout2 = `chapters/GammaNebulaOverview.aux'.
+
+ (chapters/GammaNebulaOverview.tex
+Chapter 3.
+[13
+
+]) [14] [15] [16] (GammaRP1e.lof)
+\tf@lof=\write7
+\openout7 = `GammaRP1e.lof'.
+
+ [17] [18] (GammaRP1e.lot)
+\tf@lot=\write8
+\openout8 = `GammaRP1e.lot'.
+
+ [19] [20]
+runsystem(makeindex -s GRPindexstyle.ist GammaRP1e.idx)...executed safely (allo
+wed).
+
+
+(GammaRP1e.ind) [21
+\oddpage@label{23}{21}
+]
+\gdef \@abspage@last{25}
+(GammaRP1e.aux (chapters/Introduction.aux) (chapters/TheBasics.aux)
+(chapters/GammaNebulaOverview.aux))
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-11-06>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `GammaRP1e.out' has not changed.
+(rerunfilecheck)             Checksum: 25C1B4ED7BDEDBC0F83DA4A12D7DC87B;1672.
+ ) 
 Here is how much of TeX's memory you used:
- 36085 strings out of 467871
- 731759 string characters out of 5428442
- 2357062 words of memory out of 5000000
- 64300 multiletter control sequences out of 15000+600000
- 695711 words of font info for 75 fonts, out of 8000000 for 9000
+ 36515 strings out of 467871
+ 740880 string characters out of 5428442
+ 1505155 words of memory out of 5000000
+ 64662 multiletter control sequences out of 15000+600000
+ 711792 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 10000i,19n,6671p,774b,1628s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 99i,19n,120p,1537b,1626s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
+m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type
+1/public/cbgreek/grmn1000.pfb><C:/Program Files/MiKTeX/fonts/type1/public/tex-g
+yre/qbkb.pfb><C:/Program Files/MiKTeX/fonts/type1/public/tex-gyre/qbkbi.pfb><C:
+/Program Files/MiKTeX/fonts/type1/public/tex-gyre/qbkr.pfb><C:/Program Files/Mi
+KTeX/fonts/type1/public/tex-gyre/qbkri.pfb>
+Output written on GammaRP1e.pdf (25 pages, 1161283 bytes).
+PDF statistics:
+ 2528 PDF objects out of 2984 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
+ 407 words of extra memory for PDF output out of 10000 (max. 10000000)
+
