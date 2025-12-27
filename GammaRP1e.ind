@@ -3,6 +3,8 @@
 \large\rmfamily\bfseries%
 \noindent\textbf{A}\par\nopagebreak
 
+ \item \small Additional Advantage \hfill \hyperpage{7}
+ \item \small Additional Disadvantage \hfill \hyperpage{7}
  \item \small Advantage \hfill \hyperpage{5}
 
   \indexspace
@@ -10,6 +12,8 @@
 \large\rmfamily\bfseries%
 \noindent\textbf{D}\par\nopagebreak
 
+ \item \small Die Bonus \hfill \hyperpage{7}
+ \item \small Die Penalty \hfill \hyperpage{7}
  \item \small Disadvantage \hfill \hyperpage{6}
 
   \indexspace
@@ -35,7 +39,7 @@
 \noindent\textbf{R}\par\nopagebreak
 
  \item \small Roll Contest \hfill \hyperpage{8}
-    \subitem Example \hfill \hyperpage{9}
+    \subitem Example \hfill \hyperpage{8}
  \item \small Roll notation \hfill \hyperpage{5}
 
 \end{theindex}

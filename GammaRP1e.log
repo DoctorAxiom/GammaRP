@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.14)  26 DEC 2025 21:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.14)  27 DEC 2025 11:50
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1571,8 +1571,8 @@ Package hyperref Info: Link coloring OFF on input line 25.
 Package svg Info: Last page of `./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf' is
  1 on input line 31.
  (svg-inkscape/GammaRPTitleLogo_svg-tex.pdf_tex
-<./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf, id=95, page=1, 192.85394pt x 201.
-496pt>
+<./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf, id=107, page=1, 192.85394pt x 201
+.496pt>
 File: ./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf , page1 us
@@ -1583,7 +1583,8 @@ Package svg Info: Last page of `./svg-inkscape/TitleBG_svg-tex.pdf' is 1 on inp
 ut line 31.
 
 (svg-inkscape/TitleBG_svg-tex.pdf_tex
-<./svg-inkscape/TitleBG_svg-tex.pdf, id=97, page=1, 752.81262pt x 752.81262pt>
+<./svg-inkscape/TitleBG_svg-tex.pdf, id=109, page=1, 752.81262pt x 752.81262pt>
+
 File: ./svg-inkscape/TitleBG_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/TitleBG_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/TitleBG_svg-tex.pdf , page1 used on inp
@@ -1637,7 +1638,7 @@ Chapter 2.
 Package svg Info: Last page of `./svg-inkscape/twodice_svg-tex.pdf' is 1 on inp
 ut line 9.
 (svg-inkscape/twodice_svg-tex.pdf_tex
-<./svg-inkscape/twodice_svg-tex.pdf, id=2323, page=1, 1111.38797pt x 904.86887p
+<./svg-inkscape/twodice_svg-tex.pdf, id=2338, page=1, 1111.38797pt x 904.86887p
 t>
 File: ./svg-inkscape/twodice_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/twodice_svg-tex.pdf, page 1>
@@ -1648,7 +1649,7 @@ ut line 56.
 Package svg Info: Last page of `./svg-inkscape/onedice_svg-tex.pdf' is 1 on inp
 ut line 20.
  (svg-inkscape/onedice_svg-tex.pdf_tex
-<./svg-inkscape/onedice_svg-tex.pdf, id=2325, page=1, 1086.36443pt x 1019.55269
+<./svg-inkscape/onedice_svg-tex.pdf, id=2340, page=1, 1086.36443pt x 1019.55269
 pt>
 File: ./svg-inkscape/onedice_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/onedice_svg-tex.pdf, page 1>
@@ -1660,7 +1661,7 @@ Package svg Info: Last page of `./svg-inkscape/onedice_b_svg-tex.pdf' is 1 on i
 nput line 23.
 
 (svg-inkscape/onedice_b_svg-tex.pdf_tex
-<./svg-inkscape/onedice_b_svg-tex.pdf, id=2327, page=1, 1034.91122pt x 1037.043
+<./svg-inkscape/onedice_b_svg-tex.pdf, id=2342, page=1, 1034.91122pt x 1037.043
 33pt>
 File: ./svg-inkscape/onedice_b_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/onedice_b_svg-tex.pdf, page 1>
@@ -1684,365 +1685,462 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
  []
 
 
-Overfull \hbox (1.431pt too wide) in paragraph at lines 90--90
+Overfull \hbox (2.24095pt too wide) in paragraph at lines 90--90
  []|[]| 
  []
 
 
-Overfull \hbox (1.431pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.6642pt too wide) in paragraph at lines 90--90
  []|[]| 
  []
 
 
-Overfull \hbox (1.431pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.6642pt too wide) in paragraph at lines 90--90
  []|[]| 
  []
 
 
-Overfull \hbox (1.431pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.6642pt too wide) in paragraph at lines 90--90
  []|[]| 
  []
 
 
-Overfull \hbox (1.431pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.6642pt too wide) in paragraph at lines 90--90
  []|[]| 
  []
 
 
-Overfull \hbox (0.95099pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.6642pt too wide) in paragraph at lines 90--90
  []|[]| 
  []
 
 
-Overfull \hbox (0.95099pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.6642pt too wide) in paragraph at lines 90--90
  []|[]| 
  []
 
 
-Overfull \hbox (0.95099pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.3282pt too wide) in paragraph at lines 90--90
  []|[]| 
  []
 
 
-Overfull \hbox (0.95099pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.3282pt too wide) in paragraph at lines 90--90
  []|[]| 
  []
 
 
-Overfull \hbox (0.95099pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.3282pt too wide) in paragraph at lines 90--90
  []|[]| 
  []
 
 
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 90--90
- []|\T1/qbk/m/n/10 16.7%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 90--90
- []|\T1/qbk/m/n/10 25.0%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 90--91
- []|\T1/qbk/m/n/10 33.3%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 91--91
- []|\T1/qbk/m/n/10 16.0%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 91--91
- []|\T1/qbk/m/n/10 16.0%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 91--91
- []|\T1/qbk/m/n/10 30.6%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 91--91
- []|\T1/qbk/m/n/10 43.8%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 91--92
- []|\T1/qbk/m/n/10 55.6%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 92--92
- []|\T1/qbk/m/n/10 23.0%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 92--92
- []|\T1/qbk/m/n/10 23.0%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 92--92
- []|\T1/qbk/m/n/10 42.1%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 92--92
- []|\T1/qbk/m/n/10 57.8%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 92--93
- []|\T1/qbk/m/n/10 70.4%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 93--93
- []|\T1/qbk/m/n/10 29.4%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 93--93
- []|\T1/qbk/m/n/10 29.4%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 93--93
- []|\T1/qbk/m/n/10 51.8%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 93--93
- []|\T1/qbk/m/n/10 68.4%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 93--94
- []|\T1/qbk/m/n/10 80.2%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 94--94
- []|\T1/qbk/m/n/10 35.3%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 94--94
- []|\T1/qbk/m/n/10 35.3%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 94--94
- []|\T1/qbk/m/n/10 59.8%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 94--94
- []|\T1/qbk/m/n/10 76.3%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 94--95
- []|\T1/qbk/m/n/10 86.8%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 95--95
- []|\T1/qbk/m/n/10 40.7%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 95--95
- []|\T1/qbk/m/n/10 40.7%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 95--95
- []|\T1/qbk/m/n/10 66.5%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 95--95
- []|\T1/qbk/m/n/10 82.2%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 95--96
- []|\T1/qbk/m/n/10 91.2%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 96--96
- []|\T1/qbk/m/n/10 45.6%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 96--96
- []|\T1/qbk/m/n/10 45.6%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 96--96
- []|\T1/qbk/m/n/10 72.1%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 96--96
- []|\T1/qbk/m/n/10 86.7%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 96--97
- []|\T1/qbk/m/n/10 94.1%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 97--97
- []|\T1/qbk/m/n/10 50.1%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 97--97
- []|\T1/qbk/m/n/10 50.1%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 97--97
- []|\T1/qbk/m/n/10 76.7%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 97--97
- []|\T1/qbk/m/n/10 90.0%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 97--98
- []|\T1/qbk/m/n/10 96.1%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 98--98
- []|\T1/qbk/m/n/10 54.3%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 98--98
- []|\T1/qbk/m/n/10 54.3%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 98--98
- []|\T1/qbk/m/n/10 80.6%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 98--98
- []|\T1/qbk/m/n/10 92.5%| 
- []
-
-
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 98--99
- []|\T1/qbk/m/n/10 97.4%| 
- []
-
-
-Overfull \hbox (4.31168pt too wide) in paragraph at lines 99--99
+Overfull \hbox (1.3282pt too wide) in paragraph at lines 90--90
  []|[]| 
  []
 
 
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 99--99
- []|\T1/qbk/m/n/10 58.1%| 
+Overfull \hbox (1.3282pt too wide) in paragraph at lines 90--90
+ []|[]| 
  []
 
 
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 99--99
- []|\T1/qbk/m/n/10 58.1%| 
+Overfull \hbox (1.3282pt too wide) in paragraph at lines 90--90
+ []|[]| 
  []
 
 
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 99--99
- []|\T1/qbk/m/n/10 83.8%| 
+Overfull \hbox (1.3282pt too wide) in paragraph at lines 90--90
+ []|[]| 
  []
 
 
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 99--99
- []|\T1/qbk/m/n/10 94.4%| 
+Overfull \hbox (1.3282pt too wide) in paragraph at lines 90--90
+ []|[]| 
  []
 
 
-Overfull \hbox (2.64099pt too wide) in paragraph at lines 99--100
- []|\T1/qbk/m/n/10 98.3%| 
+Overfull \hbox (0.95996pt too wide) in paragraph at lines 90--90
+ []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--101
-[][]
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 90--90
+ []|\T1/qbk/m/n/7 16.7%| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--101
-[]
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 90--90
+ []|\T1/qbk/m/n/7 25.0%| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--101
-[]
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 90--90
+ []|\T1/qbk/m/n/7 33.3%| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--101
-[]
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 90--90
+ []|\T1/qbk/m/n/7 41.7%| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--101
-[]
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 90--90
+ []|\T1/qbk/m/n/7 50.0%| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--101
-[]
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 90--91
+ []|\T1/qbk/m/n/7 58.3%| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--101
-[]
+Overfull \hbox (1.04045pt too wide) in paragraph at lines 91--91
+ []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--101
-[]
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 91--91
+ []|\T1/qbk/m/n/7 15.3%| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--101
-[]
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 91--91
+ []|\T1/qbk/m/n/7 16.0%| 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 91--91
+ []|\T1/qbk/m/n/7 16.0%| 
+ []
 
- [6]
-Underfull \hbox (badness 7273) in paragraph at lines 123--123
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 91--91
+ []|\T1/qbk/m/n/7 16.0%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 91--91
+ []|\T1/qbk/m/n/7 30.6%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 91--91
+ []|\T1/qbk/m/n/7 43.8%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 91--91
+ []|\T1/qbk/m/n/7 55.6%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 91--91
+ []|\T1/qbk/m/n/7 66.0%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 91--91
+ []|\T1/qbk/m/n/7 75.0%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 91--92
+ []|\T1/qbk/m/n/7 82.6%| 
+ []
+
+
+Overfull \hbox (0.95996pt too wide) in paragraph at lines 92--92
+ []|[]| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--92
+ []|\T1/qbk/m/n/7 20.4%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--92
+ []|\T1/qbk/m/n/7 21.6%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--92
+ []|\T1/qbk/m/n/7 23.0%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--92
+ []|\T1/qbk/m/n/7 23.0%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--92
+ []|\T1/qbk/m/n/7 23.0%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--92
+ []|\T1/qbk/m/n/7 42.1%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--92
+ []|\T1/qbk/m/n/7 57.8%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--92
+ []|\T1/qbk/m/n/7 70.4%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--92
+ []|\T1/qbk/m/n/7 80.2%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--92
+ []|\T1/qbk/m/n/7 87.5%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--93
+ []|\T1/qbk/m/n/7 92.8%| 
+ []
+
+
+Overfull \hbox (1.11745pt too wide) in paragraph at lines 93--93
+ []|[]| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+ []|\T1/qbk/m/n/7 24.0%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+ []|\T1/qbk/m/n/7 25.7%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+ []|\T1/qbk/m/n/7 27.5%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+ []|\T1/qbk/m/n/7 29.4%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+ []|\T1/qbk/m/n/7 29.4%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+ []|\T1/qbk/m/n/7 29.4%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+ []|\T1/qbk/m/n/7 51.8%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+ []|\T1/qbk/m/n/7 68.4%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+ []|\T1/qbk/m/n/7 80.2%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+ []|\T1/qbk/m/n/7 88.4%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+ []|\T1/qbk/m/n/7 93.8%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--94
+ []|\T1/qbk/m/n/7 97.0%| 
+ []
+
+
+Overfull \hbox (0.95996pt too wide) in paragraph at lines 94--94
+ []|[]| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+ []|\T1/qbk/m/n/7 26.4%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+ []|\T1/qbk/m/n/7 28.4%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+ []|\T1/qbk/m/n/7 30.5%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+ []|\T1/qbk/m/n/7 32.8%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+ []|\T1/qbk/m/n/7 35.3%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+ []|\T1/qbk/m/n/7 35.3%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+ []|\T1/qbk/m/n/7 35.3%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+ []|\T1/qbk/m/n/7 59.8%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+ []|\T1/qbk/m/n/7 76.3%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+ []|\T1/qbk/m/n/7 86.8%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+ []|\T1/qbk/m/n/7 93.2%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+ []|\T1/qbk/m/n/7 96.9%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--95
+ []|\T1/qbk/m/n/7 98.7%| 
+ []
+
+
+Overfull \hbox (1.32745pt too wide) in paragraph at lines 95--95
+ []|[]| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+ []|\T1/qbk/m/n/7 27.9%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+ []|\T1/qbk/m/n/7 30.1%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+ []|\T1/qbk/m/n/7 32.5%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+ []|\T1/qbk/m/n/7 35.0%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+ []|\T1/qbk/m/n/7 37.7%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+ []|\T1/qbk/m/n/7 40.7%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+ []|\T1/qbk/m/n/7 40.7%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+ []|\T1/qbk/m/n/7 40.7%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+ []|\T1/qbk/m/n/7 66.5%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+ []|\T1/qbk/m/n/7 82.2%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+ []|\T1/qbk/m/n/7 91.2%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+ []|\T1/qbk/m/n/7 96.1%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+ []|\T1/qbk/m/n/7 98.4%| 
+ []
+
+
+Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--96
+ []|\T1/qbk/m/n/7 99.5%| 
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]\T1/qbk/b/n/12 Additional Ad-van-tage
+ []
+
+
+Underfull \hbox (badness 7273) in paragraph at lines 139--139
 \T1/qbk/m/n/10 ath-let-ics tal-ent to pass
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 \T1/qbk/m/n/10 with-out hurt-ing your-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
 \T1/qbk/m/n/10 thick mud and al-most
  []
 
 [7]
-Underfull \hbox (badness 5147) in paragraph at lines 165--165
+Underfull \hbox (badness 5147) in paragraph at lines 181--181
 \T1/qbk/m/n/10 have any suc-cesses, so
  []
 
@@ -2081,14 +2179,14 @@ L3 programming layer <2025-11-06>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `GammaRP1e.out' has not changed.
-(rerunfilecheck)             Checksum: 25C1B4ED7BDEDBC0F83DA4A12D7DC87B;1672.
+(rerunfilecheck)             Checksum: 544099396D80000BF438893D58674738;2242.
  ) 
 Here is how much of TeX's memory you used:
- 36515 strings out of 467871
- 740880 string characters out of 5428442
- 1505155 words of memory out of 5000000
- 64662 multiletter control sequences out of 15000+600000
- 711792 words of font info for 80 fonts, out of 8000000 for 9000
+ 36521 strings out of 467871
+ 740965 string characters out of 5428442
+ 1513561 words of memory out of 5000000
+ 64665 multiletter control sequences out of 15000+600000
+ 715122 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,120p,1537b,1626s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
@@ -2098,9 +2196,9 @@ X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type
 yre/qbkb.pfb><C:/Program Files/MiKTeX/fonts/type1/public/tex-gyre/qbkbi.pfb><C:
 /Program Files/MiKTeX/fonts/type1/public/tex-gyre/qbkr.pfb><C:/Program Files/Mi
 KTeX/fonts/type1/public/tex-gyre/qbkri.pfb>
-Output written on GammaRP1e.pdf (25 pages, 1161283 bytes).
+Output written on GammaRP1e.pdf (25 pages, 1163869 bytes).
 PDF statistics:
- 2528 PDF objects out of 2984 (max. 8388607)
- 65 named destinations out of 1000 (max. 500000)
- 407 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2548 PDF objects out of 2984 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
+ 431 words of extra memory for PDF output out of 10000 (max. 10000000)
 
