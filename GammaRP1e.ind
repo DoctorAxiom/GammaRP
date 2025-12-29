@@ -23,14 +23,22 @@
 
  \item \small Game Master \hfill \hyperpage{5}
  \item \small Group Roll \hfill \hyperpage{7}
-    \subitem Example \hfill \hyperpage{7}
+    \subitem Example \hfill \hyperpage{8}
  \item \small Group Roll Contest \hfill \hyperpage{9}
+
+  \indexspace
+
+\large\rmfamily\bfseries%
+\noindent\textbf{N}\par\nopagebreak
+
+ \item \small NPC \hfill \hyperpage{11}
 
   \indexspace
 
 \large\rmfamily\bfseries%
 \noindent\textbf{P}\par\nopagebreak
 
+ \item \small PC \hfill \hyperpage{11}
  \item \small Player \hfill \hyperpage{5}
 
   \indexspace

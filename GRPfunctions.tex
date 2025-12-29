@@ -25,6 +25,7 @@
 \usepackage{multicol}
 \usepackage{caption}
 \usepackage{array}
+\usepackage{rotating}
 \usepackage{makecell}
 
 \usepackage{tgbonum}
@@ -520,8 +521,8 @@
 % PICTURE AND FIGURE commands
 %
 %
-\renewcommand\thefigure{\thesection\alph{figure}}
-\renewcommand\thetable{\thesection\alph{table}}
+\renewcommand\thefigure{\thechapter\alph{figure}}
+\renewcommand\thetable{\thechapter\alph{table}}
 \renewcommand{\arraystretch}{1.25}%this gives table rows 1.25 line spacing by default.
 \setlength{\tabcolsep}{3pt}%this is half the default tabular column separation of 6pt.
 
@@ -622,6 +623,7 @@
 \newlength{\GRPcurrenttablewidth}
 \newcommand\rowformat[1]{\gdef\GRProwstyler{#1}#1\ignorespaces}%
 \newcounter{grpcurrentrow}
+\newcounter{grpvertline}
 \makeatletter
 \newenvironment{GRPtabular}[2][]{% #1=title row, #2 = customcolumnspec
 	\global\setlength{\GRPcurrenttablewidth}{\linewidth}%
@@ -637,6 +639,7 @@
 	\foreach \grpalign/\grpwidth in {#2}{%
 		%\FAKEDEBUGCOMMAND%
 		\def\currspecformat{}%
+		\setcounter{grpvertline}{0}
 		\IfStrEqCase{\expandafter\firstof\expandafter{\grpalign}}{%
 			{l}{%
 			\g@addto@macro\currspecformat{\raggedright}%
@@ -647,16 +650,23 @@
 			{r}{%
 			\g@addto@macro\currspecformat{\raggedleft}%
 			}%
+			{|}{%
+			\setcounter{grpvertline}{9}
+			}
 		}%
-		\edef\GRPalignextra{\expandafter\restof\expandafter{\grpalign}}
-		\expandafter\g@addto@macro\expandafter\currspecformat\expandafter{\GRPalignextra}%
-		\g@addto@macro\currspecformat{\GRProwstyler\arraybackslash}%
-		%And then we actually build the tablespec,
-		\expandafter\g@addto@macro\expandafter\GRPtablespec\expandafter{\expandafter>\expandafter{\currspecformat}}%
-		\edef\currspecwidth{m\noexpand{\dimeval{\grpwidth\GRPcurrenttablewidth-2\tabcolsep}\noexpand}\space }%
-		\expandafter\g@addto@macro\expandafter\GRPtablespec\expandafter{\currspecwidth}%
+		\ifnum\value{grpvertline}>0%
+			\g@addto@macro\GRPtablespec{|}%this is to allow vertical lines.
+		\else%
+			\edef\GRPalignextra{\expandafter\restof\expandafter{\grpalign}}
+			\expandafter\g@addto@macro\expandafter\currspecformat\expandafter{\GRPalignextra}%
+			\g@addto@macro\currspecformat{\GRProwstyler\arraybackslash}%
+			%And then we actually build the tablespec,
+			\expandafter\g@addto@macro\expandafter\GRPtablespec\expandafter{\expandafter>\expandafter{\currspecformat}}%
+			\edef\currspecwidth{m\noexpand{\dimeval{\grpwidth\GRPcurrenttablewidth-2\tabcolsep}\noexpand}\space }%
+			\expandafter\g@addto@macro\expandafter\GRPtablespec\expandafter{\currspecwidth}%
+		\fi%
 	}%
-	\newcommand{\begintabhelper}[1]{\begin{tabular}{##1}}%
+	\newcommand{\begintabhelper}[1]{\unskip\begin{tabular}{##1}}%
 	\normalexpandarg\IfStrEq{#1}{}%This segment changes the afternote break
 	{%
 		\gdef\GRPafternotebreak{%
@@ -685,11 +695,11 @@
   		\def\GRP@headerhelper{\space}
   	}%
   	{%
-			\def\GRP@headerhelper{%
-				\rowcolor{\GRPtitlecellcolor}\rowformat{\GRPtitlecellformat} #1 \GRProwclear\\ [0.5ex]
-				\hline \hline
-			}%
+		\def\GRP@headerhelper{%
+			\rowcolor{\GRPtitlecellcolor}\rowformat{\GRPtitlecellformat} #1 \GRProwclear\\ [0.5ex]
+			\hline \hline
 		}%
+	}%
     \ifnum\value{grpcurrentrow}>0%
       \end{tabular}\linebreak\vspace{##1}%
     \fi%
@@ -699,9 +709,9 @@
     	\GRP@headerhelper%
     \fi%
     \ifodd\value{grpcurrentrow}%
-    	\rowcolor{\ChapterBackgroundTint!10!white}
+    	\rowcolor{\ChapterBackgroundTint!10!white}%
     \else%
-    	\rowcolor{\ChapterBackgroundTint!20!white}
+    	\rowcolor{\ChapterBackgroundTint!20!white}%
     \fi%
   }%
   % Initialize: no previous tabular yet
