@@ -1,20 +1,25 @@
 \GRPchapter{Building a Character}
 
-Now that we understand the basics of die rolls in the \GammaRP{} system, we can walk through the process of building a character.
+The same character building process is used for non-player-characters (NPC's)\index{NPC} and player characters (PC's)\index{PC}. This chapter will indicate when something is nonessential for a non-player character.
 
-The same character building process is used for non-player-characters (NPC's)\index{NPC} and player characters (PC's)\index{PC}. Non-player characters built by the GM may have some details left off, and this chapter will indicate when something is nonessential for a non-player character.
+For a step by step overview of the process of building a character, consider skipping to Section \ref{sec:character_building_overview}.
+
+\section{Experience Points}
+
+Experience points, or XP for short, are used to upgrade your character's abilities after creation.
+
+You may apply XP to your character has whenever you take the \emph{sleep} downtime action.
 
 \section{Fundamental Attributes}
 
-All characters have 6 fundamental attributes that must be specified.
+All characters have 6 fundamental attributes, divided into 3 \emph{Foundations} and 3 \emph{Characteristics}.
 
-\noindent3 \emph{Foundations} - Mind, Body, and Heart
+\begin{itemize}
+\item \textbf{Foundations}\index{Foundation}-- \\ Mind, Body, Heart
+\item \textbf{Characteristics}\index{Characteristic}-- \\ Precision, Strength, Grace
+\end{itemize}
 
-and
-
-\noindent3 \emph{Characteristics} - Precision, Strength, Grace
-
-The foundations and characteristics are combined to form 9 fundamental \emph{talents} that all characters have.
+The foundations and characteristics are combined to form 9 fundamental \emph{talents}\index{Talent} that all characters have.
 
 \begin{GRPtablewide}
 \caption[Fundamental Talents]{Combining Foundations and Characteristics to get Talents}
@@ -22,12 +27,211 @@ The foundations and characteristics are combined to form 9 fundamental \emph{tal
 %\renewcommand{\cellrotangle}{70}%
 \begin{GRPtabular}[%
  \space & Precision & Strength & Grace%
-]{r\cellcolor{\GRPtitlecellcolor}\GRPtitlecellformat/0.12,|/0,|/0,c/0.2,c/0.2,c/0.2}
-	Mind & Memory & Intellect & Insight \XX
-	Body & Dexterity & Constitution & Athletics \XX
-	Heart & Perception & Will & Charisma
+]{r\cellcolor{\GRPtitlecellcolor}\GRPtitlecellformat/0.12,|/0,|/0,c/0.22,c/0.22,c/0.22}
+	Mind & 
+	\makecell[{{m{\linewidth}}}]{\centering \GRPability{Memory} \\ \scriptsize \GRProllap[b]{\GRPstat{Mind}}{\GRPstat{Precision}} } &
+	\makecell[{{m{\linewidth}}}]{\centering \GRPability{Intellect} \\ \scriptsize \GRProllap[b]{\GRPstat{Mind}}{\GRPstat{Strength}} } &
+	\makecell[{{m{\linewidth}}}]{\centering \GRPability{Insight} \\ \scriptsize \GRProllap[b]{\GRPstat{Mind}}{\GRPstat{Grace}} } \XX
+	Body &
+	\makecell[{{m{\linewidth}}}]{\centering \GRPability{Dexterity} \\ \scriptsize \GRProllap[b]{\GRPstat{Body}}{\GRPstat{Precision}} } &
+	\makecell[{{m{\linewidth}}}]{\centering \GRPability{Fortitude} \\ \scriptsize \GRProllap[b]{\GRPstat{Body}}{\GRPstat{Strength}} } &
+	\makecell[{{m{\linewidth}}}]{\centering \GRPability{Athletics} \\ \scriptsize \GRProllap[b]{\GRPstat{Body}}{\GRPstat{Grace}} } \XX
+	Heart & 
+	\makecell[{{m{\linewidth}}}]{\centering \GRPability{Perception} \\ \scriptsize \GRProllap[b]{\GRPstat{Heart}}{\GRPstat{Precision}} } &
+	\makecell[{{m{\linewidth}}}]{\centering \GRPability{Will} \\ \scriptsize \GRProllap[b]{\GRPstat{Heart}}{\GRPstat{Strength}} } &
+	\makecell[{{m{\linewidth}}}]{\centering \GRPability{Charisma} \\ \scriptsize \GRProllap[b]{\GRPstat{Heart}}{\GRPstat{Grace}} }
 \end{GRPtabular}
 \end{GRPtablewide}
 
-and then I put some text here temporarily
+\noindent When building a character, you have:
 
+\begin{itemize}
+\item 6 points to distribute among your foundations (\GRPstat{Mind}, \GRPstat{Body}, \GRPstat{Heart}) as you see fit
+\item 8 points to distribute among your characteristics (\GRPstat{Precision}, \GRPstat{Strength}, \GRPstat{Grace}) as you see fit
+\end{itemize}
+
+You \textbf{must} allocate at least 1 point to each foundation and each characteristic.
+
+The number of points you allocate to each fundamental attribute become the value of that fundamental attribute for the lifetime of your character and may not be changed after character creation.
+
+However, you can gain aptitude in each of the fundamental talents which give additional advantage to their rolls, and racial bonuses and skills may give you bonus dice on different rolls.
+
+The 12 fundamental talents are meant to intuitively follow from their construction. If you are trying to determine what talents are applicable in a situation, simply consider:
+\begin{itemize}
+	\item Does this situation need Precision, Strength, or Grace?
+	\item Does this situation relate to the Body, the Heart, or the Mind?
+\end{itemize}
+Then, find the corresponding row and column on the talent grid, and roll that talent to determine success.
+
+The GM ultimately determines if a talent applies in a narrative situation, and sometimes there may be more than one talent that is equally applicable. If the player can make an argument that the GM finds reasonable for why a talent is reasonable in a situation, they may roll that talent.
+
+For clarity, what follows are descriptions of all the talents along with some example situations where they apply. This is not a comprehensive list.
+
+\begin{GRPquicknotewide}
+\index{Talent!Examples}%
+\begin{itemize}
+	\item \GRPability{Memory}-- Used for any situation that requires Precision of Mind, such as precise recall, exact pattern matching or recognition, or accurate calculation. Examples include:
+		\begin{itemize}
+			\item A character is trying to recall if they've seen a symbol before in their past
+			\item A character is trying to determine which of two piles of material weighs more
+			\item A character is trying to determine if a language or code they are hearing is one they've heard before.
+			\item A character is trying to memorize instructions for a complex process
+		\end{itemize}
+	\item \GRPability{Intellect}-- Used for any situation that requires Strength of Mind-- such as intense computation or decisions involving many simultaneous variables. Examples include:
+		\begin{itemize}
+			\item A character is trying to decode a coded message
+			\item A character is coming up with the solution to a puzzle
+			\item A character needs to beat another character in a game of chess
+		\end{itemize}
+	\item \GRPability{Insight}-- Used for any situation that requires Grace of Mind, such as nimble thinking or problems requiring the right inspiration to strike in a timely manner. Examples include:
+		\begin{itemize}
+			\item A character is investigating a crime scene
+			\item A character is trying to invent a mechanism to close a door based on objects strewn around the area
+			\item A character is trying to discern the political motivations of an organization
+			\item A character is trying to escape a trap or legal dilemma
+		\end{itemize}
+	\item \GRPability{Dexterity}-- Used for any situation that requires Precision of Body-- think along the lines of quick and accurate reflexes. Examples include:
+		\begin{itemize}
+			\item Aiming a ranged weapon at a moving target
+			\item Catching a rapidly moving small object
+			\item Disarming a delicate trap without triggering it
+		\end{itemize}
+	\item \GRPability{Fortitude}-- Used for any situation that requires Strength of Body-- think along the lines of endurance and raw physical power. Examples include:
+		\begin{itemize}
+			\item Withstanding the effects of a strong alcoholic drink
+			\item Carrying a heavy object for a period of time
+			\item Wading through thick mud or pushing through tangled vines
+		\end{itemize}
+	\item \GRPability{Athletics}-- Used for any situation that requires Grace of Body-- think along the lines of well developed martial form or postural technique. Examples include:
+		\begin{itemize}
+			\item Throwing an object as far as possible
+			\item Arm wrestling another character
+			\item Rolling out of a fall to mitigate damage
+		\end{itemize}
+	\item \GRPability{Perception}-- Used for any situation that requires Precision of Heart. This applies to the accuracy of a character's emotional inspiration. Examples include:
+		\begin{itemize}
+			\item Determining if another character is lying
+			\item Accurately guessing why another character is acting strange
+			\item Figuring out what is meaningful to another character
+		\end{itemize}
+	\item \GRPability{Will}-- Used for any situation that requires Strength of Heart. This applies to determination and emotional centered-ness. Examples include:
+		\begin{itemize}
+			\item A character is trying to withstand a psychic attack (or puppy-dog eyes)
+			\item A character is trying to power through pain to maintain focus on a task
+			\item A character is trying to resist the effects of a sedative
+		\end{itemize}
+	\item \GRPability{Charisma}-- Used for any situation that requires Grace of Heart. This can be thought of the character's ability to navigate emotional issues and convince other people to follow their lead. Examples include:
+		\begin{itemize}
+			\item Persuading another character to give up an item
+			\item Rallying a crowd to perform an action
+			\item Deceiving another character about something
+		\end{itemize}
+\end{itemize}
+\end{GRPquicknotewide}
+
+\subsection{Talent Proxying}
+
+The various talents in \GammaRP{} have significant conceptual overlap. In addition to the GM determining what talents are appropriate to a situation, players are allowed to use talents on the opposite side of the talent grid at 2 additional disadvantage. This is called talent proxying.
+
+This encapsulates the fact that vastly different skills may be used to accomplish the same feat. For instance, the ability to remember details about what motivates people can substitute for the ability to appeal to their emotions, and in this way, the \GRPability{Memory} talent may proxy for the \GRPability{Charisma} talent. Fast enough reflexes would allow you to adjust your body in the right way to accomplish martial feats that would usually require well developed form. Conversely, well developed form can substitute for fast and accurate reflexes. Therefore \GRPability{Dexterity} and \GRPability{Athletics} can proxy for each other.
+
+You can also proxy \GRPability{Fortitude} with either \GRPability{Intellect}, \GRPability{Dexterity}, \GRPability{Will}, or \GRPability{Athletics} at 4 additional disadvantage.
+
+This is meant to represent the fact that physical problem solving (Intellect), accurate enough reflexes (Dexterity), dogged enough determination (Will), or well developed form (Athletics), can all substitute for raw power when overcoming physical challenges or physical impairment.
+
+What follows are visual diagrams showing what talents can be proxied for others.
+
+\begin{GRPfigwide}
+\begin{minipage}[t]{0.475\linewidth}
+\caption{Talents you can proxy at -2a}
+\scriptsize\includesvg[width=\linewidth]{art/BuildingCharacter/ProxyGrid2}
+\end{minipage}%
+\hspace{0.05\linewidth}%
+\begin{minipage}[t]{0.475\linewidth}
+\caption{Talents you can proxy at -4a}
+\scriptsize\includesvg[width=\linewidth]{art/BuildingCharacter/ProxyGrid4}
+\end{minipage}
+\end{GRPfigwide}
+
+You can gain aptitude ranks in your talents by spending XP. Each aptitude rank gives 1 additional advantage when rolling the talent.
+
+It costs:
+\begin{itemize}
+	\item 1 XP for the first aptitude rank
+	\item 2 XP for the second aptitude rank
+	\item 3 XP for the third aptitude rank.
+\end{itemize}
+
+You may have a maximum of 3 ranks in any talent.
+
+\subsection{Depleting Fundamentals}
+
+In a pinch, you may \emph{deplete} your foundations and your characteristics for certain bonuses.
+
+Each time you \emph{deplete} a fundamental, you incur an additional -1 penalty to that fundamental. This penalty persists until you next take the \emph{sleep} downtime action. You may not deplete your foundations or characteristics below 0.
+
+\vspace{0.5\baselineskip}
+\begin{GRPquicknote}
+Note that if you deplete your mind, body, or heart to 0 you will \textbf{automatically fail all rolls related to these foundations}. You may still proxy a related talent to avoid failing the roll.
+\end{GRPquicknote}
+
+If you deplete 2 of your foundations (mind, body, heart) to 0, your character automatically falls \emph{unconscious}. Your character may return to consciousness by having one of their foundations restored.
+
+If you deplete all 3 foundations (mind, body, heart) to 0, your character is \emph{dead}. If your character is dead- talents, abilities and items that normally restore foundation depletion will not work, and they must be restored to life by other means.
+
+You can deplete any or all of your characteristics (precision, strength, grace) to 0 without automatically falling unconscious. You may not deplete your characteristics below 0.
+
+\section{Racial Bonuses}
+
+The Race of a character provides bonuses to some of their talents. Each race provides either
+\begin{itemize}
+	\item 1 bonus dice to 5 talents
+	\item 2 bonus dice to 2 talents
+\end{itemize}
+
+The racial bonuses are described for each race in Chapter \ref{chap:races}.
+
+\section{Archetypes}
+
+Your character has an archetype-- a way that their fortune tends to run in certain situations. This consists of a general type of \emph{situation} and the type of \emph{fortune} they have in this situation.
+
+Your character starts with 1 archetype rank, and additional ranks may be added for 3 XP each. You may have a maximum of 4 archetype ranks.
+
+You may choose to accumulate bonus archetype ranks during the day by \emph{depleting} 1 from Grace for each bonus rank. Bonus archetype ranks may exceed the usual maximum ranks of 4.
+
+To select your character's archetype, choose one situation and one type of fortune.
+
+\begin{GRPquicknotewide}
+\noindent{\large\bfseries Situations:}
+\begin{itemize}
+	\item \textbf{Social}-- all circumstances in which the character is trying to influence the actions or words of other characters in the world around them. Recieve +1 to Grace. 
+	\item \textbf{Technical}-- all circumstances in which the character is trying to create or modify something in the world around them. Recieve +1 to Precision. 
+	\item \textbf{Martial}-- all circumstances in which the character is in combat or physical contest (with the environment or another player). Recieve +1 to Strength
+\end{itemize}
+
+\noindent{\large\bfseries Fortunes:}
+\begin{itemize}
+	\item \textbf{Adept}-- For any roll in your situation, you may adjust any die by up to \GRPstat{Ranks} values AFTER rolling.
+	\item \textbf{Awkward}-- Up to \GRPstat{Ranks} times a day, you may choose to automatically fail a roll in your situation in order to gain 4 bonus dice on your next roll (in any situation).
+	\item \textbf{Confident}-- Once a day, after making a successful roll in a situation, you may choose to gain 6 advantage for the next \GRPstat{Ranks} consecutive subsequent rolls in that situation. You must do this before seeing the results of any of the subsequent rolls.
+	\item \textbf{Duplicitious}-- When your character is in a contested roll in the situation, you may swap up to \GRPstat{Ranks} of your rolled dice with your opponent's rolled dice (even if your opponent is inanimate or the environment). Your number of successes still depend on how much advantage you had on your original roll, and your opponent's number of successes still depend on how much advantage they had in their original roll.
+	\item \textbf{Judicious}--  Roll \GRPstat{Ranks} dice at the beginning of the day. You maintain a pool of \GRPstat{Ranks} dice that starts initially populated by your first rolls. In any archetype situation- you may swap any number of dice in your pool with dice in your roll, AFTER seeing the result.
+	\item \textbf{Lucky}-- A number of times equal to your number of archetype ranks, you may choose to automatically succeed on a roll in this situation. You must choose to do this before seeing the result of the roll.
+	\item \textbf{Oblivious}-- Up to \GRPstat{Ranks} times a day in your character's situation, you may ignore a roll and force a reroll, AFTER seeing the result, and you may reverse decisions about whether you used another ability to alter the dice roll before rerolling it.
+\end{itemize}
+\end{GRPquicknotewide}
+
+\section{Loadout}
+
+A character's \emph{loadout} refers to the set of equipment and abilities that they currently have access to. In \GammaRP{} these are split into several categories.
+
+\subsection{Casts}
+
+\emph{Casts} are special abilities that may be used a limited number of times each day. .
+
+A character may only prepare a limited number of casts each day. the number of \emph{prepared casts} 
+
+
+\section{Character Building Overview}\label{sec:character_building_overview}
+
+wow wow wow! such great chapter section!

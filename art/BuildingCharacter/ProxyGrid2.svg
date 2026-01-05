@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="400"
+   height="400"
+   viewBox="0 0 105.83333 105.83333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="ProxyGrid2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="1.4485269"
+     inkscape:cx="69.035652"
+     inkscape:cy="159.12718"
+     inkscape:window-width="1920"
+     inkscape:window-height="1094"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="2.6458333"
+       spacingy="2.6458333"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="4"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="0.7"
+       markerHeight="0.7"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="0.69999999"
+       markerHeight="0.69999999"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="0.69999999"
+       markerHeight="0.69999999"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="0.69999999"
+       markerHeight="0.69999999"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7-6" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:#ddff90;fill-opacity:0.4;stroke:#a843d4;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect1"
+       width="26.930033"
+       height="26.930033"
+       x="7.7016501"
+       y="7.7016501"
+       ry="3.3662541" />
+    <rect
+       style="opacity:1;fill:#90ffba;fill-opacity:0.4;stroke:#a843d4;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect1-7"
+       width="26.930033"
+       height="26.930033"
+       x="39.451653"
+       y="7.7016501"
+       ry="3.3662541" />
+    <rect
+       style="opacity:1;fill:#90beff;fill-opacity:0.4;stroke:#a843d4;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect1-2"
+       width="26.930033"
+       height="26.930033"
+       x="71.201645"
+       y="7.7016501"
+       ry="3.3662541" />
+    <rect
+       style="opacity:1;fill:#ffbf90;fill-opacity:0.4;stroke:#a843d4;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect1-1"
+       width="26.930033"
+       height="26.930033"
+       x="7.7016501"
+       y="39.451653"
+       ry="3.3662541" />
+    <rect
+       style="opacity:1;fill:#ffbf90;fill-opacity:0.4;stroke:#a843d4;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect1-2-8"
+       width="26.930033"
+       height="26.930033"
+       x="71.201645"
+       y="39.451653"
+       ry="3.3662541" />
+    <rect
+       style="opacity:1;fill:#90beff;fill-opacity:0.4;stroke:#a843d4;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect1-18"
+       width="26.930033"
+       height="26.930033"
+       x="7.7016501"
+       y="71.201645"
+       ry="3.3662541" />
+    <rect
+       style="opacity:1;fill:#90ffba;fill-opacity:0.4;stroke:#a843d4;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect1-7-9"
+       width="26.930033"
+       height="26.930033"
+       x="39.451653"
+       y="71.201645"
+       ry="3.3662541" />
+    <rect
+       style="opacity:1;fill:#ddff90;fill-opacity:0.4;stroke:#a843d4;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect1-2-2"
+       width="26.930033"
+       height="26.930033"
+       x="71.201645"
+       y="71.201645"
+       ry="3.3662541" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="53.005379"
+       y="22.151964"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-size:3.52778px;fill:#000000;fill-opacity:1;stroke-width:1"
+         x="53.005379"
+         y="22.151964">\GRPability{Intellect}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="53.023117"
+       y="85.86969"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="font-size:3.52778px;fill:#000000;fill-opacity:1;stroke-width:1"
+         x="53.023117"
+         y="85.86969">\GRPability{Will}</tspan></text>
+    <path
+       style="fill:none;stroke:#e56700;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ConcaveTriangle);marker-end:url(#ConcaveTriangle);paint-order:markers stroke fill"
+       d="M 68.791665,52.916665 H 37.041666"
+       id="path1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#ccfb00;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ConcaveTriangle-4);marker-end:url(#ConcaveTriangle-4);paint-order:markers stroke fill"
+       d="M 68.791665,68.791665 37.041666,37.041666"
+       id="path2"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#00e442;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ConcaveTriangle-5);marker-end:url(#ConcaveTriangle-5);paint-order:markers stroke fill"
+       d="M 52.916665,68.791665 V 37.041666"
+       id="path2-1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#0034ea;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ConcaveTriangle-7);marker-end:url(#ConcaveTriangle-7);paint-order:markers stroke fill"
+       d="M 68.791665,37.041666 37.041666,68.791665"
+       id="path2-2"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="21.255379"
+       y="22.151964"
+       id="text4-5"><tspan
+         sodipodi:role="line"
+         id="tspan4-2"
+         style="font-size:3.52778px;fill:#000000;fill-opacity:1;stroke-width:1"
+         x="21.255379"
+         y="22.151964">\GRPability{Memory}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="84.755371"
+       y="22.14249"
+       id="text4-5-6"><tspan
+         sodipodi:role="line"
+         id="tspan4-2-8"
+         style="font-size:3.52778px;fill:#000000;fill-opacity:1;stroke-width:1"
+         x="84.755371"
+         y="22.14249">\GRPability{Insight}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="21.255377"
+       y="53.919193"
+       id="text4-5-1"><tspan
+         sodipodi:role="line"
+         id="tspan4-2-89"
+         style="font-size:3.52778px;fill:#000000;fill-opacity:1;stroke-width:1"
+         x="21.255377"
+         y="53.919193">\GRPability{Dexterity}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="84.755371"
+       y="53.919193"
+       id="text4-5-5"><tspan
+         sodipodi:role="line"
+         id="tspan4-2-4"
+         style="font-size:3.52778px;fill:#000000;fill-opacity:1;stroke-width:1"
+         x="84.755371"
+         y="53.919193">\GRPability{Athletics}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="84.755371"
+       y="85.669182"
+       id="text4-5-3"><tspan
+         sodipodi:role="line"
+         id="tspan4-2-3"
+         style="font-size:3.52778px;fill:#000000;fill-opacity:1;stroke-width:1"
+         x="84.755371"
+         y="85.669182">\GRPability{Charisma}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="21.255377"
+       y="85.669182"
+       id="text4-5-38"><tspan
+         sodipodi:role="line"
+         id="tspan4-2-7"
+         style="font-size:3.52778px;fill:#000000;fill-opacity:1;stroke-width:1"
+         x="21.255377"
+         y="85.669182">\GRPability{Perception}</tspan></text>
+  </g>
+</svg>

@@ -65,10 +65,10 @@
 % }
 
 \newcommand*{\IsInteger}[3]{%
-    \IfStrEq{#1}{ }{%
+    \normalexpandarg\IfStrEq{#1}{ }{%
         #3% is a blank string
     }{%
-        \IfInteger{#1}{#2}{#3}%
+        \normalexpandarg\IfInteger{#1}{#2}{#3}%
     }%
 }
 
@@ -173,25 +173,80 @@
  	}%
 }
 
-\newcommand{\GRProll}[2]{\mbox{%
-	\IsInteger{#2}{%
-		\ifnum#2<0%
-			R\GRPitalNonInt{#1}{\color{grpneg}\underline{d}\inteval{-1*(#2)}}%
-		\else%
-			R\GRPitalNonInt{#1}a#2%
-		\fi%
-	}{%
-		R\textit{#1}a\textit{#2}%
+\newcommand{\GRProll}[3][]{%
+	\IfStrEq{#1}{b}{%
+		\IsInteger{#3}{%
+			\ifnum#3<0%
+				\mbox{R\GRPitalNonInt{#2}}\allowbreak%
+				\mbox{\color{grpneg}\underline{d}\inteval{-1*(#3)}}%
+			\else%
+				\mbox{R\GRPitalNonInt{#2}}\allowbreak%
+				\mbox{a#3}%
+			\fi%
+		}{%
+			\mbox{R\textit{#2}}\allowbreak%
+			\mbox{a\textit{#3}}%
+		}%
 	}%
-}}
+	{%
+		\mbox{%
+			\IsInteger{#3}{%
+				\ifnum#3<0%
+					R\GRPitalNonInt{#2}{\color{grpneg}\underline{d}\inteval{-1*(#3)}}%
+				\else%
+					R\GRPitalNonInt{#2}a#3%
+				\fi%
+			}{%
+				R\textit{#2}a\textit{#3}%
+			}%
+		}%
+	}%
+}
 
-\newcommand{\GRProlla}[2]{\mbox{%
-	R\GRPitalNonInt{#1}a\GRPitalNonInt{#2}%
-}}
+\newcommand{\GRProlla}[3][]{%
+	\IfStrEq{\firstof{#1}}{b}{%
+		\mbox{R\GRPitalNonInt{#2}}\allowbreak%
+		\mbox{a\GRPitalNonInt{#3}}%
+	}%
+	{%
+		\mbox{%
+			R\GRPitalNonInt{#2}a\GRPitalNonInt{#3}%
+		}%
+	}%
+}
 
-\newcommand{\GRProlld}[2]{\mbox{%
-	R\GRPitalNonInt{#1}{\color{grpneg}\underline{d}\GRPitalNonInt{#2}}%
-}}
+\newcommand{\GRProlld}[3][]{%
+	\IfStrEq{\firstof{#1}}{b}{%
+		\mbox{R\GRPitalNonInt{#2}}\allowbreak%
+		\mbox{\color{grpneg}\underline{d}\GRPitalNonInt{#3}}%
+	}%
+	{%
+		\mbox{%
+			R\GRPitalNonInt{#2}{\color{grpneg}\underline{d}\GRPitalNonInt{#3}}%
+		}%
+	}%
+}
+
+%The commands with p after them do not apply any automatic italics to nonintegers.
+\newcommand{\GRProllap}[3][]{%
+	\IfStrEq{#1}{b}{%
+		\mbox{R{#2}}\allowbreak%
+		\mbox{a{#3}}%
+	}%
+	{%
+		\mbox{R{#2}a{#3}}%
+	}%
+}
+
+\newcommand{\GRProlldp}[3][]{%
+	\IfStrEq{#1}{b}{%
+		\mbox{R{#2}}\allowbreak%
+		\mbox{\color{grpneg}\underline{d}{#3}}%
+	}%
+	{%
+		\mbox{R{#2}{\color{grpneg}\underline{d}{#3}}}%
+	}%
+}
 
 \newcommand{\GRPdie}[2][0]{%
 	\IfStrEq{#1}{alt}{%
@@ -282,11 +337,15 @@
 %Formatting a stat
 \newcommand{\GRPstat}[1]{%
 \ifmmode%
-	[ \mathrm{\textsc{#1}} ]%
+	\left[ \mathrm{\normalfont\textsc{#1}} \right]%
 \else%
-	[ {\textsc{#1}} ]%
+	{\normalfont$ \left[ \mathrm{\textsc{#1}} \right] $}%
 \fi%
 }%
+
+\newcommand{\GRPability}[1]{%
+{\scshape\bfseries#1}%
+}
 
 %Page background commands
 \newlength{\currenttop}%to calc page margins for reduced complexity
@@ -488,7 +547,7 @@
 	\fill[\ChapterBackgroundTint!75!black] ($(frame.south west)+(0,1.8mm)$) -- (frame.south west) -- ($(frame.south west)+(0.9mm,-0.9mm)$) -- ($(frame.south west)+(1.8mm,0)$) -- ($(frame.south west)+(1.8mm,1.8mm)$) -- cycle;
 	\fill[\ChapterBackgroundTint!75!black] ($(frame.south east)+(0,1.8mm)$) -- (frame.south east) -- ($(frame.south east)+(-0.9mm,-0.9mm)$) -- ($(frame.south east)+(-1.8mm,0)$) -- ($(frame.south east)+(-1.8mm,1.8mm)$) -- cycle;
 	},
-	extras first={bottom=5mm,},
+	extras first={bottom=5mm,enlargepage=5mm,},
 	overlay middle={%
 	\begin{scope}
 		\path[clip] ($(frame.south west)+(0.25mm,8mm)$) -- ($(frame.south west)+(0.25mm,0)$) decorate [decoration={zigzag,segment length=2mm,amplitude=0.5mm}] {-- ($(frame.south east)-(0.25mm,0)$)} -- ($(frame.south east)+(-0.25mm,8mm)$) -- cycle;
@@ -505,7 +564,7 @@
 	\fill[\ChapterBackgroundTint!75!black] ($(frame.north west)+(0,-1.8mm)$) -- (frame.north west) -- ($(frame.north west)+(0.9mm,0.9mm)$) -- ($(frame.north west)+(1.8mm,0)$) -- ($(frame.north west)+(1.8mm,-1.8mm)$) -- cycle;
 	\fill[\ChapterBackgroundTint!75!black] ($(frame.north east)+(0,-1.8mm)$) -- (frame.north east) -- ($(frame.north east)+(-0.9mm,0.9mm)$) -- ($(frame.north east)+(-1.8mm,0)$) -- ($(frame.north east)+(-1.8mm,-1.8mm)$) -- cycle;
 	},
-	extras middle={top=5mm,bottom=5mm,},
+	extras middle={top=5mm,bottom=5mm,enlargepage=10mm,},
 	overlay last={%
 	\begin{scope}
 		\path[clip] ($(frame.north east)+(-1.55mm,-8mm)$) -- ($(frame.north east)+(-1.55mm,0)$) decorate [decoration={zigzag,segment length=2mm,amplitude=0.5mm}] {-- ($(frame.north west)+(1.55mm,0)$)} -- ($(frame.north west)+(1.55mm,-8mm)$) -- cycle;
@@ -515,8 +574,18 @@
 	\fill[\ChapterBackgroundTint!75!black] ($(frame.north west)+(0,-1.8mm)$) -- (frame.north west) -- ($(frame.north west)+(0.9mm,0.9mm)$) -- ($(frame.north west)+(1.8mm,0)$) -- ($(frame.north west)+(1.8mm,-1.8mm)$) -- cycle;
 	\fill[\ChapterBackgroundTint!75!black] ($(frame.north east)+(0,-1.8mm)$) -- (frame.north east) -- ($(frame.north east)+(-0.9mm,0.9mm)$) -- ($(frame.north east)+(-1.8mm,0)$) -- ($(frame.north east)+(-1.8mm,-1.8mm)$) -- cycle;
 	},
-	extras last={top=5mm,},
+	extras last={top=5mm,enlargepage=5mm,},
 }
+
+\newenvironment{GRPquicknotewide}%
+{%
+	\begin{GRPquicknote}
+}
+{%
+	\end{GRPquicknote}
+}
+\AddToHook{env/GRPquicknotewide/after}{\nopagebreak\begin{multicols}{2}\nopagebreak}
+\AddToHook{env/GRPquicknotewide/before}{\nopagebreak\end{multicols}\nopagebreak}
 
 % PICTURE AND FIGURE commands
 %
@@ -846,6 +915,7 @@
 
 \newcommand{\GRPrheader}[1]{%
 	\begin{minipage}{\linewidth}
+		\vspace{0.5ex}%
 		\centering\scshape\small #1
 		\vspace{0.5ex}
 		\hrule
@@ -855,9 +925,9 @@
 
 \newcommand{\GRPrfooter}{%
 	\nopagebreak%
-	\vspace{-0.5ex}
-	\hrule
-	\vspace{1ex}%
+	\vspace{-0.5ex}%
+	\hrule\nopagebreak%
+	\vspace*{2ex}%
 }
 
 

@@ -33,7 +33,7 @@ combine into a table of 9 fundamental talents:
 
 MIND   Memory      Intellect      Insight
 
-BODY   Dexterity   Constitution   Athletics  
+BODY   Dexterity   Fortitude      Athletics  
 
 HEART  Perception  Will           Charisma
 
@@ -45,7 +45,7 @@ However, you can gain ranks in each of the fundamental talents which will increa
 
 In general rolling a talent will be R[Foundation]a[Characteristic + talent Ranks]
 
-A fundamental talent that your character is poor at may be rolled for instead with talents on the opposite side of the talent map, at a disadvantage. Doing this is known as proxying a talent. 
+A fundamental talent that your character is poor at may be rolled for instead with talents on the opposite side of the talent map, at additional disadvantage. Doing this is known as proxying a talent. 
 
 Proxying a talent on the opposite side of the talent map may be done for -2 advantage.
 
@@ -55,10 +55,8 @@ In other words, if the game master requests a Charisma roll, you may instead pro
 The first rank in a talent requires 1 XP to take
 the second rank takes 2 XP to take
 the third rank takes 3 XP to take
-the fourth rank takes 4 XP to take
-the 5th rank takes 5 XP to take.
 
-You may have a maximum of 5 ranks in any fundamental talent.
+You may have a maximum of 3 ranks in any fundamental talent.
 
 #### Depleting fundamentals:
 
@@ -73,7 +71,7 @@ You can deplete any or all of your characteristics (precision, strength, grace) 
 
 ### Loadout:
 
-Casts - number of castable special talents you can have prepped (magic, tech, etc). In general these are talents that only may be activated a fixed number of times during the day. The base number of casts can prep without penalty is equal to your MIND score + any bonuses to casts. Prepping additional casts will DEPLETE your MIND score by 1 for each additional cast you prep. The MIND score depleted by overpreparing casts may be restored by unpreparing excess casts.
+Casts - number of castable special abilities you can have prepped (magic, tech, etc). In general these are talents that only may be activated a fixed number of times during the day. The base number of casts can prep without penalty is equal to your MIND score + any bonuses to casts. Prepping additional casts will DEPLETE your MIND score by 1 for each additional cast you prep. The MIND score depleted by overpreparing casts may be restored by unpreparing excess casts.
 
 The number of times you can cast (any castable talent) without penalty during the day is equal to your PRECISION score + any bonuses. Any additional casts will DEPLETE your PRECISION score each time you cast.
 
@@ -110,7 +108,6 @@ Confident
 Judicious
 Oblivious
 Duplicitous
-Inept
 
 
 #### Situations:
@@ -126,22 +123,19 @@ Martial - all situations in which the character is in combat or physical contest
 
 #### Fortunes:
 
-Adept - gain 3 advantage in a roll in your character's type of situation. May be applied between downtime a number of times equal to the number of ranks you have in the archetype. You must apply this before making the roll.
+Adept - For any roll in your situation, you may adjust any die by up to [ranks] values AFTER rolling.
 
-Awkward - Automatically fail the first [ranks] consecutive rolls in a situation in a day. After that however, you may add [ranks] dice to every roll in that situation. You must choose to do this before seeing the result.
-Note - If depleting GRACE to grant yourself bonus ranks, and you have not yet automatically failed a total of [ranks]+[bonus ranks] you must immediately fail the next consecutive rolls until you have automatically failed a total of [ranks]+[bonus ranks] times. On your character sheet the automatic fails for awkward are best tabulated under the "Used" section of your character's Archetype.
+Awkward - Up to [ranks] times a day, you may choose to automatically fail a roll in your situation in order to gain 4 bonus dice on your next roll (in any situation).
 
 Confident - Once a day, after making a successful roll in a situation, you may choose to gain 6 advantage for the next [ranks] consecutive subsequent rolls in that situation. You must do this before seeing the results of any of the subsequent rolls.
 
-Duplicitious - Up to [ranks] times a day, when your character is in a contested roll in the situation, you may swap all of rolled dice with your opponent's rolled dice (even if your opponent is inanimate or the environment). Your number of successes still depend on how much advantage you had on your original roll, and your opponent's number of successes still depend on how much advantage they had in their original roll.
-
-Inept - gain 1 disadvantage in all rolls in your character's type of situation. However, up to a number of times equal to your archetype ranks, you may gain 3 advantage in any rolls in the other two situations.
+Duplicitious - When your character is in a contested roll in the situation, you may swap up to [ranks] of your rolled dice with your opponent's rolled dice (even if your opponent is inanimate or the environment). Your number of successes still depend on how much advantage you had on your original roll, and your opponent's number of successes still depend on how much advantage they had in their original roll.
 
 Judicious -  Roll [ranks] dice at the beginning of the day. You maintain a pool of [ranks] dice that starts initially populated by your first rolls. In any archetype situation- you may swap any number of dice in your pool with dice in your roll, AFTER seeing the result.
 
-Lucky - Take 2 disadvantage on all rolls in this situation. However, a number of times equal to your number of archetype ranks, you may choose to automatically succeed on a roll in this situation. You must choose to do this before seeing the result of the roll.
+Lucky - A number of times equal to your number of archetype ranks, you may choose to automatically succeed on a roll in this situation. You must choose to do this before seeing the result of the roll.
 
-Oblivious - Up to [ranks] times a day in your character's situation, you may ignore a roll and force a reroll, AFTER seeing the result.
+Oblivious - Up to [ranks] times a day in your character's situation, you may ignore a roll and force a reroll, AFTER seeing the result, and you may reverse decisions about whether you used another ability to alter the dice roll before rerolling it.
 
 ### Skills:
 
@@ -162,7 +156,7 @@ Attunements- Attunements take up 2 augment slots. Attunements have skill trees o
 
 ### Downtime:
 
-1. perform downtime actions - the GM must grant a minimum of 3 downtime actions. They may grant an additional downtime action as a bonus at the end of a story arc.
+1. perform downtime actions - the GM must grant a minimum of 2 downtime actions. They may grant an additional bonus downtime action as appropriate
 
 If one of your actions is NOT sleep/rest, deplete ONE Foundation of your choice (Mind, Body, Heart) in ADDITION to NOT resetting your depleted fundamentals
 
@@ -192,7 +186,7 @@ Tinker - Roll Grace of Mind (Insight). Increment your tinker counter by the numb
 
 Practice - Roll Precision of Body (Dexterity) - Increment your practice counter by the number of successes you get. When your practice counter hits 12, reset it to 0 and you may increase the rank of a Talent by 1 (but not beyond the usual maximum of 5)
 
-Develop - Roll for Strength of Body (Constitution). increment your Development counter by the number of successes you get. When your Development counter hits 12, reset it to 0 and gain 1 XP.
+Develop - Roll for Strength of Body (Fortitude). increment your Development counter by the number of successes you get. When your Development counter hits 12, reset it to 0 and gain 1 XP.
 
 Train - Roll Grace of Body (Athletics). Increment your Training counter by the number of successes you get. When your Training counter hits 12, reset it to 0 and you may add 1 rank to a Skill that you do not have any ranks in.
 

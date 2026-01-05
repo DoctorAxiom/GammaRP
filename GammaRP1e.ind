@@ -10,11 +10,25 @@
   \indexspace
 
 \large\rmfamily\bfseries%
+\noindent\textbf{C}\par\nopagebreak
+
+ \item \small Characteristic \hfill \hyperpage{11}
+
+  \indexspace
+
+\large\rmfamily\bfseries%
 \noindent\textbf{D}\par\nopagebreak
 
  \item \small Die Bonus \hfill \hyperpage{7}
  \item \small Die Penalty \hfill \hyperpage{7}
  \item \small Disadvantage \hfill \hyperpage{6}
+
+  \indexspace
+
+\large\rmfamily\bfseries%
+\noindent\textbf{F}\par\nopagebreak
+
+ \item \small Foundation \hfill \hyperpage{11}
 
   \indexspace
 
@@ -47,7 +61,15 @@
 \noindent\textbf{R}\par\nopagebreak
 
  \item \small Roll Contest \hfill \hyperpage{8}
-    \subitem Example \hfill \hyperpage{8}
+    \subitem Example \hfill \hyperpage{9}
  \item \small Roll notation \hfill \hyperpage{5}
+
+  \indexspace
+
+\large\rmfamily\bfseries%
+\noindent\textbf{T}\par\nopagebreak
+
+ \item \small Talent \hfill \hyperpage{11}
+    \subitem Examples \hfill \hyperpage{12}
 
 \end{theindex}
