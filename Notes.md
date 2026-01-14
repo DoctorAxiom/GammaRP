@@ -268,7 +268,7 @@ Each zone may be clear terrain, rough terrain, or harsh terrain.
 
 If a zone is clear terrain - it takes 1 movement actions to get into or out of a covered spot in the zone.
 
-If a zone is rouch terrain - to get into or out of cover roll dexterity. If successful it takes 1 movement action to get into or out of cover. If unsuccessful it takes 2 movement actions to get into or out of cover.
+If a zone is rough terrain - to get into or out of cover roll athletics. If successful it takes 1 movement action to get into or out of cover. If unsuccessful it takes 2 movement actions to get into or out of cover.
 
 If a zone is harsh terrain- it takes 3 movement actions to get in and out of cover, or with a successful dexterity roll takes 2 movement actions. With a dexterity roll with 2 or more successes, it only takes 1 movement action to get into or out of cover.
 
@@ -330,6 +330,13 @@ Dodge - you may take one movement action in response to the trigger. If the trig
 
 
 On a tabletop- you have the choice of sharing your defensive action with the GM or of writing it on a card and turning it face down
+
+
+
+
+
+Communicating in a different language- penalty of 4 additional disadvantage.
+
 
 LaTeX notes
 

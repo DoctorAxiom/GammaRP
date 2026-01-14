@@ -170,26 +170,31 @@ In a pinch, you may \emph{deplete} your foundations and your characteristics for
 
 Each time you \emph{deplete} a fundamental, you incur an additional -1 penalty to that fundamental. This penalty persists until you next take the \emph{sleep} downtime action. You may not deplete your foundations or characteristics below 0.
 
-\vspace{0.5\baselineskip}
+\vspace{\baselineskip}
 \begin{GRPquicknote}
-Note that if you deplete your mind, body, or heart to 0 you will \textbf{automatically fail all rolls related to these foundations}. You may still proxy a related talent to avoid failing the roll.
+Note that if you deplete your \GRPstat{Mind}, \GRPstat{Body}, or \GRPstat{Heart} to 0 you will \textbf{automatically fail all rolls related to these foundations}. You may still proxy a related talent to avoid failing the roll.
 \end{GRPquicknote}
 
-If you deplete 2 of your foundations (mind, body, heart) to 0, your character automatically falls \emph{unconscious}. Your character may return to consciousness by having one of their foundations restored.
+If you deplete 2 of your foundations (\GRPstat{Mind}, \GRPstat{Body}, or \GRPstat{Heart}) to 0, your character falls \emph{unconscious}. Your character may return to consciousness by having one of their foundations restored.
 
-If you deplete all 3 foundations (mind, body, heart) to 0, your character is \emph{dead}. If your character is dead- talents, abilities and items that normally restore foundation depletion will not work, and they must be restored to life by other means.
+If you deplete all 3 foundations (\GRPstat{Mind}, \GRPstat{Body}, and \GRPstat{Heart}) to 0, your character is \emph{dead}. If your character is dead- talents, abilities and items that normally restore foundation depletion will not work, and they must be restored to life by other means.
 
-You can deplete any or all of your characteristics (precision, strength, grace) to 0 without automatically falling unconscious. You may not deplete your characteristics below 0.
+Any or all of a character's characteristics (\GRPstat{Precision}, \GRPstat{Strength}, or \GRPstat{Grace}) may be depleted to 0 without causing unconsciousness or death.
 
-\section{Racial Bonuses}
+\section{Wounds}
 
-The Race of a character provides bonuses to some of their talents. Each race provides either
-\begin{itemize}
-	\item 1 bonus dice to 5 talents
-	\item 2 bonus dice to 2 talents
-\end{itemize}
+Each time a character receives a wound, they must choose a foundation (\GRPstat{Mind}, \GRPstat{Body}, or \GRPstat{Heart}) to deplete by 1.
 
-The racial bonuses are described for each race in Chapter \ref{chap:races}.
+When a character's wound is healed, that character may choose any depleted foundation to be restored by 1 (even if that particular foundation was not depleted by that particular wound).
+
+The \textbf{Robust} skill (described in Section \ref{sec:skills}) allows a character to take some wounds before needing to deplete any foundations.
+
+\section{Species Bonuses}
+
+The species of a character provides bonuses to some of their talents.
+Each species provides either of 1 bonus dice to 5 talents or 2 bonus dice to 2 talents.
+
+The species bonuses are described for each species in Chapter \ref{chap:species}.
 
 \section{Archetypes}
 
@@ -199,8 +204,6 @@ Your character starts with 1 archetype rank, and additional ranks may be added f
 
 You may choose to accumulate bonus archetype ranks during the day by \emph{depleting} 1 from Grace for each bonus rank. Bonus archetype ranks may exceed the usual maximum ranks of 4.
 
-To select your character's archetype, choose one situation and one type of fortune.
-
 \begin{GRPquicknotewide}
 \noindent{\large\bfseries Situations:}
 \begin{itemize}
@@ -209,6 +212,7 @@ To select your character's archetype, choose one situation and one type of fortu
 	\item \textbf{Martial}-- all circumstances in which the character is in combat or physical contest (with the environment or another player). Recieve +1 to Strength
 \end{itemize}
 
+\vspace{\baselineskip}
 \noindent{\large\bfseries Fortunes:}
 \begin{itemize}
 	\item \textbf{Adept}-- For any roll in your situation, you may adjust any die by up to \GRPstat{Ranks} values AFTER rolling.
@@ -221,17 +225,126 @@ To select your character's archetype, choose one situation and one type of fortu
 \end{itemize}
 \end{GRPquicknotewide}
 
-\section{Loadout}
+\section{Loadout Overview}
 
-A character's \emph{loadout} refers to the set of equipment and abilities that they currently have access to. In \GammaRP{} these are split into several categories.
+A character's \emph{loadout} refers to the set of equipment and abilities that they currently have access to. In \GammaRP{} these are split into three categories: Casts, Augments, and Equipment.
+
+Since there are numerous options for each of the loadout categories, this section will simply describe the function of each loadout category without listing all the options. For more details on various loadout options, skip to Chapter \ref{chap:loadout_options}.
+
+For NPC's a GM may consider skipping fully defining a loadout. In most situations an NPC will function even if the loadout has sections that are not defined.
 
 \subsection{Casts}
 
 \emph{Casts} are special abilities that may be used a limited number of times each day. .
 
-A character may only prepare a limited number of casts each day. the number of \emph{prepared casts} 
+A character may only have a fixed number of \emph{prepared casts}. On creation, a character's \GRPstat{Max Prepared Casts} is equal to their \GRPstat{Mind} score. They may prep more casts than this by depleting their \GRPstat{Mind} score by 1 for each additional cast prepared. The \GRPstat{Mind} score depleted by overprepping casts may be restored by unprepping these casts.
 
+In order to prepare a cast, a character must possess a cast focus corresponding to that cast. Most cast focuses are Wt 0 and cost 100 gold. Once a cast focus is in a character's posession it may be used as many times as desired to prepare that cast. A cast focus may be spell notes that a character has written themselves, or a series of runes that they use to imbue themselves with power, or even a device they activate which creates an effect on demand.
+
+A character may only activate any of their prepared casts a fixed number of times between downtimes. On creation, a character's \GRPstat{Max Cast Activations} is equal to their \GRPstat{Precision}. 
+
+To be clear, all of these cast activations may be due to the same cast being used, but a character may only cast a number of times equal to \GRPstat{Max Cast Activations} without penalty. They may cast more than their usual max by depleting their \GRPstat{Precision} by 1 for each time they exceed \GRPstat{Max Cast Activations}.
+
+Options for casts in the base system are specified in Section \ref{sec:casts}.
+
+\subsection{Augments}
+
+\emph{Augments} are devices, implants, or enhanced body features that grant a character extra abilities.
+
+A character's \GRPstat{Max Augments}, the number of augments they may have active without penalty, is initially equal to their \GRPstat{Heart} score. They may have more active augments than their \GRPstat{Max Augments} by depleting their \GRPstat{Heart} score for one by every additional augment they keep active. The \GRPstat{Heart} score depleted by overactivating augments can be restored by deactivating augments over the limit.
+
+Each augment in general gives a character access to one ability.
+
+The exception is \emph{attunements} which are special augments that give a character access to a skill tree that can be invested in with XP. Each attunement counts as \textbf{two} augments. Attunements can be very powerful but can be riskier- if a character is \emph{disabled} and has to deactivate an attunement, they will lose access to the entire skill tree provided by an augment.
+
+Options for augments in the base system are specified in Section \ref{sec:augments}
+
+\subsection{Equipment}
+
+On creation, a character's \GRPstat{Equip Wt}, the total weight of equipment they can have actively equipped is equal to their \GRPstat{Body} score. If a character equips equipment in excess of the \GRPstat{Equip Wt}, they will \emph{deplete} their \GRPstat{Body} score by 1 for each additional weight unit of equipment they equip. The \GRPstat{Body} score depleted by overqeuipping equipment may be restored by unequipping the additional equipment.
+
+Equipment is divided into weapons, tools, armor, and accessories. A character may only have one piece of armor equipment actively equipped. A character may have any number of weapons, tools and accessories actively equipped as long as the sum of their weights does not exceed the character's \GRPstat{Equip Wt}
+
+Only actively equipped items may be accessed without penalty when the game is in \emph{phased} mode.
+
+On creation, a character's \GRPstat{Pack Wt}, total weight of things they can have in their personal inventory (aside from equipment you currently have actively equipped) is equal to their \GRPstat{Strength} score. Having more weight than this in their inventory will \emph{deplete} their \GRPstat{Strength} score by 1 for each additional weight unit of items they have in their inventory. The \GRPstat{Strength} score depleted by carrying too many items may be restored by dropping items in their inventory.
+
+Options for equipment in the base system are specified in Section \ref{sec:equipment}.
+
+\subsection{Changing Loadout}
+
+If you change your loadout of active augments, inventory items, or prepped casts during \emph{phased} (turn-based) gameplay, you will \emph{deplete} your \GRPstat{Grace} score. You may change your actively equipped items without penalty during phased gameplay, but note that pulling items out of your pack to do so will still deplete your \GRPstat{Grace}.
+
+You can change any part of your loadout without penalty during \emph{asynchronous} (non-turn-based) gameplay however many times you like.
+
+\section{Languages}
+
+Languages may be modified to be setting specific in \GammaRP{}, but there are 6 languages that are referred to in the base system listed in this section.
+
+A character starts knowing Standard, and depending on your character's species may know one other language by default. Your character may learn a new language by investing 2XP.
+
+\begin{GRPquicknotewide}
+\begin{itemize}
+	\item \textbf{Standard}-- A common language spoken by most groups of sentient creatures. A cultural relic of a vast empire that fell a long time ago which has been preserved in present-day cultures.
+	\item \textbf{Leesong}-- A language that is part of the cultural heritage of the Avian species.
+	\item \textbf{Chitter}-- A language that is part of the cultural heritage of the Weaver Species.
+	\item \textbf{Wake}-- A language that is part of the cultural heritage of the Aquatic species.
+	\item \textbf{Slewbask}-- A language that is part of the cultural heritage of the Reptilian species.
+	\item \textbf{Prineu}--A language that is part of the cultural heritage of the Homonid species.
+\end{itemize}
+\end{GRPquicknotewide}
+
+All of these languages may come in different dialects which are not interchangeable. This is ultimately up to the GM to decide to add more languages to the setting.
+
+\section{Skills}\label{sec:skills}
+
+Skills are things your character has trained in which confer various benefits. You must invest in skills with XP in order to use them. 
+
+\noindent It costs:
+\begin{itemize}
+	\item 1 XP for the first rank in a skill
+	\item 2 XP for the second rank in a skill
+	\item 3 XP for the third rank in a skill.
+\end{itemize}
+
+Each skill may only be listed once (with the exception of the ``Experienced'' skill), and you may have a maximum of 3 ranks in any skill.
+
+What follows are descriptions of all the skills your character can take.
+
+\begin{GRPquicknotewide}
+\begin{itemize}
+	\item \textbf{Augment Mastery}-- for each rank in augment mastery, you may increase your \GRPstat{Max Augments} by one.
+	\item \textbf{Marathon Caster}-- for each rank in marathon caster, you may increase your \GRPstat{Max Cast Activations} by one
+	\item \textbf{Versatile Caster}-- for each rank in versatile caster, you may increase your \GRPstat{Max Prepared Casts} by one.
+	\item \textbf{Robust}-- you may take wounds up to \GRPstat{Ranks} in Robust without depleting any of your fundamentals. Once you exceed this number of wounds you will start depleting fundamentals as usual in response to sustaining a wound.
+	\item \textbf{Porter}-- for each rank in porter, you may increase your \GRPstat{Pack Wt} by 1.
+	\item \textbf{Walking Armory}-- for each rank in Walking Armory, you may increase your \GRPstat{Equip Wt} by 1.
+	\item \textbf{Agile}-- While the game is in \emph{phased} mode, during your offensive phase your character gains 1 additional action for each \GRPstat{Rank} in Agile.
+	\item \textbf{Responsive}-- While the game is in \emph{phased} mode, during your defensive phase- if your character's defensive action is triggered, roll \GRPability{Dexterity} with \GRPstat{Ranks} additional advantage. If successful, your character may take one offensive action of their choice \underline{after} taking the defensive action that was triggered.
+	\item \textbf{Linguist}-- Whenever you must roll for any sort of communication involving a language your character does not know, you may do so with \GRPstat{Ranks} additional advantage.
+	\item \textbf{Experienced in [topic]}-- pick a topic your character is experienced in. The topic must be much more specific than "social," "martial," or "technical." Whenever your character is rolling in a situation relating to this topic, gain \GRPstat{ranks} bonus dice to your roll. You may take this skill multiple times as long as the topic is unique for each listing.
+
+	Examples of topics for Experienced:
+	\begin{itemize}
+		\item A specific class of spaceships
+		\item A specific type of magic
+		\item A specific type of weapon
+		\item A specific culture
+		\item A specific technology
+	\end{itemize}
+
+	The GM of a game can decide if the topic your character has picked is specific enough for the Experienced skill. If a topic you've already chosen seems too broad after a few sessions of play, the GM can ask you to narrow your topic. If a topic you've chosen seems too narrow after a few sessions of play, you may ask the GM to broaden your topic.
+\end{itemize}
+\end{GRPquicknotewide}
+\GRPpagebreak
 
 \section{Character Building Overview}\label{sec:character_building_overview}
 
-wow wow wow! such great chapter section!
+For convenience, this section is a consolidated step-by-step guide to building a character. You may follow along with the example character sheet at the end of this section.
+
+\begin{enumerate}
+	\item Chose your Fundamentals. Your foundations (\GRPstat{Heart}, \GRPstat{Body}, and \GRPstat{Mind}) should all sum up to 6. Your characteristics (\GRPstat{Precision}, \GRPstat{Strength}, \GRPstat{Grace}) should all sum up to 8. The minimum value of any of these fundamentals is 1.
+	\item Choose a species. Apply any bonuses to talents. Take note of any species abilities.
+	\item Set your \GRPstat{Max Cast Activations} to your \GRPstat{Precision} score, and set your \GRPstat{Max Prepared Casts} to your \GRPstat{Mind} score.
+	\item Choose a number of casts 
+\end{enumerate}

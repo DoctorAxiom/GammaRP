@@ -12,13 +12,21 @@
 \contentsline {section}{\numberline {3.2}Fundamental Attributes}{11}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Talent Proxying}{14}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Depleting Fundamentals}{14}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Racial Bonuses}{15}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Archetypes}{15}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Character Building Overview}{16}{section.3.5}%
-\contentsline {part}{II\hspace {1em}The Setting}{17}{part.2}%
-\contentsline {chapter}{\numberline {4}Overview of the Gamma Nebula}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}A brief history}{19}{section.4.1}%
-\contentsline {part}{III\hspace {1em}Appendices}{21}{part.3}%
-\contentsline {chapter}{List of Figures}{23}{section*.2}%
-\contentsline {chapter}{List of Tables}{25}{section*.4}%
-\contentsline {chapter}{Alphabetical Index}{27}{section*.6}%
+\contentsline {section}{\numberline {3.3}Wounds}{15}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Species Bonuses}{15}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Archetypes}{15}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Loadout Overview}{16}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Casts}{16}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Augments}{17}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Equipment}{17}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Changing Loadout}{18}{subsection.3.6.4}%
+\contentsline {section}{\numberline {3.7}Languages}{18}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Skills}{18}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Character Building Overview}{20}{section.3.9}%
+\contentsline {part}{II\hspace {1em}The Setting}{21}{part.2}%
+\contentsline {chapter}{\numberline {4}Overview of the Gamma Nebula}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}A brief history}{23}{section.4.1}%
+\contentsline {part}{III\hspace {1em}Appendices}{25}{part.3}%
+\contentsline {chapter}{List of Figures}{27}{section*.2}%
+\contentsline {chapter}{List of Tables}{29}{section*.4}%
+\contentsline {chapter}{Alphabetical Index}{31}{section*.6}%

@@ -507,10 +507,17 @@
 	\closeopenenv{multicols}
 	\begin{multicols}{2}[\chapter{#1}]\SetChapterTint}
 
+%Pagebreaks within a chapter
+\newcommand{\GRPpagebreak}{%
+	\closeopenenv{multicols}
+
+	\clearpage
+	\begin{multicols}{2}%
+}
 
 %quick note formatting
-\newcommand{\GRPbeforebreakdefault}{\small(continued...)}
-\newcommand{\GRPafterbreakdefault}{\small(...continued)}
+\newcommand{\GRPbeforebreakdefault}{\raisebox{-\baselineskip}{\small(continued...)}}
+\newcommand{\GRPafterbreakdefault}{\raisebox{0.5\baselineskip}{\small(...continued)}}
 \newcommand{\GRPbeforenotebreak}{\GRPbeforebreakdefault}
 \newcommand{\GRPaftertnotebreak}{\GRPafterbreakdefault}
 
@@ -579,6 +586,7 @@
 
 \newenvironment{GRPquicknotewide}%
 {%
+	\vspace{1pt}
 	\begin{GRPquicknote}
 }
 {%
