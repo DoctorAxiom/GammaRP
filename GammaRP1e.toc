@@ -26,7 +26,3 @@
 \contentsline {part}{II\hspace {1em}The Setting}{21}{part.2}%
 \contentsline {chapter}{\numberline {4}Overview of the Gamma Nebula}{23}{chapter.4}%
 \contentsline {section}{\numberline {4.1}A brief history}{23}{section.4.1}%
-\contentsline {part}{III\hspace {1em}Appendices}{25}{part.3}%
-\contentsline {chapter}{List of Figures}{27}{section*.2}%
-\contentsline {chapter}{List of Tables}{29}{section*.4}%
-\contentsline {chapter}{Alphabetical Index}{31}{section*.6}%

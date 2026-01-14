@@ -514,6 +514,12 @@
 	\clearpage
 	\begin{multicols}{2}%
 }
+\newcommand{\GRPdoublepagebreak}{%
+	\closeopenenv{multicols}
+
+	\cleardoublepage
+	\begin{multicols}{2}%
+}
 
 %quick note formatting
 \newcommand{\GRPbeforebreakdefault}{\raisebox{-\baselineskip}{\small(continued...)}}
@@ -958,8 +964,6 @@
 	] % after-code
 \titlespacing{\chapter}{0pt}{1ex}{1ex}
 
-\AtEndDocument{\closeopenenv{multicols}}
-
 \pagestyle{fancy}
 
 \renewcommand{\headrulewidth}{0pt}
@@ -973,7 +977,22 @@
 
 \renewcommand{\baselinestretch}{1.0625} 
 
-\makeindex[intoc, title=Alphabetical Index, options= -s GRPindexstyle.ist, columns=1]
+\newcommand{\GRPindexhead}[1]{%
+	\begin{tcolorbox}[%
+		colback=\ChapterBackgroundTint!75!black,
+		colframe=\ChapterBackgroundTint!75!black,
+		coltext=\ChapterBackgroundTint!5!white,
+		left=1pt,
+		right=1pt,
+		top=1pt,
+		bottom=1pt,
+		halign=flush center,
+		]%
+		\large\textbf{#1}
+	\end{tcolorbox}
+}
+
+\makeindex[intoc, title=Alphabetical Index, options= -s GRPindexstyle.ist, columns=2]
 
 %FORMATTING HOOKS
 %These are simply made to change formatting a little bit
@@ -984,6 +1003,12 @@
 	\color{black}
 	\pagenumbering{roman}
 	\AddToHook{shipout/background}{\SetChapterTint\GRPpageBG}
+}
+
+%Close multicols from chapters before mainmatter.
+\AddToHook{cmd/mainmatter/before}
+{%
+	\closeopenenv{multicols}%
 }
 
 %These two are meant to ensure the listoffigures and listoftables both appear properly
@@ -999,6 +1024,12 @@
 	\cleardoublepage
 	\phantomsection
 	\addcontentsline{toc}{chapter}{List of Tables}
+}
+
+%Close multicols from chapters before backmatter.
+\AddToHook{cmd/backmatter/before}
+{%
+	\closeopenenv{multicols}%
 }
 
 %Change chapter title format for backmatter
