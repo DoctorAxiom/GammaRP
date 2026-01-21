@@ -8,7 +8,7 @@ For a step by step overview of the process of building a character, consider ski
 
 Experience points, or XP for short, are used to upgrade your character's abilities after creation.
 
-You may apply XP to your character has whenever you take the \emph{sleep} downtime action.
+You may apply XP to your character has whenever you take the \emph{sleep} action during downtime.
 
 \section{Fundamental Attributes}
 
@@ -93,6 +93,7 @@ For clarity, what follows are descriptions of all the talents along with some ex
 	\item \GRPability{Dexterity}-- Used for any situation that requires Precision of Body-- think along the lines of quick and accurate reflexes. Examples include:
 		\begin{itemize}
 			\item Aiming a ranged weapon at a moving target
+			\tcbbreak
 			\item Catching a rapidly moving small object
 			\item Disarming a delicate trap without triggering it
 		\end{itemize}
@@ -153,16 +154,16 @@ What follows are visual diagrams showing what talents can be proxied for others.
 \end{minipage}
 \end{GRPfigwide}
 
-You can gain aptitude ranks in your talents by spending XP. Each aptitude rank gives 1 additional advantage when rolling the talent.
+You can gain aptitude in your talents by spending XP. Each aptitude gives 1 additional advantage when rolling the talent.
 
 It costs:
 \begin{itemize}
-	\item 1 XP for the first aptitude rank
-	\item 2 XP for the second aptitude rank
-	\item 3 XP for the third aptitude rank.
+	\item 1 XP for the first aptitude
+	\item 2 XP for the second aptitude
+	\item 3 XP for the third aptitude
 \end{itemize}
 
-You may have a maximum of 3 ranks in any talent.
+You may have a maximum of 3 aptitude in any talent.
 
 \subsection{Depleting Fundamentals}
 
@@ -212,7 +213,6 @@ You may choose to accumulate bonus archetype ranks during the day by \emph{deple
 	\item \textbf{Martial}-- all circumstances in which the character is in combat or physical contest (with the environment or another player). Recieve +1 to Strength
 \end{itemize}
 
-\vspace{\baselineskip}
 \noindent{\large\bfseries Fortunes:}
 \begin{itemize}
 	\item \textbf{Adept}-- For any roll in your situation, you may adjust any die by up to \GRPstat{Ranks} values AFTER rolling.
@@ -237,13 +237,13 @@ For NPC's a GM may consider skipping fully defining a loadout. In most situation
 
 \emph{Casts} are special abilities that may be used a limited number of times each day. .
 
-A character may only have a fixed number of \emph{prepared casts}. On creation, a character's \GRPstat{Max Prepared Casts} is equal to their \GRPstat{Mind} score. They may prep more casts than this by depleting their \GRPstat{Mind} score by 1 for each additional cast prepared. The \GRPstat{Mind} score depleted by overprepping casts may be restored by unprepping these casts.
+A character may only have a fixed number of \emph{prepared casts}. On creation, a character's \GRPstat{Max Prep} is equal to their \GRPstat{Mind} score. They may prep more casts than this by depleting their \GRPstat{Mind} score by 1 for each additional cast prepared. The \GRPstat{Mind} score depleted by overprepping casts may be restored by unprepping these casts.
 
 In order to prepare a cast, a character must possess a cast focus corresponding to that cast. Most cast focuses are Wt 0 and cost 100 gold. Once a cast focus is in a character's posession it may be used as many times as desired to prepare that cast. A cast focus may be spell notes that a character has written themselves, or a series of runes that they use to imbue themselves with power, or even a device they activate which creates an effect on demand.
 
-A character may only activate any of their prepared casts a fixed number of times between downtimes. On creation, a character's \GRPstat{Max Cast Activations} is equal to their \GRPstat{Precision}. 
+A character may only activate any of their prepared casts a fixed number of times between downtimes. On creation, a character's \GRPstat{Max Casts} is equal to their \GRPstat{Precision}. 
 
-To be clear, all of these cast activations may be due to the same cast being used, but a character may only cast a number of times equal to \GRPstat{Max Cast Activations} without penalty. They may cast more than their usual max by depleting their \GRPstat{Precision} by 1 for each time they exceed \GRPstat{Max Cast Activations}.
+To be clear, all of these cast activations may be due to the same cast being used, but a character may only cast a number of times equal to \GRPstat{Max Casts} without penalty. They may cast more than their usual max by depleting their \GRPstat{Precision} by 1 for each time they exceed \GRPstat{Max Casts}.
 
 Options for casts in the base system are specified in Section \ref{sec:casts}.
 
@@ -263,7 +263,7 @@ Options for augments in the base system are specified in Section \ref{sec:augmen
 
 On creation, a character's \GRPstat{Equip Wt}, the total weight of equipment they can have actively equipped is equal to their \GRPstat{Body} score. If a character equips equipment in excess of the \GRPstat{Equip Wt}, they will \emph{deplete} their \GRPstat{Body} score by 1 for each additional weight unit of equipment they equip. The \GRPstat{Body} score depleted by overqeuipping equipment may be restored by unequipping the additional equipment.
 
-Equipment is divided into weapons, tools, armor, and accessories. A character may only have one piece of armor equipment actively equipped. A character may have any number of weapons, tools and accessories actively equipped as long as the sum of their weights does not exceed the character's \GRPstat{Equip Wt}
+Equipment is divided into armor and implements. Implements include weapons, tools, and accessories, as well as any other items that may need to be rapidly accessed, manipulated, or wielded during \emph{phased} mode. A character may only have one piece of armor equipment actively equipped. A character may have any number of implweapons, tools and accessories actively equipped as long as the sum of their weights does not exceed the character's \GRPstat{Equip Wt}.
 
 Only actively equipped items may be accessed without penalty when the game is in \emph{phased} mode.
 
@@ -336,7 +336,6 @@ What follows are descriptions of all the skills your character can take.
 	The GM of a game can decide if the topic your character has picked is specific enough for the Experienced skill. If a topic you've already chosen seems too broad after a few sessions of play, the GM can ask you to narrow your topic. If a topic you've chosen seems too narrow after a few sessions of play, you may ask the GM to broaden your topic.
 \end{itemize}
 \end{GRPquicknotewide}
-\GRPpagebreak
 
 \section{Character Building Overview}\label{sec:character_building_overview}
 
@@ -348,3 +347,5 @@ For convenience, this section is a consolidated step-by-step guide to building a
 	\item Set your \GRPstat{Max Cast Activations} to your \GRPstat{Precision} score, and set your \GRPstat{Max Prepared Casts} to your \GRPstat{Mind} score.
 	\item Choose a number of casts 
 \end{enumerate}
+
+\GRPfullpagepic{art/BuildingCharacter/Charsheet}

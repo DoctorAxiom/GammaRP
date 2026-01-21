@@ -6,8 +6,12 @@ The \index{Game Master}Game Master is responsible for constructing the world aro
 
 Since the game is collaborative in this way, it is more fun and fair if there is an element of chance in deciding how a scene unfolds. \GammaRP{} uses the roll of a set of dice to decide whether an unsure course of action is successful.
 
-\GRPbitepar{0mm,1mm,12mm,13mm,13mm,8mm}\GRPparabgsvg[height=2cm,shift={(8mm,0)},side=left]{art/TheBasics/twodice}
+%\GRPbitepar{0mm,1mm,12mm,13mm,13mm,8mm}
 The fundamental dice mechanic in \GammaRP{} is based on 12 sided dice, and rolls several at a time. If you intend to play the game on a real physical tabletop (rather than one of the increasingly popular virtual ones), you may want to obtain at least a dozen 12 sided dice for convenience. It is possible to play with fewer dice by rolling one die at a time.
+
+\vspace{\baselineskip}
+
+\includesvg[width=4cm]{art/TheBasics/twodice}
 
 \section{Dice Rolling Basics}
 
@@ -96,26 +100,6 @@ Note that the rolls \GRProll{X}{1}, \GRProll{X}{0}, and \GRProll{X}{-1} are all 
 \end{GRPtabular}
 \end{GRPtablewide}
 
-\section{Modifying Rolls}
-
-Very often a character will have a default way they roll something in a situation, but the circumstances of the situation impair or improve their chances of success.
-
-When this happens, it is often easier as a GM to specify the roll they must make as a modification of the dice or advantage of their usual roll.
-
-\subsection{Bonus and Penalty Dice}
-You should only modify the number of dice for a characters sparingly or if the rulebook specifies that you should do so. Modifying the number of dice is described using the terms ``die bonus'' and ``die penalty''.
-
-\index{Die Penalty}If the rules specify you take a \emph{W} die penalty- then you roll with \emph{W} fewer dice than you ordinarily would.
-
-\index{Die Bonus}If the rules specify you take a \emph{X} die bonus- then you roll with \emph{X} more dice than you ordinarily would.
-
-\subsection{Additional Advantage and Disadvantage}
-Modifying the advantage and disadvantage on a roll may be done more freely by the GM. If the situation is harder than usual, the GM may impose ``additional disadvantage'' on the players. If the situation has been modified to be easier than usual, the GM may grant ``additional advantage'' to the players.
-
-\index{Additional Advantage}If the GM or the rules specify you take \emph{Y} additional advantage- then you roll with \emph{Y} higher advantage than you ordinarily would.
-
-\index{Additional Disadvantage}If the GM or the rules specify you take \emph{Z} additional disadvantage- then you roll with \emph{Z} lower advantage than you ordinarily would. Remember that \emph{-Z} advantage is the same as \emph{Z} disadvantage. Rolling with additional disadvantage may still leave some net advantage to the roll left over.
-
 \begin{GRPfigwide}
 \caption[Success Probability Formula]{Exact mathematical formula for the probability of roll success}
 For the probability of success for a roll \GRProll{X}{Y}:
@@ -130,6 +114,26 @@ For the probability of success for a roll \GRProll{X}{Y}:
 \]
 
 \end{GRPfigwide}
+
+\section{Modifying Rolls}
+
+Very often a character will have a default way they roll something in a situation, but the circumstances of the situation impair or improve their chances of success.
+
+When this happens, it is often easier as a GM to specify the roll they must make as a modification of the dice or advantage of their usual roll.
+
+\subsection{Bonus and Penalty Dice}
+You should only modify the number of dice for a characters sparingly or if the rulebook specifies that you should do so. Modifying the number of dice is described using the terms ``die bonus'' and ``die penalty''.
+
+\index{Die Penalty}If the rules specify you take a \emph{W} die penalty- then you roll with \emph{W} fewer dice than you ordinarily would. Die Penalties are abbreviated with \GRPdicepenalty{W}, for instance-- if you see \GRPdicepenalty{2} after a roll, it means you take a 2 die penalty to that roll.
+
+\index{Die Bonus}If the rules specify you take a \emph{X} die bonus- then you roll with \emph{X} more dice than you ordinarily would. Die Bonuses are abbreviated with \GRPdicepenalty{X}, for instance-- if you see \GRPdicepenalty{2} after a roll, it means you have a 2 die bonus to that roll.
+
+\subsection{Additional Advantage and Disadvantage}
+Modifying the advantage and disadvantage on a roll may be done more freely by the GM than adding dice bonuses or penalties. If the situation is harder than usual, the GM may impose ``additional disadvantage'' on the players. If the situation has been modified to be easier than usual, the GM may grant ``additional advantage'' to the players.
+
+\index{Additional Advantage}If the GM or the rules specify you take \emph{Y} additional advantage- then you roll with \emph{Y} higher advantage than you ordinarily would. Additional Advantage is often abreviated with \GRPadditionala{Y}, for instance-- if you see \GRPadditionala{2} after a roll, it means you roll with 2 additional advantage.
+
+\index{Additional Disadvantage}If the GM or the rules specify you take \emph{Z} additional disadvantage- then you roll with \emph{Z} lower advantage than you ordinarily would. Remember that \emph{-Z} advantage is the same as \emph{Z} disadvantage. Rolling with additional disadvantage may still leave some net advantage to the roll left over. Additional disadvantage is often abreviated with \GRPadditionald{Z}, for instance-- if you see \GRPadditionald{2} after a roll, it means you roll with 2 additional disadvantage.
 
 \section{Group Rolls}
 
@@ -164,7 +168,7 @@ Bob- you stumble in the thick mud and almost land face first, but Alice catches 
 
 \section{Roll Contests}
 
-\index{Roll Contest}Sometimes, one character may be asked to dynamically struggle against the abilities of another character or entity within the game. When this happens, the game enters a roll contest-- where both characters roll against each other and apply penalties to the other's roll depending on how well they do.
+\index{Roll Contest}Sometimes, one character may struggle against another character or entity within the game. When this happens, the game enters a roll contest-- both characters roll against each other.
 
 The process of a roll contest is as follows:
 \begin{enumerate}

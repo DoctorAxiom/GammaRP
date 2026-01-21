@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.14)  13 JAN 2026 22:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.14)  20 JAN 2026 21:55
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1507,22 +1507,22 @@ LaTeX Font Info:    ... okay on input line 25.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(42.67912pt, 412.56497pt, 28.45274pt)
-* v-part:(T,H,B)=(31.2982pt, 620.26973pt, 31.2982pt)
-* \paperwidth=483.69684pt
-* \paperheight=682.86613pt
-* \textwidth=412.56497pt
-* \textheight=620.26973pt
-* \oddsidemargin=-29.59087pt
-* \evensidemargin=-43.81725pt
-* \topmargin=-71.03928pt
+* h-part:(L,W,R)=(54.2025pt, 415.5525pt, 36.135pt)
+* v-part:(T,H,B)=(36.135pt, 650.43001pt, 36.135pt)
+* \paperwidth=505.89pt
+* \paperheight=722.7pt
+* \textwidth=415.5525pt
+* \textheight=650.43001pt
+* \oddsidemargin=-18.06749pt
+* \evensidemargin=-36.135pt
+* \topmargin=-66.20248pt
 * \headheight=12.0pt
 * \headsep=18.06749pt
 * \topskip=10.0pt
 * \footskip=25.29494pt
 * \marginparwidth=125.0pt
 * \marginparsep=7.0pt
-* \columnsep=10.0pt
+* \columnsep=18.06749pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
@@ -1603,7 +1603,7 @@ File: ./svg-inkscape/TitleBG_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/TitleBG_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/TitleBG_svg-tex.pdf , page1 used on inp
 ut line 56.
-(pdftex.def)             Requested size: 682.86613pt x 682.91249pt.
+(pdftex.def)             Requested size: 722.7pt x 722.74934pt.
 ) [1
 
 
@@ -1650,7 +1650,7 @@ LaTeX Font Warning: Font shape `LGR/qbk/m/n' undefined
  (chapters/TheBasics.tex
 Chapter 2.
 Package svg Info: Last page of `./svg-inkscape/twodice_svg-tex.pdf' is 1 on inp
-ut line 9.
+ut line 14.
 (svg-inkscape/twodice_svg-tex.pdf_tex
 <./svg-inkscape/twodice_svg-tex.pdf, id=2413, page=1, 1111.38797pt x 904.86887p
 t>
@@ -1658,10 +1658,10 @@ File: ./svg-inkscape/twodice_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/twodice_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/twodice_svg-tex.pdf , page1 used on inp
 ut line 56.
-(pdftex.def)             Requested size: 69.9006pt x 56.89934pt.
+(pdftex.def)             Requested size: 113.81102pt x 92.65991pt.
 )
 Package svg Info: Last page of `./svg-inkscape/onedice_svg-tex.pdf' is 1 on inp
-ut line 20.
+ut line 24.
  (svg-inkscape/onedice_svg-tex.pdf_tex
 <./svg-inkscape/onedice_svg-tex.pdf, id=2415, page=1, 1086.36443pt x 1019.55269
 pt>
@@ -1672,7 +1672,7 @@ ut line 56.
 (pdftex.def)             Requested size: 42.44484pt x 39.82617pt.
 )
 Package svg Info: Last page of `./svg-inkscape/onedice_b_svg-tex.pdf' is 1 on i
-nput line 23.
+nput line 27.
 
 (svg-inkscape/onedice_b_svg-tex.pdf_tex
 <./svg-inkscape/onedice_b_svg-tex.pdf, id=2417, page=1, 1034.91122pt x 1037.043
@@ -1694,486 +1694,489 @@ lusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./svg-inkscape/onedice_b_svg-tex.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 []\T1/qbk/m/n/10 If $[] \OML/cmm/m/it/10 >
  []
 
 
-Overfull \hbox (2.24095pt too wide) in paragraph at lines 90--90
+Overfull \hbox (2.04079pt too wide) in paragraph at lines 94--94
  []|[]| 
  []
 
 
-Overfull \hbox (1.6642pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.46704pt too wide) in paragraph at lines 94--94
  []|[]| 
  []
 
 
-Overfull \hbox (1.6642pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.46704pt too wide) in paragraph at lines 94--94
  []|[]| 
  []
 
 
-Overfull \hbox (1.6642pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.46704pt too wide) in paragraph at lines 94--94
  []|[]| 
  []
 
 
-Overfull \hbox (1.6642pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.46704pt too wide) in paragraph at lines 94--94
  []|[]| 
  []
 
 
-Overfull \hbox (1.6642pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.46704pt too wide) in paragraph at lines 94--94
  []|[]| 
  []
 
 
-Overfull \hbox (1.6642pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.46704pt too wide) in paragraph at lines 94--94
  []|[]| 
  []
 
 
-Overfull \hbox (1.3282pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.13104pt too wide) in paragraph at lines 94--94
  []|[]| 
  []
 
 
-Overfull \hbox (1.3282pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.13104pt too wide) in paragraph at lines 94--94
  []|[]| 
  []
 
 
-Overfull \hbox (1.3282pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.13104pt too wide) in paragraph at lines 94--94
  []|[]| 
  []
 
 
-Overfull \hbox (1.3282pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.13104pt too wide) in paragraph at lines 94--94
  []|[]| 
  []
 
 
-Overfull \hbox (1.3282pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.13104pt too wide) in paragraph at lines 94--94
  []|[]| 
  []
 
 
-Overfull \hbox (1.3282pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.13104pt too wide) in paragraph at lines 94--94
  []|[]| 
  []
 
 
-Overfull \hbox (1.3282pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.13104pt too wide) in paragraph at lines 94--94
  []|[]| 
  []
 
 
-Overfull \hbox (1.3282pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.13104pt too wide) in paragraph at lines 94--94
  []|[]| 
  []
 
 
-Overfull \hbox (0.95996pt too wide) in paragraph at lines 90--90
+Overfull \hbox (0.7598pt too wide) in paragraph at lines 94--94
  []|[]| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 90--90
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 94--94
  []|\T1/qbk/m/n/7 16.7%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 90--90
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 94--94
  []|\T1/qbk/m/n/7 25.0%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 90--90
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 94--94
  []|\T1/qbk/m/n/7 33.3%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 90--90
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 94--94
  []|\T1/qbk/m/n/7 41.7%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 90--90
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 94--94
  []|\T1/qbk/m/n/7 50.0%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 90--91
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 94--95
  []|\T1/qbk/m/n/7 58.3%| 
  []
 
 
-Overfull \hbox (1.04045pt too wide) in paragraph at lines 91--91
+Overfull \hbox (0.84029pt too wide) in paragraph at lines 95--95
  []|[]| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 91--91
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 95--95
  []|\T1/qbk/m/n/7 15.3%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 91--91
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 95--95
  []|\T1/qbk/m/n/7 16.0%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 91--91
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 95--95
  []|\T1/qbk/m/n/7 16.0%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 91--91
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 95--95
  []|\T1/qbk/m/n/7 16.0%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 91--91
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 95--95
  []|\T1/qbk/m/n/7 30.6%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 91--91
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 95--95
  []|\T1/qbk/m/n/7 43.8%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 91--91
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 95--95
  []|\T1/qbk/m/n/7 55.6%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 91--91
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 95--95
  []|\T1/qbk/m/n/7 66.0%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 91--91
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 95--95
  []|\T1/qbk/m/n/7 75.0%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 91--92
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 95--96
  []|\T1/qbk/m/n/7 82.6%| 
  []
 
 
-Overfull \hbox (0.95996pt too wide) in paragraph at lines 92--92
+Overfull \hbox (0.7598pt too wide) in paragraph at lines 96--96
  []|[]| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--92
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 96--96
  []|\T1/qbk/m/n/7 20.4%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--92
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 96--96
  []|\T1/qbk/m/n/7 21.6%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--92
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 96--96
  []|\T1/qbk/m/n/7 23.0%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--92
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 96--96
  []|\T1/qbk/m/n/7 23.0%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--92
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 96--96
  []|\T1/qbk/m/n/7 23.0%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--92
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 96--96
  []|\T1/qbk/m/n/7 42.1%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--92
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 96--96
  []|\T1/qbk/m/n/7 57.8%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--92
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 96--96
  []|\T1/qbk/m/n/7 70.4%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--92
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 96--96
  []|\T1/qbk/m/n/7 80.2%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--92
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 96--96
  []|\T1/qbk/m/n/7 87.5%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 92--93
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 96--97
  []|\T1/qbk/m/n/7 92.8%| 
  []
 
 
-Overfull \hbox (1.11745pt too wide) in paragraph at lines 93--93
+Overfull \hbox (0.91728pt too wide) in paragraph at lines 97--97
  []|[]| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 97--97
  []|\T1/qbk/m/n/7 24.0%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 97--97
  []|\T1/qbk/m/n/7 25.7%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 97--97
  []|\T1/qbk/m/n/7 27.5%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 97--97
  []|\T1/qbk/m/n/7 29.4%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 97--97
  []|\T1/qbk/m/n/7 29.4%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 97--97
  []|\T1/qbk/m/n/7 29.4%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 97--97
  []|\T1/qbk/m/n/7 51.8%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 97--97
  []|\T1/qbk/m/n/7 68.4%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 97--97
  []|\T1/qbk/m/n/7 80.2%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 97--97
  []|\T1/qbk/m/n/7 88.4%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--93
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 97--97
  []|\T1/qbk/m/n/7 93.8%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 93--94
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 97--98
  []|\T1/qbk/m/n/7 97.0%| 
  []
 
 
-Overfull \hbox (0.95996pt too wide) in paragraph at lines 94--94
+Overfull \hbox (0.7598pt too wide) in paragraph at lines 98--98
  []|[]| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 98--98
  []|\T1/qbk/m/n/7 26.4%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 98--98
  []|\T1/qbk/m/n/7 28.4%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 98--98
  []|\T1/qbk/m/n/7 30.5%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 98--98
  []|\T1/qbk/m/n/7 32.8%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 98--98
  []|\T1/qbk/m/n/7 35.3%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 98--98
  []|\T1/qbk/m/n/7 35.3%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 98--98
  []|\T1/qbk/m/n/7 35.3%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 98--98
  []|\T1/qbk/m/n/7 59.8%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 98--98
  []|\T1/qbk/m/n/7 76.3%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 98--98
  []|\T1/qbk/m/n/7 86.8%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 98--98
  []|\T1/qbk/m/n/7 93.2%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--94
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 98--98
  []|\T1/qbk/m/n/7 96.9%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 94--95
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 98--99
  []|\T1/qbk/m/n/7 98.7%| 
  []
 
 
-Overfull \hbox (1.32745pt too wide) in paragraph at lines 95--95
+Overfull \hbox (1.12729pt too wide) in paragraph at lines 99--99
  []|[]| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 99--99
  []|\T1/qbk/m/n/7 27.9%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 99--99
  []|\T1/qbk/m/n/7 30.1%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 99--99
  []|\T1/qbk/m/n/7 32.5%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 99--99
  []|\T1/qbk/m/n/7 35.0%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 99--99
  []|\T1/qbk/m/n/7 37.7%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 99--99
  []|\T1/qbk/m/n/7 40.7%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 99--99
  []|\T1/qbk/m/n/7 40.7%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 99--99
  []|\T1/qbk/m/n/7 40.7%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 99--99
  []|\T1/qbk/m/n/7 66.5%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 99--99
  []|\T1/qbk/m/n/7 82.2%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 99--99
  []|\T1/qbk/m/n/7 91.2%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 99--99
  []|\T1/qbk/m/n/7 96.1%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--95
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 99--99
  []|\T1/qbk/m/n/7 98.4%| 
  []
 
 
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 95--96
+Overfull \hbox (2.31404pt too wide) in paragraph at lines 99--100
  []|\T1/qbk/m/n/7 99.5%| 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 []\T1/qbk/b/n/12 Additional Ad-van-tage
  []
 
 [7]
-Underfull \hbox (badness 7151) in paragraph at lines 146--147
+Overfull \hbox (5.0317pt too wide) in paragraph at lines 147--148
+[]\T1/qbk/m/n/10 If $[] \OMS/cmsy/m/n/10 ^^U []$
+ []
+
+
+Underfull \hbox (badness 5878) in paragraph at lines 150--151
 []\T1/qbk/m/n/10 If you need to count the num-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 7326) in paragraph at lines 150--151
 \T1/qbk/m/n/10 ber of suc-cesses for a group roll,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
-\T1/qbk/m/n/10 it is $[] \OML/cmm/m/it/10 = []$
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+\T1/qbk/m/n/10 it is $[]\OML/cmm/m/it/10 =[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--152
-\T1/qbk/m/n/10 with-out hurt-ing your-
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+\T1/qbk/m/n/10 the mud grows deeper
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+\T1/qbk/m/n/10 and harder to trudge
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
 \T1/qbk/m/n/10 thick mud and al-most
  []
 
-
-Underfull \hbox (badness 5147) in paragraph at lines 194--194
-\T1/qbk/m/n/10 have any suc-cesses, so
- []
-
-[8]) [9]
+[8]) [9] [10]
 \openout2 = `chapters/BuildingCharacter.aux'.
 
- (chapters/BuildingCharacter.tex [10
-
-]
+ (chapters/BuildingCharacter.tex
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 13--13
@@ -2185,22 +2188,21 @@ LaTeX Font Info:    Trying to load font information for TS1+qbk on input line 1
 (C:\Program Files\MiKTeX\tex/latex/tex-gyre\ts1qbk.fd
 File: ts1qbk.fd 2009/09/25 v1.2 font definition file for TS1/qbk
 )
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+[]\T1/qbk/m/n/10 6 points to dis-tribute among
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 50--51
 []\T1/qbk/m/n/10 8 points to dis-tribute among
  []
 
+[11
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-\T1/qbk/m/n/10 your char-ac-ter-is-tics ($[]$,
- []
-
-[11{C:/Program Files/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [12] [13]
-Underfull \hbox (badness 6047) in paragraph at lines 142--143
-[]\T1/qbk/m/n/10 What fol-lows are vi-sual di-a-grams
- []
-
+{C:/Program Files/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [12] [13]
 Package svg Info: Last page of `./svg-inkscape/ProxyGrid2_svg-tex.pdf' is 2 on 
-input line 147.
+input line 148.
+
 (svg-inkscape/ProxyGrid2_svg-tex.pdf_tex
 <./svg-inkscape/ProxyGrid2_svg-tex.pdf, id=2520, page=1, 297.81435pt x 260.1439
 8pt>
@@ -2208,17 +2210,17 @@ File: ./svg-inkscape/ProxyGrid2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/ProxyGrid2_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/ProxyGrid2_svg-tex.pdf , page1 used on 
 input line 56.
-(pdftex.def)             Requested size: 180.29323pt x 157.48483pt.
+(pdftex.def)             Requested size: 181.71233pt x 158.72728pt.
 <./svg-inkscape/ProxyGrid2_svg-tex.pdf, id=2521, page=2, 297.81435pt x 260.1439
 8pt>
 File: ./svg-inkscape/ProxyGrid2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/ProxyGrid2_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/ProxyGrid2_svg-tex.pdf , page2 used on 
 input line 59.
-(pdftex.def)             Requested size: 180.29323pt x 157.48483pt.
+(pdftex.def)             Requested size: 181.71233pt x 158.72728pt.
 )
 Package svg Info: Last page of `./svg-inkscape/ProxyGrid4_svg-tex.pdf' is 1 on 
-input line 152.
+input line 153.
 
 (svg-inkscape/ProxyGrid4_svg-tex.pdf_tex
 <./svg-inkscape/ProxyGrid4_svg-tex.pdf, id=2523, page=1, 292.46968pt x 260.1439
@@ -2227,9 +2229,14 @@ File: ./svg-inkscape/ProxyGrid4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/ProxyGrid4_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/ProxyGrid4_svg-tex.pdf , page1 used on 
 input line 56.
-(pdftex.def)             Requested size: 180.29323pt x 160.3627pt.
-) [14 <./svg-inkscape/ProxyGrid2_svg-tex.pdf> <./svg-inkscape/ProxyGrid2_svg-te
-x.pdf
+(pdftex.def)             Requested size: 181.71233pt x 161.62498pt.
+)
+Underfull \hbox (badness 7030) in paragraph at lines 181--182
+[]\T1/qbk/m/n/10 If you de-plete all 3 foun-da-tions
+ []
+
+[14 <./svg-inkscape/ProxyGrid2_svg-tex.pdf> <./svg-inkscape/ProxyGrid2_svg-tex.
+pdf
 
 pdfTeX warning: pdflatex.exe (file ./svg-inkscape/ProxyGrid2_svg-tex.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
@@ -2238,12 +2245,8 @@ inclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./svg-inkscape/ProxyGrid4_svg-tex.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 5548) in paragraph at lines 194--196
-\T1/qbk/m/n/10 The species of a char-ac-ter pro-vides
- []
 
-
-LaTeX Warning: Reference `chap:species' on page 15 undefined on input line 197.
+LaTeX Warning: Reference `chap:species' on page 15 undefined on input line 198.
 
 
 [15]
@@ -2251,13 +2254,12 @@ LaTeX Warning: Reference `chap:species' on page 15 undefined on input line 197.
 LaTeX Warning: Reference `chap:loadout_options' on page 16 undefined on input l
 ine 232.
 
+
+LaTeX Warning: Reference `sec:casts' on page 16 undefined on input line 248.
+
 [16]
-
-LaTeX Warning: Reference `sec:casts' on page 17 undefined on input line 248.
-
-
-Underfull \hbox (badness 5133) in paragraph at lines 254--255
-[]\T1/qbk/m/n/10 A char-ac-ter's $[]$, the
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+[]$ \T1/qbk/m/n/10 by de-plet-ing their
  []
 
 
@@ -2265,52 +2267,282 @@ LaTeX Warning: Reference `sec:augments' on page 17 undefined on input line 260.
 
 
 
-Underfull \hbox (badness 6125) in paragraph at lines 270--271
-\T1/qbk/m/n/10 in their in-ven-tory will \T1/qbk/m/it/10 de-plete \T1/qbk/m/n/1
-0 their
+Underfull \hbox (badness 6016) in paragraph at lines 266--267
+[]\T1/qbk/m/n/10 Equipment is di-vided into ar-mor
  []
 
 
 LaTeX Warning: Reference `sec:equipment' on page 17 undefined on input line 272
 .
 
-[17]
+
 Underfull \hbox (badness 10000) in paragraph at lines 278--279
 \T1/qbk/m/it/10 chronous \T1/qbk/m/n/10 (non-turn-based) game-play
  []
 
-
-Underfull \hbox (badness 5417) in paragraph at lines 284--285
-[]\T1/qbk/m/n/10 A char-ac-ter starts know-ing Stan-
- []
-
-[18] [19]
-Underfull \hbox (badness 10000) in paragraph at lines 341--341
+[17] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 []\T1/qbk/b/n/14.4 Character Build-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--347
-\T1/qbk/m/n/10 Your char-ac-ter-is-tics ($[]$,
+Underfull \hbox (badness 5490) in paragraph at lines 347--348
+\T1/qbk/m/n/10 to your $[]$ score, and
  []
 
+[19]
+Package svg Info: Last page of `./svg-inkscape/Charsheet_svg-tex.pdf' is 24 on 
+input line 351.
+ (svg-inkscape/Charsheet_svg-tex.pdf_tex
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2572, page=1, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2573, page=2, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page2 used on i
+nput line 58.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2574, page=3, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page3 used on i
+nput line 60.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2575, page=4, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 4>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page4 used on i
+nput line 62.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2576, page=5, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 5>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page5 used on i
+nput line 64.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2577, page=6, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 6>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page6 used on i
+nput line 66.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2578, page=7, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 7>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page7 used on i
+nput line 68.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2579, page=8, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 8>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page8 used on i
+nput line 74.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2580, page=9, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 9>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page9 used on i
+nput line 80.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2581, page=10, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 10>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page10 used on 
+input line 86.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2582, page=11, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 11>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page11 used on 
+input line 92.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2583, page=12, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 12>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page12 used on 
+input line 98.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2584, page=13, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 13>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page13 used on 
+input line 104.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2585, page=14, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 14>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page14 used on 
+input line 110.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2586, page=15, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 15>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page15 used on 
+input line 116.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2587, page=16, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 16>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page16 used on 
+input line 118.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2588, page=17, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 17>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page17 used on 
+input line 125.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2589, page=18, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 18>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page18 used on 
+input line 127.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2590, page=19, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 19>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page19 used on 
+input line 129.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2591, page=20, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 20>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page20 used on 
+input line 133.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2592, page=21, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 21>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page21 used on 
+input line 145.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2593, page=22, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 22>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page22 used on 
+input line 147.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2594, page=23, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 23>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page23 used on 
+input line 149.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2595, page=24, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 24>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page24 used on 
+input line 152.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+) [20 <./svg-inkscape/Charsheet_svg-tex.pdf> <./svg-inkscape/Charsheet_svg-tex.
+pdf
 
-Underfull \hbox (badness 5908) in paragraph at lines 347--348
-[]\T1/qbk/m/n/10 Choose a species. Ap-ply any
- []
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
 
-) [20
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
 
-] [21] [22]
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>]) [21] [22]
 \openout2 = `chapters/GammaNebulaOverview.aux'.
 
  (chapters/GammaNebulaOverview.tex
 Chapter 4.
-[23
+) [23
 
-]) [24] [25
+] [24
+\oddpage@label{26}{24}
+
+] [25
 \oddpage@label{27}{25}
-
 
 \@writefile{toc}{\contentsline {part}{III\hspace  {1em}Appendices}{25}{part.3}\
 protected@file@percent }
@@ -2369,26 +2601,29 @@ Package rerunfilecheck Info: File `GammaRP1e.out' has not changed.
 (rerunfilecheck)             Checksum: 064E05DEBBF436C80627C3618B398D0D;4307.
  ) 
 Here is how much of TeX's memory you used:
- 36934 strings out of 467871
- 750571 string characters out of 5428442
- 1511146 words of memory out of 5000000
- 65019 multiletter control sequences out of 15000+600000
- 712443 words of font info for 81 fonts, out of 8000000 for 9000
+ 37040 strings out of 467871
+ 755250 string characters out of 5428442
+ 1524605 words of memory out of 5000000
+ 65117 multiletter control sequences out of 15000+600000
+ 744541 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,28n,120p,1537b,1622s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,28n,120p,1537b,1616s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Prog
-ram Files/MiKTeX/fonts/type1/public/cbgreek/grmn1000.pfb><C:/Program Files/MiKT
-eX/fonts/type1/public/tex-gyre/qbkb.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
-blic/tex-gyre/qbkbi.pfb><C:/Program Files/MiKTeX/fonts/type1/public/tex-gyre/qb
-kr.pfb><C:/Program Files/MiKTeX/fonts/type1/public/tex-gyre/qbkri.pfb>
-Output written on GammaRP1e.pdf (35 pages, 1402773 bytes).
+1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.
+pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Progra
+m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cbgr
+eek/grmn1000.pfb><C:/Program Files/MiKTeX/fonts/type1/public/tex-gyre/qbkb.pfb>
+<C:/Program Files/MiKTeX/fonts/type1/public/tex-gyre/qbkbi.pfb><C:/Program File
+s/MiKTeX/fonts/type1/public/tex-gyre/qbkr.pfb><C:/Program Files/MiKTeX/fonts/ty
+pe1/public/tex-gyre/qbkri.pfb>
+Output written on GammaRP1e.pdf (35 pages, 1510876 bytes).
 PDF statistics:
- 2743 PDF objects out of 2984 (max. 8388607)
+ 2792 PDF objects out of 2984 (max. 8388607)
  102 named destinations out of 1000 (max. 500000)
- 608 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 733 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,1749 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="7in"
+   height="10in"
+   viewBox="0 0 177.8 254"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="Charsheet.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="true"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#313131"
+     inkscape:document-units="mm"
+     labelstyle="default"
+     inkscape:zoom="5.7941076"
+     inkscape:cx="599.57464"
+     inkscape:cy="516.1278"
+     inkscape:window-width="1920"
+     inkscape:window-height="1094"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs1">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter88"
+       x="-0.032922582"
+       y="-0.022480177"
+       width="1.0658452"
+       height="1.0449604">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.2502813"
+         id="feGaussianBlur88" />
+    </filter>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Background"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:0.1;fill:#ffffff;fill-opacity:1;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect44"
+       width="177.8"
+       height="254"
+       x="0"
+       y="0" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect41"
+       width="177.8"
+       height="254"
+       x="0"
+       y="0"
+       ry="2.6458333" />
+    <path
+       id="rect43"
+       style="mix-blend-mode:normal;fill:#ffffff;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill;filter:url(#filter88)"
+       d="M 6.8791664,6.8791664 H 170.92083 V 247.12083 H 6.8791664 Z"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+  <g
+     inkscape:label="Sketch"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     sodipodi:insensitive="true" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Sketch 1">
+    <g
+       id="g88"
+       transform="matrix(1.1304318,0,0,1.1304605,-13.526,-14.042379)"
+       style="stroke-width:0.884606">
+      <rect
+         style="fill:#f2f2f2;stroke:#f2f2f2;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         id="rect1-7-8-5-7-5-5"
+         width="85.443092"
+         height="20.640228"
+         x="34.561489"
+         y="-161.47484"
+         ry="2.6458333"
+         transform="rotate(90)" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.11667px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="151.17709"
+         y="49.863079"
+         id="text1-6-0-9"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-6-3"
+           style="text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="151.17709"
+           y="49.863079">\GRPstat{Grace}</tspan></text>
+      <g
+         id="g84-7"
+         transform="translate(87.267202,3.1750001)"
+         style="stroke-width:0.884606">
+        <rect
+           style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+           id="rect1-1-80-8"
+           width="7.4275079"
+           height="8.6545029"
+           x="56.337097"
+           y="33.682331"
+           ry="1.3542532" />
+        <rect
+           style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+           id="rect1-1-80-9-1"
+           width="5.2641187"
+           height="5.9098978"
+           x="66.174843"
+           y="36.426937"
+           ry="1.3542532" />
+        <path
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+           d="m 64.260506,41.604688 1.324263,-2.511531"
+           id="path84-5" />
+      </g>
+    </g>
+    <g
+       id="g87"
+       transform="matrix(1.1304318,0,0,1.1304605,-13.526,-14.042379)"
+       style="stroke-width:0.884606">
+      <rect
+         style="fill:#f2f2f2;stroke:#f2f2f2;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         id="rect1-7-8-5-7-5-1"
+         width="85.443092"
+         height="20.640228"
+         x="34.561489"
+         y="-138.7914"
+         ry="2.6458333"
+         transform="rotate(90)" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.11667px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="128.45956"
+         y="49.863079"
+         id="text1-6-0"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-6"
+           style="text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="128.45956"
+           y="49.863079">\GRPstat{Strength}</tspan></text>
+      <g
+         id="g84-2"
+         transform="translate(64.583448,3.1750001)"
+         style="stroke-width:0.884606">
+        <rect
+           style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+           id="rect1-1-80-2"
+           width="7.4275079"
+           height="8.6545029"
+           x="56.337097"
+           y="33.682331"
+           ry="1.3542532" />
+        <rect
+           style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+           id="rect1-1-80-9-8"
+           width="5.2641187"
+           height="5.9098978"
+           x="66.174843"
+           y="36.426937"
+           ry="1.3542532" />
+        <path
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+           d="m 64.260506,41.604688 1.324263,-2.511531"
+           id="path84-2" />
+      </g>
+    </g>
+    <g
+       id="g86"
+       transform="matrix(1.1304318,0,0,1.1304605,-13.526,-14.042379)"
+       style="stroke-width:0.884606">
+      <rect
+         style="fill:#f2f2f2;stroke:#f2f2f2;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         id="rect1-7-8-5-7-5"
+         width="85.97226"
+         height="20.640228"
+         x="34.296906"
+         y="-116.10781"
+         ry="2.6458333"
+         transform="rotate(90)" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.11667px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="105.82595"
+         y="49.863079"
+         id="text1-6"><tspan
+           sodipodi:role="line"
+           id="tspan1-5"
+           style="text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="105.82595"
+           y="49.863079">\GRPstat{Precision}</tspan></text>
+      <g
+         id="g84"
+         transform="translate(41.899666,3.1750001)"
+         style="stroke-width:0.884606">
+        <rect
+           style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+           id="rect1-1-80"
+           width="7.4275079"
+           height="8.6545029"
+           x="56.337097"
+           y="33.682331"
+           ry="1.3542532" />
+        <rect
+           style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+           id="rect1-1-80-9"
+           width="5.2641187"
+           height="5.9098978"
+           x="66.174843"
+           y="36.426937"
+           ry="1.3542532" />
+        <path
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+           d="m 64.260506,41.604688 1.324263,-2.511531"
+           id="path84" />
+      </g>
+    </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect2-6-8-1-8"
+       width="60.043892"
+       height="37.675034"
+       x="9.5249987"
+       y="84.242126"
+       ry="3.0015733" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect2-6-8-1-8-6"
+       width="60.043892"
+       height="120.97034"
+       x="9.5249987"
+       y="126.15049"
+       ry="3.0015733" />
+    <g
+       id="g1"
+       transform="translate(2.6458334)">
+      <text
+         xml:space="preserve"
+         style="font-size:2.39278px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="90.414574"
+         y="103.64431"
+         id="text1-6-0-9-9-3"
+         transform="scale(0.99998731,1.0000127)"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-6-3-8-64"
+           style="text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
+           x="90.414574"
+           y="103.64431">\GRPstat{Heart}</tspan></text>
+      <g
+         id="g84-24-9"
+         transform="matrix(1.1304318,0,0,1.1304605,8.7608665,67.961892)"
+         style="stroke-width:0.884606">
+        <rect
+           style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+           id="rect1-1-80-25-2"
+           width="7.4275079"
+           height="8.6545029"
+           x="56.337097"
+           y="33.682331"
+           ry="1.3542532" />
+        <rect
+           style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+           id="rect1-1-80-9-86-9"
+           width="5.2641187"
+           height="5.9098978"
+           x="66.174843"
+           y="36.426937"
+           ry="1.3542532" />
+        <path
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+           d="m 64.260506,41.604688 1.324263,-2.511531"
+           id="path84-26-3" />
+      </g>
+      <rect
+         style="fill:none;stroke:#cccccc;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         id="rect1-7-8-7-8-1-5"
+         width="98.284821"
+         height="23.391285"
+         x="69.864807"
+         y="96.841766"
+         ry="2.99101" />
+    </g>
+    <g
+       id="g2"
+       transform="translate(2.6458334)">
+      <rect
+         style="fill:none;stroke:#cccccc;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         id="rect1-7-8-7-8-1-8"
+         width="98.284821"
+         height="23.391285"
+         x="69.864807"
+         y="71.198639"
+         ry="2.99101" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.39278px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="90.414574"
+         y="78.001503"
+         id="text1-6-0-9-9-8"
+         transform="scale(0.99998731,1.0000127)"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-6-3-8-6"
+           style="text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
+           x="90.414574"
+           y="78.001503">\GRPstat{Body}</tspan></text>
+      <g
+         id="g84-24-2"
+         transform="matrix(1.1304318,0,0,1.1304605,8.7608665,42.318763)"
+         style="stroke-width:0.884606">
+        <rect
+           style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+           id="rect1-1-80-25-1"
+           width="7.4275079"
+           height="8.6545029"
+           x="56.337097"
+           y="33.682331"
+           ry="1.3542532" />
+        <rect
+           style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+           id="rect1-1-80-9-86-4"
+           width="5.2641187"
+           height="5.9098978"
+           x="66.174843"
+           y="36.426937"
+           ry="1.3542532" />
+        <path
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+           d="m 64.260506,41.604688 1.324263,-2.511531"
+           id="path84-26-6" />
+      </g>
+    </g>
+    <g
+       id="g3"
+       transform="translate(2.6458334)">
+      <rect
+         style="fill:none;stroke:#cccccc;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         id="rect1-7-8-7-8-1"
+         width="98.284821"
+         height="23.391285"
+         x="69.864807"
+         y="45.526363"
+         ry="2.99101" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.39278px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="90.414574"
+         y="52.358715"
+         id="text1-6-0-9-9"
+         transform="scale(0.99998731,1.0000127)"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-6-3-8"
+           style="text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
+           x="90.414574"
+           y="52.358715">\GRPstat{Mind}</tspan></text>
+      <g
+         id="g84-24"
+         transform="matrix(1.1304318,0,0,1.1304605,8.7608665,16.675647)"
+         style="stroke-width:0.884606">
+        <rect
+           style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+           id="rect1-1-80-25"
+           width="7.4275079"
+           height="8.6545029"
+           x="56.337097"
+           y="33.682331"
+           ry="1.3542532" />
+        <rect
+           style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+           id="rect1-1-80-9-86"
+           width="5.2641187"
+           height="5.9098978"
+           x="66.174843"
+           y="36.426937"
+           ry="1.3542532" />
+        <path
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+           d="m 64.260506,41.604688 1.324263,-2.511531"
+           id="path84-26" />
+      </g>
+    </g>
+    <g
+       id="g89-8"
+       transform="matrix(1.1304318,0,0,1.1304605,37.758914,37.243866)"
+       style="stroke-width:0.884606">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         id="rect1-01"
+         width="18.083027"
+         height="18.083027"
+         x="96.746178"
+         y="54.024418"
+         ry="2.6458333" />
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-32"
+         width="7.4275055"
+         height="6.5539432"
+         x="97.804512"
+         y="64.477982"
+         ry="1.3542532" />
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-58-2"
+         width="7.4275055"
+         height="6.5539432"
+         x="106.34337"
+         y="64.477974"
+         ry="1.3542532" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="105.77581"
+         y="57.584747"
+         id="text1-6-6-2"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-70"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="105.77581"
+           y="57.584747">\small \GRPability{Charisma}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.352778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="101.52714"
+         y="62.871681"
+         id="text1-6-6-8-31"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-33"
+           style="font-size:0.352778px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="101.52714"
+           y="62.871681">\small \GRPdicebonus{}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.352778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="110.06599"
+         y="62.871681"
+         id="text1-6-6-8-3-7"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-1-09"
+           style="font-size:0.352778px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="110.06599"
+           y="62.871681">\small \GRPadditionala{}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.705556px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="101.53601"
+         y="59.766579"
+         id="text1-6-6-8-57-5"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-4-58"
+           style="font-size:0.705556px;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157"
+           x="101.53601"
+           y="59.766579">\tiny \emph{Species}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.705556px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="110.07486"
+         y="59.766575"
+         id="text1-6-6-8-57-4-3"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-4-2-7"
+           style="font-size:0.705556px;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157"
+           x="110.07486"
+           y="59.766575">\tiny \emph{Aptitude}</tspan></text>
+    </g>
+    <g
+       id="g89-59"
+       transform="matrix(1.1304318,0,0,1.1304605,12.116468,37.243866)"
+       style="stroke-width:0.884606">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         id="rect1-32"
+         width="18.083027"
+         height="18.083027"
+         x="96.746178"
+         y="54.024418"
+         ry="2.6458333" />
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-8"
+         width="7.4275055"
+         height="6.5539432"
+         x="97.804512"
+         y="64.477982"
+         ry="1.3542532" />
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-58-7"
+         width="7.4275055"
+         height="6.5539432"
+         x="106.34337"
+         y="64.477974"
+         ry="1.3542532" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="105.77581"
+         y="57.584747"
+         id="text1-6-6-48"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-1"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="105.77581"
+           y="57.584747">\small \GRPability{Will}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.352778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="101.52714"
+         y="62.871681"
+         id="text1-6-6-8-4"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-3"
+           style="font-size:0.352778px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="101.52714"
+           y="62.871681">\small \GRPdicebonus{}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.352778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="110.06599"
+         y="62.871681"
+         id="text1-6-6-8-3-55"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-1-26"
+           style="font-size:0.352778px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="110.06599"
+           y="62.871681">\small \GRPadditionala{}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.705556px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="101.53601"
+         y="59.766579"
+         id="text1-6-6-8-57-89"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-4-29"
+           style="font-size:0.705556px;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157"
+           x="101.53601"
+           y="59.766579">\tiny \emph{Species}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.705556px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="110.07486"
+         y="59.766575"
+         id="text1-6-6-8-57-4-59"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-4-2-45"
+           style="font-size:0.705556px;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157"
+           x="110.07486"
+           y="59.766575">\tiny \emph{Aptitude}</tspan></text>
+    </g>
+    <g
+       id="g89-7"
+       transform="matrix(1.1304318,0,0,1.1304605,-13.526,37.243866)"
+       style="stroke-width:0.884606">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         id="rect1-74"
+         width="18.083027"
+         height="18.083027"
+         x="96.746178"
+         y="54.024418"
+         ry="2.6458333" />
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-31"
+         width="7.4275055"
+         height="6.5539432"
+         x="97.804512"
+         y="64.477982"
+         ry="1.3542532" />
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-58-3"
+         width="7.4275055"
+         height="6.5539432"
+         x="106.34337"
+         y="64.477974"
+         ry="1.3542532" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="105.77581"
+         y="57.584747"
+         id="text1-6-6-6"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-3"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="105.77581"
+           y="57.584747">\small \GRPability{Perception}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.352778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="101.52714"
+         y="62.871681"
+         id="text1-6-6-8-0"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-19"
+           style="font-size:0.352778px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="101.52714"
+           y="62.871681">\small \GRPdicebonus{}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.352778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="110.06599"
+         y="62.871681"
+         id="text1-6-6-8-3-0"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-1-4"
+           style="font-size:0.352778px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="110.06599"
+           y="62.871681">\small \GRPadditionala{}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.705556px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="101.53601"
+         y="59.766579"
+         id="text1-6-6-8-57-29"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-4-3"
+           style="font-size:0.705556px;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157"
+           x="101.53601"
+           y="59.766579">\tiny \emph{Species}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.705556px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="110.07486"
+         y="59.766575"
+         id="text1-6-6-8-57-4-14"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-4-2-8"
+           style="font-size:0.705556px;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157"
+           x="110.07486"
+           y="59.766575">\tiny \emph{Aptitude}</tspan></text>
+    </g>
+    <g
+       id="g89-17"
+       transform="matrix(1.1304318,0,0,1.1304605,37.758914,11.600737)"
+       style="stroke-width:0.884606">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         id="rect1-7"
+         width="18.083027"
+         height="18.083027"
+         x="96.746178"
+         y="54.024418"
+         ry="2.6458333" />
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-19"
+         width="7.4275055"
+         height="6.5539432"
+         x="97.804512"
+         y="64.477982"
+         ry="1.3542532" />
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-58-03"
+         width="7.4275055"
+         height="6.5539432"
+         x="106.34337"
+         y="64.477974"
+         ry="1.3542532" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="105.77581"
+         y="57.584747"
+         id="text1-6-6-41"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-75"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="105.77581"
+           y="57.584747">\small \GRPability{Athletics}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.352778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="101.52714"
+         y="62.871681"
+         id="text1-6-6-8-33"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-24"
+           style="font-size:0.352778px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="101.52714"
+           y="62.871681">\small \GRPdicebonus{}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.352778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="110.06599"
+         y="62.871681"
+         id="text1-6-6-8-3-1"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-1-29"
+           style="font-size:0.352778px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="110.06599"
+           y="62.871681">\small \GRPadditionala{}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.705556px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="101.53601"
+         y="59.766579"
+         id="text1-6-6-8-57-08"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-4-7"
+           style="font-size:0.705556px;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157"
+           x="101.53601"
+           y="59.766579">\tiny \emph{Species}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.705556px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="110.07486"
+         y="59.766575"
+         id="text1-6-6-8-57-4-4"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-4-2-5"
+           style="font-size:0.705556px;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157"
+           x="110.07486"
+           y="59.766575">\tiny \emph{Aptitude}</tspan></text>
+    </g>
+    <g
+       id="g89-5"
+       transform="matrix(1.1304318,0,0,1.1304605,12.116477,11.600737)"
+       style="stroke-width:0.884606">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         id="rect1-34"
+         width="18.083027"
+         height="18.083027"
+         x="96.746178"
+         y="54.024418"
+         ry="2.6458333" />
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-1"
+         width="7.4275055"
+         height="6.5539432"
+         x="97.804512"
+         y="64.477982"
+         ry="1.3542532" />
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-58-0"
+         width="7.4275055"
+         height="6.5539432"
+         x="106.34337"
+         y="64.477974"
+         ry="1.3542532" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="105.77581"
+         y="57.584747"
+         id="text1-6-6-4"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-85"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="105.77581"
+           y="57.584747">\small \GRPability{Fortitude}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.352778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="101.52714"
+         y="62.871681"
+         id="text1-6-6-8-9"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-25"
+           style="font-size:0.352778px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="101.52714"
+           y="62.871681">\small \GRPdicebonus{}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.352778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="110.06599"
+         y="62.871681"
+         id="text1-6-6-8-3-4"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-1-13"
+           style="font-size:0.352778px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="110.06599"
+           y="62.871681">\small \GRPadditionala{}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.705556px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="101.53601"
+         y="59.766579"
+         id="text1-6-6-8-57-9"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-4-5"
+           style="font-size:0.705556px;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157"
+           x="101.53601"
+           y="59.766579">\tiny \emph{Species}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.705556px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="110.07486"
+         y="59.766575"
+         id="text1-6-6-8-57-4-8"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-4-2-2"
+           style="font-size:0.705556px;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157"
+           x="110.07486"
+           y="59.766575">\tiny \emph{Aptitude}</tspan></text>
+    </g>
+    <g
+       id="g89-63"
+       transform="matrix(1.1304318,0,0,1.1304605,-13.526,11.600737)"
+       style="stroke-width:0.884606">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         id="rect1-0"
+         width="18.083027"
+         height="18.083027"
+         x="96.746178"
+         y="54.024418"
+         ry="2.6458333" />
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-3"
+         width="7.4275055"
+         height="6.5539432"
+         x="97.804512"
+         y="64.477982"
+         ry="1.3542532" />
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-58-528"
+         width="7.4275055"
+         height="6.5539432"
+         x="106.34337"
+         y="64.477974"
+         ry="1.3542532" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="105.77581"
+         y="57.584747"
+         id="text1-6-6-0"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-7"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="105.77581"
+           y="57.584747">\small \GRPability{Dexterity}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.352778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="101.52714"
+         y="62.871681"
+         id="text1-6-6-8-2"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-2"
+           style="font-size:0.352778px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="101.52714"
+           y="62.871681">\small \GRPdicebonus{}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.352778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="110.06599"
+         y="62.871681"
+         id="text1-6-6-8-3-59"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-1-1"
+           style="font-size:0.352778px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="110.06599"
+           y="62.871681">\small \GRPadditionala{}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.705556px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="101.53601"
+         y="59.766579"
+         id="text1-6-6-8-57-0"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-4-8"
+           style="font-size:0.705556px;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157"
+           x="101.53601"
+           y="59.766579">\tiny \emph{Species}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.705556px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="110.07486"
+         y="59.766575"
+         id="text1-6-6-8-57-4-5"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-4-2-0"
+           style="font-size:0.705556px;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157"
+           x="110.07486"
+           y="59.766575">\tiny \emph{Aptitude}</tspan></text>
+    </g>
+    <g
+       id="g89-6"
+       transform="matrix(1.1304318,0,0,1.1304605,37.758914,-14.042379)"
+       style="stroke-width:0.884606">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         id="rect1-3"
+         width="18.083027"
+         height="18.083027"
+         x="96.746178"
+         y="54.024418"
+         ry="2.6458333" />
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-6"
+         width="7.4275055"
+         height="6.5539432"
+         x="97.804512"
+         y="64.477982"
+         ry="1.3542532" />
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-58-52"
+         width="7.4275055"
+         height="6.5539432"
+         x="106.34337"
+         y="64.477974"
+         ry="1.3542532" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="105.77581"
+         y="57.584747"
+         id="text1-6-6-81"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-03"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="105.77581"
+           y="57.584747">\small \GRPability{Insight}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.352778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="101.52714"
+         y="62.871681"
+         id="text1-6-6-8-1"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-5"
+           style="font-size:0.352778px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="101.52714"
+           y="62.871681">\small \GRPdicebonus{}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.352778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="110.06599"
+         y="62.871681"
+         id="text1-6-6-8-3-5"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-1-2"
+           style="font-size:0.352778px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="110.06599"
+           y="62.871681">\small \GRPadditionala{}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.705556px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="101.53601"
+         y="59.766579"
+         id="text1-6-6-8-57-2"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-4-1"
+           style="font-size:0.705556px;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157"
+           x="101.53601"
+           y="59.766579">\tiny \emph{Species}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.705556px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="110.07486"
+         y="59.766575"
+         id="text1-6-6-8-57-4-7"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-4-2-4"
+           style="font-size:0.705556px;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157"
+           x="110.07486"
+           y="59.766575">\tiny \emph{Aptitude}</tspan></text>
+    </g>
+    <g
+       id="g89-1"
+       transform="matrix(1.1304318,0,0,1.1304605,12.116468,-14.042379)"
+       style="stroke-width:0.884606">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         id="rect1-15"
+         width="18.083027"
+         height="18.083027"
+         x="96.746178"
+         y="54.024418"
+         ry="2.6458333" />
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-9"
+         width="7.4275055"
+         height="6.5539432"
+         x="97.804512"
+         y="64.477982"
+         ry="1.3542532" />
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-58-5"
+         width="7.4275055"
+         height="6.5539432"
+         x="106.34337"
+         y="64.477974"
+         ry="1.3542532" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="105.77581"
+         y="57.584747"
+         id="text1-6-6-1"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-0"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="105.77581"
+           y="57.584747">\small \GRPability{Intellect}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.352778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="101.52714"
+         y="62.871681"
+         id="text1-6-6-8-6"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-45"
+           style="font-size:0.352778px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="101.52714"
+           y="62.871681">\small \GRPdicebonus{}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.352778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="110.06599"
+         y="62.871681"
+         id="text1-6-6-8-3-3"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-1-0"
+           style="font-size:0.352778px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="110.06599"
+           y="62.871681">\small \GRPadditionala{}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.705556px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="101.53601"
+         y="59.766579"
+         id="text1-6-6-8-57-8"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-4-9"
+           style="font-size:0.705556px;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157"
+           x="101.53601"
+           y="59.766579">\tiny \emph{Species}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.705556px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="110.07486"
+         y="59.766575"
+         id="text1-6-6-8-57-4-1"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-4-2-3"
+           style="font-size:0.705556px;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157"
+           x="110.07486"
+           y="59.766575">\tiny \emph{Aptitude}</tspan></text>
+    </g>
+    <g
+       id="g84-0"
+       transform="matrix(1.1304318,0,0,1.1304605,10.706897,-7.8678006)"
+       style="stroke-width:0.884606">
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-80-6"
+         width="7.4275079"
+         height="8.6545029"
+         x="56.337097"
+         y="33.682331"
+         ry="1.3542532" />
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-80-9-18"
+         width="5.2641187"
+         height="5.9098978"
+         x="66.174843"
+         y="36.426937"
+         ry="1.3542532" />
+      <path
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         d="m 64.260506,41.604688 1.324263,-2.511531"
+         id="path84-9" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:2.6015px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="91.622528"
+       y="8.0938158"
+       id="text1"
+       transform="scale(1.0003499,0.99965022)"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="91.622528"
+         y="8.0938158">Archetype</tspan></text>
+    <g
+       id="g89"
+       transform="matrix(1.1304318,0,0,1.1304605,-13.526,-14.042379)"
+       style="stroke-width:0.884606">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         id="rect1"
+         width="18.083027"
+         height="18.083027"
+         x="96.746178"
+         y="54.024418"
+         ry="2.6458333" />
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1"
+         width="7.4275055"
+         height="6.5539432"
+         x="97.804512"
+         y="64.477982"
+         ry="1.3542532" />
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-58"
+         width="7.4275055"
+         height="6.5539432"
+         x="106.34337"
+         y="64.477974"
+         ry="1.3542532" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="105.77581"
+         y="57.584747"
+         id="text1-6-6"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="105.77581"
+           y="57.584747">\small \GRPability{Memory}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.352778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="101.52714"
+         y="62.871681"
+         id="text1-6-6-8"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8"
+           style="font-size:0.352778px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="101.52714"
+           y="62.871681">\small \GRPdicebonus{}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.352778px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="110.06599"
+         y="62.871681"
+         id="text1-6-6-8-3"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-1"
+           style="font-size:0.352778px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.702157"
+           x="110.06599"
+           y="62.871681">\small \GRPadditionala{}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.705556px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="101.53601"
+         y="59.766579"
+         id="text1-6-6-8-57"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-4"
+           style="font-size:0.705556px;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157"
+           x="101.53601"
+           y="59.766579">\tiny \emph{Species}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:0.705556px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         x="110.07486"
+         y="59.766575"
+         id="text1-6-6-8-57-4"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-3-8-4-2"
+           style="font-size:0.705556px;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.702157"
+           x="110.07486"
+           y="59.766575">\tiny \emph{Aptitude}</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:2.6015px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="139.64844"
+       y="8.0684118"
+       id="text1-1"
+       transform="scale(1.0003499,0.99965022)"><tspan
+         sodipodi:role="line"
+         id="tspan1-3"
+         style="text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="139.64844"
+         y="8.0684118">Species</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect2"
+       width="44.502953"
+       height="8.22682"
+       x="91.095451"
+       y="10.001107"
+       ry="3.0015733" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.6015px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="9.9824581"
+       y="8.0938206"
+       id="text1-9"
+       transform="scale(1.0003499,0.99965022)"><tspan
+         sodipodi:role="line"
+         id="tspan1-8"
+         style="text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="9.9824581"
+         y="8.0938206">Character Name</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect2-6"
+       width="77.964432"
+       height="8.22682"
+       x="9.4268427"
+       y="10.001109"
+       ry="3.0015733" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect2-6-8"
+       width="60.142044"
+       height="36.383228"
+       x="9.4268456"
+       y="44.468029"
+       ry="3.0015733" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.6015px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="9.982461"
+       y="22.915674"
+       id="text1-9-9"
+       transform="scale(1.0003499,0.99965022)"><tspan
+         sodipodi:role="line"
+         id="tspan1-8-3"
+         style="text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="9.982461"
+         y="22.915674">Species Abilities</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect2-6-9"
+       width="60.142044"
+       height="16.690138"
+       x="9.4268456"
+       y="24.817774"
+       ry="3.0015733" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect2-7"
+       width="30.052366"
+       height="8.22682"
+       x="139.05429"
+       y="10.001107"
+       ry="3.0015733" />
+    <path
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.42883,35.58829 H 67.452225"
+       id="path89"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.42883,30.493637 H 67.452225"
+       id="path89-4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.535247,136.14726 H 67.558643"
+       id="path89-4-9"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.535246,240.70837 H 67.558643"
+       id="path89-4-9-9"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.535247,235.20515 H 67.558643"
+       id="path89-4-9-5"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.535247,207.68907 H 67.558643"
+       id="path89-4-9-25"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.535247,213.19229 H 67.558643"
+       id="path89-4-9-3"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.535247,202.18586 H 67.558642"
+       id="path89-4-9-97"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.535246,224.19872 H 67.558643"
+       id="path89-4-9-7"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.535247,196.68264 H 67.558643"
+       id="path89-4-9-254"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.535247,229.70194 H 67.558643"
+       id="path89-4-9-6"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.535247,185.67621 H 67.558643"
+       id="path89-4-9-32"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.535247,218.6955 H 67.558643"
+       id="path89-4-9-61"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.535247,191.17942 H 67.558642"
+       id="path89-4-9-4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.535246,169.16656 H 67.558643"
+       id="path89-4-9-50"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.535246,174.66977 H 67.558643"
+       id="path89-4-9-29"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.535247,180.17299 H 67.558642"
+       id="path89-4-9-59"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.535246,163.66334 H 67.558643"
+       id="path89-4-9-8"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.535247,152.65691 H 67.558643"
+       id="path89-4-9-1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.535247,147.15369 H 67.558642"
+       id="path89-4-9-44"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.535246,158.16013 H 67.558643"
+       id="path89-4-9-30"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.535247,141.65048 H 67.558642"
+       id="path89-4-9-0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 40.880923,70.652311 H 67.452224"
+       id="path89-4-3-7-9-8"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 40.880923,60.308365 H 67.452224"
+       id="path89-4-3-7-2-4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 40.880923,65.480338 H 67.452224"
+       id="path89-4-3-7-4-9"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 40.880923,75.824285 H 67.452224"
+       id="path89-4-3-7-8-3"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.641668,70.652311 H 38.21297"
+       id="path89-4-3-7-9-8-9"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.641668,60.308365 H 38.21297"
+       id="path89-4-3-7-2-4-8"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 11.641667,93.675589 h 39.93556"
+       id="path89-4-3-7-2-4-8-0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 19.030833,102.55047 H 43.091392"
+       id="path89-4-3-7-2-4-8-0-1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 44.678892,102.55047 H 67.452226"
+       id="path89-4-3-7-2-4-8-0-1-8"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.543512,111.42421 H 32.25797 m 1.544527,0 h 4.312319"
+       id="path89-4-3-7-2-4-8-5"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 11.543512,116.49561 h 20.714459 m 1.544527,0 h 4.312319"
+       id="path89-4-3-7-2-4-8-5-8"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 40.880924,111.42421 H 61.59538 m 1.544527,0 h 4.312319"
+       id="path89-4-3-7-2-4-8-5-3"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 40.880924,116.49561 h 20.714457 m 1.544527,0 h 4.312319"
+       id="path89-4-3-7-2-4-8-5-8-8"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.641668,65.480338 H 38.21297"
+       id="path89-4-3-7-4-9-4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 11.641668,75.824285 H 38.21297"
+       id="path89-4-3-7-8-3-0"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:none;stroke:#808080;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect1-1-80-9-86-5"
+       width="5.0466213"
+       height="5.0946531"
+       x="11.353854"
+       y="46.484142"
+       ry="1.5309297" />
+    <rect
+       style="fill:none;stroke:#808080;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect1-1-80-9-86-5-4"
+       width="5.0466213"
+       height="5.0946531"
+       x="62.934769"
+       y="85.829628"
+       ry="1.5309297" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="16.929861"
+       y="48.932346"
+       id="text1-6-0-9-9-4"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2"
+         style="font-size:1.05833px;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="16.929861"
+         y="48.932346">\scriptsize \GRPstat{Max Prep}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="11.641817"
+       y="54.852158"
+       id="text1-6-0-9-9-4-1"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-5"
+         style="font-size:1.05833px;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="11.641817"
+         y="54.852158">\scriptsize Casts</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="11.54366"
+       y="105.94854"
+       id="text1-6-0-9-9-4-1-9"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-5-65"
+         style="font-size:1.05833px;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="11.54366"
+         y="105.94854">\scriptsize Implements</tspan></text>
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 17.443332,102.55047 h -5.89982"
+       id="path89-4-3-7-2-4-8-5-2"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="11.543661"
+       y="97.074928"
+       id="text1-6-0-9-9-4-1-9-2"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-5-65-82"
+         style="font-size:1.05833px;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="11.543661"
+         y="97.074928">\scriptsize Wt</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="19.031071"
+       y="97.074928"
+       id="text1-6-0-9-9-4-1-9-2-3"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-5-65-82-9"
+         style="font-size:1.05833px;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="19.031071"
+         y="97.074928">\scriptsize Resistance</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="67.453087"
+       y="97.074928"
+       id="text1-6-0-9-9-4-1-9-2-3-8"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-5-65-82-9-2"
+         style="font-size:1.05833px;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="67.453087"
+         y="97.074928">\scriptsize Bonus</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="11.641816"
+       y="88.277313"
+       id="text1-6-0-9-9-4-1-9-8"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-5-65-1"
+         style="font-size:1.05833px;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="11.641816"
+         y="88.277313">\scriptsize Armor</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="11.641814"
+       y="130.18513"
+       id="text1-6-0-9-9-4-1-9-8-2"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-5-65-1-5"
+         style="font-size:1.05833px;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="11.641814"
+         y="130.18513">\scriptsize Augments</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="38.115307"
+       y="105.94854"
+       id="text1-6-0-9-9-4-1-9-9"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-5-65-9"
+         style="font-size:1.05833px;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="38.115307"
+         y="105.94854">\scriptsize Wt</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="67.453087"
+       y="105.94854"
+       id="text1-6-0-9-9-4-1-9-9-3"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-5-65-9-3"
+         style="font-size:1.05833px;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="67.453087"
+         y="105.94854">\scriptsize Wt</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="40.881447"
+       y="105.94854"
+       id="text1-6-0-9-9-4-1-9-6"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-5-65-8"
+         style="font-size:1.05833px;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="40.881447"
+         y="105.94854">\scriptsize Implements</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="39.589855"
+       y="54.852158"
+       id="text1-6-0-9-9-4-1-1"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-5-6"
+         style="font-size:1.05833px;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="39.589855"
+         y="54.852158">\scriptsize Casts</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="49.24855"
+       y="48.932346"
+       id="text1-6-0-9-9-4-2"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-3"
+         style="font-size:1.05833px;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="49.24855"
+         y="48.932346">\scriptsize \GRPstat{Max Casts}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="62.406391"
+       y="88.277313"
+       id="text1-6-0-9-9-4-2-7"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-3-7"
+         style="font-size:1.05833px;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="62.406391"
+         y="88.277313">\scriptsize \GRPstat{Equip Wt}</tspan></text>
+    <rect
+       style="fill:none;stroke:#808080;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect1-1-80-9-86-5-4-0"
+       width="5.0466213"
+       height="5.0946531"
+       x="62.934769"
+       y="127.73798"
+       ry="1.5309297" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="62.406391"
+       y="130.18513"
+       id="text1-6-0-9-9-4-2-7-0"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-3-7-3"
+         style="font-size:1.05833px;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="62.406391"
+         y="130.18513">\scriptsize \GRPstat{Max Augments}</tspan></text>
+    <rect
+       style="fill:none;stroke:#808080;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect1-1-80-9-86-5-4-0-0"
+       width="5.0466213"
+       height="5.0946531"
+       x="164.16138"
+       y="127.73798"
+       ry="1.5309297" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="163.63425"
+       y="130.18513"
+       id="text1-6-0-9-9-4-2-7-0-6"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-3-7-3-7"
+         style="font-size:1.05833px;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="163.63425"
+         y="130.18513">\scriptsize \GRPstat{Pack Wt}</tspan></text>
+    <g
+       id="g4"
+       transform="translate(-14.81667,-1.0583333)">
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-80-9-86-5-6"
+         width="5.0466213"
+         height="5.0946531"
+         x="50.796341"
+         y="47.542477"
+         ry="1.5309297" />
+      <rect
+         style="fill:none;stroke:#808080;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         id="rect1-1-80-9-86-5-6-9"
+         width="5.0466213"
+         height="5.0946531"
+         x="58.4888"
+         y="47.542477"
+         ry="1.5309297" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+         d="M 56.372131,52.107964 57.86912,49.268778"
+         id="path84-26-1" />
+    </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect1-09"
+       width="19.666679"
+       height="19.15057"
+       x="73.09462"
+       y="24.578053"
+       ry="2.99101" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.39278px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="82.989189"
+       y="28.458605"
+       id="text1-6-0-9-9-7"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-7"
+         style="text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="82.989189"
+         y="28.458605">\GRPstat{Wounds}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="91.464943"
+       y="41.579288"
+       id="text1-6-0-9-9-7-7"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-7-1"
+         style="font-size:1.05833px;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="91.464943"
+         y="41.579288">\tiny \GRPability{Robust}</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect2-6-8-1-8-6-0"
+       width="98.284828"
+       height="52.258335"
+       x="72.510643"
+       y="126.15049"
+       ry="3.0015733" />
+  </g>
+</svg>

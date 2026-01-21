@@ -248,6 +248,74 @@
 	}%
 }
 
+\newcommand{\GRPdicebonus}[1]{%
+	\ifmmode%
+		\left\{ +#1 \right\}%
+	\else%
+		{\normalfont$ \left\{ +#1\right\} $}%
+	\fi%
+}
+
+\newcommand{\GRPdicepenalty}[1]{%
+	\ifmmode%
+		\left\{ -#1 \right\}%
+	\else%
+		{\normalfont$ \left\{ -#1\right\} $}%
+	\fi%
+}
+
+\newcommand{\GRPadditionala}[1]{%
+	\ifmmode%
+		\left\{ aa#1 \right\}%
+	\else%
+		{\normalfont$ \left\{ aa#1\right\} $}%
+	\fi%
+}
+
+\newcommand{\GRPadditionald}[1]{%
+	\ifmmode%
+		\left\{ dd#1 \right\}%
+	\else%
+		{\normalfont$ \left\{ dd#1\right\} $}%
+	\fi%
+}
+
+\makeatletter
+\newcommand{\GRPmodroll}[2]{%
+	\def\GRP@rollbonus{}%
+	\def\GRP@aadv{}%
+	\normalexpandarg\IfStrEq{#1}{}{}{%
+		\normalexpandarg\IfInteger{#1}{%
+			\ifnum#1<0%
+				\renewcommand{\GRP@rollbonus}{#1}%
+			\else%
+				\renewcommand{\GRP@rollbonus}{+#1}%
+			\fi%
+		}%
+		{%
+			\renewcommand{\GRP@rollbonus}{+#1}%
+		}%
+	}%
+	\normalexpandarg\IfStrEq{#2}{}{}{%
+		\normalexpandarg\IfInteger{#2}{%
+			\ifnum#2<0%
+				\renewcommand{\GRP@aadv}{dd\inteval{0-(#2)}}%
+			\else%
+				\renewcommand{\GRP@aadv}{aa#2}%
+			\fi%
+		}%
+		{%
+			\renewcommand{\GRP@aadv}{aa#2}%
+		}%
+	}%
+	\ifmmode%
+		\left\{ \GRP@rollbonus{}\GRP@aadv{} \right\}%
+	\else%
+		{\normalfont$ \left\{ \GRP@rollbonus{}\GRP@aadv{} \right\} $}%
+	\fi%
+}
+\makeatother
+
 \newcommand{\GRPdie}[2][0]{%
 	\IfStrEq{#1}{alt}{%
 		\GammaDodec[color=grpalt!30!white]{\color{grpalt}#2}%
@@ -337,14 +405,14 @@
 %Formatting a stat
 \newcommand{\GRPstat}[1]{%
 \ifmmode%
-	\left[ \mathrm{\normalfont\textsc{#1}} \right]%
+	{\left[ \textsc{\bfseries#1} \right]}%
 \else%
-	{\normalfont$ \left[ \mathrm{\textsc{#1}} \right] $}%
+	{\normalfont$ {\left[ \textsc{\bfseries#1} \right]} $}%
 \fi%
 }%
 
 \newcommand{\GRPability}[1]{%
-{\scshape\bfseries#1}%
+{\scshape\itshape\bfseries#1}%
 }
 
 %Page background commands
@@ -820,6 +888,24 @@
 	}
 }
 
+%add a full page illustration
+\newcommand{\GRPfullpagepic}[1]{%
+	\clearpage
+	\thispagestyle{empty}
+
+	\AddToHookNext{shipout/background}{%
+	  \begin{tikzpicture}[remember picture,overlay]
+	  \node[shape=rectangle,anchor=center] at (current page.center) {%
+	    \centering\includesvg[height=\pdfpageheight]{#1}%
+	  };
+	  \end{tikzpicture}%
+	}
+
+	\clearpage
+	\hfill
+	\clearpage
+}
+
 %Adds an svg to the background.
 %honestly just works like fullpagebgsvg, except lets you set a height and shift it from the center.
 \pgfkeys{%
@@ -977,7 +1063,10 @@
 
 \renewcommand{\baselinestretch}{1.0625} 
 
+\setlength\columnsep{0.25in}
+
 \newcommand{\GRPindexhead}[1]{%
+	\vspace{1ex}
 	\begin{tcolorbox}[%
 		colback=\ChapterBackgroundTint!75!black,
 		colframe=\ChapterBackgroundTint!75!black,
