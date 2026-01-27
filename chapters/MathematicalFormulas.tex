@@ -1,0 +1,12 @@
+\chapter{Mathematical Formulas}
+
+\noindent For the probability of success for a roll \GRProll{X}{Y}:
+\begin{equation}
+	\GRPstat{Probability} = \left\{\begin{array}{@{}ll@{}}
+	\text{if}\ Y\geq12, & 100\% \\ [6pt]
+	\text{if}\ 12>Y>0, & 1-\left( \dfrac{12-Y}{12} \right)^X \\ [16pt]
+	\text{if}\ Y=0, & 1-\left(\frac{11}{12}\right)^X \\ [16pt]
+	\text{if}\ 0>Y\geq-X, & \left(\frac{11}{12}\right)^{(-Y-1)}-\left(\frac{11}{12}\right)^{X}\times\left(\frac{10}{11}\right)^{(-Y-1)} \\ [16pt]
+	\text{if}\ -X>Y, & 0\%
+	\end{array}\right.
+\end{equation}

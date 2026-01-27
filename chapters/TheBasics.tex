@@ -6,23 +6,27 @@ The \index{Game Master}Game Master is responsible for constructing the world aro
 
 Since the game is collaborative in this way, it is more fun and fair if there is an element of chance in deciding how a scene unfolds. \GammaRP{} uses the roll of a set of dice to decide whether an unsure course of action is successful.
 
-%\GRPbitepar{0mm,1mm,12mm,13mm,13mm,8mm}
+\GRPbitepar{0mm,1mm,12mm,13mm,13mm,8mm}\GRPparabgsvg[height=2cm,shift={(8mm,0)},side=left]{art/TheBasics/twodice}
 The fundamental dice mechanic in \GammaRP{} is based on 12 sided dice, and rolls several at a time. If you intend to play the game on a real physical tabletop (rather than one of the increasingly popular virtual ones), you may want to obtain at least a dozen 12 sided dice for convenience. It is possible to play with fewer dice by rolling one die at a time.
-
-\vspace{\baselineskip}
-
-\includesvg[width=4cm]{art/TheBasics/twodice}
 
 \section{Dice Rolling Basics}
 
 The \index{Roll notation}notation for a roll in \GammaRP{} is written as \GRProlla{X}{Y}, which verbally is pronounced as ``Roll \textit{X} a \textit{Y}''
+\begin{itemize}
+	\item \textit{X} is the number of dice you roll.
+	\item \textit{Y} is the \emph{advantage}\index{Advantage} on the roll, which indicates that the top \textit{Y} numbers of a die pass the success threshold.
+\end{itemize}
+If any of the dice you roll pass the success threshold, then your roll is a success. 
 
-\textit{X} is the number of dice you roll.
-
-\textit{Y} is the \emph{advantage}\index{Advantage} on the roll, which indicates that the top \textit{Y} numbers of a die pass the success threshold.
+The quickest way to judge if your advantaged roll is a success is:
+\begin{enumerate}
+\item Add the advantage to the value of each die in your roll
+\item If $\GRPstat{Advantage} + \GRPstat{Die Value} > 12$ for any die in your roll, your roll is a success.
+\end{enumerate}
 
 \GRPbitepar[right]{0pt,8.9mm,10.5mm,9.5mm}\GRPparabgsvg[height=1.4cm,side=right,shift={(-1.6cm,0pt)}]{art/TheBasics/onedice}
-If any of the dice you roll pass the success threshold, then your roll is a success. This means that both larger \textit{X} and larger \textit{Y} indicate a higher probability of success.
+An advantage of 0 is the exception to this: \GRProll{X}{0} is still successful if any of the dice roll a 12.
+Both larger \textit{X} and larger \textit{Y} indicate a higher probability of success.
 
 \GRPparabgsvg[height=1.6cm,side=right,shift={(-1.1cm,-4mm)}]{art/TheBasics/onedice_b}
 Let's look at a few example rolls.
@@ -44,16 +48,20 @@ Let's look at a few example rolls.
 \end{GRPtabular}
 \end{GRPtable}	
 
-The quickest way to judge if your advantaged roll is a success is:
-\begin{enumerate}
-\item Add the advantage to the value of each die in your roll
-\item If $\GRPstat{Advantage} + \GRPstat{Die Value} > 12$ for any die in your roll, your roll is a success.
-\end{enumerate}
-An advantage of 0 is the exception to this method: \GRProll{X}{0} is still successful if any of the dice roll a 12.
-
 \emph{Advantage} can also be negative. For convenience this is written as \emph{disadvantage} which is the negative of the advantage. A roll of \GRProlla{X}{(-Z)} is written equivalently as \GRProlld{X}{Z}.
 
 For a roll at \emph{disadvantage}\index{Disadvantage} of \textit{Z} to be successful, in addition to having at least one die in the roll land on 12, there must also be at least \textit{Z} dice within the roll displaying a number above 1.
+
+The quickest way to judge if your disadvantaged roll is a success is:
+\begin{enumerate}
+	\item Check if there are any dice showing 12 in your roll
+	\item Count the number of dice that show a value above 1
+	\item If $\GRPstat{Number of Dice above 1} > \GRPstat{Disadvantage}$ for \emph{any} die in your roll, and there is at least one die showing 12, your roll is a success.
+\end{enumerate}
+
+\begin{GRPquicknote}
+Note that the rolls \GRProll{X}{1}, \GRProll{X}{0}, and \GRProll{X}{-1} are all actually identical, with all three requiring a single dice of the set to result 12 in order to result a success.
+\end{GRPquicknote}
 
 Lets look at a few example disadvantage rolls.
 
@@ -73,18 +81,7 @@ Lets look at a few example disadvantage rolls.
 \end{GRPtabular}
 \end{GRPtable}
 
-The quickest way to judge if your disadvantaged roll is a success is:
-\begin{enumerate}
-	\item Check if there are any dice showing 12 in your roll
-	\item Count the number of dice that show a value above 1
-	\item If $\GRPstat{Number of Dice above 1} > \GRPstat{Disadvantage}$ for \emph{any} die in your roll, and there is at least one die showing 12, your roll is a success.
-\end{enumerate}
-
-When the disadvantage is greater than or equal to the number of dice being rolled, the roll is an automatic failure even if you have at least one dice showing a 12. This is because you do not have sufficient number of dice to show . Additionally, any roll with a disadvantage 12 or greater automatically fails, for symmetry with the advantage rolls (where any roll with an advantage 12 or greater automatically succeeds) If you are asked to make a roll with a disadvantage equal to or greater than the number of dice (or make a roll with a disadvantage greater than 12), you may simply declare a failure. However you may still make the roll if you have abilities that benefit from actually rolling the dice.
-
-\begin{GRPquicknote}
-Note that the rolls \GRProll{X}{1}, \GRProll{X}{0}, and \GRProll{X}{-1} are all actually identical, with all three requiring a single dice of the set to result 12 in order to result a success.
-\end{GRPquicknote}
+When the disadvantage is greater than or equal to the number of dice being rolled, the roll is an automatic failure even if you have at least one dice showing a 12. If you are asked to make a roll with a disadvantage equal to or greater than the number of dice, you may simply declare a failure. However you may still make the roll if you have abilities that benefit from actually rolling the dice.
 
 \begin{GRPtablewide}
 \caption[Roll Success Probability]{Probability of success for various rolls}
@@ -99,21 +96,6 @@ Note that the rolls \GRProll{X}{1}, \GRProll{X}{0}, and \GRProll{X}{-1} are all 
 	\GRProll{6}{Y} & 27.9\% & 30.1\% & 32.5\% & 35.0\% & 37.7\% & 40.7\% & 40.7\% & 40.7\% & 66.5\% & 82.2\% & 91.2\% & 96.1\% & 98.4\% & 99.5\% 
 \end{GRPtabular}
 \end{GRPtablewide}
-
-\begin{GRPfigwide}
-\caption[Success Probability Formula]{Exact mathematical formula for the probability of roll success}
-For the probability of success for a roll \GRProll{X}{Y}:
-\[
-\GRPstat{Probability} = \left\{\begin{array}{@{}ll@{}}
-\text{if}\ Y\geq12, & 100\% \\ [6pt]
-\text{if}\ 12>Y>0, & 1-\left( \dfrac{12-Y}{12} \right)^X \\ [16pt]
-\text{if}\ Y=0, & 1-\left(\frac{11}{12}\right)^X \\ [16pt]
-\text{if}\ 0>Y\geq-X, & \left(\frac{11}{12}\right)^{(-Y-1)}-\left(\frac{11}{12}\right)^{X}\times\left(\frac{10}{11}\right)^{(-Y-1)} \\ [16pt]
-\text{if}\ -X>Y, & 0\%
-\end{array}\right.
-\]
-
-\end{GRPfigwide}
 
 \section{Modifying Rolls}
 
@@ -180,7 +162,7 @@ The process of a roll contest is as follows:
 	\item\label{contest:last} If both characters reach 0 dice simultaneously, both characters lose the contest (taking any penalties involved with losing the contest).
 \end{enumerate}
 
-If there are no penalties for losing the contest, a simultaneous fail just ends the contest with no effect. Step \ref{contest:last} is only important when one of the characters has an ability that imposes a penalty for failing a roll.
+Step \ref{contest:last} is only important when one of the characters has an ability that imposes a penalty for failing a roll.
 
 Roll Contests are probably best illustrated with an example as follows.
 
@@ -221,3 +203,5 @@ If you do find yourself in a situation in which a group roll contest is called f
 	\item If you have repeated this process to the point where one group has no dice remaining, the group who has dice remaining wins the contest.
 	\item\label{groupcontest:last} If both groups reach 0 dice simultaneously, both groups lose the contest (taking any penalties involved with losing the contest).
 \end{enumerate}
+
+\closeopenenv{multicols}

@@ -12,7 +12,7 @@ paperwidth=7in,
 paperheight=10in,
 ]{geometry}
 
-\input{GRPfunctions}
+\include{GRPfunctions}
 
 \title{%
 	\includesvg[width=3.0in]{art/GammaRPTitleLogo} \\
@@ -27,23 +27,22 @@ paperheight=10in,
 	\GRPfullpagebgsvg{art/TitleBG}
 	\color{grptitle}
 	\maketitle
-%
+
 	\frontmatter
 	\tableofcontents
-%
+
 	\mainmatter
 	\include{chapters/Introduction}
 	\part{The System}
 	\include{chapters/TheBasics}
-	\include{chapters/BuildingCharacter}
+	\include{chapters/BuildingCharacter} 
 	\part{The Setting}
 	\include{chapters/GammaNebulaOverview}
 
-%
-	\backmatter
+	\appendix
 	\part{Appendices}
+	\include{chapters/MathematicalFormulas}
 	\listoffigures
 	\listoftables
 	\printindex
-%'
 \end{document}

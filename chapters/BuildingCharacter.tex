@@ -4,12 +4,6 @@ The same character building process is used for non-player-characters (NPC's)\in
 
 For a step by step overview of the process of building a character, consider skipping to Section \ref{sec:character_building_overview}.
 
-\section{Experience Points}
-
-Experience points, or XP for short, are used to upgrade your character's abilities after creation.
-
-You may apply XP to your character has whenever you take the \emph{sleep} action during downtime.
-
 \section{Fundamental Attributes}
 
 All characters have 6 fundamental attributes, divided into 3 \emph{Foundations} and 3 \emph{Characteristics}.
@@ -154,7 +148,7 @@ What follows are visual diagrams showing what talents can be proxied for others.
 \end{minipage}
 \end{GRPfigwide}
 
-You can gain aptitude in your talents by spending XP. Each aptitude gives 1 additional advantage when rolling the talent.
+You can gain aptitude in your talents by spending experience points, or XP for short. Each aptitude gives 1 additional advantage when rolling the talent.
 
 It costs:
 \begin{itemize}
@@ -186,7 +180,7 @@ Any or all of a character's characteristics (\GRPstat{Precision}, \GRPstat{Stren
 
 Each time a character receives a wound, they must choose a foundation (\GRPstat{Mind}, \GRPstat{Body}, or \GRPstat{Heart}) to deplete by 1.
 
-When a character's wound is healed, that character may choose any depleted foundation to be restored by 1 (even if that particular foundation was not depleted by that particular wound).
+Healing wounds in this system is done by abilities that restore depleted foundations.
 
 The \textbf{Robust} skill (described in Section \ref{sec:skills}) allows a character to take some wounds before needing to deplete any foundations.
 
@@ -275,7 +269,7 @@ Options for equipment in the base system are specified in Section \ref{sec:equip
 
 If you change your loadout of active augments, inventory items, or prepped casts during \emph{phased} (turn-based) gameplay, you will \emph{deplete} your \GRPstat{Grace} score. You may change your actively equipped items without penalty during phased gameplay, but note that pulling items out of your pack to do so will still deplete your \GRPstat{Grace}.
 
-You can change any part of your loadout without penalty during \emph{asynchronous} (non-turn-based) gameplay however many times you like.
+You can change any part of your loadout without penalty during \emph{open} (non-turn-based) gameplay however many times you like.
 
 \section{Languages}
 
@@ -294,7 +288,7 @@ A character starts knowing Standard, and depending on your character's species m
 \end{itemize}
 \end{GRPquicknotewide}
 
-All of these languages may come in different dialects which are not interchangeable. This is ultimately up to the GM to decide to add more languages to the setting.
+Depending on what the GM wants for their setting, all of these languages may come in different dialects which are not necessarily interchangeable. It is ultimately up to the GM to decide to add more languages to the setting.
 
 \section{Skills}\label{sec:skills}
 
@@ -317,6 +311,7 @@ What follows are descriptions of all the skills your character can take.
 	\item \textbf{Marathon Caster}-- for each rank in marathon caster, you may increase your \GRPstat{Max Cast Activations} by one
 	\item \textbf{Versatile Caster}-- for each rank in versatile caster, you may increase your \GRPstat{Max Prepared Casts} by one.
 	\item \textbf{Robust}-- you may take wounds up to \GRPstat{Ranks} in Robust without depleting any of your fundamentals. Once you exceed this number of wounds you will start depleting fundamentals as usual in response to sustaining a wound.
+	\vspace{3\baselineskip}
 	\item \textbf{Porter}-- for each rank in porter, you may increase your \GRPstat{Pack Wt} by 1.
 	\item \textbf{Walking Armory}-- for each rank in Walking Armory, you may increase your \GRPstat{Equip Wt} by 1.
 	\item \textbf{Agile}-- While the game is in \emph{phased} mode, during your offensive phase your character gains 1 additional action for each \GRPstat{Rank} in Agile.
@@ -326,6 +321,7 @@ What follows are descriptions of all the skills your character can take.
 
 	Examples of topics for Experienced:
 	\begin{itemize}
+		\item Unarmed combat
 		\item A specific class of spaceships
 		\item A specific type of magic
 		\item A specific type of weapon
@@ -343,9 +339,19 @@ For convenience, this section is a consolidated step-by-step guide to building a
 
 \begin{enumerate}
 	\item Chose your Fundamentals. Your foundations (\GRPstat{Heart}, \GRPstat{Body}, and \GRPstat{Mind}) should all sum up to 6. Your characteristics (\GRPstat{Precision}, \GRPstat{Strength}, \GRPstat{Grace}) should all sum up to 8. The minimum value of any of these fundamentals is 1.
-	\item Choose a species. Apply any bonuses to talents. Take note of any species abilities.
-	\item Set your \GRPstat{Max Cast Activations} to your \GRPstat{Precision} score, and set your \GRPstat{Max Prepared Casts} to your \GRPstat{Mind} score.
-	\item Choose a number of casts 
+	\item Choose a species. Apply any bonuses to talents by writing them in the corresponding box labeled with \GRPdicebonus{}. Take note of any species abilities.
+	\item Set your \GRPstat{Max Casts} to your \GRPstat{Precision} score, and set your \GRPstat{Max Prep} to your \GRPstat{Mind} score.
+	\item Set your \GRPstat{Equip Wt} to your \GRPstat{Body} score, and set your \GRPstat{Pack Wt} to your \GRPstat{Strength} score.
+	\item Set your \GRPstat{Max Augments} to your \GRPstat{Heart} score.
+
+	\item Start with 12 XP. Invest as you see fit in various abilities, or save them for later.
+	\item Start with 100 gold. Invest in equipment as you see fit, or save it for later.
+	\item Choose a number of casts less than or equal to your \GRPstat{Max Prep} and write them in your list of prepped casts. Place corresponding cast focuses in the cast focus section of your Pack.
+	\item Choose a number of augments less than or equal to your \GRPstat{Max Augments} and write them in your list of augments.
+	\item If you have taken the robust skill, you can put the number of skill ranks you have in robust in the smaller box of the ``Wounds'' section of the character sheet.
+	\item Discard items of your choice in your pack until the total weight of pack items is less than or equal to \GRPstat{Pack Wt}.
 \end{enumerate}
 
 \GRPfullpagepic{art/BuildingCharacter/Charsheet}
+
+\closeopenenv{multicols}

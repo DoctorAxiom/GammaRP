@@ -9,7 +9,6 @@
 
 \usepackage{lipsum}
 
-\usepackage{titlesec}
 \usepackage{afterpage}
 \usepackage{xfrac}
 \usepackage[table]{xcolor}
@@ -35,6 +34,8 @@
 
 %%Always load hyperref last
 \usepackage{hyperref}
+%but load titlesec after
+\usepackage{titlesec}
 
 \usetikzlibrary{shapes.geometric}
 \usetikzlibrary{decorations.pathmorphing}
@@ -74,11 +75,12 @@
 
 \makeatletter
 \def\closeopenenv#1{%
-% test if current env is "multicols" if so close it
-   \def\@tempa{#1}%
-   \ifx\@tempa\@currenvir
-      \end{#1}%
-  \fi 
+	\gdef\GRP@closer{}%
+	\def\@tempa{#1}%
+	\ifx\@tempa\@currenvir
+		\gdef\GRP@closer{\end{#1}}%
+	\fi 
+	\GRP@closer
 }
 \makeatother
 
@@ -1045,10 +1047,21 @@
 	    \GammaDodec[color={\ChapterBackgroundTint!75!black}]{\thechapter}
 	} % before-code
 	[
-	\vspace{-0.5ex}%
-	\rule{\textwidth}{0.3pt}
+	\vspace{-1ex}%
+	\rule{\textwidth}{0.5pt}
 	] % after-code
-\titlespacing{\chapter}{0pt}{1ex}{1ex}
+
+\titlespacing
+	{\section} % command
+	[block] % shape
+	{\centering\bfseries\Large} % format
+	{} % label
+	{1ex} % sep
+	{
+		\thesection
+
+	} % before-code
+
 
 \pagestyle{fancy}
 
@@ -1087,17 +1100,28 @@
 %These are simply made to change formatting a little bit
 %
 %
+
+%close open multicols before part definitions
+% \AddToHook{cmd/part/before}
+% {%
+% 	\closeopenenv{multicols}%
+% }
+
 \AddToHook{cmd/frontmatter/after}
 {%
 	\color{black}
 	\pagenumbering{roman}
-	\AddToHook{shipout/background}{\SetChapterTint\GRPpageBG}
+	\AddToHook{shipout/background}{\SetChapterTint{}\GRPpageBG}
 }
 
-%Close multicols from chapters before mainmatter.
+\AddToHook{cmd/GRPchapter/after}
+{%
+	\SetChapterTint{}
+}
+
 \AddToHook{cmd/mainmatter/before}
 {%
-	\closeopenenv{multicols}%
+	\gdef\ChapterBackgroundTint{chapterbgcolor1}
 }
 
 %These two are meant to ensure the listoffigures and listoftables both appear properly
@@ -1115,14 +1139,9 @@
 	\addcontentsline{toc}{chapter}{List of Tables}
 }
 
-%Close multicols from chapters before backmatter.
-\AddToHook{cmd/backmatter/before}
-{%
-	\closeopenenv{multicols}%
-}
 
 %Change chapter title format for backmatter
-\AddToHook{cmd/backmatter/after}
+\AddToHook{cmd/appendix/before}
 {%
 	\titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter}{1em}{}
 	\gdef\SetChapterTint{\gdef\ChapterBackgroundTint{chapterbgcolordefault}}

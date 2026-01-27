@@ -82,7 +82,7 @@ The total weight of things you can have in your personal inventory (aside from e
 Augments - body augments you can have active at any given time (runes, cybernetics, implants, etc.) Typically augments should be things that passively enhance your body at all times, but some augments may also have a fixed number of uses per day. Your MAX AUGMENTS, the total number of augments you can have active without penalty, is initially equal to your HEART score. If you have more active augments than this you will DEPLETE your HEART score.
 
 
-If you change your loadout of equipped items, active augments, inventory items, or prepped casts during turn-based gameplay, you will DEPLETE your GRACE score. You can change your loadout without penalty during asynchronous gameplay however many times you like.
+If you change your loadout of equipped items, active augments, inventory items, or prepped casts during turn-based gameplay, you will DEPLETE your GRACE score. You can change your loadout without penalty during open gameplay however many times you like.
 
 
 ### Archetype:
@@ -335,7 +335,9 @@ On a tabletop- you have the choice of sharing your defensive action with the GM 
 
 
 
-Communicating in a different language- penalty of 4 additional disadvantage.
+Communicating in a different language- penalty of 4 additional disadvantage? maybe
+
+
 
 
 LaTeX notes
