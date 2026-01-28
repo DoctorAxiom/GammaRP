@@ -35,7 +35,7 @@
 %%Always load hyperref last
 \usepackage{hyperref}
 %but load titlesec after
-\usepackage{titlesec}
+\usepackage[explicit]{titlesec}
 
 \usetikzlibrary{shapes.geometric}
 \usetikzlibrary{decorations.pathmorphing}
@@ -1034,6 +1034,14 @@
 
 
 % StaticFormatting stuff
+\newcommand{\nohyphenation}[1]{%
+	\hyphenpenalty=10000%
+	\exhyphenpenalty=10000%
+	\lefthyphenmin=62%
+	\righthyphenmin=62%
+	#1
+}
+
 \titleformat
 	{\chapter} % command
 	[block] % shape
@@ -1045,23 +1053,49 @@
 		\rule{\textwidth}{1pt}
 	    \centering 
 	    \GammaDodec[color={\ChapterBackgroundTint!75!black}]{\thechapter}
+	    \nohyphenation{#1}
 	} % before-code
 	[
 	\vspace{-1ex}%
 	\rule{\textwidth}{0.5pt}
 	] % after-code
+\titlespacing{\chapter}{0pt}{1ex}{1ex}
 
-\titlespacing
+\titleformat
 	{\section} % command
 	[block] % shape
-	{\centering\bfseries\Large} % format
+	{\bfseries\Large} % format
 	{} % label
-	{1ex} % sep
+	{0.5ex} % sep
 	{
-		\thesection
-
+	    \noindent\begin{minipage}[t]{0.2\linewidth}
+	    	\raggedleft \thesection
+	    \end{minipage}\hspace{0.05\linewidth}
+	    \begin{minipage}[t]{0.75\linewidth}
+	    	\raggedright \nohyphenation{#1}
+	    \end{minipage}
 	} % before-code
+	[% after code
+		\vspace{-2ex}
+	]
 
+\titleformat
+	{\subsection} % command
+	[block] % shape
+	{\bfseries\large} % format
+	{} % label
+	{0.2ex} % sep
+	{
+	    \noindent\begin{minipage}[t]{0.2\linewidth}
+	    	\raggedleft \thesubsection
+	    \end{minipage}\hspace{0.05\linewidth}
+	    \begin{minipage}[t]{0.75\linewidth}
+	    	\raggedright \nohyphenation{#1}
+	    \end{minipage}
+	} % before-code
+	[% after code
+		\vspace{-1.5ex}
+	]
 
 \pagestyle{fancy}
 
@@ -1141,7 +1175,7 @@
 
 
 %Change chapter title format for backmatter
-\AddToHook{cmd/appendix/before}
+\AddToHook{cmd/backmatter/before}
 {%
 	\titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter}{1em}{}
 	\gdef\SetChapterTint{\gdef\ChapterBackgroundTint{chapterbgcolordefault}}

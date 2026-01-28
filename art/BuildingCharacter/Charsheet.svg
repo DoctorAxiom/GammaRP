@@ -24,12 +24,12 @@
      inkscape:deskcolor="#313131"
      inkscape:document-units="mm"
      labelstyle="default"
-     inkscape:zoom="4.065864"
-     inkscape:cx="379.25519"
-     inkscape:cy="447.99826"
-     inkscape:window-width="1920"
-     inkscape:window-height="1094"
-     inkscape:window-x="-11"
+     inkscape:zoom="1.4375"
+     inkscape:cx="325.56522"
+     inkscape:cy="204.17391"
+     inkscape:window-width="2880"
+     inkscape:window-height="1514"
+     inkscape:window-x="2869"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer2" />
@@ -85,9 +85,17 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Sketch 1">
+    <rect
+       style="fill:none;stroke:#cccccc;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect1-7-8-7-8-1-84"
+       width="47.708378"
+       height="30.311844"
+       x="124.286"
+       y="4.4815645"
+       ry="2.99101" />
     <g
        id="g88"
-       transform="matrix(1.1304318,0,0,1.1304605,-13.526,-17.217381)"
+       transform="matrix(1.1304318,0,0,1.1304605,-13.526,-1.3423806)"
        style="stroke-width:0.884606">
       <rect
          style="fill:#f2f2f2;stroke:#f2f2f2;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
@@ -137,7 +145,7 @@
     </g>
     <g
        id="g87"
-       transform="matrix(1.1304318,0,0,1.1304605,-13.526,-17.217381)"
+       transform="matrix(1.1304318,0,0,1.1304605,-13.526,-1.3423806)"
        style="stroke-width:0.884606">
       <rect
          style="fill:#f2f2f2;stroke:#f2f2f2;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
@@ -187,7 +195,7 @@
     </g>
     <g
        id="g86"
-       transform="matrix(1.1304318,0,0,1.1304605,-13.526,-17.217381)"
+       transform="matrix(1.1304318,0,0,1.1304605,-13.526,-1.3423806)"
        style="stroke-width:0.884606">
       <rect
          style="fill:#f2f2f2;stroke:#f2f2f2;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
@@ -253,18 +261,18 @@
        ry="3.0015733" />
     <g
        id="g1"
-       transform="translate(2.6458334,-3.1750001)">
+       transform="translate(2.6458334,12.7)">
       <text
          xml:space="preserve"
          style="font-size:2.39278px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
-         x="91.472923"
+         x="90.943748"
          y="103.64431"
          id="text1-6-0-9-9-3"
          transform="scale(0.99998731,1.0000127)"><tspan
            sodipodi:role="line"
            id="tspan1-5-6-3-8-64"
            style="text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
-           x="91.472923"
+           x="90.943748"
            y="103.64431">\GRPstat{Heart}</tspan></text>
       <g
          id="g84-24-9"
@@ -302,7 +310,7 @@
     </g>
     <g
        id="g2"
-       transform="translate(2.6458334,-3.1750001)">
+       transform="translate(2.6458334,12.7)">
       <rect
          style="fill:none;stroke:#cccccc;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
          id="rect1-7-8-7-8-1-8"
@@ -314,14 +322,14 @@
       <text
          xml:space="preserve"
          style="font-size:2.39278px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
-         x="91.472923"
+         x="90.943748"
          y="78.001503"
          id="text1-6-0-9-9-8"
          transform="scale(0.99998731,1.0000127)"><tspan
            sodipodi:role="line"
            id="tspan1-5-6-3-8-6"
            style="text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
-           x="91.472923"
+           x="90.943748"
            y="78.001503">\GRPstat{Body}</tspan></text>
       <g
          id="g84-24-2"
@@ -351,7 +359,7 @@
     </g>
     <g
        id="g3"
-       transform="translate(2.6458334,-3.1750001)">
+       transform="translate(2.6458334,12.7)">
       <rect
          style="fill:none;stroke:#cccccc;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
          id="rect1-7-8-7-8-1"
@@ -363,14 +371,14 @@
       <text
          xml:space="preserve"
          style="font-size:2.39278px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
-         x="91.472923"
+         x="90.943748"
          y="52.358715"
          id="text1-6-0-9-9"
          transform="scale(0.99998731,1.0000127)"><tspan
            sodipodi:role="line"
            id="tspan1-5-6-3-8"
            style="text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
-           x="91.472923"
+           x="90.943748"
            y="52.358715">\GRPstat{Mind}</tspan></text>
       <g
          id="g84-24"
@@ -400,7 +408,7 @@
     </g>
     <g
        id="g89-8"
-       transform="matrix(1.1304318,0,0,1.1304605,37.758914,34.068864)"
+       transform="matrix(1.1304318,0,0,1.1304605,37.758914,49.943865)"
        style="stroke-width:0.884606">
       <rect
          style="fill:none;stroke:#000000;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
@@ -484,7 +492,7 @@
     </g>
     <g
        id="g89-59"
-       transform="matrix(1.1304318,0,0,1.1304605,12.116468,34.068864)"
+       transform="matrix(1.1304318,0,0,1.1304605,12.116468,49.943865)"
        style="stroke-width:0.884606">
       <rect
          style="fill:none;stroke:#000000;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
@@ -568,7 +576,7 @@
     </g>
     <g
        id="g89-7"
-       transform="matrix(1.1304318,0,0,1.1304605,-13.526,34.068864)"
+       transform="matrix(1.1304318,0,0,1.1304605,-13.526,49.943865)"
        style="stroke-width:0.884606">
       <rect
          style="fill:none;stroke:#000000;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
@@ -652,7 +660,7 @@
     </g>
     <g
        id="g89-17"
-       transform="matrix(1.1304318,0,0,1.1304605,37.758914,8.4257359)"
+       transform="matrix(1.1304318,0,0,1.1304605,37.758914,24.300737)"
        style="stroke-width:0.884606">
       <rect
          style="fill:none;stroke:#000000;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
@@ -736,7 +744,7 @@
     </g>
     <g
        id="g89-5"
-       transform="matrix(1.1304318,0,0,1.1304605,12.116477,8.4257359)"
+       transform="matrix(1.1304318,0,0,1.1304605,12.116477,24.300737)"
        style="stroke-width:0.884606">
       <rect
          style="fill:none;stroke:#000000;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
@@ -820,7 +828,7 @@
     </g>
     <g
        id="g89-63"
-       transform="matrix(1.1304318,0,0,1.1304605,-13.526,8.4257359)"
+       transform="matrix(1.1304318,0,0,1.1304605,-13.526,24.300737)"
        style="stroke-width:0.884606">
       <rect
          style="fill:none;stroke:#000000;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
@@ -904,7 +912,7 @@
     </g>
     <g
        id="g89-6"
-       transform="matrix(1.1304318,0,0,1.1304605,37.758914,-17.217381)"
+       transform="matrix(1.1304318,0,0,1.1304605,37.758914,-1.3423806)"
        style="stroke-width:0.884606">
       <rect
          style="fill:none;stroke:#000000;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
@@ -988,7 +996,7 @@
     </g>
     <g
        id="g89-1"
-       transform="matrix(1.1304318,0,0,1.1304605,12.116468,-17.217381)"
+       transform="matrix(1.1304318,0,0,1.1304605,12.116468,-1.3423806)"
        style="stroke-width:0.884606">
       <rect
          style="fill:none;stroke:#000000;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
@@ -1072,7 +1080,7 @@
     </g>
     <g
        id="g84-0"
-       transform="matrix(1.1304318,0,0,1.1304605,10.706897,-11.042801)"
+       transform="matrix(1.1304318,0,0,1.1304605,10.706897,4.832199)"
        style="stroke-width:0.884606">
       <rect
          style="fill:none;stroke:#808080;stroke-width:0.351078;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
@@ -1098,18 +1106,18 @@
     <text
        xml:space="preserve"
        style="font-size:2.6015px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
-       x="73.277405"
+       x="126.40363"
        y="8.0938158"
        id="text1"
        transform="scale(1.0003499,0.99965022)"><tspan
          sodipodi:role="line"
          id="tspan1"
          style="text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
-         x="73.277405"
+         x="126.40363"
          y="8.0938158">Archetype</tspan></text>
     <g
        id="g89"
-       transform="matrix(1.1304318,0,0,1.1304605,-13.526,-17.217381)"
+       transform="matrix(1.1304318,0,0,1.1304605,-13.526,-1.3423806)"
        style="stroke-width:0.884606">
       <rect
          style="fill:none;stroke:#000000;stroke-width:0.702157;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
@@ -1194,21 +1202,21 @@
     <text
        xml:space="preserve"
        style="font-size:2.6015px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
-       x="121.30329"
-       y="8.0684118"
+       x="72.832268"
+       y="8.0684128"
        id="text1-1"
        transform="scale(1.0003499,0.99965022)"><tspan
          sodipodi:role="line"
          id="tspan1-3"
          style="text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
-         x="121.30329"
-         y="8.0684118">Species</tspan></text>
+         x="72.832268"
+         y="8.0684128">Species</tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
        id="rect2"
        width="44.502953"
        height="8.22682"
-       x="72.743896"
+       x="125.88871"
        y="10.001107"
        ry="3.0015733" />
     <text
@@ -1264,28 +1272,28 @@
        id="rect2-7"
        width="30.052366"
        height="8.22682"
-       x="120.70272"
-       y="10.001107"
+       x="72.214729"
+       y="10.001108"
        ry="3.0015733" />
     <text
        xml:space="preserve"
        style="font-size:2.6015px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
-       x="155.04797"
-       y="8.0684128"
+       x="106.04797"
+       y="8.0684137"
        id="text1-1-7"
        transform="scale(1.0003499,0.99965022)"><tspan
          sodipodi:role="line"
          id="tspan1-3-1"
          style="text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
-         x="155.04797"
-         y="8.0684128">XP</tspan></text>
+         x="106.04797"
+         y="8.0684137">XP</tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
        id="rect2-7-1"
        width="16.461632"
        height="8.22682"
-       x="154.4592"
-       y="10.001108"
+       x="105.44204"
+       y="10.001109"
        ry="3.0015733" />
     <path
        style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
@@ -1505,21 +1513,21 @@
        id="rect1-1-80-9-86-5-1"
        width="14.872846"
        height="5.0946579"
-       x="74.098145"
-       y="123.50465"
+       x="104.26072"
+       y="139.90881"
        ry="1.5309297" />
     <text
        xml:space="preserve"
        style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
-       x="89.501297"
-       y="125.95189"
+       x="119.66425"
+       y="142.02368"
        id="text1-6-0-9-9-4-6"
        transform="scale(0.99998731,1.0000127)"><tspan
          sodipodi:role="line"
          id="tspan1-5-6-3-8-2-8"
          style="font-size:1.05833px;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
-         x="89.501297"
-         y="125.95189">\scriptsize \GRPstat{Gold}</tspan></text>
+         x="119.66425"
+         y="142.02368">\scriptsize \GRPstat{Gold}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
@@ -1621,6 +1629,138 @@
          style="font-size:1.05833px;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
          x="38.115307"
          y="105.94854">\scriptsize Wt</tspan></text>
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 74.627307,147.4998 H 95.34176 m 1.54453,0 h 4.31232"
+       id="path89-4-3-7-2-4-8-5-1"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 104.37363,154.9455 h 24.94779 m 1.54453,0 h 4.31232"
+       id="path89-4-3-7-2-4-8-5-1-93"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 104.37363,159.29711 h 24.94779 m 1.54453,0 h 4.31232"
+       id="path89-4-3-7-2-4-8-5-1-93-9"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 104.37364,163.64872 h 24.94777 m 1.54453,0 h 4.31232"
+       id="path89-4-3-7-2-4-8-5-1-93-8"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 74.627307,152.23817 h 20.714454 m 1.54453,0 h 4.312319"
+       id="path89-4-3-7-2-4-8-5-1-3"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 74.627307,156.97654 H 95.34176 m 1.54453,0 h 4.31232"
+       id="path89-4-3-7-2-4-8-5-1-8"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 74.627307,161.71491 h 20.714454 m 1.54453,0 h 4.312319"
+       id="path89-4-3-7-2-4-8-5-1-3-5"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 74.627308,166.45328 h 20.714453 m 1.54453,0 h 4.312319"
+       id="path89-4-3-7-2-4-8-5-1-9"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 74.627308,171.19165 h 20.714454 m 1.54453,0 h 4.312318"
+       id="path89-4-3-7-2-4-8-5-1-3-2"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 74.627307,175.93002 H 95.34176 m 1.54453,0 h 4.31232"
+       id="path89-4-3-7-2-4-8-5-1-31"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 74.627307,180.66839 H 95.34176 m 1.54453,0 h 4.31232"
+       id="path89-4-3-7-2-4-8-5-1-38"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 74.627305,185.40676 h 20.714454 m 1.54453,0 h 4.312321"
+       id="path89-4-3-7-2-4-8-5-1-3-7"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="74.628265"
+       y="142.02368"
+       id="text1-6-0-9-9-4-1-9-1"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-5-65-5"
+         style="font-size:1.05833px;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="74.628265"
+         y="142.02368">\scriptsize Cast Focuses</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="104.37495"
+       y="149.65192"
+       id="text1-6-0-9-9-4-1-9-1-5"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-5-65-5-0"
+         style="font-size:1.05833px;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="104.37495"
+         y="149.65192">\scriptsize Items</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="101.19992"
+       y="142.02368"
+       id="text1-6-0-9-9-4-1-9-9-2"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-5-65-9-7"
+         style="font-size:1.05833px;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="101.19992"
+         y="142.02368">\scriptsize Wt</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="135.17999"
+       y="149.65193"
+       id="text1-6-0-9-9-4-1-9-9-2-1"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-5-65-9-7-3"
+         style="font-size:1.05833px;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="135.17999"
+         y="149.65193">\scriptsize Wt</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="137.8759"
+       y="149.65193"
+       id="text1-6-0-9-9-4-1-9-1-5-4"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-5-65-5-0-6"
+         style="font-size:1.05833px;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="137.8759"
+         y="149.65193">\scriptsize Items</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="168.68094"
+       y="149.65195"
+       id="text1-6-0-9-9-4-1-9-9-2-1-0"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-5-65-9-7-3-6"
+         style="font-size:1.05833px;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="168.68094"
+         y="149.65195">\scriptsize Wt</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
@@ -1707,20 +1847,20 @@
        width="5.0466213"
        height="5.0946531"
        x="164.16138"
-       y="123.50467"
+       y="139.90884"
        ry="1.5309297" />
     <text
        xml:space="preserve"
        style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
-       x="163.63425"
-       y="125.95186"
+       x="163.63429"
+       y="142.02371"
        id="text1-6-0-9-9-4-2-7-0-6"
        transform="scale(0.99998731,1.0000127)"><tspan
          sodipodi:role="line"
          id="tspan1-5-6-3-8-2-3-7-3-7"
          style="font-size:1.05833px;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
-         x="163.63425"
-         y="125.95186">\scriptsize \GRPstat{Pack Wt}</tspan></text>
+         x="163.63429"
+         y="142.02371">\scriptsize \GRPstat{Pack Wt}</tspan></text>
     <g
        id="g4"
        transform="translate(-14.81667,-1.0583333)">
@@ -1751,63 +1891,251 @@
        width="19.666679"
        height="19.15057"
        x="73.09462"
-       y="21.403049"
+       y="37.278049"
        ry="2.99101" />
     <text
        xml:space="preserve"
        style="font-size:2.39278px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
        x="82.989189"
-       y="25.283648"
+       y="41.158447"
        id="text1-6-0-9-9-7"
        transform="scale(0.99998731,1.0000127)"><tspan
          sodipodi:role="line"
          id="tspan1-5-6-3-8-7"
          style="text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.793751"
          x="82.989189"
-         y="25.283648">\GRPstat{Wounds}</tspan></text>
+         y="41.158447">\GRPstat{Wounds}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
        x="91.464943"
-       y="38.404331"
+       y="54.279129"
        id="text1-6-0-9-9-7-7"
        transform="scale(0.99998731,1.0000127)"><tspan
          sodipodi:role="line"
          id="tspan1-5-6-3-8-7-1"
          style="font-size:1.05833px;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
          x="91.464943"
-         y="38.404331">\tiny \GRPability{Robust}</tspan></text>
+         y="54.279129">\tiny \GRPability{Robust}</tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
        id="rect2-6-8-1-8-6-0"
        width="98.284828"
        height="52.258335"
        x="72.510643"
-       y="121.91716"
+       y="138.32132"
        ry="3.0015733" />
     <text
        xml:space="preserve"
        style="font-size:2.16554px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;stroke:none;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
        x="135.41206"
-       y="23.827629"
+       y="39.267681"
        id="text2"
        transform="scale(0.9726018,1.02817)"><tspan
          sodipodi:role="line"
          id="tspan2"
          style="text-align:center;text-anchor:middle;fill:#999999;stroke:none;stroke-width:0.396875"
          x="135.41206"
-         y="23.827629">\resizebox{4.5cm}{1.8mm}{CHARACTERISTICS}</tspan></text>
+         y="39.267681">\resizebox{4.5cm}{1.8mm}{CHARACTERISTICS}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.16554px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;stroke:none;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
-       x="-81.964966"
+       x="-98.28717"
        y="73.097336"
        id="text2-1"
        transform="matrix(0,-0.9726018,1.02817,0,0,0)"><tspan
          sodipodi:role="line"
          id="tspan2-4"
          style="text-align:center;text-anchor:middle;fill:#999999;stroke:none;stroke-width:0.396875"
-         x="-81.964966"
+         x="-98.28717"
          y="73.097336">\resizebox{4.2cm}{1.8mm}{FOUNDATIONS}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.6015px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="126.4036"
+       y="22.91567"
+       id="text1-9-8"
+       transform="scale(1.0003499,0.99965022)"><tspan
+         sodipodi:role="line"
+         id="tspan1-8-2"
+         style="text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="126.4036"
+         y="22.91567">Used</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.6015px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="152.69753"
+       y="22.91567"
+       id="text1-9-8-0"
+       transform="scale(1.0003499,0.99965022)"><tspan
+         sodipodi:role="line"
+         id="tspan1-8-2-1"
+         style="text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="152.69753"
+         y="22.91567">Ranks</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.6015px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="169.27411"
+       y="22.91567"
+       id="text1-9-8-0-4"
+       transform="scale(1.0003499,0.99965022)"><tspan
+         sodipodi:role="line"
+         id="tspan1-8-2-1-0"
+         style="text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="169.27411"
+         y="22.91567">Bonus</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect2-6-4"
+       width="11.257272"
+       height="8.22682"
+       x="125.88871"
+       y="24.817774"
+       ry="3.0015733" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect2-6-4-6"
+       width="11.165243"
+       height="8.22682"
+       x="142.64406"
+       y="24.817774"
+       ry="3.0015733" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect2-6-4-6-1"
+       width="11.165243"
+       height="8.22682"
+       x="159.22643"
+       y="24.817774"
+       ry="3.0015733" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 104.37363,172.35193 h 24.94779 m 1.54453,0 h 4.31232"
+       id="path89-4-3-7-2-4-8-5-1-93-5"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 104.37363,168.00033 h 24.94779 m 1.54453,0 h 4.31232"
+       id="path89-4-3-7-2-4-8-5-1-93-5-1"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 104.37363,176.70354 h 24.94779 m 1.54453,0 h 4.31232"
+       id="path89-4-3-7-2-4-8-5-1-93-7"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 104.37363,181.05515 h 24.94779 m 1.54453,0 h 4.31232"
+       id="path89-4-3-7-2-4-8-5-1-93-54"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 104.37363,185.40676 h 24.94779 m 1.54453,0 h 4.31232"
+       id="path89-4-3-7-2-4-8-5-1-93-3"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 137.87415,154.9455 h 24.94779 m 1.54453,0 h 4.31232"
+       id="path89-4-3-7-2-4-8-5-1-93-4"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 137.87415,159.29711 h 24.94779 m 1.54453,0 h 4.31232"
+       id="path89-4-3-7-2-4-8-5-1-93-9-1"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 137.87416,163.64872 h 24.94777 m 1.54453,0 h 4.31232"
+       id="path89-4-3-7-2-4-8-5-1-93-8-2"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 137.87415,172.35193 h 24.94779 m 1.54453,0 h 4.31232"
+       id="path89-4-3-7-2-4-8-5-1-93-5-0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 137.87415,168.00033 h 24.94779 m 1.54453,0 h 4.31232"
+       id="path89-4-3-7-2-4-8-5-1-93-5-1-0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 137.87415,176.70354 h 24.94779 m 1.54453,0 h 4.31232"
+       id="path89-4-3-7-2-4-8-5-1-93-7-1"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 137.87415,181.05515 h 24.94779 m 1.54453,0 h 4.31232"
+       id="path89-4-3-7-2-4-8-5-1-93-54-4"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 137.87415,185.40676 h 24.94779 m 1.54453,0 h 4.31232"
+       id="path89-4-3-7-2-4-8-5-1-93-3-6"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.6015px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="72.748398"
+       y="23.205151"
+       id="text1-9-8-7"
+       transform="scale(1.0003499,0.99965022)"><tspan
+         sodipodi:role="line"
+         id="tspan1-8-2-7"
+         style="text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="72.748398"
+         y="23.205151">Languages</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect2-6-4-7"
+       width="49.688934"
+       height="8.2268219"
+       x="72.214729"
+       y="25.107101"
+       ry="2.9348297" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.396876;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 138.20431,31.98626 3.09651,-5.572308"
+       id="path84-26-1-4" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="156.5394"
+       y="30.852716"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="fill:#000000;stroke:none;stroke-width:0.396875"
+         x="156.5394"
+         y="30.852716">$+$</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect1-0-8"
+       width="20.441629"
+       height="20.442148"
+       x="72.510643"
+       y="194.28384"
+       ry="2.99101" />
+    <rect
+       style="fill:none;stroke:#808080;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect1-1-3-3"
+       width="8.3962889"
+       height="7.4089737"
+       x="73.707016"
+       y="206.10118"
+       ry="1.5309297" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.19639px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="82.719078"
+       y="198.30614"
+       id="text1-6-6-0-3"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-3-7-7"
+         style="font-size:1.19639px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="82.719078"
+         y="198.30614">\small \GRPability{Dexterity}</tspan></text>
   </g>
 </svg>

@@ -2,8 +2,8 @@
 
 \GRPindexhead{A}\par\nopagebreak
 
- \item \small Additional Advantage \hrulefill \hyperpage{8}
- \item \small Additional Disadvantage \hrulefill \hyperpage{8}
+ \item \small Additional Advantage \hrulefill \hyperpage{7}
+ \item \small Additional Disadvantage \hrulefill \hyperpage{7}
  \item \small Advantage \hrulefill \hyperpage{5}
 
   \indexspace
@@ -16,8 +16,8 @@
 
 \GRPindexhead{D}\par\nopagebreak
 
- \item \small Die Bonus \hrulefill \hyperpage{8}
- \item \small Die Penalty \hrulefill \hyperpage{8}
+ \item \small Die Bonus \hrulefill \hyperpage{7}
+ \item \small Die Penalty \hrulefill \hyperpage{7}
  \item \small Disadvantage \hrulefill \hyperpage{6}
 
   \indexspace
@@ -31,9 +31,9 @@
 \GRPindexhead{G}\par\nopagebreak
 
  \item \small Game Master \hrulefill \hyperpage{5}
- \item \small Group Roll \hrulefill \hyperpage{8}
-    \subitem Example \dotfill \hyperpage{9}
- \item \small Group Roll Contest \hrulefill \hyperpage{10}
+ \item \small Group Roll \hrulefill \hyperpage{7}
+    \subitem Example \dotfill \hyperpage{7}
+ \item \small Group Roll Contest \hrulefill \hyperpage{9}
 
   \indexspace
 
@@ -52,8 +52,8 @@
 
 \GRPindexhead{R}\par\nopagebreak
 
- \item \small Roll Contest \hrulefill \hyperpage{9}
-    \subitem Example \dotfill \hyperpage{9}
+ \item \small Roll Contest \hrulefill \hyperpage{8}
+    \subitem Example \dotfill \hyperpage{8}
  \item \small Roll notation \hrulefill \hyperpage{5}
 
   \indexspace

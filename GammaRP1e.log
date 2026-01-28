@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.14)  26 JAN 2026 22:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.14)  27 JAN 2026 19:54
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1462,20 +1462,9 @@ Package: xparse 2025-10-09 L3 Experimental document command parser
 \c@grpvertline=\count414
 \c@GRPbgsvgID=\count415
 \c@GRPbitecounter=\count416
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1056 	[blo
-            ck] % shape
-? q
-OK, entering \batchmode...
 \GammaRP1e@idxfile=\write4
 \openout4 = `GammaRP1e.idx'.
+
 
 Writing index file GammaRP1e.idx
 )
@@ -1483,9 +1472,9 @@ Writing index file GammaRP1e.idx
 LaTeX Warning: Unused global option(s):
     [9pt].
 
- (GammaRP1e.aux (chapters/Introduction.aux) (chapters/TheBasics.aux) (chapters/
-BuildingCharacter.aux) (chapters/GammaNebulaOverview.aux) (chapters/Mathematica
-lFormulas.aux))
+(GammaRP1e.aux (chapters/Introduction.aux) (chapters/TheBasics.aux)
+(chapters/BuildingCharacter.aux) (chapters/GammaNebulaOverview.aux)
+(chapters/MathematicalFormulas.aux))
 \openout1 = `GammaRP1e.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -1505,7 +1494,8 @@ LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 25.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 2
 5.
- (C:\Program Files\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
+
+(C:\Program Files\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
 LaTeX Font Info:    ... okay on input line 25.
@@ -1513,6 +1503,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1547,7 +1538,6 @@ LaTeX Font Info:    ... okay on input line 25.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count417
@@ -1561,8 +1551,7 @@ LaTeX Font Info:    ... okay on input line 25.
 \MPnumerator=\count421
 \makeMPintoPDFobject=\count422
 \everyMPtoPDFconversion=\toks51
-)
-(C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
@@ -1574,6 +1563,7 @@ LaTeX Info: Redefining \celsius on input line 25.
 Package gensymb Info: Faking symbols for \degree and \celsius on input line 25.
 
 
+
 Package gensymb Warning: Not defining \perthousand.
 
 LaTeX Info: Redefining \ohm on input line 25.
@@ -1582,7 +1572,7 @@ Package gensymb Info: Using \Omega for \ohm on input line 25.
 Package gensymb Warning: Not defining \micro.
 
 \c@lstlisting=\count423
- (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+(C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks52
 \inpenc@posthook=\toks53
@@ -1592,14 +1582,27 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 25.
- (GammaRP1e.out) (GammaRP1e.out)
+ (GammaRP1e.out)
+(GammaRP1e.out)
 \@outlinefile=\write5
 \openout5 = `GammaRP1e.out'.
 
+Package svg Info: Last page of `./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf' is
+ 1 on input line 30.
+ (svg-inkscape/GammaRPTitleLogo_svg-tex.pdf_tex
+<./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf, id=171, page=1, 192.85394pt x 201
+.496pt>
+File: ./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf , page1 us
+ed on input line 56.
+(pdftex.def)             Requested size: 216.81pt x 226.53485pt.
+)
 Package svg Info: Last page of `./svg-inkscape/TitleBG_svg-tex.pdf' is 1 on inp
 ut line 30.
- (svg-inkscape/TitleBG_svg-tex.pdf_tex
-<./svg-inkscape/TitleBG_svg-tex.pdf, id=171, page=1, 752.81262pt x 752.81262pt>
+
+(svg-inkscape/TitleBG_svg-tex.pdf_tex
+<./svg-inkscape/TitleBG_svg-tex.pdf, id=173, page=1, 752.81262pt x 752.81262pt>
 
 File: ./svg-inkscape/TitleBG_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/TitleBG_svg-tex.pdf, page 1>
@@ -1608,34 +1611,14 @@ ut line 56.
 (pdftex.def)             Requested size: 722.7pt x 722.74934pt.
 ) [1
 
+
 {C:/Users/nitin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Fi
 les/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc} <./svg-inkscape/TitleBG_svg-tex.p
-df>]
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.30 
-      [2
+df> <./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf
 
-]
-Package svg Info: Last page of `./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf' is
- 1 on input line 30.
- (svg-inkscape/GammaRPTitleLogo_svg-tex.pdf_tex
-<./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf, id=2283, page=1, 192.85394pt x 20
-1.496pt>
-File: ./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf , page1 us
-ed on input line 56.
-(pdftex.def)             Requested size: 216.81pt x 226.53485pt.
-)
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.30 
-      [1 <./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf>]
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+>]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
@@ -1676,8 +1659,8 @@ LaTeX Font Warning: Font shape `LGR/qbk/m/n' undefined
 Chapter 2.
 Package svg Info: Last page of `./svg-inkscape/twodice_svg-tex.pdf' is 1 on inp
 ut line 9.
- (svg-inkscape/twodice_svg-tex.pdf_tex
-<./svg-inkscape/twodice_svg-tex.pdf, id=2424, page=1, 1111.38797pt x 904.86887p
+(svg-inkscape/twodice_svg-tex.pdf_tex
+<./svg-inkscape/twodice_svg-tex.pdf, id=2417, page=1, 1111.38797pt x 904.86887p
 t>
 File: ./svg-inkscape/twodice_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/twodice_svg-tex.pdf, page 1>
@@ -1685,95 +1668,20 @@ Package pdftex.def Info: ./svg-inkscape/twodice_svg-tex.pdf , page1 used on inp
 ut line 56.
 (pdftex.def)             Requested size: 69.9006pt x 56.89934pt.
 )
-! Missing number, treated as zero.
-<to be read again> 
-                   b
-l.12 \section{Dice Rolling Basics}
-                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   b
-l.12 \section{Dice Rolling Basics}
-                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   l
-l.12 \section{Dice Rolling Basics}
-                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   l
-l.12 \section{Dice Rolling Basics}
-                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   [
-l.12 \section{Dice Rolling Basics}
-                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   [
-l.12 \section{Dice Rolling Basics}
-                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-! Package titlesec Error: Entered in horizontal mode.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 \section{Dice Rolling Basics}
-                                  
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
-
-
-Underfull \hbox (badness 6300) in paragraph at lines 12--12
-[]\T1/qbk/m/n/10 l[[]\T1/qbk/b/n/14.4 Dice Rolling Ba-
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 12--12
+|  []  []
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+qbk on input line 1
 6.
- (C:\Program Files\MiKTeX\tex/latex/tex-gyre\ts1qbk.fd
+(C:\Program Files\MiKTeX\tex/latex/tex-gyre\ts1qbk.fd
 File: ts1qbk.fd 2009/09/25 v1.2 font definition file for TS1/qbk
 )
 Package svg Info: Last page of `./svg-inkscape/onedice_svg-tex.pdf' is 1 on inp
 ut line 27.
- (svg-inkscape/onedice_svg-tex.pdf_tex
-<./svg-inkscape/onedice_svg-tex.pdf, id=2426, page=1, 1086.36443pt x 1019.55269
+
+(svg-inkscape/onedice_svg-tex.pdf_tex
+<./svg-inkscape/onedice_svg-tex.pdf, id=2419, page=1, 1086.36443pt x 1019.55269
 pt>
 File: ./svg-inkscape/onedice_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/onedice_svg-tex.pdf, page 1>
@@ -1784,7 +1692,7 @@ ut line 56.
 Package svg Info: Last page of `./svg-inkscape/onedice_b_svg-tex.pdf' is 1 on i
 nput line 31.
  (svg-inkscape/onedice_b_svg-tex.pdf_tex
-<./svg-inkscape/onedice_b_svg-tex.pdf, id=2428, page=1, 1034.91122pt x 1037.043
+<./svg-inkscape/onedice_b_svg-tex.pdf, id=2421, page=1, 1034.91122pt x 1037.043
 33pt>
 File: ./svg-inkscape/onedice_b_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/onedice_b_svg-tex.pdf, page 1>
@@ -2245,240 +2153,24 @@ Overfull \hbox (2.31404pt too wide) in paragraph at lines 96--97
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-Overfull \hbox (2.04079pt too wide) in paragraph at lines 98--98
- []|[]| 
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 100--100
+|  []  []
  []
 
 
-Overfull \hbox (1.46704pt too wide) in paragraph at lines 98--98
- []|[]| 
+Overfull \hbox (6.65273pt too wide) in paragraph at lines 106--106
+|  []  []
+ []
+
+[6]
+Overfull \hbox (6.65273pt too wide) in paragraph at lines 113--113
+|  []  []
  []
 
 
-Overfull \hbox (1.46704pt too wide) in paragraph at lines 98--98
- []|[]| 
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 120--120
+|  []  []
  []
-
-
-Overfull \hbox (1.46704pt too wide) in paragraph at lines 98--98
- []|[]| 
- []
-
-
-Overfull \hbox (1.46704pt too wide) in paragraph at lines 98--98
- []|[]| 
- []
-
-
-Overfull \hbox (1.46704pt too wide) in paragraph at lines 98--98
- []|[]| 
- []
-
-
-Overfull \hbox (1.46704pt too wide) in paragraph at lines 98--98
- []|[]| 
- []
-
-
-Overfull \hbox (1.13104pt too wide) in paragraph at lines 98--98
- []|[]| 
- []
-
-
-Overfull \hbox (1.13104pt too wide) in paragraph at lines 98--98
- []|[]| 
- []
-
-
-Overfull \hbox (1.13104pt too wide) in paragraph at lines 98--98
- []|[]| 
- []
-
-
-Overfull \hbox (1.13104pt too wide) in paragraph at lines 98--98
- []|[]| 
- []
-
-
-Overfull \hbox (1.13104pt too wide) in paragraph at lines 98--98
- []|[]| 
- []
-
-
-Overfull \hbox (1.13104pt too wide) in paragraph at lines 98--98
- []|[]| 
- []
-
-
-Overfull \hbox (1.13104pt too wide) in paragraph at lines 98--98
- []|[]| 
- []
-
-
-Overfull \hbox (1.13104pt too wide) in paragraph at lines 98--98
- []|[]| 
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   b
-l.100 \section{Modifying Rolls}
-                               
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   b
-l.100 \section{Modifying Rolls}
-                               
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   l
-l.100 \section{Modifying Rolls}
-                               
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   l
-l.100 \section{Modifying Rolls}
-                               
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   [
-l.100 \section{Modifying Rolls}
-                               
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   [
-l.100 \section{Modifying Rolls}
-                               
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-! Package titlesec Error: Entered in horizontal mode.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.100 \section{Modifying Rolls}
-                               
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-|[]\T1/qbk/b/n/12 Additional Ad-van-tage
- []
-
-! Missing number, treated as zero.
-<to be read again> 
-                   b
-l.120 \section{Group Rolls}
-                           
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   b
-l.120 \section{Group Rolls}
-                           
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   l
-l.120 \section{Group Rolls}
-                           
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   l
-l.120 \section{Group Rolls}
-                           
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   [
-l.120 \section{Group Rolls}
-                           
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   [
-l.120 \section{Group Rolls}
-                           
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-! Package titlesec Error: Entered in horizontal mode.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.120 \section{Group Rolls}
-                           
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
 
 
 Overfull \hbox (5.0317pt too wide) in paragraph at lines 129--130
@@ -2515,165 +2207,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--148
 \T1/qbk/m/n/10 thick mud and al-most
  []
 
- [8]
-! Missing number, treated as zero.
-<to be read again> 
-                   b
-l.151 \section{Roll Contests}
-                             
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+[7]
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 151--151
+|  []  []
+ []
 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   b
-l.151 \section{Roll Contests}
-                             
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   l
-l.151 \section{Roll Contests}
-                             
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   l
-l.151 \section{Roll Contests}
-                             
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   [
-l.151 \section{Roll Contests}
-                             
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   [
-l.151 \section{Roll Contests}
-                             
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-! Package titlesec Error: Entered in horizontal mode.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.151 \section{Roll Contests}
-                             
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
-
- [9]) [10]
+[8]) [9]
 \openout2 = `chapters/BuildingCharacter.aux'.
 
- (chapters/BuildingCharacter.tex
+ (chapters/BuildingCharacter.tex [10
+
+
+
+
+]
 Chapter 3.
-! Missing number, treated as zero.
-<to be read again> 
-                   b
-l.7 \section{Fundamental Attributes}
-                                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   b
-l.7 \section{Fundamental Attributes}
-                                    
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   l
-l.7 \section{Fundamental Attributes}
-                                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   l
-l.7 \section{Fundamental Attributes}
-                                    
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   [
-l.7 \section{Fundamental Attributes}
-                                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   [
-l.7 \section{Fundamental Attributes}
-                                    
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-! Package titlesec Error: Entered in horizontal mode.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 \section{Fundamental Attributes}
-                                    
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-[]\T1/qbk/m/n/10 l[[]\T1/qbk/b/n/14.4 Fundamental At-
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 7--7
+|  []  []
  []
 
 
@@ -2686,23 +2237,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 []\T1/qbk/m/n/10 8 points to dis-tribute among
  []
 
- [11
+[11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [12]
+Overfull \hbox (6.65273pt too wide) in paragraph at lines 127--127
+|  []  []
+ []
 
-
-
-] [12] [13] [14]
+[13]
 Package svg Info: Last page of `./svg-inkscape/ProxyGrid2_svg-tex.pdf' is 2 on 
 input line 142.
  (svg-inkscape/ProxyGrid2_svg-tex.pdf_tex
-<./svg-inkscape/ProxyGrid2_svg-tex.pdf, id=2532, page=1, 297.81435pt x 260.1439
+<./svg-inkscape/ProxyGrid2_svg-tex.pdf, id=2520, page=1, 297.81435pt x 260.1439
 8pt>
 File: ./svg-inkscape/ProxyGrid2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/ProxyGrid2_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/ProxyGrid2_svg-tex.pdf , page1 used on 
 input line 56.
 (pdftex.def)             Requested size: 181.71233pt x 158.72728pt.
-<./svg-inkscape/ProxyGrid2_svg-tex.pdf, id=2533, page=2, 297.81435pt x 260.1439
+<./svg-inkscape/ProxyGrid2_svg-tex.pdf, id=2521, page=2, 297.81435pt x 260.1439
 8pt>
 File: ./svg-inkscape/ProxyGrid2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/ProxyGrid2_svg-tex.pdf, page 2>
@@ -2712,8 +2266,9 @@ input line 59.
 )
 Package svg Info: Last page of `./svg-inkscape/ProxyGrid4_svg-tex.pdf' is 1 on 
 input line 147.
- (svg-inkscape/ProxyGrid4_svg-tex.pdf_tex
-<./svg-inkscape/ProxyGrid4_svg-tex.pdf, id=2535, page=1, 292.46968pt x 260.1439
+
+(svg-inkscape/ProxyGrid4_svg-tex.pdf_tex
+<./svg-inkscape/ProxyGrid4_svg-tex.pdf, id=2523, page=1, 292.46968pt x 260.1439
 8pt>
 File: ./svg-inkscape/ProxyGrid4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/ProxyGrid4_svg-tex.pdf, page 1>
@@ -2721,12 +2276,17 @@ Package pdftex.def Info: ./svg-inkscape/ProxyGrid4_svg-tex.pdf , page1 used on
 input line 56.
 (pdftex.def)             Requested size: 181.71233pt x 161.62498pt.
 )
+Overfull \hbox (6.65273pt too wide) in paragraph at lines 162--162
+|  []  []
+ []
+
+
 Underfull \hbox (badness 7030) in paragraph at lines 175--176
 []\T1/qbk/m/n/10 If you de-plete all 3 foun-da-tions
  []
 
- [15 <./svg-inkscape/ProxyGrid2_svg-tex.pdf> <./svg-inkscape/ProxyGrid2_svg-tex
-.pdf
+[14 <./svg-inkscape/ProxyGrid2_svg-tex.pdf> <./svg-inkscape/ProxyGrid2_svg-tex.
+pdf
 
 pdfTeX warning: pdflatex.exe (file ./svg-inkscape/ProxyGrid2_svg-tex.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
@@ -2735,332 +2295,65 @@ inclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./svg-inkscape/ProxyGrid4_svg-tex.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
 >]
-! Missing number, treated as zero.
-<to be read again> 
-                   b
-l.179 \section{Wounds}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   b
-l.179 \section{Wounds}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   l
-l.179 \section{Wounds}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   l
-l.179 \section{Wounds}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   [
-l.179 \section{Wounds}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   [
-l.179 \section{Wounds}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 179--179
+|  []  []
+ []
 
 
-! Package titlesec Error: Entered in horizontal mode.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.179 \section{Wounds}
-                      
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   b
-l.187 \section{Species Bonuses}
-                               
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   b
-l.187 \section{Species Bonuses}
-                               
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   l
-l.187 \section{Species Bonuses}
-                               
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   l
-l.187 \section{Species Bonuses}
-                               
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   [
-l.187 \section{Species Bonuses}
-                               
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   [
-l.187 \section{Species Bonuses}
-                               
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 187--187
+|  []  []
+ []
 
 
-! Package titlesec Error: Entered in horizontal mode.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.187 \section{Species Bonuses}
-                               
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
+LaTeX Warning: Reference `chap:species' on page 15 undefined on input line 192.
 
 
-LaTeX Warning: Reference `chap:species' on page 16 undefined on input line 192.
+
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 194--194
+|  []  []
+ []
 
 
-! Missing number, treated as zero.
-<to be read again> 
-                   b
-l.194 \section{Archetypes}
-                          
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   b
-l.194 \section{Archetypes}
-                          
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   l
-l.194 \section{Archetypes}
-                          
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   l
-l.194 \section{Archetypes}
-                          
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   [
-l.194 \section{Archetypes}
-                          
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   [
-l.194 \section{Archetypes}
-                          
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-! Package titlesec Error: Entered in horizontal mode.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.194 \section{Archetypes}
-                          
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
-
-
+ [15]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17]
-! Missing number, treated as zero.
-<to be read again> 
-                   b
-l.222 \section{Loadout Overview}
-                                
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   b
-l.222 \section{Loadout Overview}
-                                
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   l
-l.222 \section{Loadout Overview}
-                                
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   l
-l.222 \section{Loadout Overview}
-                                
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   [
-l.222 \section{Loadout Overview}
-                                
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   [
-l.222 \section{Loadout Overview}
-                                
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 222--222
+|  []  []
+ []
 
 
-! Package titlesec Error: Entered in horizontal mode.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.222 \section{Loadout Overview}
-                                
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
-
-
-LaTeX Warning: Reference `chap:loadout_options' on page 18 undefined on input l
+LaTeX Warning: Reference `chap:loadout_options' on page 17 undefined on input l
 ine 226.
 
 
-LaTeX Warning: Reference `sec:casts' on page 18 undefined on input line 242.
+Overfull \hbox (6.65273pt too wide) in paragraph at lines 230--230
+|  []  []
+ []
 
- [18]
+
+LaTeX Warning: Reference `sec:casts' on page 17 undefined on input line 242.
+
+
+Overfull \hbox (6.65273pt too wide) in paragraph at lines 244--244
+|  []  []
+ []
+
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 248--249
 []$ \T1/qbk/m/n/10 by de-plet-ing their
  []
 
 
-LaTeX Warning: Reference `sec:augments' on page 19 undefined on input line 254.
+LaTeX Warning: Reference `sec:augments' on page 18 undefined on input line 254.
 
+
+
+Overfull \hbox (6.65273pt too wide) in paragraph at lines 256--256
+|  []  []
+ []
 
 
 Underfull \hbox (badness 6016) in paragraph at lines 260--261
@@ -3068,427 +2361,269 @@ Underfull \hbox (badness 6016) in paragraph at lines 260--261
  []
 
 
-LaTeX Warning: Reference `sec:equipment' on page 19 undefined on input line 266
+LaTeX Warning: Reference `sec:equipment' on page 18 undefined on input line 266
 .
+
+
+Overfull \hbox (6.65273pt too wide) in paragraph at lines 268--268
+|  []  []
+ []
 
 
 Underfull \hbox (badness 6792) in paragraph at lines 272--273
 \T1/qbk/m/n/10 turn-based) game-play how-ever many
  []
 
-! Missing number, treated as zero.
-<to be read again> 
-                   b
-l.274 \section{Languages}
-                         
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   b
-l.274 \section{Languages}
-                         
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 274--274
+|  []  []
+ []
 
-! Missing number, treated as zero.
-<to be read again> 
-                   l
-l.274 \section{Languages}
-                         
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   l
-l.274 \section{Languages}
-                         
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   [
-l.274 \section{Languages}
-                         
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   [
-l.274 \section{Languages}
-                         
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-! Package titlesec Error: Entered in horizontal mode.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.274 \section{Languages}
-                         
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
-
-
-Overfull \vbox (3.44998pt too high) has occurred while \output is active []
-
- [19]
-! Missing number, treated as zero.
-<to be read again> 
-                   b
-l.293 \section{Skills}
-                      \label{sec:skills}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   b
-l.293 \section{Skills}
-                      \label{sec:skills}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   l
-l.293 \section{Skills}
-                      \label{sec:skills}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   l
-l.293 \section{Skills}
-                      \label{sec:skills}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   [
-l.293 \section{Skills}
-                      \label{sec:skills}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   [
-l.293 \section{Skills}
-                      \label{sec:skills}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-! Package titlesec Error: Entered in horizontal mode.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.293 \section{Skills}
-                      \label{sec:skills}
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
-
- [20]
-! Missing number, treated as zero.
-<to be read again> 
-                   b
-l.336 \section{Character Building Overview}
-                                           \label{sec:character_building_ove...
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   b
-l.336 \section{Character Building Overview}
-                                           \label{sec:character_building_ove...
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   l
-l.336 \section{Character Building Overview}
-                                           \label{sec:character_building_ove...
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   l
-l.336 \section{Character Building Overview}
-                                           \label{sec:character_building_ove...
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   [
-l.336 \section{Character Building Overview}
-                                           \label{sec:character_building_ove...
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   [
-l.336 \section{Character Building Overview}
-                                           \label{sec:character_building_ove...
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-! Package titlesec Error: Entered in horizontal mode.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.336 \section{Character Building Overview}
-                                           \label{sec:character_building_ove...
-
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
-[]\T1/qbk/m/n/10 l[[]\T1/qbk/b/n/14.4 Character Build-
+[18]
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 293--293
+|  []  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 336--336
+|  []  []
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
 []\T1/qbk/m/n/10 Set your $[]$ to your
  []
 
- [21]
-Underfull \hbox (badness 5231) in paragraph at lines 350--351
+
+Underfull \hbox (badness 5231) in paragraph at lines 351--352
 []\T1/qbk/m/n/10 Choose a num-ber of aug-ments
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--351
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
 \T1/qbk/m/n/10 less than or equal to your
  []
 
- [22]
-Package svg Info: Last page of `./svg-inkscape/Charsheet_svg-tex.pdf' is 26 on 
-input line 355.
+[22]
+Package svg Info: Calling Inkscape on input line 356.
+runsystem(inkscape "art/BuildingCharacter/Charsheet.svg" -D --export-latex --ex
+port-filename="Charsheet_svg-tex.pdf")...executed.
+
+runsystem(if not exist "./svg-inkscape/" mkdir "./svg-inkscape/")...executed.
+
+runsystem(move "Charsheet_svg-tex.pdf" "./svg-inkscape/Charsheet_svg-tex.pdf").
+..executed.
+
+runsystem(move "Charsheet_svg-tex.pdf_tex" "./svg-inkscape/Charsheet_svg-tex.pd
+f_tex")...executed.
+
+Package svg Info: Last page of `./svg-inkscape/Charsheet_svg-tex.pdf' is 30 on 
+input line 356.
  (svg-inkscape/Charsheet_svg-tex.pdf_tex
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2599, page=1, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2593, page=1, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page1 used on i
 nput line 56.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2600, page=2, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2594, page=2, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page2 used on i
 nput line 58.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2601, page=3, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2595, page=3, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page3 used on i
 nput line 60.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2602, page=4, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2596, page=4, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 4>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page4 used on i
 nput line 62.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2603, page=5, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2597, page=5, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 5>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page5 used on i
 nput line 64.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2604, page=6, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2598, page=6, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 6>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page6 used on i
 nput line 66.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2605, page=7, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2599, page=7, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 7>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page7 used on i
 nput line 68.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2606, page=8, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2600, page=8, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 8>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page8 used on i
 nput line 74.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2607, page=9, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2601, page=9, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 9>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page9 used on i
 nput line 80.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2608, page=10, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2602, page=10, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 10>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page10 used on 
 input line 86.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2609, page=11, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2603, page=11, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 11>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page11 used on 
 input line 92.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2610, page=12, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2604, page=12, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 12>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page12 used on 
 input line 98.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2611, page=13, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2605, page=13, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 13>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page13 used on 
 input line 104.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2612, page=14, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2606, page=14, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 14>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page14 used on 
 input line 110.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2613, page=15, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2607, page=15, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 15>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page15 used on 
 input line 116.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2614, page=16, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2608, page=16, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 16>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page16 used on 
 input line 118.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2615, page=17, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2609, page=17, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 17>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page17 used on 
 input line 125.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2616, page=18, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2610, page=18, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 18>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page18 used on 
 input line 127.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2617, page=19, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2611, page=19, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 19>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page19 used on 
 input line 129.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2618, page=20, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2612, page=20, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 20>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page20 used on 
 input line 131.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2619, page=21, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2613, page=21, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 21>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page21 used on 
 input line 133.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2620, page=22, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2614, page=22, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 22>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page22 used on 
 input line 137.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2621, page=23, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2615, page=23, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 23>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page23 used on 
-input line 149.
+input line 144.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2622, page=24, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2616, page=24, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 24>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page24 used on 
-input line 151.
+input line 156.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2623, page=25, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2617, page=25, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 25>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page25 used on 
-input line 153.
+input line 158.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2624, page=26, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2618, page=26, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 26>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page26 used on 
-input line 156.
+input line 160.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2619, page=27, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 27>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page27 used on 
+input line 163.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2620, page=28, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 28>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page28 used on 
+input line 169.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2621, page=29, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 29>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page29 used on 
+input line 171.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2622, page=30, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 30>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page30 used on 
+input line 173.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
 ) [23 <./svg-inkscape/Charsheet_svg-tex.pdf> <./svg-inkscape/Charsheet_svg-tex.
 pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
 
 pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
@@ -3597,101 +2732,32 @@ nclusion: multiple pdfs with page group included in a single page
 
  (chapters/GammaNebulaOverview.tex
 Chapter 4.
-! Missing number, treated as zero.
-<to be read again> 
-                   b
-l.9 \section{A brief history}
-                             
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   b
-l.9 \section{A brief history}
-                             
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 9--9
+|  []  []
+ []
 
-! Missing number, treated as zero.
-<to be read again> 
-                   l
-l.9 \section{A brief history}
-                             
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   l
-l.9 \section{A brief history}
-                             
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   [
-l.9 \section{A brief history}
-                             
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   [
-l.9 \section{A brief history}
-                             
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+[27
 
 
-! Package titlesec Error: Entered in horizontal mode.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 \section{A brief history}
-                             
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
-
- [27
+]) [28
 
 
-]) [28] [29
 
-
+] [29
 
 ] [30]
 \openout2 = `chapters/MathematicalFormulas.aux'.
 
- (chapters/MathematicalFormulas.tex
-Appendix A.
-) [31
+ (chapters/MathematicalFormulas.tex) [31
 
 
 ] [32
 
 
 
-] (GammaRP1e.lof)
+]
+(GammaRP1e.lof)
 \tf@lof=\write7
 \openout7 = `GammaRP1e.lof'.
 
@@ -3713,33 +2779,32 @@ wed).
 
  (GammaRP1e.ind) [37
 
-] (GammaRP1e.aux (chapters/Introduction.aux) (chapters/TheBasics.aux) (chapters
-/BuildingCharacter.aux) (chapters/GammaNebulaOverview.aux) (chapters/Mathematic
-alFormulas.aux))
+]
+(GammaRP1e.aux (chapters/Introduction.aux) (chapters/TheBasics.aux)
+(chapters/BuildingCharacter.aux) (chapters/GammaNebulaOverview.aux)
+(chapters/MathematicalFormulas.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-06>
  ***********
+
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `GammaRP1e.out' has not changed.
-(rerunfilecheck)             Checksum: 17BFDAB9C45FDDEB30B05D76E668DBB2;4323.
+(rerunfilecheck)             Checksum: 5C560E73271627335F6351879DF1CDD8;4323.
  ) 
 Here is how much of TeX's memory you used:
- 37170 strings out of 467871
- 758543 string characters out of 5428442
- 1716530 words of memory out of 5000000
- 65227 multiletter control sequences out of 15000+600000
- 744541 words of font info for 94 fonts, out of 8000000 for 9000
+ 37138 strings out of 467871
+ 758347 string characters out of 5428442
+ 1510634 words of memory out of 5000000
+ 65194 multiletter control sequences out of 15000+600000
+ 741394 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,28n,122p,1537b,1626s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,28n,122p,1537b,1628s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type
@@ -3753,9 +2818,9 @@ eek/grmn1000.pfb><C:/Program Files/MiKTeX/fonts/type1/public/tex-gyre/qbkb.pfb>
 <C:/Program Files/MiKTeX/fonts/type1/public/tex-gyre/qbkbi.pfb><C:/Program File
 s/MiKTeX/fonts/type1/public/tex-gyre/qbkr.pfb><C:/Program Files/MiKTeX/fonts/ty
 pe1/public/tex-gyre/qbkri.pfb>
-Output written on GammaRP1e.pdf (43 pages, 1608879 bytes).
+Output written on GammaRP1e.pdf (41 pages, 1609505 bytes).
 PDF statistics:
- 2843 PDF objects out of 2984 (max. 8388607)
- 115 named destinations out of 1000 (max. 500000)
- 743 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2840 PDF objects out of 2984 (max. 8388607)
+ 116 named destinations out of 1000 (max. 500000)
+ 763 words of extra memory for PDF output out of 10000 (max. 10000000)
 

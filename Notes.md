@@ -178,13 +178,13 @@ Practice Develop   Train
 Explore   Augment    Socialize
 
 
-Study - Roll Precision of Mind (Memory). Increment your study counter by the number of successes you get. When your study counter hits 12 - you reset it to 0 and learn a new cast of your choice (not automatically prepped).
+Study - Roll Precision of Mind (Memory). Increment your study counter by the number of successes you get. When your study counter hits 12 - you reset it to 0 and create a new wt 0 cast focus of your choice (not automatically prepped).
 
 Scavenge - Roll Strength of Mind (Intellect). Gain a number of scavenged loot equal to the number of successes you get. Ask your DM what loot you obtain
 
 Tinker - Roll Grace of Mind (Insight). Increment your tinker counter by the number of successes you get. When your tinker counter hits 12 - you may create a new item of craft grade 1 OR you may create an upgrade that would increase the craft grade of another item by 1 OR you may increase the amount of grade of a previously created upgrade by 1. Upgrades must then be applied with a separate Craft skill roll, you do not need to finalize the properties of the upgrade until your final application of the upgrade.
 
-Practice - Roll Precision of Body (Dexterity) - Increment your practice counter by the number of successes you get. When your practice counter hits 12, reset it to 0 and you may increase the rank of a Talent by 1 (but not beyond the usual maximum of 5)
+Practice - Roll Precision of Body (Dexterity) - Increment your practice counter by the number of successes you get. When your practice counter hits 12, reset it to 0 and you may increase the rank of a Skill by 1 (but not beyond the usual maximum of 3)
 
 Develop - Roll for Strength of Body (Fortitude). increment your Development counter by the number of successes you get. When your Development counter hits 12, reset it to 0 and gain 1 XP.
 
