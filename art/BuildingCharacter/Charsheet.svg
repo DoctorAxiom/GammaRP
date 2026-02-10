@@ -24,12 +24,12 @@
      inkscape:deskcolor="#313131"
      inkscape:document-units="mm"
      labelstyle="default"
-     inkscape:zoom="1.4375"
-     inkscape:cx="325.56522"
-     inkscape:cy="204.17391"
-     inkscape:window-width="2880"
-     inkscape:window-height="1514"
-     inkscape:window-x="2869"
+     inkscape:zoom="0.71875"
+     inkscape:cx="125.21739"
+     inkscape:cy="551.65217"
+     inkscape:window-width="1920"
+     inkscape:window-height="1094"
+     inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer2" />
@@ -55,7 +55,7 @@
      inkscape:label="Background"
      sodipodi:insensitive="true">
     <rect
-       style="opacity:0.1;fill:#ffffff;fill-opacity:1;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       style="opacity:0.3;fill:#ffffff;fill-opacity:1;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
        id="rect44"
        width="177.8"
        height="254"
@@ -2100,15 +2100,15 @@
        id="path84-26-1-4" />
     <text
        xml:space="preserve"
-       style="font-size:5.64444px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
-       x="156.5394"
-       y="30.852716"
+       style="font-size:0.898842px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="156.41652"
+       y="30.575193"
        id="text3"><tspan
          sodipodi:role="line"
          id="tspan3"
          style="fill:#000000;stroke:none;stroke-width:0.396875"
-         x="156.5394"
-         y="30.852716">$+$</tspan></text>
+         x="156.41652"
+         y="30.575193">\Large $+$</tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
        id="rect1-0-8"

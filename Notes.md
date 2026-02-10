@@ -81,7 +81,6 @@ The total weight of things you can have in your personal inventory (aside from e
 
 Augments - body augments you can have active at any given time (runes, cybernetics, implants, etc.) Typically augments should be things that passively enhance your body at all times, but some augments may also have a fixed number of uses per day. Your MAX AUGMENTS, the total number of augments you can have active without penalty, is initially equal to your HEART score. If you have more active augments than this you will DEPLETE your HEART score.
 
-
 If you change your loadout of equipped items, active augments, inventory items, or prepped casts during turn-based gameplay, you will DEPLETE your GRACE score. You can change your loadout without penalty during open gameplay however many times you like.
 
 
@@ -156,12 +155,14 @@ Attunements- Attunements take up 2 augment slots. Attunements have skill trees o
 
 ### Downtime:
 
-1. perform downtime actions - the GM must grant a minimum of 2 downtime actions. They may grant an additional bonus downtime action as appropriate
+1. perform downtime actions - the GM must grant a minimum of 2 downtime actions. They may grant an additional bonus downtime action as appropriate, and rarely may grant an additional 2 bonus downtime actions.
 
-If one of your actions is NOT sleep/rest, deplete ONE Foundation of your choice (Mind, Body, Heart) in ADDITION to NOT resetting your depleted fundamentals
+If one of your actions is NOT Recuperate, deplete ONE Foundation of your choice (Mind, Body, Heart) in ADDITION to NOT resetting your depleted fundamentals
 
 Recommended action:
-Sleep - reset any depleted fundamentals.
+Recuperate - Consumes the equivalent of 1 ration.
+       Your character eats and sleeps (if applicable) and tends to their wounds.
+       reset any depleted fundamentals.
        reset cast uses
        reset loadout change uses
        reset uses of an archetype
@@ -182,13 +183,13 @@ Study - Roll Precision of Mind (Memory). Increment your study counter by the num
 
 Scavenge - Roll Strength of Mind (Intellect). Gain a number of scavenged loot equal to the number of successes you get. Ask your DM what loot you obtain
 
-Tinker - Roll Grace of Mind (Insight). Increment your tinker counter by the number of successes you get. When your tinker counter hits 12 - you may create a new item of craft grade 1 OR you may create an upgrade that would increase the craft grade of another item by 1 OR you may increase the amount of grade of a previously created upgrade by 1. Upgrades must then be applied with a separate Craft skill roll, you do not need to finalize the properties of the upgrade until your final application of the upgrade.
+Tinker - Roll Grace of Mind (Insight). Increment your tinker counter by the number of successes you get. When your tinker counter hits 12 - you may create a new item of craft grade 1 OR you may create an upgrade that would increase the craft grade of another item by 1 OR you may increase the amount of grade of a previously created upgrade by 1. Upgrades must be then applied at any point during freeform gameplay. you do not need to finalize the properties of the upgrade until your final application of the upgrade.
 
-Practice - Roll Precision of Body (Dexterity) - Increment your practice counter by the number of successes you get. When your practice counter hits 12, reset it to 0 and you may increase the rank of a Skill by 1 (but not beyond the usual maximum of 3)
+Practice - Roll Precision of Body (Dexterity) - Increment your practice counter by the number of successes you get. When your practice counter hits 12, reset it to 0, and you may increase the rank of a skill that has 1 rank to 2 ranks. This may be a skill on either your own character, or on any character that has been nearby for significant periods of time who you ostensibly could have been practicing with.
 
-Develop - Roll for Strength of Body (Fortitude). increment your Development counter by the number of successes you get. When your Development counter hits 12, reset it to 0 and gain 1 XP.
+Develop - Roll for Strength of Body (Fortitude). increment your Development counter by the number of successes you get. When your Development counter hits 12, reset it to 0 and grant yourself or any other player character close to you 1 XP.
 
-Train - Roll Grace of Body (Athletics). Increment your Training counter by the number of successes you get. When your Training counter hits 12, reset it to 0 and you may add 1 rank to a Skill that you do not have any ranks in.
+Train - Roll Grace of Body (Athletics). Increment your Training counter by the number of successes you get. When your Training counter hits 12, reset it to 0 and you may add 1 rank to a Skill that has no ranks in it. This may be a skill on either your own character, or on any character that has been nearby for significant periods of time who you ostensibly could have been practicing with.
 
 Explore - Roll Precision of Heart (Perception). If successful, Roll from the exploration table to determine a new area that your character discovers. You may adjust your table roll by a number up to the number of successes you got on the exploration roll.
 
@@ -206,17 +207,15 @@ Roll   Discovery
 9      New nearby quest-relevant area
 10     An area rich with a natural resource (food, minerals, other)
 11     A camp of hostile NPC's or the den of a hostile creature that would provide high-grade loot if engaged
-12     An advanced facility containing equipment that can confer rare benefits if used correctly.
+12     An advanced facility or ancient ruin that can confer permanent benefits or legendary loot on solving a puzzle, or become permanently inoperable on failing to solve the puzzle.
 
 
 Misc Actions:
 Shop (If available per DM) - Purchase and sell equipment
-Equipment upkeep (If available per DM) - Restore weapon depletion for the price of weapon upkeep.
+Equipment upkeep (If available per DM) - Restore weapon wear for the price of weapon upkeep.
 Celebrate (If available per DM, requires 2 or more players to take this same action.) - the next day, participating players receive a bonus ranks to their archetype equal to the number of players that participated.
 
-2. Pay your character upkeep
-
-3. Choose loadout for next day.
+2. Choose loadout for next day.
 
 
 

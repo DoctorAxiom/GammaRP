@@ -165,6 +165,27 @@
 \end{tikzpicture}}%
 }
 
+\newlength{\tgridsize}
+\newcommand{\GRPtgrid}[1][]{\hspace{-3pt}%
+	\refreshcurrentfontsize%
+	\setlength{\tgridsize}{\currentfontsize}%
+	\begin{tikzpicture}[remember picture, baseline=-0.3\tgridsize, line cap=round,line width=0.04\tgridsize,line join=round,draw=.,inner sep=0pt,outer sep=0pt,]
+		\foreach \horzpos in {0,1,2}
+		{
+			\foreach \vertpos in {0,1,2}
+			{
+				\IfStrEq{\horzpos,\vertpos}{#1}
+				{%true
+					\draw[fill=.,shift={(-\tgridsize/3,\tgridsize/3)}, rounded corners=0.1\tgridsize] ($(\horzpos*\tgridsize/3,-\vertpos*\tgridsize/3)-(\tgridsize/6.3,-\tgridsize/6.3)$) rectangle ($(\horzpos*\tgridsize/3,-\vertpos*\tgridsize/3)+(\tgridsize/6.3,-\tgridsize/6.3)$);
+				}
+				{%false
+					\draw[shift={(-\tgridsize/3,\tgridsize/3)}, rounded corners=0.1\tgridsize] ($(\horzpos*\tgridsize/3,-\vertpos*\tgridsize/3)-(\tgridsize/6.3,-\tgridsize/6.3)$) rectangle ($(\horzpos*\tgridsize/3,-\vertpos*\tgridsize/3)+(\tgridsize/6.3,-\tgridsize/6.3)$);
+				}
+			}
+		}
+	\end{tikzpicture}%
+}
+
 %Dice commands
 \newcommand{\GRPitalNonInt}[1]{%
 	\IsInteger{#1}{%
@@ -412,6 +433,21 @@
 	{\normalfont$ {\left[ \textsc{\bfseries#1} \right]} $}%
 \fi%
 }%
+
+\newcommand{\GRPtalent}[1]{%
+	\IfStrEqCase{#1}{%
+	{Memory}{\GRPtgrid[0,0]}
+	{Intellect}{\GRPtgrid[1,0]}
+	{Insight}{\GRPtgrid[2,0]}
+	{Dexterity}{\GRPtgrid[0,1]}
+	{Fortitude}{\GRPtgrid[1,1]}
+	{Athletics}{\GRPtgrid[2,1]}
+	{Perception}{\GRPtgrid[0,2]}
+	{Will}{\GRPtgrid[1,2]}
+	{Charisma}{\GRPtgrid[2,2]}
+	}%
+	\GRPability{#1}%
+}
 
 \newcommand{\GRPability}[1]{%
 {\scshape\itshape\bfseries#1}%
@@ -891,14 +927,18 @@
 }
 
 %add a full page illustration
-\newcommand{\GRPfullpagepic}[1]{%
+\newcommand{\GRPfullpagepic}[2][]{%
 	\clearpage
 	\thispagestyle{empty}
+	\IfStrEq{#1}{}{}{%
+		\phantomsection
+		\addcontentsline{toc}{section}{#1}
+	}
 
 	\AddToHookNext{shipout/background}{%
 	  \begin{tikzpicture}[remember picture,overlay]
 	  \node[shape=rectangle,anchor=center] at (current page.center) {%
-	    \centering\includesvg[height=\pdfpageheight]{#1}%
+	    \centering\includesvg[height=\pdfpageheight]{#2}%
 	  };
 	  \end{tikzpicture}%
 	}
@@ -1097,6 +1137,24 @@
 		\vspace{-1.5ex}
 	]
 
+\titleformat
+	{\subsubsection} % command
+	[block] % shape
+	{\bfseries} % format
+	{} % label
+	{0.1ex} % sep
+	{
+	    \noindent\begin{minipage}[t]{0.2\linewidth}
+	    	\raggedleft \thesubsubsection
+	    \end{minipage}\hspace{0.05\linewidth}
+	    \begin{minipage}[t]{0.75\linewidth}
+	    	\raggedright \nohyphenation{#1}
+	    \end{minipage}
+	} % before-code
+	[% after code
+		\vspace{-1.8ex}
+	]
+
 \pagestyle{fancy}
 
 \renewcommand{\headrulewidth}{0pt}
@@ -1175,8 +1233,9 @@
 
 
 %Change chapter title format for backmatter
-\AddToHook{cmd/backmatter/before}
+\AddToHook{cmd/backmatter/after}
 {%
-	\titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter}{1em}{}
+	% \titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter}{1em}{}
+	\renewcommand\thechapter{Appendix:}
 	\gdef\SetChapterTint{\gdef\ChapterBackgroundTint{chapterbgcolordefault}}
 }
