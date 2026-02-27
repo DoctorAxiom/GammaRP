@@ -212,7 +212,7 @@ Roll   Discovery
 
 Misc Actions:
 Shop (If available per DM) - Purchase and sell equipment
-Equipment upkeep (If available per DM) - Restore weapon wear for the price of weapon upkeep.
+Equipment upkeep (If available per DM) - Restore weapon wear for the price of weapon upkeep. - I think I'm taking out upkeep. forget this. overcomplicates and not fun.
 Celebrate (If available per DM, requires 2 or more players to take this same action.) - the next day, participating players receive a bonus ranks to their archetype equal to the number of players that participated.
 
 2. Choose loadout for next day.
@@ -331,6 +331,14 @@ Dodge - you may take one movement action in response to the trigger. If the trig
 On a tabletop- you have the choice of sharing your defensive action with the GM or of writing it on a card and turning it face down
 
 
+
+### Ranges
+still don't know where in the main document to put these.
+
+Melee - a specific target in the same room
+Room - All targets in the same room
+Area - All targets in the current room and any connected rooms
+Awareness - any target you are currently aware of by any of your senses
 
 
 

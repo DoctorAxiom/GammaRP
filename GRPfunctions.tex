@@ -148,10 +148,11 @@
 	size/.initial={\currentfontsize},
 }
 \newlength{\gammadodecsize}
-\newcommand{\GammaDodec}[2][]{\mbox{\hspace{-5pt}%
+\newcommand{\GammaDodec}[2][]{%
 \pgfkeys{/GammaDodec Options/.cd,#1}%
 \refreshcurrentfontsize%
 \setlength{\gammadodecsize}{\pgfkeysvalueof{/GammaDodec Options/size}}%
+\mbox{\hspace{-0.5\gammadodecsize}%
 \begin{tikzpicture}[remember picture, baseline=-0.3\gammadodecsize, line cap=round,line width=0.08\gammadodecsize,line join=round,draw=\pgfkeysvalueof{/GammaDodec Options/color},inner sep=0pt,outer sep=0pt,]
 	\foreach \angle in
 		{18, 90, 162, 234, 306}
@@ -166,10 +167,11 @@
 }
 
 \newlength{\tgridsize}
-\newcommand{\GRPtgrid}[1][]{\hspace{-3pt}%
+\newcommand{\GRPtgrid}[1][]{%
 	\refreshcurrentfontsize%
 	\setlength{\tgridsize}{\currentfontsize}%
-	\begin{tikzpicture}[remember picture, baseline=-0.3\tgridsize, line cap=round,line width=0.04\tgridsize,line join=round,draw=.,inner sep=0pt,outer sep=0pt,]
+	\mbox{\hspace{-0.5\tgridsize}%
+	\begin{tikzpicture}[baseline=-0.3\tgridsize, line cap=round,line width=0.04\tgridsize,line join=round,draw=.,inner sep=0pt,outer sep=0pt,]
 		\foreach \horzpos in {0,1,2}
 		{
 			\foreach \vertpos in {0,1,2}
@@ -183,7 +185,7 @@
 				}
 			}
 		}
-	\end{tikzpicture}%
+	\end{tikzpicture}}%
 }
 
 %Dice commands
@@ -281,9 +283,9 @@
 
 \newcommand{\GRPdicepenalty}[1]{%
 	\ifmmode%
-		\left\{ -#1 \right\}%
+		\left\{ {\color{grpneg}-#1} \right\}%
 	\else%
-		{\normalfont$ \left\{ -#1\right\} $}%
+		{\normalfont$ \left\{ {\color{grpneg}-#1}\right\} $}%
 	\fi%
 }
 
@@ -297,11 +299,14 @@
 
 \newcommand{\GRPadditionald}[1]{%
 	\ifmmode%
-		\left\{ dd#1 \right\}%
+		\left\{ {\color{grpneg}dd#1} \right\}%
 	\else%
-		{\normalfont$ \left\{ dd#1\right\} $}%
+		{\normalfont$ \left\{ {\color{grpneg}dd#1}\right\} $}%
 	\fi%
 }
+
+\let\GRPaa\GRPadditionala
+\let\GRPdd\GRPadditionald
 
 \makeatletter
 \newcommand{\GRPmodroll}[2]{%
@@ -310,7 +315,7 @@
 	\normalexpandarg\IfStrEq{#1}{}{}{%
 		\normalexpandarg\IfInteger{#1}{%
 			\ifnum#1<0%
-				\renewcommand{\GRP@rollbonus}{#1}%
+				\renewcommand{\GRP@rollbonus}{{\color{grpneg}#1}}%
 			\else%
 				\renewcommand{\GRP@rollbonus}{+#1}%
 			\fi%
@@ -322,7 +327,7 @@
 	\normalexpandarg\IfStrEq{#2}{}{}{%
 		\normalexpandarg\IfInteger{#2}{%
 			\ifnum#2<0%
-				\renewcommand{\GRP@aadv}{dd\inteval{0-(#2)}}%
+				\renewcommand{\GRP@aadv}{\color{grpneg}dd\inteval{0-(#2)}}%
 			\else%
 				\renewcommand{\GRP@aadv}{aa#2}%
 			\fi%
@@ -1047,9 +1052,18 @@
 % Dialog formatting stuff
 \newcommand{\GRPsay}[2]{%
 	\noindent\hspace{-0.1\linewidth}%
-	\begin{minipage}[t]{0.25\linewidth}
-		\raggedleft\bfseries #1
-	\end{minipage}\textbf{:}\hspace{0.01\linewidth}
+	\IfStrEq{#1}{}{%true
+		\begin{minipage}[t]{0.27\linewidth}
+			\raggedleft\hspace{0.5em}
+		\end{minipage}%
+	}{%false
+		\begin{minipage}[t]{0.25\linewidth}
+			\raggedleft\bfseries #1
+		\end{minipage}%
+		\begin{minipage}[t]{0.02\linewidth}
+			\raggedright\bfseries :
+		\end{minipage}%
+	}
 	\begin{minipage}[t]{0.78\linewidth}
 			#2
 	\end{minipage}\par\medskip

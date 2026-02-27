@@ -2,8 +2,74 @@
 
 Gameplay in \GammaRP{} is divided into \emph{open} mode and \emph{phased} mode.
 
-
 \section{Open mode}
+
+Unless the narrative of the game requires extended sequences of rapid action, it's best to keep the game in \emph{open} mode.
+
+Open mode consists of the GM describing a general setting, and the players asking questions to build on the setting and decide what to do. Whenever there's a questionable chance of success to something the players would like to do, the GM will ask them to make relevant rolls.
+
+This is best illustrated with an example.
+
+\begin{GRPquicknotewide}
+\GRPsay{GM}{As you enter the ruins, you notice the ground change beneath you, from soft dirt to sharp gravel. The sounds of wildlife grow eerily quiet.}
+\GRPsay{}{Pillars of stone are arranged in a path to the temple, some of them are cracked and fallen. You see the mysterious door described by the pirates, but there's a pillar that has fallen over and is blocking it.}
+\GRPsay{Alice}{Huh. Can we see past the broken pillar?}
+\GRPsay{GM}{You can! The top half of the door is visible, but you can't see the inset for the key you found earlier.}
+\GRPsay{Eve}{I could move the pillar out of the way.}
+\GRPsay{Bob}{I could also try to worm my way past the pillar to reach the keyhole.}
+\GRPsay{Eve}{Oh! good point, maybe try that first.}
+\GRPsay{Bob}{I take the key and try to squeeze my way past the pillar.}
+\GRPsay{GM}{This requires grace of body. It's an extremely odd angle, so roll with \GRPadditionald{2}}
+\GRPrheader{Athletics Roll}
+\GRPsay{Bob}{\GRProll{2}{6}\GRPmodroll{}{-2} $\Rightarrow$ \\
+				\GRProll{2}{4} - \GRPdicelist[4]{3,7}}
+\GRPrfooter{}
+\GRPsay{Bob}{Awww, so close.}
+\GRPsay{GM}{You try several times, Bob, but you just can't squeeze in the key.}
+\vspace{4\baselineskip}
+\GRPsay{Eve}{Let me move it for you, Bob. \\ Could I lift the pillar up?}
+\GRPsay{GM}{Okay- That will require strength of body, and the pillar is incredibly heavy. I'd say it's nearly impossible to perform this task, and it has a risk of injury to body on failure. It would need a roll for \GRPtalent{Fortitude} with \GRPadditionald{8}.}
+\GRPsay{Alice}{I'd like to look for a broken piece of stone or something we could use as a wedge to make that easier. Doesn't seem right to risk getting injured before even starting this dungeon.}
+\GRPsay{GM}{Sure! That seems reasonable. Seems like Grace of Mind to find a clever way to use your surroundings to make this task easier. Roll me \GRPtalent{Insight}.}
+\GRPrheader{Insight Roll}
+\GRPsay{Alice}{\GRProll{3}{5} - \GRPdicelist[5]{5,5,9}}
+\GRPrfooter{}
+\GRPsay{GM}{Great. Alice you notice that one side of the pillar is resting on the stone base on top of a shard of rock. A strong enough person should be able to knock out that rock and let the pillar roll aside. I'll say this brings down the difficulty of the task to hard- requiring \GRPadditionald{4}. You still risk injury on failure.}
+\GRPsay{Alice}{I suggest pushing out the rock to Eve.}
+\GRPsay{Eve}{I'll take Alice's suggestion.}
+\GRPsay{Bob}{Wait! We should all be able to do this together. I can help Eve push that rock.}
+\GRPsay{GM}{Sure! Eve give me a \GRPtalent{Fortitude} roll, and Bob give me a helping roll.}
+\GRPrheader{Fortitude Roll}
+\GRPsay{Eve}{\GRProll{6}{4}\GRPmodroll{}{-4} $\Rightarrow$ \\
+				\GRProll{6}{0} - \GRPdicelist[0]{11,4,6,9,4,2}}
+\GRPsay{Bob}{\GRProll{2}{3}\GRPmodroll{}{-4} $\Rightarrow$ \\
+				\GRProll{2}{-1} - \GRPdicelist[1]{2,12}}
+\GRPrfooter{}
+\GRPsay{GM}{Wow! You both heave at the same time and manage to roll the pillar onto it's side so that there's more space near the door. Bob your earlier frustration with the pillar really comes out here and you help Eve bring it over the edge.}
+\end{GRPquicknotewide}
+
+Note the back and forth between the GM and the players in this example. The GM poses a problem to the players- namely that there is a pillar blocking the keyhole to the door. The players propose various solutions to the problem, and can even add to the environment by asking the GM about things that could plausibly exist.
+
+As a GM, when a player suggests something, it behooves you to find something similar that could possibly work to keep the game going.
+
+\vspace{\baselineskip}
+
+Below are some guidelines for assigning additional advantage and disadvantage based on the difficulty of the task:
+
+\begin{GRPtable}
+\caption{Additional Advantage Guide}
+\begin{GRPtabular}[Difficulty & Addl Adv]{r/0.65,|/0,l/0.35}
+	Near impossible to fail & \GRPaa{8} \XX
+	Very easy task & \GRPaa{6} \XX 
+	Easy task & \GRPaa{4} \XX 
+	Task with a few situational advantages & \GRPaa{2} \XX
+	Average Difficulty & \GRPaa{0} \XX 
+	Task with a few situational disadvantages & \GRPdd{2} \XX 
+	Hard task & \GRPdd{4} \XX 
+	Very hard task & \GRPdd{6} \XX 
+	Near impossible task & \GRPdd{8}
+\end{GRPtabular}
+\end{GRPtable}
 
 \subsection{Downtime}
 Downtime is a special part of \emph{open} gameplay where a character takes care of slower tasks after the action for the day calms down. Downtime tasks are tasks that would typically take very long segments of in-game time, and so are reserved for when the action calms down.
@@ -18,17 +84,106 @@ Downtime consists of the following for each character:
 	\item Choose character's loadout for the next day.
 \end{enumerate}
 
-Possible downtime actions are divided into talent related downtime actions and miscellaneous actions which do not depend on a character's talents.
+The possible downtime actions are listed below.
 
 \begin{GRPquicknotewide}
 \begin{itemize}
 	\item \GRPability{Study}-- Roll \GRPtalent{Memory}. Increment your study counter by the number of successes you get. When your study counter hits 12 - you reset it to 0 and create a new wt 0 cast focus of your choice (not automatically prepped).
 	\item \GRPability{Scavenge}-- Roll \GRPtalent{Intellect}. Gain scavenged loot of value equal to 100 gold times the number of successes you get. Ask your GM what loot you obtain. 
-	\item \GRPability{}
+	\item \GRPability{Tinker}-- Roll \GRPtalent{Insight}. Increment your tinker counter by the number of successes you get. When your tinker counter hits 12 you may either
+	\begin{itemize}
+		\item Create a new item of craft grade 1
+		\item Create an upgrade that would increase the craft grade of another item by 1
+		\item Increase the amount of grade of a previously created upgrade by 1.
+	\end{itemize}
+	Upgrades may be applied immediately or at any point during freeform gameplay. You do not need to finalize the properties of the upgrade until your final application of the upgrade.
+	\item \GRPability{Practice}-- Roll \GRPtalent{Dexterity}. Increment your practice counter by the number of successes you get. When your practice counter hits 12, reset it to 0, and you may increase the rank of a skill that has 1 rank to 2 ranks. This may be a skill on either your own character, or on any character that has been nearby who you could have been practicing with.
+	\item \GRPability{Develop}-- Roll \GRPtalent{Fortitude}. Increment your Development counter by the number of successes you get. When your Development counter hits 12, reset it to 0 and grant yourself or any other player character close to you 1 XP.
+	\item \GRPability{Train}-- Roll \GRPtalent{Athletics}. Increment your Training counter by the number of successes you get. When your Training counter hits 12, reset it to 0 and you may add 1 rank to a Skill that has no ranks in it. This may be a skill on either your own character, or on any character that has been nearby for significant periods of time who you ostensibly could have been practicing with.
+	\item \GRPability{Explore}-- Roll \GRPtalent{Perception}. If successful, Roll from the exploration table to determine a new area that your character discovers. You may adjust your table roll by a number up to the number of successes you got on the exploration roll.
+	\item \GRPability{Enhance}-- Roll \GRPtalent{Will}. Increment your Enhance counter by the number of successes you get. When your Augmentation counter hits 12, reset it to 0 and either
+	\begin{itemize}
+		\item Add a new augment to your character or any nearby willing character.
+		\item Replace an augment on a character (yours or any nearby willing) with a different augment
+		\item Replace two augments with an attunement on your own character or any nearby willing character.
+		\item Replace an attunement with another attunement or two augments, on your own character or any nearby willing character. The affected character loses any XP invested in the original attunement.
+	\end{itemize}
+	\item \GRPability{Socialize}-- Roll \GRPtalent{Charisma}. For each success on your roll, you may either
+	\begin{itemize}
+		\item Obtain a piece of plot information from gossip or news.
+		\item Start a rumour that will reach a specific NPC your character is aware of.
+		\item Make an NPC who is negative towards your party neutral towards your party.
+		\item Make an NPC who is neutral towards your party positive towards your party.
+	\end{itemize}
+	You may not adjust the attitude of an NPC who is explicitly hostile towards your party.
+	\item \GRPability{Shop}-- Ask the GM if this action is available. Purchase equipment and sell equipment. By default, equipment sells for 50\% of the price of new equipment. You may roll \GRPtalent{Perception} to find bargains and decrease the price of buying a piece of new equipment by 10\% per success on your perception roll. You may roll \GRPtalent{Charisma} to sell your old equipment for higher prices and increase the price of selling a piece of equipment by 10\% per success on your charisma roll.
+	\item \GRPability{Celebrate}-- Ask the GM if this action is available. This action requires two or more player characters to perform this same action during the same downtime. The next day, all participating player characters will 1 bonus rank to their archetype.
 \end{itemize}
 
 \end{GRPquicknotewide}
 
 \section{Phased mode}
+
+When performing time sensitive tasks or entering contests or combat, the game enters phased mode.
+
+The GM rotates through different phases where one party is on offense and the other parties are on defense.
+
+Defenders choose their reactions first during a turn, and then offense chooses their actions.
+
+The players within a party may choose their actions and reactions in any order, and do not need to wait until one player has completed all possible actions before performing their own.
+
+\subsection{Offense}
+
+By default, each character has three actions while on offense.
+
+Your possible default actions are:
+
+\begin{itemize}
+	\item Interact
+	\item Apply talent
+	\item Move
+	\item Use other ability or item that is labeled ``as an action'' or ``as an offensive action''
+\end{itemize}
+
+\subsection{Defense}
+
+When you are defending, each character in the defending party must choose one reaction.
+
+Your possible reactions are:
+
+\begin{itemize}
+	\item Protect
+	\item Retaliate
+	\item Obstruct
+	\item Dodge
+	\item Use other ability or item that is labeled "as a defensive reaction"
+\end{itemize}
+
+For each of these, you must also specify your reaction trigger. Your choices of trigger are:
+
+\begin{itemize}
+	\item an action taken against another character
+	\item an action taken against your character
+	\item a character entering a zone
+	\item a character exiting a zone
+\end{itemize}
+
+A description of each of the options follows:
+
+\begin{GRPquicknotewide}
+\begin{itemize}
+	\item \textbf{Defend}-- may target any character or object within the same zone as you. Once triggered, for the rest of this turn any time an action is taken against the character or object you are protecting, you may contest your Athletics against the initiating character's roll to hit. If successful, the action is made to target you instead of its 	initial target.
+	\item \textbf{Retaliate}-- you may take one non-movement offensive action (as in the offense phase) in response to the trigger.
+	\item \textbf{Dodge}-- you may take one movement action in response to the trigger. If the trigger would incur damage to you, you may contest your Dexterity against the initiating character's roll to hit. If successful, you additionally avoid the damage in addition to taking a movement action.
+\end{itemize}
+\end{GRPquicknotewide}
+
+On a tabletop- you have the choice of sharing your defensive action with the GM or of writing it on a card and turning it face down
+
+
+
+
+
+Communicating in a different language- penalty of 4 additional disadvantage? maybe
 
 \closeopenenv{multicols}

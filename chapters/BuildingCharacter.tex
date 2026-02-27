@@ -185,6 +185,20 @@ Healing wounds in this system is done by abilities that restore depleted foundat
 
 The \textbf{Robust} skill (described in Section \ref{sec:skills}) allows a character to take some wounds before depleting foundations.
 
+\subsection{Injuries}
+
+An injury is a specific type of wound which is applied directly to one specific foundation (one of \GRPstat{Mind}, \GRPstat{Body}, or \GRPstat{Heart}).
+
+The GM decides if a task has a risk of injury. Injuries are incurred specifically to the foundation related to the talent used for the failed task.
+
+Failed \GRPtalent{Memory}, \GRPtalent{Intellect}, and \GRPtalent{Insight} rolls with a risk of injury result in an injury to \GRPstat{Mind}.
+
+Failed \GRPtalent{Dexterity}, \GRPtalent{Fortitude}, and \GRPtalent{Athletics} rolls with a risk of injury result in an injury to \GRPstat{Body}.
+
+Failed \GRPtalent{Perception}, \GRPtalent{Will}, and \GRPtalent{Charisma} rolls with a risk of injury result in an injury to \GRPstat{Heart}.
+
+The Robust skill still protects you from injuries if you have wounds left that can be allocated to the Robust skill.
+
 \section{Species Bonuses}
 
 The species of a character provides bonuses to some of their talents.
@@ -193,11 +207,11 @@ The species bonuses are described for each species in Chapter \ref{chap:species}
 
 \section{Archetypes}
 
-Your character has an archetype-- a way that their fortune tends to run in certain situations. This consists of a general type of \emph{situation} and the type of \emph{fortune} they have in this situation.
+Your character has an archetype-- a way that their luck tends to run. This consists of a general type of \emph{situation} and the type of \emph{fortune} they have in this situation.
 
 Your character starts with 1 archetype rank, and additional ranks may be added for 3 XP each. You may have a maximum of 5 archetype ranks.
 
-You may choose to accumulate bonus archetype ranks by \emph{depleting} 1 from Grace for each bonus rank. Bonus ranks do not count towards the maximum.
+You may choose to accumulate bonus archetype ranks above your usual maximum by \emph{depleting} 1 from Grace for each bonus rank.
 
 \begin{GRPquicknotewide}
 \noindent{\large\bfseries Situations:}
@@ -206,13 +220,12 @@ You may choose to accumulate bonus archetype ranks by \emph{depleting} 1 from Gr
 	\item \textbf{Technical}-- all circumstances in which the character is trying to create or modify something in the world around them. Recieve +1 to \GRPstat{Precision}. 
 	\item \textbf{Martial}-- all circumstances in which the character is in combat or physical contest (with the environment or another player). Recieve +1 to \GRPstat{Strength}.
 \end{itemize}
-
+\vspace{4\baselineskip}
 \noindent{\large\bfseries Fortunes:}
 \begin{itemize}
 	\item \textbf{Adept}-- For any roll in your situation, you may adjust any die by up to \GRPstat{Ranks} values AFTER rolling.
 	\item \textbf{Awkward}-- Up to \GRPstat{Ranks} times a day, you may choose to automatically fail a roll in your situation in order to gain 4 bonus dice on your next roll (in any situation).
 	\item \textbf{Confident}-- Once a day, after making a successful roll in a situation, you may choose to gain 6 advantage for the next \GRPstat{Ranks} consecutive subsequent rolls in that situation. You must do this before seeing the results of any of the subsequent rolls.
-	\vspace{4\baselineskip}
 	\item \textbf{Duplicitious}-- When your character is in a contested roll in the situation, you may swap up to \GRPstat{Ranks} of your rolled dice with your opponent's rolled dice (even if your opponent is inanimate or the environment). Your number of successes still depend on how much advantage you had on your original roll, and your opponent's number of successes still depend on how much advantage they had in their original roll.
 	\item \textbf{Judicious}--  Roll \GRPstat{Ranks} dice at the beginning of the day. You maintain a pool of \GRPstat{Ranks} dice that starts initially populated by your first rolls. In any archetype situation- you may swap any number of dice in your pool with dice in your roll, AFTER seeing the result.
 	\item \textbf{Lucky}-- A number of times equal to your number of archetype ranks, you may choose to automatically succeed on a roll in this situation. You must choose to do this before seeing the result of the roll.
@@ -314,8 +327,6 @@ What follows are descriptions of all the skills your character can take.
 	\item \textbf{Robust}-- you may take wounds up to \GRPstat{Ranks} in Robust without depleting any of your fundamentals. Once you exceed this number of wounds you will start depleting fundamentals as usual in response to sustaining a wound.
 	\item \textbf{Porter}-- for each rank in porter, you may increase your \GRPstat{Pack Wt} by 1.
 	\item \textbf{Walking Armory}-- for each rank in Walking Armory, you may increase your \GRPstat{Equip Wt} by 1.
-	\item \textbf{Agile}-- While the game is in \emph{phased} mode, during your offensive phase your character gains 1 additional action for each \GRPstat{Rank} in Agile.
-	\item \textbf{Responsive}-- While the game is in \emph{phased} mode, during your defensive phase- if your character's defensive action is triggered, roll \GRPtalent{Dexterity} with \GRPstat{Ranks} additional advantage. If successful, your character may take one offensive action of their choice \underline{after} taking the defensive action that was triggered.
 	\item \textbf{Linguist}-- Whenever you must roll for any sort of communication involving a language your character does not know, you may do so with \GRPstat{Ranks} additional advantage.
 	\item \textbf{Experienced in [topic]}-- pick a topic your character is experienced in. The topic must be much more specific than "social," "martial," or "technical." Whenever your character is rolling in a situation relating to this topic, gain \GRPstat{ranks} bonus dice to your roll. You may take this skill multiple times as long as the topic is unique for each listing.
 
@@ -353,7 +364,6 @@ For convenience, this section is a consolidated step-by-step guide to building a
 	\item Discard items of your choice in your pack until the total weight of pack items is less than or equal to \GRPstat{Pack Wt}.
 \end{enumerate}
 
-\phantomsection
 \GRPfullpagepic[Character Sheet]{art/BuildingCharacter/Charsheet}
 
 \closeopenenv{multicols}

@@ -119,25 +119,26 @@ Modifying the advantage and disadvantage on a roll may be done more freely by th
 
 \section{Group Rolls}
 
-\index{Group Roll}Sometimes you may want multiple characters all contribute effort to determine if they succeed at a task. You can do this with a group roll.
+\index{Group Roll}Sometimes multiple characters must all individually perform the same task, in a way where their average performance impacts the success of the group. This often happens in situations where one character could catch another character if they fail, by performing well enough.
+Such a situation calls for a Group Roll.
 
-The process of a group roll is as follows:
+The process of a Group Roll is as follows:
 
 \begin{enumerate}
-	\item Each character making a group roll makes the corresponding roll for the task
+	\item Each character making a Group Roll makes the corresponding roll for the task
 	\item Count the total number of successes among the group
 	\item If $\GRPstat{Total Successes} \geq \GRPstat{Group Size}$ then the group succeeds at the roll.
 \end{enumerate}
 
-If you need to count the number of successes for a group roll, it is $\GRPstat{Total Successes} / \GRPstat{Group Size}$ rounded \textbf{down} to the nearest whole number.
+If you need to count the number of successes for a Group Roll, it is $\GRPstat{Total Successes} / \GRPstat{Group Size}$ rounded \textbf{down} to the nearest whole number.
 
 This may be most easily illustrated with an example.
 
 \begin{GRPquicknote}
 \index{Group Roll!Example}
 \GRPsay{GM}{As you enter the swamp, the mud grows deeper and harder to trudge through. You'll all have to use your Fortitude talent to pass without hurting yourselves.}
-\GRPsay{Alice}{Can we make this a group roll? I think we could help each other cross.}
-\GRPsay{GM}{Absolutely. Make a group roll for Fortitude.}
+\GRPsay{Alice}{Can we make this a Group Roll? I think we could catch each other if we fall.}
+\GRPsay{GM}{Absolutely. Make a Group Roll for \GRPtalent{Fortitude}.}
 \GRPrheader{Fortitude Group Roll}
 \GRPsay{Bob}{\GRProll{2}{3} - \GRPdicelist[3]{8,3}}
 \GRPsay{Alice}{\GRProll{5}{5} - \GRPdicelist[5]{1,8,2,5,10}}
@@ -147,6 +148,14 @@ This may be most easily illustrated with an example.
 
 Bob- you stumble in the thick mud and almost land face first, but Alice catches you. You all struggle through and make it through the swamp without injury.}
 \end{GRPquicknote}
+
+Other examples of situations where group rolls are appropriate include:
+\begin{itemize}
+	\item Stealthily getting through a stretch of terrain
+	\item Persuading someone that your group is trustworthy
+	\item A coordinated group performance of any kind
+	\item Crafting a large batch of items or cooking a large meal
+\end{itemize}
 
 \section{Roll Contests}
 
@@ -169,7 +178,7 @@ Roll Contests are probably best illustrated with an example as follows.
 \begin{GRPquicknote}
 \index{Roll Contest!Example}
 \GRPsay{Eve}{Can I initiate a grapple on the guard?}
-\GRPsay{GM}{Sure! Go ahead and initiate a Roll Contest with Athletics.}
+\GRPsay{GM}{Sure! Go ahead and initiate a Roll Contest with \GRPtalent{Athletics}.}
 \GRPsay{Eve}{I'll use my Dexterity talent since I'm much better at that.}
 \GRPsay{GM}{Sure, you can \emph{talent proxy}. Use Dexterity at 2 additional disadvantage.}
 \GRPrheader{Roll Contest Attempt 1}
@@ -191,17 +200,47 @@ Roll Contests are probably best illustrated with an example as follows.
 \GRPsay{GM}{Great! You deftly bend the guard's arm and twist him into your awaiting chokehold. You've grappled the guard.}.
 \end{GRPquicknote}
 
-It is highly disrecommended to perform a \emph{group roll contest}\index{Group Roll Contest}. For tasks of that complexity it is usually better to let the game enter phased mode- which will be described in detail later.
+It is highly disrecommended to perform a \emph{Group Roll contest}\index{Group Roll Contest}. For tasks of that complexity it is usually better to let the game enter phased mode- which will be described in detail later.
 
-If you do find yourself in a situation in which a group roll contest is called for, the process is as follows.
+If you do find yourself in a situation in which a Group Roll contest is called for, the process is as follows.
 
 \begin{enumerate}
-	\item\label{groupcontest:first} Both groups make their group rolls simultaneously..
+	\item\label{groupcontest:first} Both groups make their Group Rolls simultaneously..
 	\item If one group is successful and the other is not, the successful group wins.
 	\item If both groups are unsuccessful, return to step \ref{groupcontest:first}.
 	\item If both groups are successful, the first group must be penalized a number of dice equal to the second group's number of successes, and vice versa. Every character in the group takes this penalty. Then return to Step \ref{groupcontest:first}.
 	\item If you have repeated this process to the point where one group has no dice remaining, the group who has dice remaining wins the contest.
 	\item\label{groupcontest:last} If both groups reach 0 dice simultaneously, both groups lose the contest (taking any penalties involved with losing the contest).
 \end{enumerate}
+
+\section{Helping Rolls}
+
+\index{Helping Roll}Sometimes in a situation, a character may be able to help another character perform a task, such as lifting a heavy object, searching for insight into a puzzle, playing a game of chess, putting on a performance, or wrestling an opponent.
+
+When this happens they may roll to help the other character. This is simpler than a Group Roll.
+
+An helping roll is performed as follows:
+
+\begin{enumerate}
+	\item Any character that is able to help and wants to help rolls the same talent or ability as the character making the initial roll.
+	\item The sum of all participating characters' successes, including the original character, is the number of successes for the original roll.
+	\item If the roll risks injury on failure, all of the participating characters will receive the injury.
+\end{enumerate}
+
+Below is an example of a helping roll.
+
+\begin{GRPquicknote}
+\index{Helping Roll!Example}
+\GRPsay{GM}{Large Larry is \emph{obstructing} the exit to this room. I've picked NPC defending actions. Player party, it's your offensive phase.}
+\GRPsay{Eve}{Wheeeeeeeeeeeeee Write something here you ridiculous author!}
+\end{GRPquicknote}
+
+When helping rolls are used for abilities other than base talents, the helping character must in general have and actively use the same ability as the character they are helping.
+
+For instance, to help another character cast a particular spell, the helping character must know the same spell and use the same cast and consume a cast use.
+
+In order to help another character use a specific augment ability, the helping character must have the same augment active in their loadout and use the same ability.
+
+Additionally, to help a character in phased mode who is using an ability that takes an action (offensive or defensive), the helping character must also consume an action to help.
 
 \closeopenenv{multicols}
