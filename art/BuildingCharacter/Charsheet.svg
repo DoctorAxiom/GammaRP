@@ -25,14 +25,15 @@
      inkscape:document-units="mm"
      labelstyle="default"
      inkscape:zoom="2.032932"
-     inkscape:cx="94.690821"
-     inkscape:cy="341.13291"
+     inkscape:cx="276.69396"
+     inkscape:cy="427.21547"
      inkscape:window-width="1920"
      inkscape:window-height="1094"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2" />
+     inkscape:current-layer="layer2"
+     showgrid="false" />
   <defs
      id="defs1">
     <filter
@@ -1307,7 +1308,7 @@
        sodipodi:nodetypes="cc" />
     <path
        style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
-       d="M 11.535247,135.61809 H 67.558643"
+       d="M 11.535247,135.61809 H 46.391976"
        id="path89-4-9"
        sodipodi:nodetypes="cc" />
     <path
@@ -1861,6 +1862,26 @@
          style="font-size:1.05833px;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
          x="62.406391"
          y="129.65598">\scriptsize \GRPstat{Max Augments}</tspan></text>
+    <rect
+       style="fill:none;stroke:#808080;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect1-1-80-9-86-5-4-0-8"
+       width="5.0466213"
+       height="5.0946531"
+       x="62.934769"
+       y="133.89095"
+       ry="1.5309297" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="62.406391"
+       y="136.33804"
+       id="text1-6-0-9-9-4-2-7-0-2"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-2-3-7-3-4"
+         style="font-size:1.05833px;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="62.406391"
+         y="136.33804">\scriptsize \GRPstat{Disabled}</tspan></text>
     <rect
        style="fill:none;stroke:#808080;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
        id="rect1-1-80-9-86-5-4-0-0"

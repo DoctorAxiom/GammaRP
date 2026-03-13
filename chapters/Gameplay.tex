@@ -21,8 +21,8 @@ This is best illustrated with an example.
 \GRPsay{Bob}{I take the key and try to squeeze my way past the pillar.}
 \GRPsay{GM}{This requires grace of body. It's an extremely odd angle, so roll with \GRPadditionald{2}}
 \GRPrheader{Athletics Roll}
-\GRPsay{Bob}{\GRProll{2}{6}\GRPmodroll{}{-2} $\Rightarrow$ \\
-				\GRProll{2}{4} - \GRPdicelist[4]{3,7}}
+\GRPsay{Bob}{\GRProll{2}{8}\GRPmodroll{}{-2} $\Rightarrow$ \\
+				\GRProll{2}{6} - \GRPdicelist[4]{3,5}}
 \GRPrfooter{}
 \GRPsay{Bob}{Awww, so close.}
 \GRPsay{GM}{You try several times, Bob, but you just can't squeeze in the key.}
@@ -71,6 +71,24 @@ Below are some guidelines for assigning additional advantage and disadvantage ba
 \end{GRPtabular}
 \end{GRPtable}
 
+\subsection{Taking Damage}
+
+As the players explore the environment, dangers such as traps or hostile creatures or characters may deal damage to them. The number of wounds a player sustains is equal to the damage dealt. 
+
+Damage can be either elemental, physical, or direct.
+
+For elemental and physical damage, armor reduces the amount of damage that a player sustains. Plain armor without resistance or bonus reduces amount of damage by the weight of the armor. 
+
+Armor can have elemental or physical resistance. Elemental resistance armor reduces elemental damage by an additional 1. Physical resistance armor reduces physical damage by an additional 1.
+
+Armor may have a bonus which corresponds to 1 of the 9 basic talents. When a character has armor with a bonus, this talent allows them to block with that armor. Roll the talent listed by the armor bonus and incoming damage is reduced additionally by your number of successes on the armor bonus roll.
+
+Direct damage is not reduced by armor. A character taking direct damage will take a number of wounds equal to the damage.
+
+Injuries are also not reduced by armor.
+
+Incoming damage is also reduced by the amount of cover a character has, which is often only relevant in Phased mode.
+
 \subsection{Downtime}
 Downtime is a special part of \emph{open} gameplay where a character takes care of slower tasks after the action for the day calms down. Downtime tasks are tasks that would typically take very long segments of in-game time, and so are reserved for when the action calms down.
 
@@ -118,6 +136,15 @@ The possible downtime actions are listed below.
 	You may not adjust the attitude of an NPC who is explicitly hostile towards your party.
 	\item \GRPability{Shop}-- Ask the GM if this action is available. Purchase equipment and sell equipment. By default, equipment sells for 50\% of the price of new equipment. You may roll \GRPtalent{Perception} to find bargains and decrease the price of buying a piece of new equipment by 10\% per success on your perception roll. You may roll \GRPtalent{Charisma} to sell your old equipment for higher prices and increase the price of selling a piece of equipment by 10\% per success on your charisma roll.
 	\item \GRPability{Celebrate}-- Ask the GM if this action is available. This action requires two or more player characters to perform this same action during the same downtime. The next day, all participating player characters will 1 bonus rank to their archetype.
+	\item \GRPability{Recuperate}-- Consumes the equivalent of 1 ration. Your character eats and sleeps (if applicable) and tends to their wounds. Perform the following:
+		\begin{enumerate}
+			\item Reset any depleted fundamentals.
+			\item Clear all wounds
+			\item Reset cast uses
+			\item Reset loadout change uses
+			\item Reset uses of an archetype
+			\item Reset bonus ranks in an archetype.
+    	\end{enumerate}
 \end{itemize}
 
 \end{GRPquicknotewide}
@@ -126,24 +153,159 @@ The possible downtime actions are listed below.
 
 When performing time sensitive tasks or entering contests or combat, the game enters phased mode.
 
-The GM rotates through different phases where one party is on offense and the other parties are on defense.
+The GM rotates through different phases where one party is on offense and the other parties are on defense. The GM chooses which party starts on offense based on who initiated the combat.
 
-Defenders choose their reactions first during a turn, and then offense chooses their actions.
+Defenders choose their reactions first during a turn, and then offense chooses their actions. If one particular character initiated combat with action of any kind, that action occurs before the defenders choose their reactions.
 
 The players within a party may choose their actions and reactions in any order, and do not need to wait until one player has completed all possible actions before performing their own.
 
+\subsection{The Arena}
+When the game enters phased mode the GM must specify an arena. The arena rules are designed to be able to quickly generate unique scenarios.
+
+An arena consists of 1 or more rooms.
+
+Each room contains
+\begin{itemize}
+	\item 1 or more spaces
+	\item 0 or more cover spots
+	\item 1 or more connections to other rooms
+	\item 0 or more exits from the arena
+\end{itemize}
+
+\begin{GRPfig}
+	\caption{Room Diagram Example}
+	\includesvg[width=\linewidth]{art/Gameplay/ExampleRoom}
+\end{GRPfig}
+
+Rooms are shown by right-angled shapes around an area. The number of spaces in a room is indicated by a number in parentheses in a corner.
+
+\begin{GRPfig}
+	\caption{Symbols for Cover Spots}
+	\begin{center}
+	\includesvg[width=0.6\linewidth]{art/Gameplay/CoverSymbol}
+	\end{center}
+\end{GRPfig}
+
+You may optionally sketch the actual physical layout that you're trying to get the players to visualize as in the example that follows.
+
+\begin{GRPfigwide}
+\caption{An example schematic diagram of an arena}
+\includesvg[width=\linewidth]{art/Gameplay/ExampleArena}
+\end{GRPfigwide}
+
+Characters have tokens or coins that represent them that can be moved from room to room, or placed on a cover spot, to indicate where they are physically.
+
+A room can be entered even if it is at capacity, but at the end of each phase, if there are more characters than spaces in the room, the GM chooses characters that are not in covered spots to be pushed out of the room by the action until there are only as many characters in the room as there are spaces.
+
+Characters in covered spots may remain in a room even if the room is over capacity.
+
+It takes a movement action to get into or out of a cover spot. A cover spot can only be entered if it is unoccupied.
+Characters not in a cover spot move freely within the room without a move action.
+
+A character behind cover has any incoming damage reduced by the amount of cover.
+
+Connections are drawn between rooms with a double line. A connection which leads to open space rather than another room indicates an exit from the arena.
+
+Below are some ways you can vary the connection in a diagram.
+
+\begin{GRPtable}
+\caption{Connection Symbols}
+\begin{GRPtabular}[Symbol & {\hspace{0.2\linewidth} Description \hfill}]{c/0.28,|/0,l/0.72}
+	\includesvg[width=0.8\linewidth]{art/Gameplay/PlainConnector} & Plain connection that takes 1 movement to traverse. \XX
+	\includesvg[width=0.8\linewidth]{art/Gameplay/VisonlyConnector} & Visual only- provides line of sight, no traversal. \XX
+	\includesvg[width=0.8\linewidth]{art/Gameplay/ExtraMoveConnector} & 1 extra move action to traverse in this direction. $N$ arrows indicate $N$ extra move actions are required. \XX
+	\includesvg[width=0.8\linewidth]{art/Gameplay/CoverConnector} & 1 cover from this room for line of sight. $N$ stacked cover symbols indicate $N$ cover. \XX
+	\includesvg[width=0.8\linewidth]{art/Gameplay/HazardConnector} & A hazard is present when moving in this direction. If not intentionally moved in this direction, a character (or object) will take 1 damage. $N$ concentric triangles indicate $N$ damage. \XX
+	\includesvg[width=0.8\linewidth]{art/Gameplay/TrapConnector} & A trap is present when traversing this connector. $N$ concentric squares around this symbol indicate $N$damage.
+\end{GRPtabular}
+\end{GRPtable}
+
+The trap symbol may also be placed in a room.
+
+\begin{GRPfig}
+\caption{Symbols for Traps}
+\includesvg[width=\linewidth]{art/Gameplay/TrapSymbol}
+\end{GRPfig}
+
+Traps outside a connector act like cover spaces- they require a movement to step into, and on moving into a trap, they deal the amount of damage indicated. The type of damage dealt depends on the type of trap. A character encountering a trap must roll \GRPtalent{Dexterity}. The damage a trap deals is reduced by the number of successes on the Dexterity roll.
+
+Armor does protect against trap damage unless the trap deals direct damage.
+
+Note that if your players are creative with their surroundings, you may end up adding, changing, or removing rooms, connections, hazards, and traps as the turn-based gameplay progresses!
+
+The fastest way to generate an arena is collaboratively-- when an arena is needed, the GM should describe the rooms and connectors, and the players should help draw what the GM is describing.
+
+\subsection{Ranges}
+
+Every action a character can perform has a range.
+
+\begin{GRPquicknote}
+\begin{itemize}
+	\item \textbf{Self}-- Only affects the character performing the action
+	\item \textbf{Touch}-- Affects any one target in the same room as the character
+	\item \textbf{Connected}-- Affects any one target within the same room as the character, or any adjacent rooms connected directly to the current room.
+	\item \textbf{Line-of-sight}-- Affects any one target the character has line-of-sight to.
+	\item \textbf{Room}-- Affects all objects and characters within the room.
+	\item \textbf{Area}-- Affects all objects and characters in this room and all connected rooms
+	\item \textbf{Arena}-- Affects all objects and characters within the arena.
+	\item \textbf{Awareness}-- Affects any one target the character is presently aware of via any of their senses.
+\end{itemize}
+\end{GRPquicknote}
+
+Ranges are particularly relevant in phased mode, but may be applicable in other scenarios as well.
+
 \subsection{Offense}
 
-By default, each character has three actions while on offense.
+Each character can take 3 offensive actions during each offensive phase.
 
-Your possible default actions are:
+They may choose freely from any offensive actions available to them and perform one of the options multiple times if they want.
+
+Your possible actions are:
 
 \begin{itemize}
 	\item Interact
 	\item Apply talent
 	\item Move
+	\item Attack
+	\item Obstruct
 	\item Use other ability or item that is labeled ``as an action'' or ``as an offensive action''
 \end{itemize}
+
+A description of each of these options follows:
+
+\begin{GRPquicknotewide}
+\begin{itemize}
+	\item \textbf{Interact} \emph{Touch range}-- Flip a switch, pull a lever, pick up an object, drop an object, or perform any other interaction that does not require a talent roll.
+	\item \textbf{Apply Talent} \emph{Touch range}-- Directly apply one of the character's talents to any target within the room.
+	\item \textbf{Move} \emph{Self range}-- Move this character. Typically one move action is required to move from one room to another, but depending on the arena, additional movement may be needed.
+	\item \textbf{Attack}-- Attack, either using a tool/weapon, or your body.
+
+	When taking the attack action, you may make as many attacks as it takes to use all your \GRPstat{Grab Limbs} (the number of prehensile limbs your character has). Some attacks may use up more than one of your limbs to use. Your options are:
+		\begin{itemize}
+			\item \textbf{Weapon Attack}-- for each attack action, a character may only attack once with each weapon they have currently equipped. Weapons have an associated talent to use them, and weapons have a minimum or maximum number of limbs you may use to attack.
+
+			A weapon attack roll is involves rolling the associated talent, with bonus dice equal to the number of limbs used to attack.
+
+			The number of successes on your roll indicates the amount of damage you do, and the type of damage is dependent on the weapon.
+
+			\item \textbf{Barehanded Attack} \emph{Touch range}-- Choose a number of limbs you are going to make a single attack with. Roll \GRPtalent{Fortitude}\GRPdicebonus{\GRPstat{Limbs}}.
+
+			The number of successes on your roll indicates the amount of physical damage you do.
+
+			\item \textbf{Grapple} \emph{Touch range}-- Involves any maneuver meant to move another character against their will. This involves a roll contest where a character rolls \GRPtalent{Athletics} and the target contests with \GRPtalent{Fortitude}. A character within cover cannot initiate a grapple, but a character outside cover may initiate a grapple with a character within cover.
+
+			If you win the contest, you may force the target to make a single move action of your choice.
+
+			Additional forced movement requires additional grapple actions.
+
+			\item \textbf{Disable} \emph{Touch range}-- Impair another character from accessing their augments for the rest of phased mode. This could involve attacking a pressure point or critical point meant to prevent the flow of energy to a character's augments.
+
+			The initiating character rolls \GRPtalent{Dexterity} and the target contests with \GRPtalent{Fortitude}. 
+
+			If you win the contest, the target's \GRPstat{Max Augments} is temporarily reduced by 1 and they must choose augments to temporarily disable until they are below their new \GRPstat{Max Augments}. Their \GRPstat{Max Augments} is restored to normal as soon as Phased mode ends.
+		\end{itemize}
+\end{itemize}
+\end{GRPquicknotewide}
 
 \subsection{Defense}
 
@@ -162,28 +324,26 @@ Your possible reactions are:
 For each of these, you must also specify your reaction trigger. Your choices of trigger are:
 
 \begin{itemize}
-	\item an action taken against another character
-	\item an action taken against your character
-	\item a character entering a zone
-	\item a character exiting a zone
+	\item the start of the phase
+	\item an action taken targeting another character
+	\item an action taken targeting your character
+	\item an action taken by another character
+	\item a character entering a room
+	\item a character exiting a room
 \end{itemize}
 
 A description of each of the options follows:
 
 \begin{GRPquicknotewide}
 \begin{itemize}
-	\item \textbf{Defend}-- may target any character or object within the same zone as you. Once triggered, for the rest of this turn any time an action is taken against the character or object you are protecting, you may contest your Athletics against the initiating character's roll to hit. If successful, the action is made to target you instead of its 	initial target.
+	\item \textbf{Protect}-- chose any one character or object within the same zone as you. Once triggered, for the rest of this turn any time an action is taken against the character or object you are protecting, you may contest your Athletics against the initiating character's roll to hit. If successful, the action is made to target you instead of its initial target.
 	\item \textbf{Retaliate}-- you may take one non-movement offensive action (as in the offense phase) in response to the trigger.
+	\item \textbf{Obstruct}-- In response to the trigger, you block one connector. You must be forced to make a Move action or be rendered incapacitated before anyone else can travel through that connector. This is generally indicated by placing your character token on top of the connector on the side of the room.
 	\item \textbf{Dodge}-- you may take one movement action in response to the trigger. If the trigger would incur damage to you, you may contest your Dexterity against the initiating character's roll to hit. If successful, you additionally avoid the damage in addition to taking a movement action.
 \end{itemize}
 \end{GRPquicknotewide}
 
 On a tabletop- you have the choice of sharing your defensive action with the GM or of writing it on a card and turning it face down
 
-
-
-
-
-Communicating in a different language- penalty of 4 additional disadvantage? maybe
 
 \closeopenenv{multicols}

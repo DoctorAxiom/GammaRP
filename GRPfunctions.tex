@@ -285,7 +285,7 @@
 	\ifmmode%
 		\left\{ {\color{grpneg}-#1} \right\}%
 	\else%
-		{\normalfont$ \left\{ {\color{grpneg}-#1}\right\} $}%
+		{\normalfont$ \left\{ {\color{grpneg}-#1} \right\} $}%
 	\fi%
 }
 
@@ -301,7 +301,7 @@
 	\ifmmode%
 		\left\{ {\color{grpneg}dd#1} \right\}%
 	\else%
-		{\normalfont$ \left\{ {\color{grpneg}dd#1}\right\} $}%
+		{\normalfont$ \left\{ {\color{grpneg}dd#1} \right\} $}%
 	\fi%
 }
 
@@ -327,7 +327,7 @@
 	\normalexpandarg\IfStrEq{#2}{}{}{%
 		\normalexpandarg\IfInteger{#2}{%
 			\ifnum#2<0%
-				\renewcommand{\GRP@aadv}{\color{grpneg}dd\inteval{0-(#2)}}%
+				\renewcommand{\GRP@aadv}{{\color{grpneg}dd\inteval{0-(#2)}}}%
 			\else%
 				\renewcommand{\GRP@aadv}{aa#2}%
 			\fi%
@@ -1150,7 +1150,7 @@
 	[% after code
 		\vspace{-1.5ex}
 	]
-
+	
 \titleformat
 	{\subsubsection} % command
 	[block] % shape

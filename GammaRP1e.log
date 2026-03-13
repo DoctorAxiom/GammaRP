@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.14)  26 FEB 2026 22:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.14)  12 MAR 2026 17:08
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1470,7 +1470,8 @@ Package: xparse 2025-10-09 L3 Experimental document command parser
 Writing index file GammaRP1e.idx
 ) (GammaRP1e.aux (chapters/Introduction.aux) (chapters/TheBasics.aux)
 (chapters/BuildingCharacter.aux) (chapters/Gameplay.aux)
-(chapters/GammaNebulaOverview.aux) (chapters/MathematicalFormulas.aux))
+(chapters/GammaNebulaOverview.aux) (chapters/Physics.aux) (chapters/Races.aux)
+(chapters/MathematicalFormulas.aux))
 \openout1 = `GammaRP1e.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -1586,7 +1587,7 @@ Package hyperref Info: Link coloring OFF on input line 25.
 Package svg Info: Last page of `./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf' is
  1 on input line 30.
  (svg-inkscape/GammaRPTitleLogo_svg-tex.pdf_tex
-<./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf, id=207, page=1, 192.85394pt x 201
+<./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf, id=275, page=1, 192.85394pt x 201
 .496pt>
 File: ./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/GammaRPTitleLogo_svg-tex.pdf, page 1>
@@ -1598,7 +1599,7 @@ Package svg Info: Last page of `./svg-inkscape/TitleBG_svg-tex.pdf' is 1 on inp
 ut line 30.
 
 (svg-inkscape/TitleBG_svg-tex.pdf_tex
-<./svg-inkscape/TitleBG_svg-tex.pdf, id=209, page=1, 752.81262pt x 752.81262pt>
+<./svg-inkscape/TitleBG_svg-tex.pdf, id=277, page=1, 752.81262pt x 752.81262pt>
 
 File: ./svg-inkscape/TitleBG_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/TitleBG_svg-tex.pdf, page 1>
@@ -1656,7 +1657,7 @@ Chapter 2.
 Package svg Info: Last page of `./svg-inkscape/twodice_svg-tex.pdf' is 1 on inp
 ut line 9.
 (svg-inkscape/twodice_svg-tex.pdf_tex
-<./svg-inkscape/twodice_svg-tex.pdf, id=2462, page=1, 1111.38797pt x 904.86887p
+<./svg-inkscape/twodice_svg-tex.pdf, id=2547, page=1, 1111.38797pt x 904.86887p
 t>
 File: ./svg-inkscape/twodice_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/twodice_svg-tex.pdf, page 1>
@@ -1677,7 +1678,7 @@ Package svg Info: Last page of `./svg-inkscape/onedice_svg-tex.pdf' is 1 on inp
 ut line 27.
 
 (svg-inkscape/onedice_svg-tex.pdf_tex
-<./svg-inkscape/onedice_svg-tex.pdf, id=2464, page=1, 1086.36443pt x 1019.55269
+<./svg-inkscape/onedice_svg-tex.pdf, id=2549, page=1, 1086.36443pt x 1019.55269
 pt>
 File: ./svg-inkscape/onedice_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/onedice_svg-tex.pdf, page 1>
@@ -1688,7 +1689,7 @@ ut line 56.
 Package svg Info: Last page of `./svg-inkscape/onedice_b_svg-tex.pdf' is 1 on i
 nput line 31.
  (svg-inkscape/onedice_b_svg-tex.pdf_tex
-<./svg-inkscape/onedice_b_svg-tex.pdf, id=2466, page=1, 1034.91122pt x 1037.043
+<./svg-inkscape/onedice_b_svg-tex.pdf, id=2551, page=1, 1034.91122pt x 1037.043
 33pt>
 File: ./svg-inkscape/onedice_b_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/onedice_b_svg-tex.pdf, page 1>
@@ -2214,8 +2215,8 @@ Overfull \hbox (10.15195pt too wide) in paragraph at lines 216--216
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--235
-[]\T1/qbk/m/n/10 Wheeeeeeeeeeeeee Write
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
+\T1/qbk/m/n/10 Large Larry, with Bob
  []
 
 [9]) [10]
@@ -2255,14 +2256,14 @@ Overfull \hbox (6.65273pt too wide) in paragraph at lines 128--128
 Package svg Info: Last page of `./svg-inkscape/ProxyGrid2_svg-tex.pdf' is 2 on 
 input line 143.
  (svg-inkscape/ProxyGrid2_svg-tex.pdf_tex
-<./svg-inkscape/ProxyGrid2_svg-tex.pdf, id=2568, page=1, 297.81435pt x 260.1439
+<./svg-inkscape/ProxyGrid2_svg-tex.pdf, id=2653, page=1, 297.81435pt x 260.1439
 8pt>
 File: ./svg-inkscape/ProxyGrid2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/ProxyGrid2_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/ProxyGrid2_svg-tex.pdf , page1 used on 
 input line 56.
 (pdftex.def)             Requested size: 181.71233pt x 158.72728pt.
-<./svg-inkscape/ProxyGrid2_svg-tex.pdf, id=2569, page=2, 297.81435pt x 260.1439
+<./svg-inkscape/ProxyGrid2_svg-tex.pdf, id=2654, page=2, 297.81435pt x 260.1439
 8pt>
 File: ./svg-inkscape/ProxyGrid2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/ProxyGrid2_svg-tex.pdf, page 2>
@@ -2274,7 +2275,7 @@ Package svg Info: Last page of `./svg-inkscape/ProxyGrid4_svg-tex.pdf' is 1 on
 input line 148.
 
 (svg-inkscape/ProxyGrid4_svg-tex.pdf_tex
-<./svg-inkscape/ProxyGrid4_svg-tex.pdf, id=2571, page=1, 292.46968pt x 260.1439
+<./svg-inkscape/ProxyGrid4_svg-tex.pdf, id=2656, page=1, 292.46968pt x 260.1439
 8pt>
 File: ./svg-inkscape/ProxyGrid4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/ProxyGrid4_svg-tex.pdf, page 1>
@@ -2411,239 +2412,249 @@ Underfull \hbox (badness 10000) in paragraph at lines 362--363
  []
 
 [20]
-Package svg Info: Last page of `./svg-inkscape/Charsheet_svg-tex.pdf' is 38 on 
+Package svg Info: Last page of `./svg-inkscape/Charsheet_svg-tex.pdf' is 39 on 
 input line 367.
  (svg-inkscape/Charsheet_svg-tex.pdf_tex
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2632, page=1, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2717, page=1, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page1 used on i
 nput line 56.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2633, page=2, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2718, page=2, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page2 used on i
 nput line 58.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2634, page=3, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2719, page=3, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page3 used on i
 nput line 60.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2635, page=4, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2720, page=4, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 4>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page4 used on i
 nput line 62.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2636, page=5, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2721, page=5, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 5>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page5 used on i
 nput line 64.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2637, page=6, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2722, page=6, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 6>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page6 used on i
 nput line 66.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2638, page=7, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2723, page=7, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 7>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page7 used on i
 nput line 68.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2639, page=8, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2724, page=8, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 8>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page8 used on i
 nput line 74.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2640, page=9, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2725, page=9, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 9>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page9 used on i
 nput line 80.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2641, page=10, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2726, page=10, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 10>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page10 used on 
 input line 86.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2642, page=11, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2727, page=11, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 11>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page11 used on 
 input line 92.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2643, page=12, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2728, page=12, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 12>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page12 used on 
 input line 98.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2644, page=13, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2729, page=13, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 13>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page13 used on 
 input line 104.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2645, page=14, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2730, page=14, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 14>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page14 used on 
 input line 110.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2646, page=15, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2731, page=15, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 15>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page15 used on 
 input line 116.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2647, page=16, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2732, page=16, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 16>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page16 used on 
 input line 118.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2648, page=17, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2733, page=17, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 17>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page17 used on 
 input line 125.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2649, page=18, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2734, page=18, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 18>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page18 used on 
 input line 127.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2650, page=19, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2735, page=19, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 19>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page19 used on 
 input line 129.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2651, page=20, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2736, page=20, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 20>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page20 used on 
 input line 131.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2652, page=21, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2737, page=21, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 21>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page21 used on 
 input line 133.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2653, page=22, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2738, page=22, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 22>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page22 used on 
 input line 137.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2654, page=23, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2739, page=23, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 23>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page23 used on 
 input line 144.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2655, page=24, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2740, page=24, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 24>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page24 used on 
 input line 156.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2656, page=25, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2741, page=25, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 25>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page25 used on 
 input line 158.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2657, page=26, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2742, page=26, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 26>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page26 used on 
 input line 160.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2658, page=27, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2743, page=27, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 27>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page27 used on 
 input line 162.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2659, page=28, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2744, page=28, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 28>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page28 used on 
-input line 165.
+input line 164.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2660, page=29, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2745, page=29, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 29>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page29 used on 
-input line 171.
+input line 167.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2661, page=30, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2746, page=30, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 30>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page30 used on 
 input line 173.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2662, page=31, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2747, page=31, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 31>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page31 used on 
 input line 175.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2663, page=32, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2748, page=32, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 32>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page32 used on 
-input line 178.
+input line 177.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2664, page=33, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2749, page=33, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 33>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page33 used on 
-input line 181.
+input line 180.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2665, page=34, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2750, page=34, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 34>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page34 used on 
-input line 184.
+input line 183.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2666, page=35, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2751, page=35, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 35>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page35 used on 
-input line 187.
+input line 186.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2667, page=36, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2752, page=36, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 36>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page36 used on 
-input line 190.
+input line 189.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2668, page=37, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2753, page=37, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 37>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page37 used on 
-input line 193.
+input line 192.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
-<./svg-inkscape/Charsheet_svg-tex.pdf, id=2669, page=38, 505.89pt x 722.7pt>
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2754, page=38, 505.89pt x 722.7pt>
 File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Charsheet_svg-tex.pdf, page 38>
 Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page38 used on 
-input line 196.
+input line 195.
+(pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
+<./svg-inkscape/Charsheet_svg-tex.pdf, id=2755, page=39, 505.89pt x 722.7pt>
+File: ./svg-inkscape/Charsheet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Charsheet_svg-tex.pdf, page 39>
+Package pdftex.def Info: ./svg-inkscape/Charsheet_svg-tex.pdf , page39 used on 
+input line 198.
 (pdftex.def)             Requested size: 505.92087pt x 722.75336pt.
 ) [21 <./svg-inkscape/Charsheet_svg-tex.pdf> <./svg-inkscape/Charsheet_svg-tex.
 pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/Charsheet_svg-tex.pdf
 
 pdfTeX warning: pdflatex.exe (file ./svg-inkscape/Charsheet_svg-tex.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
@@ -2811,37 +2822,228 @@ Overfull \hbox (6.65273pt too wide) in paragraph at lines 74--74
 |  []  []
  []
 
-[25] [26]
-Overfull \hbox (10.15195pt too wide) in paragraph at lines 125--125
+
+Overfull \hbox (6.65273pt too wide) in paragraph at lines 92--92
 |  []  []
  []
 
 
-Overfull \hbox (6.65273pt too wide) in paragraph at lines 135--135
+Underfull \vbox (badness 5460) has occurred while \output is active []
+
+ [25]
+Overfull \vbox (7.01874pt too high) has occurred while \output is active []
+
+
+[26]
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 152--152
+|  []  []
+ []
+
+[27]
+Overfull \hbox (6.65273pt too wide) in paragraph at lines 162--162
+|  []  []
+ []
+
+Package svg Info: Last page of `./svg-inkscape/ExampleRoom_svg-tex.pdf' is 1 on
+ input line 177.
+(svg-inkscape/ExampleRoom_svg-tex.pdf_tex
+<./svg-inkscape/ExampleRoom_svg-tex.pdf, id=2817, page=1, 216.40616pt x 119.666
+8pt>
+File: ./svg-inkscape/ExampleRoom_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ExampleRoom_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/ExampleRoom_svg-tex.pdf , page1 used on
+ input line 56.
+(pdftex.def)             Requested size: 165.73738pt x 91.65434pt.
+)
+Package svg Info: Last page of `./svg-inkscape/CoverSymbol_svg-tex.pdf' is 1 on
+ input line 185.
+
+(svg-inkscape/CoverSymbol_svg-tex.pdf_tex
+<./svg-inkscape/CoverSymbol_svg-tex.pdf, id=2819, page=1, 190.7987pt x 126.5418
+9pt>
+File: ./svg-inkscape/CoverSymbol_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/CoverSymbol_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/CoverSymbol_svg-tex.pdf , page1 used on
+ input line 56.
+(pdftex.def)             Requested size: 99.44344pt x 65.95276pt.
+)
+Package svg Info: Last page of `./svg-inkscape/ExampleArena_svg-tex.pdf' is 2 o
+n input line 193.
+
+(svg-inkscape/ExampleArena_svg-tex.pdf_tex
+<./svg-inkscape/ExampleArena_svg-tex.pdf, id=2821, page=1, 603.12418pt x 248.58
+293pt>
+File: ./svg-inkscape/ExampleArena_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ExampleArena_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/ExampleArena_svg-tex.pdf , page1 used o
+n input line 56.
+(pdftex.def)             Requested size: 382.54738pt x 157.67772pt.
+<./svg-inkscape/ExampleArena_svg-tex.pdf, id=2822, page=2, 603.12418pt x 248.58
+293pt>
+File: ./svg-inkscape/ExampleArena_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ExampleArena_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/ExampleArena_svg-tex.pdf , page2 used o
+n input line 63.
+(pdftex.def)             Requested size: 382.54738pt x 157.67772pt.
+) [28 <./svg-inkscape/ExampleRoom_svg-tex.pdf> <./svg-inkscape/CoverSymbol_svg-
+tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/CoverSymbol_svg-tex.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/ExampleArena_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/ExampleArena_svg-tex.pdf): PD
+F inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/ExampleArena_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/ExampleArena_svg-tex.pdf): PD
+F inclusion: multiple pdfs with page group included in a single page
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+[]\T1/qbk/m/n/10 Connections are drawn be-tween
+ []
+
+Package svg Info: Last page of `./svg-inkscape/PlainConnector_svg-tex.pdf' is 1
+ on input line 214.
+(svg-inkscape/PlainConnector_svg-tex.pdf_tex
+<./svg-inkscape/PlainConnector_svg-tex.pdf, id=2835, page=1, 53.36392pt x 13.24
+323pt>
+File: ./svg-inkscape/PlainConnector_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/PlainConnector_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/PlainConnector_svg-tex.pdf , page1 used
+ on input line 56.
+(pdftex.def)             Requested size: 32.32512pt x 8.02196pt.
+)
+Package svg Info: Last page of `./svg-inkscape/VisonlyConnector_svg-tex.pdf' is
+ 1 on input line 215.
+
+(svg-inkscape/VisonlyConnector_svg-tex.pdf_tex
+<./svg-inkscape/VisonlyConnector_svg-tex.pdf, id=2837, page=1, 52.99042pt x 13.
+24431pt>
+File: ./svg-inkscape/VisonlyConnector_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/VisonlyConnector_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/VisonlyConnector_svg-tex.pdf , page1 us
+ed on input line 56.
+(pdftex.def)             Requested size: 32.32512pt x 8.0794pt.
+)
+Package svg Info: Last page of `./svg-inkscape/ExtraMoveConnector_svg-tex.pdf' 
+is 1 on input line 216.
+
+(svg-inkscape/ExtraMoveConnector_svg-tex.pdf_tex
+<./svg-inkscape/ExtraMoveConnector_svg-tex.pdf, id=2839, page=1, 53.06435pt x 3
+1.46399pt>
+File: ./svg-inkscape/ExtraMoveConnector_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ExtraMoveConnector_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/ExtraMoveConnector_svg-tex.pdf , page1 
+used on input line 56.
+(pdftex.def)             Requested size: 32.32512pt x 19.16707pt.
+)
+Package svg Info: Last page of `./svg-inkscape/CoverConnector_svg-tex.pdf' is 1
+ on input line 217.
+
+(svg-inkscape/CoverConnector_svg-tex.pdf_tex
+<./svg-inkscape/CoverConnector_svg-tex.pdf, id=2841, page=1, 54.29648pt x 28.61
+798pt>
+File: ./svg-inkscape/CoverConnector_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/CoverConnector_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/CoverConnector_svg-tex.pdf , page1 used
+ on input line 56.
+(pdftex.def)             Requested size: 32.32512pt x 17.03859pt.
+)
+Package svg Info: Last page of `./svg-inkscape/HazardConnector_svg-tex.pdf' is 
+1 on input line 218.
+
+(svg-inkscape/HazardConnector_svg-tex.pdf_tex
+<./svg-inkscape/HazardConnector_svg-tex.pdf, id=2843, page=1, 53.0634pt x 31.46
+283pt>
+File: ./svg-inkscape/HazardConnector_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/HazardConnector_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/HazardConnector_svg-tex.pdf , page1 use
+d on input line 56.
+(pdftex.def)             Requested size: 32.32512pt x 19.16635pt.
+)
+Package svg Info: Last page of `./svg-inkscape/TrapConnector_svg-tex.pdf' is 1 
+on input line 219.
+
+(svg-inkscape/TrapConnector_svg-tex.pdf_tex
+<./svg-inkscape/TrapConnector_svg-tex.pdf, id=2845, page=1, 53.0634pt x 22.9281
+8pt>
+File: ./svg-inkscape/TrapConnector_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TrapConnector_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/TrapConnector_svg-tex.pdf , page1 used 
+on input line 56.
+(pdftex.def)             Requested size: 32.32512pt x 13.96725pt.
+)
+Package svg Info: Last page of `./svg-inkscape/TrapSymbol_svg-tex.pdf' is 1 on 
+input line 227.
+
+(svg-inkscape/TrapSymbol_svg-tex.pdf_tex
+<./svg-inkscape/TrapSymbol_svg-tex.pdf, id=2847, page=1, 206.88863pt x 185.6289
+7pt>
+File: ./svg-inkscape/TrapSymbol_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/TrapSymbol_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/TrapSymbol_svg-tex.pdf , page1 used on 
+input line 56.
+(pdftex.def)             Requested size: 165.73738pt x 148.71579pt.
+) [29 <./svg-inkscape/PlainConnector_svg-tex.pdf> <./svg-inkscape/VisonlyConnec
+tor_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/VisonlyConnector_svg-tex.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/ExtraMoveConnector_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/ExtraMoveConnector_svg-tex.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/CoverConnector_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/CoverConnector_svg-tex.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/HazardConnector_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/HazardConnector_svg-tex.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/TrapConnector_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/TrapConnector_svg-tex.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/TrapSymbol_svg-tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/TrapSymbol_svg-tex.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+>]
+Overfull \hbox (6.65273pt too wide) in paragraph at lines 238--238
 |  []  []
  []
 
 
-Overfull \hbox (6.65273pt too wide) in paragraph at lines 148--148
+Underfull \hbox (badness 6110) in paragraph at lines 247--248
+[]\T1/qbk/b/n/10 Line-of-sight\T1/qbk/m/n/10 -- Af-fects any
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+[]\T1/qbk/b/n/10 Awareness\T1/qbk/m/n/10 -- Af-fects any
+ []
+
+
+Overfull \hbox (6.65273pt too wide) in paragraph at lines 257--257
 |  []  []
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [28]
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
-[]\T1/qbk/m/n/10 Communicating in a dif-fer-ent
+ [30]
+[31]
+Overfull \hbox (6.65273pt too wide) in paragraph at lines 310--310
+|  []  []
  []
 
-) [29] [30
+) [32] [33
 
 
 
-] [31] [32]
+] [34]
 \openout2 = `chapters/GammaNebulaOverview.aux'.
 
  (chapters/GammaNebulaOverview.tex
@@ -2851,52 +3053,277 @@ Overfull \hbox (10.15195pt too wide) in paragraph at lines 9--9
 |  []  []
  []
 
-[33
+) [35
 
 
-]) [34
+]
+\openout2 = `chapters/Physics.aux'.
 
+ (chapters/Physics.tex [36
 
-
-] [35
-
-] [36]
-\openout2 = `chapters/MathematicalFormulas.aux'.
-
- (chapters/MathematicalFormulas.tex) [37
-
-
-] [38
 
 
 
 ]
-(GammaRP1e.lof)
+Chapter 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+[]\T1/qbk/m/n/10 For the math-e-mat-i-cally minded
+ []
+
+
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 13--13
+|  []  []
+ []
+
+
+Overfull \hbox (6.65273pt too wide) in paragraph at lines 15--15
+|  []  []
+ []
+
+
+Overfull \hbox (6.65273pt too wide) in paragraph at lines 22--22
+|  []  []
+ []
+
+
+Overfull \hbox (6.65273pt too wide) in paragraph at lines 30--30
+|  []  []
+ []
+
+
+Overfull \hbox (6.65273pt too wide) in paragraph at lines 42--42
+|  []  []
+ []
+
+[37]
+Overfull \hbox (6.65273pt too wide) in paragraph at lines 51--51
+|  []  []
+ []
+
+
+Overfull \hbox (6.65273pt too wide) in paragraph at lines 62--62
+|  []  []
+ []
+
+) [38]
+\openout2 = `chapters/Races.aux'.
+
+ (chapters/Races.tex
+Chapter 7.
+[39
+
+
+
+
+]
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 31--31
+|  []  []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 37--37
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 40--40
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 46--46
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 53--53
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 60--60
+| []
+ []
+
+
+Underfull \hbox (badness 7344) in paragraph at lines 63--64
+\T1/qbk/m/it/10 trans-for-ma-tive el-e-ments \T1/qbk/m/n/10 (Fire or
+ []
+
+[40
+
+]
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 68--68
+|  []  []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 72--72
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 76--76
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 82--82
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 89--89
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 97--97
+| []
+ []
+
+[41
+
+]
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 104--104
+|  []  []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 106--106
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 108--108
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 110--110
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 117--117
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 119--119
+| []
+ []
+
+[42
+
+]
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 122--122
+|  []  []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 124--124
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 126--126
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 130--130
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 135--135
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 141--141
+| []
+ []
+
+[43
+
+]
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 150--150
+|  []  []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 152--152
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 154--154
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 156--156
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 158--158
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 160--160
+| []
+ []
+
+) [44
+
+] [45
+
+
+
+
+] [46]
+\openout2 = `chapters/MathematicalFormulas.aux'.
+
+ (chapters/MathematicalFormulas.tex) [47
+
+
+] [48
+
+
+
+] (GammaRP1e.lof)
 \tf@lof=\write7
 \openout7 = `GammaRP1e.lof'.
 
- [39
 
-] [40
+[49
+
+] [50
 
 ] (GammaRP1e.lot)
 \tf@lot=\write8
 \openout8 = `GammaRP1e.lot'.
 
- [41
+ [51
 
-] [42
+] [52
 
 ]
 runsystem(makeindex -s GRPindexstyle.ist GammaRP1e.idx)...executed safely (allo
 wed).
 
- (GammaRP1e.ind) [43
+ (GammaRP1e.ind) [53
 
-]
-(GammaRP1e.aux (chapters/Introduction.aux) (chapters/TheBasics.aux)
+] (GammaRP1e.aux
+(chapters/Introduction.aux) (chapters/TheBasics.aux)
 (chapters/BuildingCharacter.aux) (chapters/Gameplay.aux)
-(chapters/GammaNebulaOverview.aux) (chapters/MathematicalFormulas.aux))
+(chapters/GammaNebulaOverview.aux) (chapters/Physics.aux) (chapters/Races.aux)
+(chapters/MathematicalFormulas.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-06>
@@ -2909,16 +3336,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `GammaRP1e.out' has not changed.
-(rerunfilecheck)             Checksum: 0F8E938F8D6E955E70D751606DB4E0F1;5282.
+(rerunfilecheck)             Checksum: 5CDD4B777CFC2A81677BD46A6DA82AB4;7372.
  ) 
 Here is how much of TeX's memory you used:
- 37369 strings out of 467871
- 764152 string characters out of 5428442
- 1518722 words of memory out of 5000000
- 65397 multiletter control sequences out of 15000+600000
+ 37777 strings out of 467871
+ 777974 string characters out of 5428442
+ 1523894 words of memory out of 5000000
+ 65723 multiletter control sequences out of 15000+600000
  745678 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,28n,122p,1537b,1824s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,28n,122p,733b,1824s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type
@@ -2933,9 +3360,9 @@ pfb><C:/Program Files/MiKTeX/fonts/type1/public/tex-gyre/qbkb.pfb><C:/Program F
 iles/MiKTeX/fonts/type1/public/tex-gyre/qbkbi.pfb><C:/Program Files/MiKTeX/font
 s/type1/public/tex-gyre/qbkr.pfb><C:/Program Files/MiKTeX/fonts/type1/public/te
 x-gyre/qbkri.pfb>
-Output written on GammaRP1e.pdf (47 pages, 1766281 bytes).
+Output written on GammaRP1e.pdf (57 pages, 2000365 bytes).
 PDF statistics:
- 2943 PDF objects out of 2984 (max. 8388607)
- 137 named destinations out of 1000 (max. 500000)
- 899 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3144 PDF objects out of 3580 (max. 8388607)
+ 175 named destinations out of 1000 (max. 500000)
+ 1193 words of extra memory for PDF output out of 10000 (max. 10000000)
 

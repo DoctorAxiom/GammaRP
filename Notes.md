@@ -253,30 +253,30 @@ Each player within a party may choose their actions an reactions in any order.
 
 #### Arena
 
-When the game enters phased mode the GM must specify an arena. The arena rules are designed to be able to quickly generate unique combat zones spontaneously.
+When the game enters phased mode the GM must specify an arena. The arena rules are designed to be able to quickly generate unique combat rooms spontaneously.
 
-An arena consists of 1 or more Zones.
+An arena consists of 1 or more rooms.
 
-Each Zone contains 1 or more open spaces, 0 or more covered spaces, and 1 or more connections to other zones or exits
+Each room contains 1 or more open spaces, 0 or more covered spaces, and 1 or more connections to other rooms or exits
 
-within a zone, all characters are considered able to touch each other 
-any character within a zone may take a ranged action on anything within a connected zone.
-there may only be as many character as there are spaces in a zone.
+within a room, all characters are considered able to touch each other 
+any character within a room may take a ranged action on anything within a connected room.
+there may only be as many character as there are spaces in a room.
 
-Each zone may be clear terrain, rough terrain, or harsh terrain.
+Each room may be clear terrain, rough terrain, or harsh terrain.
 
-If a zone is clear terrain - it takes 1 movement actions to get into or out of a covered spot in the zone.
+If a room is clear terrain - it takes 1 movement actions to get into or out of a covered spot in the room.
 
-If a zone is rough terrain - to get into or out of cover roll athletics. If successful it takes 1 movement action to get into or out of cover. If unsuccessful it takes 2 movement actions to get into or out of cover.
+If a room is rough terrain - to get into or out of cover roll athletics. If successful it takes 1 movement action to get into or out of cover. If unsuccessful it takes 2 movement actions to get into or out of cover.
 
-If a zone is harsh terrain- it takes 3 movement actions to get in and out of cover, or with a successful dexterity roll takes 2 movement actions. With a dexterity roll with 2 or more successes, it only takes 1 movement action to get into or out of cover.
+If a room is harsh terrain- it takes 3 movement actions to get in and out of cover, or with a successful dexterity roll takes 2 movement actions. With a dexterity roll with 2 or more successes, it only takes 1 movement action to get into or out of cover.
 
 
 Connections may be clear terrain, rough terrain, harsh terrain, or view only.
 
-It takes 1 movement actions to move from one zone to another through a connection that is clear terrain
-It takes 2 movement actions to move from one zone to another through a connection that is rough terrain, or with a successful ATHLETICS roll it takes 1 movement.
-It takes 3 movement actions to move from one zone to another through a connection that is harsh, or with a successful athletics roll takes 2 movement. With a successful athletics roll with 2 or more successes, it takes only 1 movement action.
+It takes 1 movement actions to move from one room to another through a connection that is clear terrain
+It takes 2 movement actions to move from one room to another through a connection that is rough terrain, or with a successful ATHLETICS roll it takes 1 movement.
+It takes 3 movement actions to move from one room to another through a connection that is harsh, or with a successful athletics roll takes 2 movement. With a successful athletics roll with 2 or more successes, it takes only 1 movement action.
 
 
 Connections may have one or more arrows drawn from one side to the other to indicate that they confer advantage in that direction.
@@ -284,7 +284,7 @@ A connection that has advantage does two things-
 ranged actions in the direction of advantage gain +1 advantage for each connection advantage arrow.
 if the connection is difficult terrain, it only requires 1 movement to traverse in the direction of the arrow, but still requires 2 movement (or a successful athletics roll) to traverse against the arrow.
 
-Note- if your players are creative with their surroundings- you may end up adding, changing, or even removing zones and connections as the turn-based gameplay progresses!
+Note- if your players are creative with their surroundings- you may end up adding, changing, or even removing rooms and connections as the turn-based gameplay progresses!
 
 
 #### Offense
@@ -317,10 +317,10 @@ For each of these, you specify your reaction trigger. Your choices of trigger ar
 
 an action taken against another character
 an action taken against your character
-a character entering a zone
-a character exiting a zone
+a character entering a room
+a character exiting a room
 
-Defend - may target any character or object within the same zone as you. Once triggered, for the rest of this turn any time an action is taken against the character or object you are protecting, you may contest your Athletics against the initiating character's roll to hit. If successful, the action is made to target you instead of its initial target.
+Defend - may target any character or object within the same room as you. Once triggered, for the rest of this turn any time an action is taken against the character or object you are protecting, you may contest your Athletics against the initiating character's roll to hit. If successful, the action is made to target you instead of its initial target.
 
 Retaliate - you may take one non-movement offensive action (as in the offense phase) in response to the trigger.
 
@@ -336,8 +336,10 @@ On a tabletop- you have the choice of sharing your defensive action with the GM 
 still don't know where in the main document to put these.
 
 Melee - a specific target in the same room
+LOS - Any target you have line of sight to. -1 dice for cover.
 Room - All targets in the same room
-Area - All targets in the current room and any connected rooms
+AOE - All targets in the current room and any connected rooms
+Arena - All targets in the current arena
 Awareness - any target you are currently aware of by any of your senses
 
 

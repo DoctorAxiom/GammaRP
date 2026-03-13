@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="300"
+   height="250"
+   viewBox="0 0 79.374999 66.145832"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="TrapSymbol.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.4485269"
+     inkscape:cx="140.83273"
+     inkscape:cy="45.218353"
+     inkscape:window-width="1920"
+     inkscape:window-height="1094"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="true">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="0.99999999"
+       spacingy="0.99999995"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path6"
+       style="fill:none;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round"
+       d="M 68.492708,32.940625 H 51.50729 v 16.985416 h 16.985418 z m -1.476993,1.476993 H 52.984284 V 48.449049 H 67.015715 Z M 65.538723,35.89461 V 46.972056 H 54.461276 l -2e-6,-11.077446 z m -11.077447,0 11.077447,11.077446 m 0,-11.077446 -11.077447,11.077446" />
+    <path
+       id="path7"
+       style="fill:none;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round"
+       d="M 26.992709,34.440625 H 13.007292 V 48.426041 H 26.992709 Z M 25.52056,35.912774 V 46.953892 H 14.47944 l -2e-6,-11.041118 z m -11.04112,0 11.04112,11.041118 m 0,-11.041118 -11.04112,11.041118" />
+    <path
+       id="path8-1"
+       style="fill:none;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round"
+       d="M 45.180209,2.1552073 V 13.140622 H 34.194791 l -1e-6,-10.9854147 z m -10.985418,0 10.985418,10.9854147 m 0,-10.9854147 -10.985418,10.9854147" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.35px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';text-align:center;letter-spacing:0.248708px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke-width:1.05807;stroke-linecap:round;stroke-linejoin:round"
+       x="19.875647"
+       y="57.404171"
+       id="text1-6"><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke-width:1.05807"
+         x="19.875647"
+         y="57.404171"
+         id="tspan10">2 damage </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke-width:1.05807"
+         x="20"
+         y="65.341667"
+         id="tspan11">trap</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.35px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';text-align:center;letter-spacing:0.248708px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke-width:1.05807;stroke-linecap:round;stroke-linejoin:round"
+       x="59.875645"
+       y="57.404171"
+       id="text1-6-7"><tspan
+         sodipodi:role="line"
+         id="tspan1-1-9"
+         style="fill:#000000;stroke-width:1.05807"
+         x="59.875645"
+         y="57.404171">3 damage</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke-width:1.05807"
+         x="60"
+         y="65.341667"
+         id="tspan12">trap</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.35px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';text-align:center;letter-spacing:0.248708px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke-width:1.05807;stroke-linecap:round;stroke-linejoin:round"
+       x="40"
+       y="19.76787"
+       id="text1-6-7-2"><tspan
+         sodipodi:role="line"
+         id="tspan1-1-9-7"
+         style="fill:#000000;stroke-width:1.05807"
+         x="40"
+         y="19.76787">1 damage</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke-width:1.05807"
+         x="40.124355"
+         y="27.70537"
+         id="tspan12-6">trap</tspan></text>
+  </g>
+</svg>
