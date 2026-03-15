@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.14)  12 MAR 2026 17:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.14)  15 MAR 2026 13:37
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3137,76 +3137,66 @@ Overfull \hbox (2.72398pt too wide) in paragraph at lines 46--46
  []
 
 
-Overfull \hbox (2.72398pt too wide) in paragraph at lines 53--53
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 52--52
 | []
  []
 
 
-Overfull \hbox (2.72398pt too wide) in paragraph at lines 60--60
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 59--59
 | []
  []
 
 
-Underfull \hbox (badness 7344) in paragraph at lines 63--64
+Underfull \hbox (badness 7344) in paragraph at lines 62--63
 \T1/qbk/m/it/10 trans-for-ma-tive el-e-ments \T1/qbk/m/n/10 (Fire or
  []
 
 [40
 
 ]
-Overfull \hbox (10.15195pt too wide) in paragraph at lines 68--68
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 67--67
 |  []  []
  []
 
 
-Overfull \hbox (2.72398pt too wide) in paragraph at lines 72--72
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 71--71
 | []
  []
 
 
-Overfull \hbox (2.72398pt too wide) in paragraph at lines 76--76
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 75--75
 | []
  []
 
 
-Overfull \hbox (2.72398pt too wide) in paragraph at lines 82--82
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 81--81
 | []
  []
 
 
-Overfull \hbox (2.72398pt too wide) in paragraph at lines 89--89
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 88--88
 | []
  []
 
 
-Overfull \hbox (2.72398pt too wide) in paragraph at lines 97--97
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 96--96
 | []
  []
 
 [41
 
 ]
-Overfull \hbox (10.15195pt too wide) in paragraph at lines 104--104
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 103--103
 |  []  []
  []
 
 
-Overfull \hbox (2.72398pt too wide) in paragraph at lines 106--106
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 109--109
 | []
  []
 
 
-Overfull \hbox (2.72398pt too wide) in paragraph at lines 108--108
-| []
- []
-
-
-Overfull \hbox (2.72398pt too wide) in paragraph at lines 110--110
-| []
- []
-
-
-Overfull \hbox (2.72398pt too wide) in paragraph at lines 117--117
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 113--113
 | []
  []
 
@@ -3215,57 +3205,35 @@ Overfull \hbox (2.72398pt too wide) in paragraph at lines 119--119
 | []
  []
 
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 127--127
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 134--134
+| []
+ []
+
 [42
 
 ]
-Overfull \hbox (10.15195pt too wide) in paragraph at lines 122--122
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 141--141
 |  []  []
  []
 
 
-Overfull \hbox (2.72398pt too wide) in paragraph at lines 124--124
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 147--147
 | []
  []
 
 
-Overfull \hbox (2.72398pt too wide) in paragraph at lines 126--126
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 149--149
 | []
  []
 
 
-Overfull \hbox (2.72398pt too wide) in paragraph at lines 130--130
-| []
- []
-
-
-Overfull \hbox (2.72398pt too wide) in paragraph at lines 135--135
-| []
- []
-
-
-Overfull \hbox (2.72398pt too wide) in paragraph at lines 141--141
-| []
- []
-
-[43
-
-]
-Overfull \hbox (10.15195pt too wide) in paragraph at lines 150--150
-|  []  []
- []
-
-
-Overfull \hbox (2.72398pt too wide) in paragraph at lines 152--152
-| []
- []
-
-
-Overfull \hbox (2.72398pt too wide) in paragraph at lines 154--154
-| []
- []
-
-
-Overfull \hbox (2.72398pt too wide) in paragraph at lines 156--156
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 153--153
 | []
  []
 
@@ -3275,7 +3243,39 @@ Overfull \hbox (2.72398pt too wide) in paragraph at lines 158--158
  []
 
 
-Overfull \hbox (2.72398pt too wide) in paragraph at lines 160--160
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 164--164
+| []
+ []
+
+[43
+
+]
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 174--174
+|  []  []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 176--176
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 178--178
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 180--180
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 182--182
+| []
+ []
+
+
+Overfull \hbox (2.72398pt too wide) in paragraph at lines 184--184
 | []
  []
 
@@ -3335,14 +3335,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `GammaRP1e.out' has not changed.
 (rerunfilecheck)             Checksum: 5CDD4B777CFC2A81677BD46A6DA82AB4;7372.
  ) 
 Here is how much of TeX's memory you used:
- 37777 strings out of 467871
- 777974 string characters out of 5428442
+ 37789 strings out of 467871
+ 778218 string characters out of 5428442
  1523894 words of memory out of 5000000
- 65723 multiletter control sequences out of 15000+600000
+ 65735 multiletter control sequences out of 15000+600000
  745678 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,28n,122p,733b,1824s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3360,7 +3363,7 @@ pfb><C:/Program Files/MiKTeX/fonts/type1/public/tex-gyre/qbkb.pfb><C:/Program F
 iles/MiKTeX/fonts/type1/public/tex-gyre/qbkbi.pfb><C:/Program Files/MiKTeX/font
 s/type1/public/tex-gyre/qbkr.pfb><C:/Program Files/MiKTeX/fonts/type1/public/te
 x-gyre/qbkri.pfb>
-Output written on GammaRP1e.pdf (57 pages, 2000365 bytes).
+Output written on GammaRP1e.pdf (57 pages, 2001149 bytes).
 PDF statistics:
  3144 PDF objects out of 3580 (max. 8388607)
  175 named destinations out of 1000 (max. 500000)
