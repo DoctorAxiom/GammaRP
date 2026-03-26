@@ -24,9 +24,9 @@
      inkscape:deskcolor="#313131"
      inkscape:document-units="mm"
      labelstyle="default"
-     inkscape:zoom="2.032932"
-     inkscape:cx="276.69396"
-     inkscape:cy="427.21547"
+     inkscape:zoom="2.875"
+     inkscape:cx="516"
+     inkscape:cy="523.65217"
      inkscape:window-width="1920"
      inkscape:window-height="1094"
      inkscape:window-x="-11"
@@ -1512,22 +1512,22 @@
     <rect
        style="fill:none;stroke:#808080;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
        id="rect1-1-80-9-86-5-1"
-       width="14.872846"
-       height="5.0946579"
+       width="9.6018286"
+       height="5.0946655"
        x="104.26072"
        y="139.90881"
        ry="1.5309297" />
     <text
        xml:space="preserve"
        style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
-       x="119.66425"
+       x="114.92235"
        y="142.02368"
        id="text1-6-0-9-9-4-6"
        transform="scale(0.99998731,1.0000127)"><tspan
          sodipodi:role="line"
          id="tspan1-5-6-3-8-2-8"
          style="font-size:1.05833px;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
-         x="119.66425"
+         x="114.92235"
          y="142.02368">\scriptsize \GRPstat{Gold}</tspan></text>
     <text
        xml:space="preserve"
@@ -1593,7 +1593,7 @@
          id="tspan1-5-6-3-8-2-5-65-82-9-2"
          style="font-size:1.05833px;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
          x="67.453087"
-         y="97.074928">\scriptsize Bonus</tspan></text>
+         y="97.074928">\scriptsize Parry</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
@@ -1742,26 +1742,26 @@
        xml:space="preserve"
        style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
        x="137.8759"
-       y="149.65193"
+       y="154.68384"
        id="text1-6-0-9-9-4-1-9-1-5-4"
        transform="scale(0.99998731,1.0000127)"><tspan
          sodipodi:role="line"
          id="tspan1-5-6-3-8-2-5-65-5-0-6"
          style="font-size:1.05833px;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793751"
          x="137.8759"
-         y="149.65193">\scriptsize Items</tspan></text>
+         y="154.68384">\scriptsize Items</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
        x="168.68094"
-       y="149.65195"
+       y="154.68385"
        id="text1-6-0-9-9-4-1-9-9-2-1-0"
        transform="scale(0.99998731,1.0000127)"><tspan
          sodipodi:role="line"
          id="tspan1-5-6-3-8-2-5-65-9-7-3-6"
          style="font-size:1.05833px;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
          x="168.68094"
-         y="149.65195">\scriptsize Wt</tspan></text>
+         y="154.68385">\scriptsize Wt</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
@@ -1887,20 +1887,20 @@
        id="rect1-1-80-9-86-5-4-0-0"
        width="5.0466213"
        height="5.0946531"
-       x="164.16138"
+       x="139.81973"
        y="139.90884"
        ry="1.5309297" />
     <text
        xml:space="preserve"
        style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
-       x="163.63429"
+       x="139.29231"
        y="142.02371"
        id="text1-6-0-9-9-4-2-7-0-6"
        transform="scale(0.99998731,1.0000127)"><tspan
          sodipodi:role="line"
          id="tspan1-5-6-3-8-2-3-7-3-7"
          style="font-size:1.05833px;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
-         x="163.63429"
+         x="139.29231"
          y="142.02371">\scriptsize \GRPstat{Pack Wt}</tspan></text>
     <g
        id="g4"
@@ -1948,6 +1948,18 @@
          y="41.158447">\GRPstat{Wounds}</tspan></text>
     <text
        xml:space="preserve"
+       style="font-size:2.39278px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="159.11899"
+       y="149.189"
+       id="text1-6-0-9-9-7-8"
+       transform="scale(0.99998731,1.0000127)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6-3-8-7-5"
+         style="text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.793751"
+         x="159.11899"
+         y="149.189">\GRPstat{Actions}</tspan></text>
+    <text
+       xml:space="preserve"
        style="font-size:1.05833px;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
        x="91.464943"
        y="54.279129"
@@ -1958,14 +1970,11 @@
          style="font-size:1.05833px;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.793751"
          x="91.464943"
          y="54.279129">\tiny \GRPability{Robust}</tspan></text>
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+    <path
        id="rect2-6-8-1-8-6-0"
-       width="98.284828"
-       height="57.361092"
-       x="72.510643"
-       y="138.32132"
-       ry="3.0015733" />
+       style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       d="m 149.27108,151.55049 c -1.66287,0 -3.00157,-1.3387 -3.00157,-3.00157 v -7.22603 c 0,-1.66287 -1.3387,-3.00157 -3.00157,-3.00157 H 75.512216 c -1.662871,0 -3.001573,1.3387 -3.001573,3.00157 v 51.35795 c 0,1.66287 1.338702,3.00157 3.001573,3.00157 H 167.7939 c 1.66287,0 3.00157,-1.3387 3.00157,-3.00157 v -38.12879 c 0,-1.66287 -1.3387,-3.00157 -3.00157,-3.00157 z"
+       sodipodi:nodetypes="ccccssssssscc" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.793751;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
        id="rect2-6-8-1-8-6-0-0"
@@ -2082,11 +2091,6 @@
        style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
        d="m 104.37363,190.16929 h 24.94779 m 1.54453,0 h 4.31232"
        id="path89-4-3-7-2-4-8-5-1-93-3"
-       sodipodi:nodetypes="cccc" />
-    <path
-       style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
-       d="m 137.87415,154.9455 h 24.94779 m 1.54453,0 h 4.31232"
-       id="path89-4-3-7-2-4-8-5-1-93-4"
        sodipodi:nodetypes="cccc" />
     <path
        style="fill:#4d4d4d;fill-opacity:1;stroke:#cccccc;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
@@ -2510,5 +2514,25 @@
            x="79.85569"
            y="199.7247">\GRPtgrid[1,2]</tspan></text>
     </g>
+    <rect
+       style="fill:none;stroke:#808080;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect1-1-3-3-1-2"
+       width="10.478661"
+       height="6.6109657"
+       x="149.44447"
+       y="139.11514"
+       ry="1.5309297" />
+    <rect
+       style="fill:none;stroke:#808080;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect1-1-80-9-86-9-2"
+       width="5.950727"
+       height="6.6809058"
+       x="162.56902"
+       y="139.11514"
+       ry="1.5309297" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 160.40496,144.96831 1.49698,-2.83919"
+       id="path84-26-3-3" />
   </g>
 </svg>

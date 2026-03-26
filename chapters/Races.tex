@@ -14,7 +14,7 @@
 		\vspace{-1.5ex}
 	]
 
-\GRPchapter{Races}
+\GRPchapter{Species}\label{chap:species}
 Hi hi hiiiiiii
 
 Here is the list of RAAACES. they aren't RACIST they are just RACES. YEEEEEAH.
@@ -110,21 +110,34 @@ Kobolds are bipedal with two prehensile arms and a prehensile tail.
 
 \subsection*{Languages}
 
+\begin{itemize}
+	\item Standard
+	\item Slewbask
+\end{itemize}
+
 \subsection*{Species Bonuses}
 
 \begin{itemize}
-	\item \GRPbonusdice{2}\GRPtalent{Athletics}
-	\item \GRPbonusdice{1}\GRPtalent{Will}
-	\item \GRPbonusdice{1}\GRPtalent{Charisma}
+	\item \GRPdicebonus{2}\GRPtalent{Athletics}
+	\item \GRPdicebonus{1}\GRPtalent{Will}
+	\item \GRPdicebonus{1}\GRPtalent{Charisma}
 \end{itemize}
 
 \subsection*{Species Abilities}
 
+\begin{itemize}
+	\item \textbf{Serpentine Flexibility}-- Receive \GRPdicebonus{1} on any roll involving this character navigating cramped or narrow space.
+
+	Additionally- you may roll \GRPtalent{Dexterity} to try to traverse an obstructed connector for one extra movement, contested by \GRPtalent{Fortitude} of the character doing the obstructing.
+	\item \textbf{Venomous Bite}-- Choose between Precision poison, Strength poison, or Grace poison at character creation.
+
+	When making a barehanded attack, you can choose to additionally bite the target. If the attack deals any damage, the target is inflicted by the poison you chose at character creation, depleting the relevant characteristic by 1.
+\end{itemize}
 
 \GRPpagebreak
 \section{Carcinids}
 
-Carcinids are large, crab-like sentient beings that live in all corners of the galaxy. Many independent communities of carcinids survived the Spiral War in many different.
+Carcinids are crab-like sentient beings that live in all corners of the galaxy. Many independent communities of carcinids survived the Spiral War in many different.
 
 Most carcinids do not have anything that could be denoted a biological sex. Most carcinids may reproduce by laying eggs which may contain just their own genetic material, or include that of a co-parent.
 
@@ -136,7 +149,7 @@ Carcinids have a hard outer carapace around a scaffolding they use as an exoskel
 
 Carcinids have 10 limbs they can walk on, 5 of which are free for manipulation of objects at any given time.
 
-\GRPstat{Grab Limbs} is 5
+\GRPstat{Grab Limbs} is 4
 
 \subsection*{Languages}
 Carcinids are unable to learn to speak any language besides chitter without the use of assistive devices or spells due to the shape of their mouthparts.
@@ -156,15 +169,73 @@ Carcinids are unable to learn to speak any language besides chitter without the 
 \subsection*{Species Abilities}
 
 \begin{itemize}
-	\item 
+	\item \textbf{Carapace Defense}-- You may substitute your Parry with \GRPtalent{Fortitude}, even if you currently do not have equipment that grants a parry.
+\end{itemize}
+
+\GRPpagebreak
+\section{Humans}
+
+An upright, featherless, ape-like bipedal humanoid species nearly identical to the humans in our world.
+
+\subsection*{Appearance}
+
+\subsection*{Prehensile Limbs}
+
+\GRPstat{Grab Limbs} is 2
+
+\subsection*{Languages}
+
+\begin{itemize}
+	\item Standard
+	\item Prineu
+\end{itemize}
+
+\subsection*{Species Bonuses}
+
+\begin{itemize}
+	\item \GRPdicebonus{2}\GRPtalent{Fortitude}
+	\item \GRPdicebonus{2}\GRPtalent{Will}
+\end{itemize}
+
+\subsection*{Species Abilities}
+
+\GRPpagebreak
+\section{Felinids}
+
+Felinids are upright, cat-like humanoids covered in fur.
+
+\subsection*{Appearance}
+
+\subsection*{Prehensile Limbs}
+
+\subsection*{Languages}
+
+\begin{itemize}
+	\item Standard
+	\item Prineu
+\end{itemize}
+
+\subsection*{Species Bonuses}
+
+\begin{itemize}
+	\item \GRPdicebonus{2}\GRPtalent{Dexterity}
+	\item \GRPdicebonus{2}\GRPtalent{Charisma}
+\end{itemize}
+
+\subsection*{Species Abilities}
+
+\begin{itemize}
+	\item \textbf{Feline Agility}-- Before taking any non-movement actions during offensive phase, you may make one movement action for free without using an offensive actions.
 \end{itemize}
 
 \GRPpagebreak
 \section{Automa}
 
-Automa are living machines from the Golden Age. All of them were shutdown by the same weapon that destroyed the fey corridor network. Old broken down automa are often found in Golden Age ruins, and occasionally may be in a state where they may be restored to operation. Once restored to operation, they are able to heal from injuries and 
+Automa are living machines from the Golden Age. All of them were shutdown by the same weapon that destroyed the fey corridor network. Disabled automa are often found in Golden Age ruins, and occasionally may be in a state where they may be restored to operation by a skilled engineer. Once restored to operation, they are able to heal from injuries, think, and feel like other sentient species.
 
 Automa tend to have very degraded and vague memories of their time before the Spiral War, but this is still considered valuable information by many artifact hunters.
+
+Automa do not have anything comprable to a biological sex, but many of them still identify with the various genders of the other sentient species.
 
 \subsection*{Appearance}
 
@@ -186,10 +257,9 @@ Automa come in various shapes and have a minimum of 2 prehensile limbs. They may
 \subsection*{Species Abilities}
 \begin{itemize}
 	\item \textbf{Essentia Essentials}-- Automa do not need to eat or breathe. They appear to draw on the same power that Fey Corridors draw on. When taking the \GRPability{Recuperate} downtime action, Automa do not consume rations. Additionally they are unaffected by hostile atmospheres or a lack of atmosphere. 
-	\item \textbf{Configurable body}-- Whenever you take the \GRPability{Recuperate} downtime action, you may add up to 2 additional \GRPstat{Grab Limbs} by forgoing your Species bonuses.
+	\item \textbf{Configurable Body}-- Whenever you take the \GRPability{Recuperate} downtime action, you may add up to 2 additional \GRPstat{Grab Limbs} by forgoing your Species bonuses.
 
 	Each Species bonus you forgo gives you 1 additional Grab Limb.
-	\item \textbf{}
 \end{itemize}
 
 \GRPpagebreak

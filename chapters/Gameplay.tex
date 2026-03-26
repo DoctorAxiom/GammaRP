@@ -81,16 +81,24 @@ For elemental and physical damage, armor reduces the amount of damage that a pla
 
 Armor can have elemental or physical resistance. Elemental resistance armor reduces elemental damage by an additional 1. Physical resistance armor reduces physical damage by an additional 1.
 
-Armor or other equipment may grant a parry which corresponds to 1 of the 9 basic talents. When a character has a parry, this talent allows them to block damage using that talent. Roll the talent listed by the parry and incoming damage is reduced additionally by your number of successes on the parry roll.
+Armor or other equipment may grant a parry which corresponds to one of the talents. When a character has a parry, this talent allows them to block damage using that talent. Roll the talent listed by the parry and incoming damage is reduced additionally by your number of successes on the parry roll.
 
 Direct damage is not reduced by armor. A character taking direct damage will take a number of wounds equal to the damage.
 
-Injuries are also not reduced by armor.
+Direct damage may also not be parried.
+
+Injuries are also not reduced by armor, and may not be parried.
 
 Incoming damage is also reduced by the amount of cover a character has, which is often only relevant in Phased mode.
 
+\subsection{Poison and Disease}
+
+Poison and disease come in three basic types in \GammaRP: Precision poison or disease, Strength poison or disease, and Grace poison or disease.
+
+When poison or disease is applied to a character, it automatically depletes 1 from the corresponding characteristic.
+
 \subsection{Downtime}
-Downtime is a special part of \emph{open} gameplay where a character takes care of slower tasks after the action for the day calms down. Downtime tasks are tasks that would typically take very long segments of in-game time, and so are reserved for when the action calms down.
+Downtime is a special part of \emph{open} gameplay where a character takes care of slower tasks after the action for the day calms down.
 
 Downtime consists of the following for each character:
 
@@ -134,7 +142,7 @@ The possible downtime actions are listed below.
 		\item Make an NPC who is neutral towards your party positive towards your party.
 	\end{itemize}
 	You may not adjust the attitude of an NPC who is explicitly hostile towards your party.
-	\item \GRPability{Shop}-- Ask the GM if this action is available. Purchase equipment and sell equipment. By default, equipment sells for 50\% of the price of new equipment. You may roll \GRPtalent{Perception} to find bargains and decrease the price of buying a piece of new equipment by 10\% per success on your perception roll. You may roll \GRPtalent{Charisma} to sell your old equipment for higher prices and increase the price of selling a piece of equipment by 10\% per success on your charisma roll.
+	\item \GRPability{Shop}-- Ask the GM if this action is available. Purchase equipmentent and sell equipment. By default, equipment sells for 50\% of the price of new equipment. You may roll \GRPtalent{Perception} to find bargains and decrease the price of buying a piece of new equipment by 10\% per success on your perception roll. You may roll \GRPtalent{Charisma} to sell your old equipment for higher prices and increase the price of selling a piece of equipment by 10\% per success on your charisma roll.
 	\item \GRPability{Celebrate}-- Ask the GM if this action is available. This action requires two or more player characters to perform this same action during the same downtime. The next day, all participating player characters will 1 bonus rank to their archetype.
 	\item \GRPability{Recuperate}-- Consumes the equivalent of 1 ration. Your character eats and sleeps (if applicable) and tends to their wounds. Perform the following:
 		\begin{enumerate}
@@ -227,9 +235,11 @@ The trap symbol may also be placed in a room.
 \includesvg[width=\linewidth]{art/Gameplay/TrapSymbol}
 \end{GRPfig}
 
-Traps outside a connector act like cover spaces- they require a movement to step into, and on moving into a trap, they deal the amount of damage indicated. The type of damage dealt depends on the type of trap. A character encountering a trap must roll \GRPtalent{Dexterity}. The damage a trap deals is reduced by the number of successes on the Dexterity roll.
+Traps outside a connector act like cover spaces- they require a movement to step into, and on moving into a trap, they deal the amount of damage indicated. The type of damage dealt depends on the type of trap. The GM may write P, E, or D next to a trap to indicate that it deals physical, elemental, or direct damage respectively.
 
-Armor does protect against trap damage unless the trap deals direct damage.
+A character encountering a trap must roll \GRPtalent{Dexterity}. The damage a trap deals is reduced by the number of successes on the Dexterity roll.
+
+Armor does protect against trap damage unless the trap deals direct damage. Characters may also Parry damage from a trap.
 
 Note that if your players are creative with their surroundings, you may end up adding, changing, or removing rooms, connections, hazards, and traps as the turn-based gameplay progresses!
 

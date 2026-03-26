@@ -172,16 +172,16 @@
 	\setlength{\tgridsize}{\currentfontsize}%
 	\mbox{\hspace{-0.5\tgridsize}%
 	\begin{tikzpicture}[baseline=-0.3\tgridsize, line cap=round,line width=0.04\tgridsize,line join=round,draw=.,inner sep=0pt,outer sep=0pt,]
-		\foreach \horzpos in {0,1,2}
+		\foreach \tgridhorzpos in {0,1,2}
 		{
-			\foreach \vertpos in {0,1,2}
+			\foreach \tgridvertpos in {0,1,2}
 			{
-				\IfStrEq{\horzpos,\vertpos}{#1}
+				\fullexpandarg\IfStrEq{\tgridhorzpos,\tgridvertpos}{#1}
 				{%true
-					\draw[fill=.,shift={(-\tgridsize/3,\tgridsize/3)}, rounded corners=0.1\tgridsize] ($(\horzpos*\tgridsize/3,-\vertpos*\tgridsize/3)-(\tgridsize/6.3,-\tgridsize/6.3)$) rectangle ($(\horzpos*\tgridsize/3,-\vertpos*\tgridsize/3)+(\tgridsize/6.3,-\tgridsize/6.3)$);
+					\draw[fill=.,shift={(-\tgridsize/3,\tgridsize/3)}, rounded corners=0.1\tgridsize] ($(\tgridhorzpos*\tgridsize/3,-\tgridvertpos*\tgridsize/3)-(\tgridsize/6.3,-\tgridsize/6.3)$) rectangle ($(\tgridhorzpos*\tgridsize/3,-\tgridvertpos*\tgridsize/3)+(\tgridsize/6.3,-\tgridsize/6.3)$);
 				}
 				{%false
-					\draw[shift={(-\tgridsize/3,\tgridsize/3)}, rounded corners=0.1\tgridsize] ($(\horzpos*\tgridsize/3,-\vertpos*\tgridsize/3)-(\tgridsize/6.3,-\tgridsize/6.3)$) rectangle ($(\horzpos*\tgridsize/3,-\vertpos*\tgridsize/3)+(\tgridsize/6.3,-\tgridsize/6.3)$);
+					\draw[shift={(-\tgridsize/3,\tgridsize/3)}, rounded corners=0.1\tgridsize] ($(\tgridhorzpos*\tgridsize/3,-\tgridvertpos*\tgridsize/3)-(\tgridsize/6.3,-\tgridsize/6.3)$) rectangle ($(\tgridhorzpos*\tgridsize/3,-\tgridvertpos*\tgridsize/3)+(\tgridsize/6.3,-\tgridsize/6.3)$);
 				}
 			}
 		}
