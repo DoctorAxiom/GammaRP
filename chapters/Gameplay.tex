@@ -239,7 +239,7 @@ Traps outside a connector act like cover spaces- they require a movement to step
 
 A character encountering a trap must roll \GRPtalent{Dexterity}. The damage a trap deals is reduced by the number of successes on the Dexterity roll.
 
-Armor does protect against trap damage unless the trap deals direct damage. Characters may also Parry damage from a trap.
+Armor protects against trap damage unless the trap deals direct damage. Characters may also Parry physical or elemental damage from a trap.
 
 Note that if your players are creative with their surroundings, you may end up adding, changing, or removing rooms, connections, hazards, and traps as the turn-based gameplay progresses!
 
@@ -250,19 +250,28 @@ The fastest way to generate an arena is collaboratively-- when an arena is neede
 Every action a character can perform has a range.
 
 \begin{GRPquicknote}
+
+{\large Single Target Ranges}
 \begin{itemize}
 	\item \textbf{Self}-- Only affects the character performing the action
 	\item \textbf{Touch}-- Affects any one target in the same room as the character
-	\item \textbf{Connected}-- Affects any one target within the same room as the character, or any adjacent rooms connected directly to the current room.
+	\item \textbf{Reach}-- Affects any one target within the same room as the character, or any adjacent rooms connected directly to the current room.
 	\item \textbf{Line-of-sight}-- Affects any one target the character has line-of-sight to.
+	\item \textbf{Awareness}-- Affects any one target the character can presently detect via any of their senses.
+\end{itemize}
+
+{\large Area of Effect Ranges}
+\begin{itemize}
 	\item \textbf{Room}-- Affects all objects and characters within the room.
-	\item \textbf{Area}-- Affects all objects and characters in this room and all connected rooms
-	\item \textbf{Arena}-- Affects all objects and characters within the arena.
-	\item \textbf{Awareness}-- Affects any one target the character is presently aware of via any of their senses.
+	\item \textbf{Connected Rooms}-- Affects all objects and characters in this room and all connected rooms
+	\item \textbf{Map}-- Affects all objects and characters within the current map.
+	\item \textbf{Line-of-sight Room}-- Affects all objects and characters in any one room the character has line of sight to.
 \end{itemize}
 \end{GRPquicknote}
 
 Ranges are particularly relevant in phased mode, but may be applicable in other scenarios as well.
+
+
 
 \subsection{Offense}
 
@@ -294,11 +303,11 @@ A description of each of these options follows:
 		\begin{itemize}
 			\item \textbf{Weapon Attack}-- for each attack action, a character may only attack once with each weapon they have currently equipped. Weapons have an associated talent to use them, and weapons have a minimum or maximum number of limbs you may use to attack.
 
-			A weapon attack roll is involves rolling the associated talent, with bonus dice equal to the number of limbs used to attack.
+			A weapon attack roll is involves rolling the associated talent, with bonus dice equal to the power of the weapon, and additional advantage equal to the number of limbs used to attack.
 
 			The number of successes on your roll indicates the amount of damage you do, and the type of damage is dependent on the weapon.
 
-			\item \textbf{Barehanded Attack} \emph{Touch range}-- Choose a number of limbs you are going to make a single attack with. Roll \GRPtalent{Fortitude}\GRPdicebonus{\GRPstat{Limbs}}.
+			\item \textbf{Barehanded Attack} \emph{Touch range}-- Choose a number of limbs you are going to make a single attack with. Roll \GRPtalent{Fortitude}\GRPaa{\GRPstat{Limbs}}.
 
 			The number of successes on your roll indicates the amount of physical damage you do.
 

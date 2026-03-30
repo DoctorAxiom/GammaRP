@@ -919,6 +919,17 @@
 }%
 \makeatother
 
+\newlength{\castcardcolwidth}
+\newcommand{\GRPcastcard}[5]{%
+	\setlength{\GRPcurrenttablewidth}{\linewidth}%
+	\setlength{\castcardcolwidth}{\dimeval{(\GRPcurrenttablewidth-8\tabcolsep)/10}}
+	\begin{tabular}{>{\centering\GRPtitlecellformat\arraybackslash}m{3\castcardcolwidth} >{\centering\itshape\arraybackslash}m{2\castcardcolwidth} >{\centering\arraybackslash}m{2\castcardcolwidth} >{\centering\arraybackslash}m{3\castcardcolwidth}}
+		\rowcolor{\GRPtitlecellcolor} #1 & #2 & #3 & #4 \\
+		\rowcolor{\ChapterBackgroundTint!10!white} \multicolumn{4}{m{\dimeval{\GRPcurrenttablewidth-2\tabcolsep}}}{\hspace{\parindent} #5}
+	\end{tabular}
+}
+
+
 
 %changes the next page background
 \newcommand{\GRPfullpagebgsvg}[1]{%

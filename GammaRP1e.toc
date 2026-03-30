@@ -33,11 +33,12 @@
 \contentsline {section}{\numberline {4.2}Phased mode}{27}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}The Arena}{28}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Ranges}{30}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Offense}{30}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.3}Offense}{31}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Defense}{33}{subsection.4.2.4}%
 \contentsline {chapter}{\numberline {5}Casts}{37}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Wt 0 Casts}{37}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Wt 1 Casts}{40}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Wt 2 Casts}{40}{section.5.3}%
 \contentsline {chapter}{\numberline {6}Augments}{43}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Augments}{43}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Attunements}{44}{section.6.2}%
