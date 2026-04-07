@@ -10,6 +10,8 @@ Hexes are casts that sit dormant after casting until triggered, and then produce
 
 There is some overlap between these categories, and not all casts may fit neatly into one of these categories.
 
+Some casts ask for you to make a secondary cast- which allows you to chain together casts for more complex effects.
+
 Casts are grouped in this chapter by the weight of their cast focus. More powerful casts have heavier cast foci.
 
 The price of a cast focus is $100\times10^\GRPstat{Wt}$
@@ -34,7 +36,7 @@ This section is all casts with a cast focus of wt 0. All of these are valid cast
 
 	\GRPcastcard{Analyze Material}{Spell}{Touch}{\GRPtalent{Perception}}
 	{%
-	Tells the caster information about what elements the object they are touching is made of. More successes reveal more elements within the composition of the object (and how they are arranged). The caster must be familiar with the elements in question, otherwise the spell just reveals that there is an unknown element.
+	Tells the caster information about what elements the object they are touching is made of, and how much of each element is present. More successes reveal more elements within the composition of the object (and how they are arranged). The caster must be familiar with the elements in question, otherwise the spell just reveals that there is an unknown element.
 	}
 
 	\GRPcastcard{Buffercast}{Spell}{Self}{\GRPtalent{Will}}
@@ -88,18 +90,14 @@ This section is all casts with a cast focus of wt 0. All of these are valid cast
 	You shoot a bolt of lightning at your target, who takes elemental damage equal to the successes on your roll.
 	}
 
-	\GRPcastcard{Reconstruct}{Spell}{Touch}{\GRPtalent{Intellect}}
+	\GRPcastcard{Implosion}{Spell}{Touch}{\GRPtalent{Intellect}}
 	{%
-	If you have a broken object in front of you that you fully understand the function and construction of, and you have the constituent elements of any missing components immediately available, you may restore this object to full function in a single action. The number of successes on your roll must be greater than or equal to the craft grade of the object being repaired.
-
-	If the number of successes is not equal to the craft grade of the object being repaired, this spell destroys components of the object such that you must procure its parts again before retrying.
-
-	If the object is not something your character created themselves, it is up to the GM if your character is familiar enough with the object to simply repair it, or if it will require a separate \GRPtalent{Memory} roll to see if your character would be have knowledge of it.
+	Produce a microscopic amount of void-like substance which immediately consumes itself and releases a concussive force that deals physical damage to the target equal to the successes on your roll.
 	}
 
 	\GRPcastcard{Redirect Magic}{Hex}{Touch}{\GRPtalent{Charisma} (delayed)}
 	{%
-	Do not roll your cast roll right away. The next time the target makes a cast, you may contest their roll with your cast roll. If you succeed, you may change the target of their cast to a different target of your choice in the same room as you (including objects in the room).
+	Do not roll your cast roll right away. The next time the target makes a cast, you may contest their roll with your cast roll. If you succeed, you may either nullify their cast, or change the target of their cast to a different target of your choice within the same room as you.
 	}
 
 	\GRPcastcard{Telepathic Link}{Charm}{Room}{\GRPtalent{Will}}
@@ -125,36 +123,79 @@ This section is all casts with a cast focus of wt 1. Your character may not star
 \begin{GRPtablewide}
 	\caption{All Casts with a Wt 1 Focus}
 
-	\GRPcastcard{Gravitate}{Spell}{Line-of-Sight}{\GRPtalent{Will}}
+	\GRPcastcard{Control Air}{Spell/Charm}{Room}{\GRPtalent{Dexterity}}
 	{%
-	If used on an unwilling target, contest with the target's \GRPtalent{Fortitude}. If successful, either pull the target towards you the equivalent of 1 move action, or push the target away from you the equivalent of 1 move action.
-	}
-
-	\GRPcastcard{Cure}{Spell}{Room}{\GRPtalent{Intellect}}
-	{%
-	Remove a number of wounds or depleted fundamentals (foundations OR characteristics) equal to the number of successes on your cast roll.
-	}
-
-	\GRPcastcard{Dispel Cast}{Spell}{Touch}{\GRPtalent{Insight}}
-	{%
-	Immediately end the effect of any one charm or hex on a target. Your number of successes must be higher then the number of successes on the original cast you are trying to dispel.
-	}
-
-	\GRPcastcard{Precognition}{Spell}{Touch}{\GRPtalent{Memory}}
-	{%
-	Gives the target a brief glimpse of what will happen when they take their next action. Add the successes on your cast roll to the number of successes on the target's next roll of any kind. If used before a roll contest - this number of successes only applies to the first roll in the contest.
-	}
-
-	\GRPcastcard{Control Water}{}{}{\GRPtalent{Athletics}}
-	{%
+		For each success on your cast roll, produce one of the following effects:
+		\begin{itemize}
+			\item Purify enough unbreathable air to last a single character 1 minute.
+			\item Move a volume of air the size of a room or smaller. If directly causing damage with the moved air, it can at most induce movement the equivalent of 1 move action or cause one point of elemental damage (indirect damage causing by influencing other environmental objects is at the GM's discretion).
+			\item Dampen or amplify sounds as much as you see fit within this room for up to 10 minutes (as long as you do not amplify sounds to the point where they could conceivably cause damage). This effect is a charm unlike the other two control air effects, and so may be dispelled.
+		\end{itemize}
+		When inducing movement in an unwilling target, the target may reduce any induced movement by the number of successes on a \GRPtalent{Fortitude} roll (note this applies like a parry, not like a roll contest).
 	}
 
 	\GRPcastcard{Control Stone}{}{}{\GRPtalent{Fortitude}}
 	{%
+		For each success on your cast roll, you may do one of the following:
+		\begin{itemize}
+			\item Move a volume of stone the size of your character or less that is not attached to other stone. When moving stone like this, it may at most induce movement the equivalent of 1 move action, or deal 1 physical damage directly as a cause of this spell (indirect damage causing by influencing other environmental objects is at the GM's discretion).
+			\item Fragment a volume of stone the size of your character or less (such as breaking it apart, or into dust or sand or gravel).
+			\item Fuse a volume of fragmented stone the size of your character or less (sand, dust, or gravel) the size of your character or less into a solid mass.
+		\end{itemize}
+
+		The total damage done by this spell all acts as a single damage source for the sake of any damage reduction.
+
+		When inducing movement in an unwilling target, the target may reduce the total induced movement by the number of successes on a \GRPtalent{Fortitude} roll (note this applies like a parry, not like a roll contest).
+
+		The farthest you can move the stone with a single use of this spell is one room away from the current.
 	}
 
-	\GRPcastcard{Control Air}{}{}{\GRPtalent{Dexterity}}
+	\GRPcastcard{Control Water}{Spell}{Room}{\GRPtalent{Athletics}}
 	{%
+		For each success on your cast roll, you may do one of the following:
+			\begin{itemize}
+				\item Purify an amount of water enough to last a single character 1 day.
+				\item Move a volume of water the size of a room or less in such a way that it at most deals 1 physical damage directly as a cause of this spell (indirect damage causing by influencing other environmental objects is at the GM's discretion)
+				\item Move a volume of water the size of a room or less in such a way that it causes movement at most the equivalent of 1 move action.
+				\item Change the state of a volume of water the size of a room or less (between ice, steam, and liquid water) in such a way that it at most deals 1 elemental damage directly as a cause of this spell (indirect damage causing by influencing other environmental objects is at the GM's discretion)
+			\end{itemize}
+		When inducing movement in an unwilling target, the target may reduce the total induced movement by the number of successes on a \GRPtalent{Fortitude} roll (note this applies like a parry, not like a roll contest).
+
+		The total volume of water you modify with any use of this spell must be less than or equal to the size of a small room.
+
+		The farthest you can move the water with a single use of this spell is one room away from the current.
+	}
+
+	\GRPcastcard{Cure}{Spell}{Room}{\GRPtalent{Intellect}}
+	{%
+		Remove a number of wounds or depleted fundamentals (foundations OR characteristics) equal to the number of successes on your cast roll.
+	}
+
+	\GRPcastcard{Dispel Cast}{Spell}{Touch}{\GRPtalent{Insight}}
+	{%
+		Immediately end the effect of any one charm or hex. Your number of successes must be higher then the number of successes on the original cast you are trying to dispel.
+	}
+
+	\GRPcastcard{Gravitate}{Spell}{Line-of-Sight}{\GRPtalent{Will}}
+	{%
+		If used on an unwilling target, contest with the target's \GRPtalent{Fortitude}. If successful, either pull the target towards you the equivalent of 1 move action, or push the target away from you the equivalent of 1 move action.
+	}
+
+	\GRPcastcard{Precognition}{Spell}{Touch}{\GRPtalent{Memory}}
+	{%
+		Gives the target a brief glimpse of what will happen when they take their next action. Add the successes on your cast roll as additional advantage on the target's next roll of any kind. If used before a roll contest - this additional advantage only applies to the first roll in the contest.
+	}
+
+	\GRPcastcard{Life Trace}{Spell}{Touch}{\GRPtalent{Perception}}
+	{%
+		Gives the caster information about what maximum fundamentals a target has. Reveals one fundamental and whether it is depleted for each success on life trace. If used on an unwilling, conscious target, must contest cast roll against the target's \GRPtalent{Fortitude}.
+
+		On any success, also reveals the target's species to the caster.
+	}
+
+	\GRPcastcard{Soulshock}{Spell}{Touch}{\GRPtalent{Charisma}}
+	{%
+		Contest your cast roll against the target's \GRPtalent{Will}. Inflict direct damage equal to your number of successes on your final roll.
 	}
 \end{GRPtablewide}
 
@@ -168,24 +209,80 @@ This section is all casts with a cast focus of wt 2. Your character may not star
 \begin{GRPtablewide}
 	\caption{All Casts with a Wt 2 Focus}
 
-	\GRPcastcard{Control Metal}{}{}{}
+	\GRPcastcard{Enchant}{Spell}{Touch}{\GRPtalent{Insight}}
 	{%
+		Target any hex or charm within range.
+
+		If targetting a hex, it may now be triggered multiple times before it expires- a number of times equal to the number of successes on your cast roll for Enchant. However any conditions, secondary casts, and the number of successes on the original hex are all locked and may not be changed by the original caster between repetitions.
+
+		If targetting a charm- it repeats the exact effects it had when it was cast when it would otherwise expire. This repetition happens a number of additional times equal to the number of successes on your cast roll for Enchant.
 	}
 
-	\GRPcastcard{Feystep}{Self}{Spell}{}
+	\GRPcastcard{Reforge}{Spell}{Touch}{\GRPtalent{Intellect}}
 	{%
-	Your character steps through fey space, teleporting a distance.
+		If you have a broken object in front of you that you fully understand the function and construction of, and you have the constituent elements of any missing components immediately available, you may restore this object to full function in a single action. The number of successes on your roll must be greater than or equal to the craft grade of the object being repaired.
 
-	Instantly take the equivalent of a number of move actions equal to the number of successes on your cast roll.
+		If the number of successes is not equal to the craft grade of the object being repaired, this spell destroys components of the object such that you must procure its parts again before retrying.
 
-	When counting move actions, you may bypass obstructions and traps as if they are not there, and travel along visual only connectors on a map. Additionally, all connectors only take one move action to pass, even if they have arrows indicating traversing them normally would require extra move actions.
+		If the object is not something your character created themselves, it is up to the GM if your character is familiar enough with the object to simply repair it, or if it will require a separate \GRPtalent{Memory} roll to see if your character would be have knowledge of it.
 	}
 
-	\GRPcastcard{Multicast}{Self}{Spell}{\GRPtalent{Will}}
+	\GRPcastcard{Reactivecast}{Hex}{Room}{\GRPtalent{Memory}}
 	{%
-	Roll your cast roll for multicast, then roll for a secondary cast a number of times up to the number of successes on Multicast (consuming a cast use for each time, but not consuming additional actions). 
+		Choose any trigger as if you're choosing a trigger for a Defensive reaction in Defensive phase, with the restriction that the trigger must be something that occurs within this room or the connections to this room.
 
-	The successes of all your secondary cast rolls are added together and treated as the number of successes for one cast of the secondary cast.
+		Cast a secondary cast. This secondary cast only goes into effect when your specified trigger for this cast happens. The target of the secondary cast may depend on the trigger. The number of successes on your secondary cast is whichever is smaller between your successes on this cast and your secondary cast roll.
+	}
+
+	\GRPcastcard{Biomorph}{Charm}{Touch}{\GRPtalent{Athletics}}
+	{%
+		Produce one of the following effects, targetting characters only:
+		\begin{itemize}
+	 		\item For every 2 successes on the cast roll, any living target gains 1 specific species ability of the caster's choice.
+	 		\item For every 3 successes on the cast roll, the target has their body features altered to appear as if they are another species that the caster is familiar with.
+	 		\item For every 4 successes on the cast roll, the target is fully transform species or gender to that of the caster's choice (it would take 8 successes to change species \textbf{and} gender).
+	 	\end{itemize}
+
+	 	These effects all last 10 minutes before expiring, and the target goes back to their previous state.
+
+	 	If cast on an unwilling target, the caster must contest their cast roll with the target's \GRPtalent{Fortitude}. If successful, the number of successes on the caster's final roll count as the number of successes for this charm.
+
+	 	In general, a GM should not allow a player character to be modified by any NPC's or other players without their consent.
+	}
+
+	\GRPcastcard{Conjure}{Spell}{Touch}{\GRPtalent{Charisma}}
+	{%
+		Produce a quantity of a specific form of an element from ambient Essentia. 
+		You produce a number of grams of the element form equal to the number of successes on your roll.
+
+		Your character must be familiar with the element to produce it, and your conjured element may be in any three dimensional shape you desire.
+
+		You can use this to conjure void, but the effect is identical to the \GRPability{Implosion} spell.
+
+		Of note- a single gold piece is 100 grams. This spell is not a convenient way to generate money.
+	}
+
+	\GRPcastcard{Instacast}{Spell}{Touch}{\GRPtalent{Perception}}
+	{%
+		You must cast this immediately after another cast is made in the same room, or else there is no effect. Roll for this cast, and then roll for a secondary cast (consuming another cast use for your secondary cast). The secondary cast goes into effect at the same time as the last cast made in the same room. If the secondary cast is a hex or charm it goes into effect just before the previous caster finishes making their cast.
+
+		The number of successes on your secondary cast is whichever is the smaller between your successes on this cast and your secondary cast roll.
+	}
+
+	\GRPcastcard{Feystep}{Spell}{Self}{\GRPtalent{Dexterity}}
+	{%
+		Your character steps through fey space, instantly teleporting a distance.
+
+		Instantly take the equivalent of a number of move actions equal to the number of successes on your cast roll.
+
+		When counting move actions, you may bypass obstructions and traps as if they are not there, and travel along visual only connectors on a map. Additionally, all connectors only take one move action to pass, even if they have arrows indicating traversing them normally would require extra move actions.
+	}
+
+	\GRPcastcard{Powercast}{Spell}{Self}{\GRPtalent{Will}}
+	{%
+		Roll your cast roll for powercast, then roll for a secondary cast a number of times up to the number of successes on Powercast. For each re-roll of the secondary cast you must also use consume a cast use (but you do not use additional actions to do so).
+
+		The successes on all of your rolls for that secondary cast are added together and count as the number of successes for a single cast of that secondary cast.
 	}
 \end{GRPtablewide}
 

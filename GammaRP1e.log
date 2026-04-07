@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.14)  29 MAR 2026 21:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.14)  6 APR 2026 22:59
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3062,7 +3062,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Chapter 5.
 
-Overfull \hbox (10.15195pt too wide) in paragraph at lines 21--21
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 23--23
 |  []  []
  []
 
@@ -3071,27 +3071,33 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37]
 [38]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 118--118
+|  []  []
+ []
+
+
+Underfull \vbox (badness 1281) has occurred while \output is active []
 
  [39]
-Overfull \hbox (10.15195pt too wide) in paragraph at lines 120--120
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+Overfull \vbox (11.02359pt too high) has occurred while \output is active []
+
+
+[41]
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 204--204
 |  []  []
  []
 
+[42]
+Overfull \vbox (11.77371pt too high) has occurred while \output is active []
 
-Overfull \hbox (10.15195pt too wide) in paragraph at lines 163--163
-|  []  []
- []
 
-[40]) [41]
+[43]) [44]
 \openout2 = `chapters/Augments.aux'.
 
- (chapters/Augments.tex [42
-
-
-
-
-]
+ (chapters/Augments.tex
 Chapter 6.
 
 Overfull \hbox (10.15195pt too wide) in paragraph at lines 9--9
@@ -3101,16 +3107,21 @@ Overfull \hbox (10.15195pt too wide) in paragraph at lines 9--9
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43]
-Overfull \hbox (10.15195pt too wide) in paragraph at lines 46--46
+ [45
+
+
+
+
+]
+Overfull \hbox (10.15195pt too wide) in paragraph at lines 50--50
 |  []  []
  []
 
-) [44] [45
+[46]) [47] [48
 
 
 
-] [46]
+] [49] [50]
 \openout2 = `chapters/GammaNebulaOverview.aux'.
 
  (chapters/GammaNebulaOverview.tex
@@ -3120,13 +3131,13 @@ Overfull \hbox (10.15195pt too wide) in paragraph at lines 9--9
 |  []  []
  []
 
-) [47
+) [51
 
 
 ]
 \openout2 = `chapters/Physics.aux'.
 
- (chapters/Physics.tex [48
+ (chapters/Physics.tex [52
 
 
 
@@ -3163,7 +3174,7 @@ Overfull \hbox (6.65273pt too wide) in paragraph at lines 42--42
 |  []  []
  []
 
-[49]
+[53]
 Overfull \hbox (6.65273pt too wide) in paragraph at lines 51--51
 |  []  []
  []
@@ -3178,12 +3189,12 @@ Overfull \hbox (6.65273pt too wide) in paragraph at lines 68--68
 |  []  []
  []
 
-) [50]
+) [54]
 \openout2 = `chapters/Races.aux'.
 
  (chapters/Races.tex
 Chapter 9.
-[51
+[55
 
 
 
@@ -3223,7 +3234,7 @@ Underfull \hbox (badness 7344) in paragraph at lines 62--63
 \T1/qbk/m/it/10 trans-for-ma-tive el-e-ments \T1/qbk/m/n/10 (Fire or
  []
 
-[52
+[56
 
 ]
 Overfull \hbox (10.15195pt too wide) in paragraph at lines 67--67
@@ -3255,7 +3266,7 @@ Overfull \hbox (2.72398pt too wide) in paragraph at lines 96--96
 | []
  []
 
-[53
+[57
 
 ]
 Overfull \hbox (10.15195pt too wide) in paragraph at lines 103--103
@@ -3307,7 +3318,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--132
 \T1/qbk/m/n/10 ex-tra move-ment, con-tested by
  []
 
-[54
+[58
 
 ]
 Overfull \hbox (10.15195pt too wide) in paragraph at lines 138--138
@@ -3349,7 +3360,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--173
 \T1/qbk/m/n/10 sub-sti-tute your Parry with
  []
 
-[55
+[59
 
 ]
 Overfull \hbox (10.15195pt too wide) in paragraph at lines 176--176
@@ -3381,7 +3392,7 @@ Overfull \hbox (2.72398pt too wide) in paragraph at lines 200--200
 | []
  []
 
-[56
+[60
 
 ]
 Overfull \hbox (10.15195pt too wide) in paragraph at lines 203--203
@@ -3413,7 +3424,7 @@ Overfull \hbox (2.72398pt too wide) in paragraph at lines 225--225
 | []
  []
 
-[57
+[61
 
 ]
 Overfull \hbox (10.15195pt too wide) in paragraph at lines 232--232
@@ -3445,7 +3456,7 @@ Overfull \hbox (2.72398pt too wide) in paragraph at lines 257--257
 | []
  []
 
-[58
+[62
 
 ]
 Overfull \hbox (10.15195pt too wide) in paragraph at lines 266--266
@@ -3477,21 +3488,21 @@ Overfull \hbox (2.72398pt too wide) in paragraph at lines 276--276
 | []
  []
 
-) [59
-
-] [60
-
-
-
-] [61
-
-] [62]
-\openout2 = `chapters/MathematicalFormulas.aux'.
-
- (chapters/MathematicalFormulas.tex) [63
-
+) [63
 
 ] [64
+
+
+
+] [65
+
+] [66]
+\openout2 = `chapters/MathematicalFormulas.aux'.
+
+ (chapters/MathematicalFormulas.tex) [67
+
+
+] [68
 
 
 
@@ -3500,23 +3511,23 @@ Overfull \hbox (2.72398pt too wide) in paragraph at lines 276--276
 \tf@lof=\write7
 \openout7 = `GammaRP1e.lof'.
 
- [65
+ [69
 
-] [66
+] [70
 
 ] (GammaRP1e.lot)
 \tf@lot=\write8
 \openout8 = `GammaRP1e.lot'.
 
- [67
+ [71
 
-] [68
+] [72
 
 ]
 runsystem(makeindex -s GRPindexstyle.ist GammaRP1e.idx)...executed safely (allo
 wed).
 
- (GammaRP1e.ind) [69
+ (GammaRP1e.ind) [73
 
 ]
 (GammaRP1e.aux (chapters/Introduction.aux) (chapters/TheBasics.aux)
@@ -3539,10 +3550,10 @@ Package rerunfilecheck Info: File `GammaRP1e.out' has not changed.
 (rerunfilecheck)             Checksum: 8A688FCA240B876589C31C458F501169;8701.
  ) 
 Here is how much of TeX's memory you used:
- 37997 strings out of 467871
- 783232 string characters out of 5428442
- 1552239 words of memory out of 5000000
- 65897 multiletter control sequences out of 15000+600000
+ 38021 strings out of 467871
+ 783631 string characters out of 5428442
+ 1557972 words of memory out of 5000000
+ 65917 multiletter control sequences out of 15000+600000
  745678 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,28n,122p,733b,1826s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3560,9 +3571,9 @@ pfb><C:/Program Files/MiKTeX/fonts/type1/public/tex-gyre/qbkb.pfb><C:/Program F
 iles/MiKTeX/fonts/type1/public/tex-gyre/qbkbi.pfb><C:/Program Files/MiKTeX/font
 s/type1/public/tex-gyre/qbkr.pfb><C:/Program Files/MiKTeX/fonts/type1/public/te
 x-gyre/qbkri.pfb>
-Output written on GammaRP1e.pdf (73 pages, 2309881 bytes).
+Output written on GammaRP1e.pdf (77 pages, 2388534 bytes).
 PDF statistics:
- 3307 PDF objects out of 3580 (max. 8388607)
- 207 named destinations out of 1000 (max. 500000)
+ 3324 PDF objects out of 3580 (max. 8388607)
+ 211 named destinations out of 1000 (max. 500000)
  1342 words of extra memory for PDF output out of 10000 (max. 10000000)
 
