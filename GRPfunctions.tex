@@ -29,6 +29,7 @@
 
 \usepackage{tgbonum}
 \usepackage[T1]{fontenc}
+\usepackage{listings}
 % \usepackage{kmath}
 % \usepackage{kerkis}
 
@@ -922,11 +923,11 @@
 \newlength{\castcardcolwidth}
 \newcommand{\GRPcastcard}[6][]{%
 	\setlength{\GRPcurrenttablewidth}{\linewidth}%
-	\setlength{\castcardcolwidth}{\dimeval{(\GRPcurrenttablewidth-8\tabcolsep)/10}}
-	\begin{tabular}{>{\raggedright\GRPtitlecellformat\arraybackslash}m{3\castcardcolwidth} >{\centering\itshape\arraybackslash}m{2\castcardcolwidth} >{\centering\arraybackslash}m{2\castcardcolwidth} >{\centering\arraybackslash}m{3\castcardcolwidth}}
+	\setlength{\castcardcolwidth}{\dimeval{(\GRPcurrenttablewidth-8\tabcolsep)/20}}
+	\begin{tabular}{>{\raggedright\GRPtitlecellformat\arraybackslash}m{6\castcardcolwidth} >{\centering\itshape\arraybackslash}m{4\castcardcolwidth} >{\centering\arraybackslash}m{5\castcardcolwidth} >{\centering\arraybackslash}m{5\castcardcolwidth}}
 		\rowcolor{\GRPtitlecellcolor}\IfStrEq{#1}{}%
 		{#2}%true
-		{#2 {\normalfont(\textbf{#1})}}%false
+		{  \makecell[l]{ #2 \\ {\normalfont \texttt{[#1]} } }  }%false
 		& #3 & #4 & #5 \\
 		\rowcolor{\ChapterBackgroundTint!10!white} \multicolumn{4}{m{\dimeval{\GRPcurrenttablewidth-2\tabcolsep}}}{\hspace{\parindent} #6}
 	\end{tabular}
@@ -1215,6 +1216,24 @@
 }
 
 \makeindex[intoc, title=Alphabetical Index, options= -s GRPindexstyle.ist, columns=2]
+
+\lstdefinestyle{GRPstyle}{  
+    commentstyle=\color{grppos},
+    keywordstyle=\color{grpneg},
+    numberstyle=\tiny\color{grpmid},
+    stringstyle=\color{grpalt},
+    basicstyle=\ttfamily,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=GRPstyle}
 
 %FORMATTING HOOKS
 %These are simply made to change formatting a little bit

@@ -2,23 +2,28 @@
 
 Casts are generally divided into spells, charms, and hexes.
 
-Spells are casts that produce immediate, momentary effects.
-
-Charms are casts that produce lasting continuous effects.
-
-Hexes are casts that sit dormant after casting until triggered, and then produce a momentary effect.
-
-There is some overlap between these categories, and not all casts may fit neatly into one of these categories.
-
-Some casts ask for you to make a secondary cast- which allows you to chain together casts for more complex effects.
+\begin{itemize}
+	\item[Spells] are casts that produce immediate, momentary effects.
+	\item[Charms] are casts that produce lasting continuous effects.
+	\item[Hexes] are casts that sit dormant after casting until triggered, and then produce a momentary effect.
+\end{itemize}
 
 Casts are grouped in this chapter by the weight of their cast focus. More powerful casts have heavier cast foci.
 
 The price of a cast focus is $100\times10^\GRPstat{Wt}$
 
-All casts take one action to cast by default.
+All casts have an associated talent you must roll for the cast to perform it's intended action. This cast roll occurs at the time of casting. All casts take one action to cast by default.
 
-All casts have an associated talent you must roll for the cast to perform it's intended action. This cast roll occurs at the time of casting.
+When casts are applying magic directly to an unwilling target, the target may resist with a castparry.
+
+The process of a castparry is as follows:
+\begin{enumerate}
+	\item Note if the cast specifies a talent to parry with. If left unspecified, the talent is assumed to be \GRPtalent{Fortitude}.
+	\item For cast effects that happen immediately- a castparry is equivalent to the target and caster entering a roll contest-- the caster's cast roll contested by the target's relevant talent. If the caster wins the contest- the successes on the last roll of the contest are their number of successes for the cast roll.
+	\item For delayed cast effects, the target simply rolls their relevant talent and reduces the number of successes on the caster's cast roll by the number of successes (very much like an attack parry). If the number of successes is reduced to 0 or less, the cast has no effect.
+\end{enumerate}
+
+Castparries only apply when the magic is being directly applied to the target. Casts that produce an effect in the environment which must then be intepreted or resisted may require other talents to do so.
 
 \section{Wt 0 Casts}
 
@@ -27,25 +32,22 @@ This section is all casts with a cast focus of wt 0. All of these are valid cast
 \begin{GRPtablewide}
 	\caption{All Casts with a Wt 0 focus}
 
-	\GRPcastcard[AGIL]{Agilify}{Spell}{Touch}{\GRPtalent{Insight}}
+	\GRPcastcard[AGIL]{Agilify}{Charm}{Touch}{\GRPtalent{Insight}}
 	{%
-	In phased mode, the target of this spell gains a number of free movement actions this phase (even if the target is currently in defensive phase).
+	For the rest of this phase, the target of this spell gains a number of free movement actions that do not take an action (even if the target is in defensive phase).
 
 	The number of movement actions the target gains is equal to the number of successes on your cast.
 
-	In open mode the target gains bonus dice equal to the number of successes on the next talent roll they make within 10 seconds, as long as that talent roll has to do with moving quickly.
+	In open mode the target gains bonus dice equal to the number of successes on the next talent roll related to moving quickly. This benefit lasts for 10 minutes.
 	}
 
-	\GRPcastcard[ANLZ]{Analyze Material}{Spell}{Touch}{\GRPtalent{Perception}}
+	\GRPcastcard[ANLZ]{Analyze Material}{Charm}{Touch}{\GRPtalent{Perception}}
 	{%
-	Tells the caster information about what elements the object they are touching is made of, and how much of each element is present. More successes reveal more elements within the composition of the object (and how they are arranged). The caster must be familiar with the elements in question, otherwise the spell just reveals that there is an unknown element.
-	}
+	For each success, the caster may understand the distribution of one element within the object they have charmed, and how it changes over time. This effect lasts for 10 minutes or until the end of phased mode.
 
-	\GRPcastcard[BUFC]{Buffercast}{Spell}{Self}{\GRPtalent{Will}}
-	{%
-	Make a secondary cast with the same action (but consuming another cast use). The roll for the secondary cast and it's effects only occur at the start of your next phase, as long as your character is not incapacitated at that time. The number of successes on your secondary cast is taken to be the smaller of the number of successes between your buffercast roll and your secondary cast roll.
+	For more than 6 successes, the caster understands the exact elemental composition of the object they have cast analyze on. They are also aware of any changes (physical or elemental) within the object.
 
-	In \emph{open} mode, buffercast delays the effects of your next cast by an amount of time between 10 and 30 seconds, chosen by your character at the time of casting.
+	The caster must be familiar with the elements in question, otherwise the spell just reveals that there is an unknown element.
 	}
 
 	\GRPcastcard[CORC]{Cordiality Charm}{Charm}{Room}{\GRPtalent{Charisma}}
@@ -60,9 +62,25 @@ This section is all casts with a cast focus of wt 0. All of these are valid cast
 	When the target next takes damage, damage is reduced by the number of successes on your cast roll.
 	}
 
+	\GRPcastcard[ENVT]{Ennervate}{Spell}{Touch}{\GRPtalent{Insight}}
+	{%
+		Drains a target's magic.
+
+		For every 2 successes, you may force the target to either immediately consume 1 cast use, OR disable 1 augment slot.
+	}
+
 	\GRPcastcard[FBST]{Fire Burst}{Spell}{Room}{\GRPtalent{Athletics}}
 	{%
-	Emit waves of fire from your character that can fill the room. Inflict elemental damage on everything in the room of any amount up to your number of successes on the cast roll. 
+	Emit waves of fire from your character that can fill the room. Inflict elemental damage on everything in the room of any amount up to your number of successes on the cast roll.
+
+	This cast may not be castparried- but as it creates a temporary elemental hazard in the room- ordinary armor and parries apply.
+	}
+
+	\GRPcastcard[GRAV]{Gravitate}{Spell}{Line-of-Sight}{\GRPtalent{Will}}
+	{%
+		If successful, either pull the target towards you the equivalent of 1 move action, or push the target away from you the equivalent of 1 move action.
+
+		This cast may be castparried with \GRPtalent{Fortitude}.
 	}
 
 	\GRPcastcard[NOIS]{Illusory Noise}{Charm}{Touch}{\GRPtalent{Memory}}
@@ -79,22 +97,19 @@ This section is all casts with a cast focus of wt 0. All of these are valid cast
 	If trying to deceive another character that the image is a real object, contest your cast roll against the other character's \GRPtalent{Perception}. For longer durations, the GM may rule multiple roll contests are needed to keep someone or something fooled.
 	}
 
-	\GRPcastcard[]{Gravitate???}{Spell}{Line-of-sight}{\GRPtalent{Fortitude}}
-	{%
-	
-	}
-
-	\GRPcastcard[ITOX]{Intoxicate}{Spell}{Touch}{\GRPtalent{Insight}}
+	\GRPcastcard[ITOX]{Intoxicate}{Spell}{Touch}{\GRPtalent{Fortitude}}
 	{%
 		Poisons a target.
 		Choose between \GRPstat{Precision}, \GRPstat{Strength}, or \GRPstat{Grace} for your poison.
 
-		Contest your cast roll with the target's \GRPtalent{Fortitude}. If successful, you inflict an amont of poison of your choice on the target equal to your successes on your last roll of the contest.
+		If successful, you inflict an amount of poison of your choice on the target equal to your successes.
 	}
 
 	\GRPcastcard[LBLT]{Lightning Bolt}{Spell}{Line-of-sight}{\GRPtalent{Dexterity}}
 	{%
 	You shoot a bolt of lightning at your target, who takes elemental damage equal to the successes on your roll.
+
+	This cast may not be castparried- but as it creates a temporary elemental hazard- ordinary armor and parries apply.
 	}
 
 	\GRPcastcard[IMPL]{Implosion}{Spell}{Touch}{\GRPtalent{Intellect}}
@@ -193,11 +208,17 @@ This section is all casts with a cast focus of wt 1. Your character may not star
 	\GRPcastcard[DSPL]{Dispel Cast}{Spell}{Touch}{\GRPtalent{Insight}}
 	{%
 		Immediately end the effect of any one charm or hex. Your number of successes must be higher then the number of successes on the original cast you are trying to dispel.
+
+		If the charm or hex in question is on a target who is unwilling to have the cast dispelled- the target may castparry with \GRPtalent{Will}
 	}
 
-	\GRPcastcard[GRAV]{Gravitate}{Spell}{Line-of-Sight}{\GRPtalent{Will}}
+	\GRPcastcard[LFTR]{Life Trace}{Spell}{Touch}{\GRPtalent{Perception}}
 	{%
-		If used on an unwilling target, contest with the target's \GRPtalent{Fortitude}. If successful, either pull the target towards you the equivalent of 1 move action, or push the target away from you the equivalent of 1 move action.
+		Gives the caster information about what maximum fundamentals a target has. Reveals one fundamental and whether it is depleted for each success on life trace.
+
+		On any success, also reveals the target's species to the caster.
+
+		If an unwilling target castparries this- the 
 	}
 
 	\GRPcastcard[PCOG]{Precognition}{Spell}{Touch}{\GRPtalent{Memory}}
@@ -205,11 +226,15 @@ This section is all casts with a cast focus of wt 1. Your character may not star
 		Gives the target a brief glimpse of what will happen when they take their next action. Add the successes on your cast roll as additional advantage on the target's next roll of any kind. If used before a roll contest - this additional advantage only applies to the first roll in the contest.
 	}
 
-	\GRPcastcard[LFTR]{Life Trace}{Spell}{Touch}{\GRPtalent{Perception}}
+	\GRPcastcard[STAS]{Stasis}{Charm}{Touch}{\GRPtalent{Will}}
 	{%
-		Gives the caster information about what maximum fundamentals a target has. Reveals one fundamental and whether it is depleted for each success on life trace. If used on an unwilling, conscious target, must contest cast roll against the target's \GRPtalent{Fortitude}.
+		Freeze either an object or the consequences of an action into the future for a number of minutes up to the number of successes on your roll.
 
-		On any success, also reveals the target's species to the caster.
+		Target an object or another cast or another action that is about to be taken within the same phase as this cast. If targetting a cast or action and the action or cast does not occur for whatever reason, this cast fails.
+
+		If targetting an unwilling character or targetting an action or cast being taken by an unwilling character- the character may castparry with \GRPtalent{Dexterity}.
+
+		Stasised objects and actions can be detected via trace magic, and dispelling the charm brings them out of stasis.
 	}
 
 	\GRPcastcard[SSHK]{Soulshock}{Spell}{Touch}{\GRPtalent{Charisma}}
@@ -227,6 +252,39 @@ This section is all casts with a cast focus of wt 2. Your character may not star
 
 \begin{GRPtablewide}
 	\caption{All Casts with a Wt 2 Focus}
+
+	\GRPcastcard[BMRF]{Biomorph}{Charm}{Touch}{\GRPtalent{Athletics}}
+	{%
+		Produce one of the following effects, targetting characters only:
+		\begin{itemize}
+	 		\item For every 2 successes on the cast roll, any living target gains 1 specific species ability of the caster's choice.
+	 		\item For every 3 successes on the cast roll, the target has their body features altered to appear as if they are another species that the caster is familiar with.
+	 		\item For every 4 successes on the cast roll, the target fully transforms species or sex to that of the caster's choice (it would take 8 successes to change species \textbf{and} sex, except for species that do not have distinct biological sexes).
+	 	\end{itemize}
+
+	 	These effects all last 10 minutes before expiring, and the target goes back to their previous state.
+
+	 	If cast on an unwilling target, the caster must contest their cast roll with the target's \GRPtalent{Fortitude}. If successful, the number of successes on the caster's final roll count as the number of successes for this charm.
+
+	 	In general, a GM should not allow a player character to be modified by any NPC's or other players without their consent.
+	}
+
+	\GRPcastcard[CNJR]{Conjure}{Spell}{Touch}{\GRPtalent{Fortitude}}
+	{%
+		Produce a quantity of a specific form of an element from ambient Essentia. 
+
+		\begin{itemize}
+			\item For Primary elements (stone, water, air, metal)- you can conjure 100g per success on your cast roll
+			\item For Noble elements (things necessary for life)- you can conjure 10g per success
+			\item For Higher elements you can conjure 1g per success or less at the GM's discretion.
+		\end{itemize}
+
+		Your character must be familiar with the element to produce it, and your conjured element may be in any three dimensional shape you desire.
+
+		You can use this to conjure void, but the effect is identical to the \GRPability{Implosion} spell.
+
+		Of note- a single gold piece is 100 grams. This spell is not a convenient way to generate money.
+	}
 
 	\GRPcastcard[ENCH]{Enchant}{Spell}{Touch}{\GRPtalent{Insight}}
 	{%
@@ -248,44 +306,40 @@ This section is all casts with a cast focus of wt 2. Your character may not star
 		You can also use this spell to apply previously crafted upgrades to equipment within a single action during phased mode- the number of successes for this must be equal to the craft grade of the final product, and on failure, the upgrade is destroyed and must be produced again.
 	}
 
+	\GRPcastcard[FSTP]{Feystep}{Spell}{Self}{\GRPtalent{Dexterity}}
+	{%
+		Your character steps through fey space, instantly teleporting a distance.
+
+		Instantly take the equivalent of a number of move actions equal to the number of successes on your cast roll.
+
+		When counting move actions, you may bypass obstructions and traps as if they are not there, and travel along visual only connectors on a map. Additionally, all connectors only take one move action to pass, even if they have arrows indicating traversing them normally would require extra move actions.
+	}
+
+	\GRPcastcard[INST]{Instacast}{Spell}{Touch}{\GRPtalent{Perception}}
+	{%
+		This cast has no effect unless you must cast this immediately after another cast occurs in the same room or another character takes an action.
+
+		Roll for this cast, and then roll for a secondary cast (consuming another cast use for your secondary cast). The secondary cast goes into effect at the same time as the last cast or action made in the same room. If the secondary cast is a hex or charm it goes into effect just BEFORE the previous cast or action completes.
+
+		The number of successes on your secondary cast is whichever is the smaller between your successes on this cast and your secondary cast roll.
+	}
+
+	\GRPcastcard[PWRC]{Powercast}{Spell}{Self}{\GRPtalent{Will}}
+	{%
+		Roll your cast roll for powercast, then roll for a secondary cast a number of times up to the number of successes on Powercast. For each re-roll of the secondary cast you must also use consume a cast use (but you do not use additional actions to do so).
+
+		The successes on all of your rolls for that secondary cast are added together and count as the number of successes for a single cast of that secondary cast.
+	}
+
 	\GRPcastcard[RCTN]{Reactionhex}{Hex}{Touch}{\GRPtalent{Memory}}
 	{%
+		Sets off another cast conditionally. May be cast on any object, creature, or on a room itself.
+
 		Choose any trigger as if you're choosing a trigger for a Defensive reaction in Defensive phase, with the restriction that the trigger must be something that occurs within the same room as the target.
 
 		Cast a secondary cast. This secondary cast only goes into effect when your specified trigger for this cast happens. The target of the secondary cast may depend on the trigger, but any secondary effects must be chosen at the time of casting reactionhex. The number of successes on your secondary cast is whichever is smaller between your successes on this cast and your secondary cast roll.
-	}
 
-	\GRPcastcard{Biomorph}{Charm}{Touch}{\GRPtalent{Athletics}}
-	{%
-		Produce one of the following effects, targetting characters only:
-		\begin{itemize}
-	 		\item For every 2 successes on the cast roll, any living target gains 1 specific species ability of the caster's choice.
-	 		\item For every 3 successes on the cast roll, the target has their body features altered to appear as if they are another species that the caster is familiar with.
-	 		\item For every 4 successes on the cast roll, the target is fully transform species or gender to that of the caster's choice (it would take 8 successes to change species \textbf{and} gender).
-	 	\end{itemize}
-
-	 	These effects all last 10 minutes before expiring, and the target goes back to their previous state.
-
-	 	If cast on an unwilling target, the caster must contest their cast roll with the target's \GRPtalent{Fortitude}. If successful, the number of successes on the caster's final roll count as the number of successes for this charm.
-
-	 	In general, a GM should not allow a player character to be modified by any NPC's or other players without their consent.
-	}
-
-	\GRPcastcard{Conjure}{Spell}{Touch}{\GRPtalent{Fortitude}}
-	{%
-		Produce a quantity of a specific form of an element from ambient Essentia. 
-
-		\begin{itemize}
-			\item For Primary elements (stone, water, air, metal)- you can conjure 100g per success on your cast roll
-			\item For Noble elements (things necessary for life)- you can conjure 10g per success
-			\item For Higher elements you can conjure 1g per success or less at the GM's discretion.
-		\end{itemize}
-
-		Your character must be familiar with the element to produce it, and your conjured element may be in any three dimensional shape you desire.
-
-		You can use this to conjure void, but the effect is identical to the \GRPability{Implosion} spell.
-
-		Of note- a single gold piece is 100 grams. This spell is not a convenient way to generate money.
+		If casting on an unwilling target, you must contest with the target's \GRPtalent{Fortitude}. Your number of successes on this roll is equal to your successes on the last roll of the contest.
 	}
 
 	\GRPcastcard[SUMN]{Summon}{Spell}{Awareness}{\GRPtalent{Charisma}}
@@ -298,37 +352,21 @@ This section is all casts with a cast focus of wt 2. Your character may not star
 
 		A distant target takes 1 additional success per kilometer of distance.
 	}
-
-	\GRPcastcard{Instacast}{Spell}{Touch}{\GRPtalent{Perception}}
-	{%
-		You must cast this immediately after another cast is made in the same room, or else there is no effect. Roll for this cast, and then roll for a secondary cast (consuming another cast use for your secondary cast). The secondary cast goes into effect at the same time as the last cast made in the same room. If the secondary cast is a hex or charm it goes into effect just before the previous caster finishes making their cast.
-
-		The number of successes on your secondary cast is whichever is the smaller between your successes on this cast and your secondary cast roll.
-	}
-
-	\GRPcastcard[FSTP]{Feystep}{Spell}{Self}{\GRPtalent{Dexterity}}
-	{%
-		Your character steps through fey space, instantly teleporting a distance.
-
-		Instantly take the equivalent of a number of move actions equal to the number of successes on your cast roll.
-
-		When counting move actions, you may bypass obstructions and traps as if they are not there, and travel along visual only connectors on a map. Additionally, all connectors only take one move action to pass, even if they have arrows indicating traversing them normally would require extra move actions.
-	}
-
-	\GRPcastcard[PWRC]{Powercast}{Spell}{Self}{\GRPtalent{Will}}
-	{%
-		Roll your cast roll for powercast, then roll for a secondary cast a number of times up to the number of successes on Powercast. For each re-roll of the secondary cast you must also use consume a cast use (but you do not use additional actions to do so).
-
-		The successes on all of your rolls for that secondary cast are added together and count as the number of successes for a single cast of that secondary cast.
-	}
 \end{GRPtablewide}
 
+\section{Gamma Cast Notation}
+
+For more complicated casts with chained secondary casts, it is useful to have a shorthand way to notate effects so that the players and the GM do not have to remember the exact effect.
+
+The suggested shorthand is Gamma Cast Notation which is described in this section. Gamma Cast Notation is designed to be quick to write on pen and paper as well as quick to type into a textbox.
+
+\includesvg{art/Casts/gcn_example1}
 
 \section{Common Use Cases}
 
 Bringing a deceased character back to life when the body is present-  conjure to replace any critical missing tissue, trace magic to find the character's soul residue within the ambient essentia, summon to bring the soul you are now aware of back into their body.
 
-When the body is not present, you can conjure an approximate body made of ectoplasm and bring soul into that- this would 
+When the body is not present, you can conjure an approximate body made of ectoplasm and bring soul into that- this would create a ghost.
 
 block casting in an area- reactivecast whenever a cast is made - secondary cast is instacast redirect magic into nothing.  You can Enchant to make it applicable multiple times.
 
